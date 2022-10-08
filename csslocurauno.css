@@ -119,7 +119,6 @@ que gacer que no se pierda el caminito*/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-   
     align-items: center;
  z-index: 2;
 }
@@ -133,15 +132,13 @@ que gacer que no se pierda el caminito*/
     height:  4.5rem /*70px*/;
     border-radius: 50%;
     display: flex;
-    visibility:hidden ;
-    
+    visibility:hidden ; 
 }
 .despheader{
     width:14rem/*230px*/;
     position: fixed;
     display: flex;
     flex-wrap: wrap; 
-   
 }
 /*-----------------ZONA IZQUIERDA HEADER--------------------------------------------------*/
 .subcaja_head_izq{
@@ -160,7 +157,7 @@ que gacer que no se pierda el caminito*/
     background-color: blueviolet;
 }
 .unionizqheaderarriba{
-    width: 4.5rem /*70px*/;
+    width: 3.5rem /*70px*/;
     height:  4.5rem /*70px*/;
     background-color: aqua;
     visibility: hidden;
@@ -193,6 +190,7 @@ que gacer que no se pierda el caminito*/
     border-radius: 50%;
     background-color: palevioletred;
 }
+
 /*--------------------ZONA DERECHA HEADER---------------------------------------*/
 .subcaja_head_der{
     width: 4.5rem /*70px*/;
@@ -209,7 +207,6 @@ que gacer que no se pierda el caminito*/
     display: flex;
     flex-wrap: wrap; 
     top: 0%;
-   
 }
 .despheaderleft{
     width: 14rem /*230px*/;
@@ -217,10 +214,9 @@ que gacer que no se pierda el caminito*/
     display: flex;
     flex-wrap: wrap; 
     justify-content: right;
-   
 }
 .unionderechaheaderarriba{
-    width: 4.5rem /*70px*/;
+    width: 3.5rem /*70px*/;
     height:  4.5rem /*70px*/;
     background-color: aqua;
     visibility:hidden ;
@@ -279,42 +275,44 @@ display: none;
 
 /*----------------------------CUERPO--------------------------------------------------*/
 .main_cur_web{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-   margin-top: 20%;
+   margin-top: 90%;
 
 }
 .cajaprincipal{
-    width: 810px/*60vw*/;
-    height:276px /*80vh*/;
+    width:50.5rem/* 810px*/;/*46% para responsive*/
+    height:17.3rem/*276px*/;
     position:relative;
-    border: 1px solid black;
-    background-color: gray;
+    
+   /* border: 1px solid black;
+    background-color: gray;*/
 }
 .subcajaarriba{
-    width:220px;/*sta cifra es para dejar un hueco en medio de cada una del mismo tamaño.*/
-    height: 57px;
+    width:13.9rem/*220px*/;/*sta cifra es para dejar un hueco en medio de cada una del mismo tamaño.*/
+    height: 3.9rem/*57px*/;
     position: absolute; 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;  
     align-items: center;
     align-content: center;
-   
     border: 1px solid black;
     background-color: rgba(255, 192, 203,0.5);
+    border-radius: 3rem;
 }
 .unionarriba{
     position: absolute;
-    width:222px/*17vw*/;
-    height:165px /*40vh*/;
+    width:13.9rem/*222px*/;
+    height:10.4rem/*165px*/;
     left: 36%;
 }
 .subcajaizquierda{
-    width:220px/* 16vw*/;
-    height:57px/* 16vh*/;
+    width:13.9rem/*220px*/;
+    height:3.9rem/*57px*/;
     position:absolute;
     display: flex;
     flex-wrap: wrap;
@@ -325,13 +323,13 @@ display: none;
 }
 .unionizquierda{
     position: absolute;
-    width:518px /*38vw*/;
-    height:60px /*16vh*/;
+    width:32rem/*518px*/ ;
+    height:3.9rem/*60px*/;
     top: 38%;
 }
 .subcajaderecha{
-    width:220px /*16vw*/;
-    height:57px /*16vh*/;
+    width:13.9rem/*220px*/;
+    height:3.9rem/*57px*/;
     position: absolute;
     display: flex;
     flex-wrap: wrap;
@@ -342,15 +340,15 @@ display: none;
     background-color: lightcyan;
 }
 .unionderecha{
-    width:518px /*38vw*/;
-    height:60px /*16vh*/;
+    width:32rem/*518px*/;
+    height:3.9rem/*60px*/;
     position: absolute;
     top: 38%;
     right: 0%;
 }
 .subcajaabajo{
-    width:220px /*16vw*/;
-    height:57px /*16vh*/;
+    width: 13.9rem/*220px*/;
+    height:3.9rem /*57px*/;
     position: absolute; 
     display: flex;
     flex-wrap: wrap;
@@ -361,16 +359,16 @@ display: none;
     background-color: lightcoral;
 }
 .unionabajo{
-    width:222px/*16vw*/;
-    height:173px /*40vh*/;
+    width:13.9rem/*222px*/;
+    height:10.5rem/*173px */;
     position: absolute;
     bottom: 0vw;
     left: 36%;
 }
 
 .cajacentral{
-    width:220px /*16vw*/;
-    height:57px /*16vh*/;
+    width:13.9rem/*220px*/;/*25.4% para hecerlo en responsive*/
+    height:3.9rem/*57px*/;
     position: absolute;
     display: flex;
     flex-wrap: wrap;
@@ -380,6 +378,7 @@ display: none;
     top:38%;
     border: 1px solid black;
     background-color: azure;
+    z-index: 2;/*ñeñeñeñeñeñeñeñeñeñeñeñe.......que se queda onclick bajo y no se puede volver a dar*/
     
 }
 /*.disparador{
@@ -388,13 +387,17 @@ display: none;
     width: 16vw;
     height: 16vh;
 }*/
-.desplegable>div{
-   display: block;
-}
+
 .desplegable{
     display: none;    
     z-index: 1;
 }
+
+    .mostrar_bis{
+        display: block;
+        
+    }
+/*
 .disparador:hover .desplegable{
     background-color: red;
     display:block;
