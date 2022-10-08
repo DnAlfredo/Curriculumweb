@@ -306,6 +306,7 @@ display: none;
     border: 1px solid black;
     background-color: rgba(255, 192, 203,0.5);
     border-radius: 3rem;
+    border-radius: 6rem 0.4rem 6rem;
 }
 .unionarriba{
     position: absolute;
@@ -323,6 +324,7 @@ display: none;
     align-items: center;
     border: 1px solid black;
     background-color: lightgreen;
+    border-radius: 6rem 0.4rem 6rem;
 }
 .unionizquierda{
     position: absolute;
@@ -340,6 +342,7 @@ display: none;
     align-items: center;
     right: 0%;
     border: 1px solid black;
+    border-radius: 0.4rem 6rem 0.4rem;
     background-color: lightcyan;
 }
 .unionderecha{
@@ -360,6 +363,7 @@ display: none;
     bottom: 0vw;
     border:1px solid black;
     background-color: lightcoral;
+    border-radius: 6rem 0.4rem 6rem;
 }
 .unionabajo{
     width:13.9rem/*222px*/;
@@ -380,6 +384,7 @@ display: none;
     left:36%;
     top:38%;
     border: 1px solid black;
+    border-radius: 2rem;
     background-color: azure;
     z-index: 2;/*ñeñeñeñeñeñeñeñeñeñeñeñe.......que se queda onclick bajo y no se puede volver a dar*/
     
