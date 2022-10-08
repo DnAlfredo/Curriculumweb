@@ -100,58 +100,182 @@ esto estaba seleccionado.disparador{
 /*OOOOOJJJOOOOOO para no perder el hover por el camino hasta el elemento deseado hay que encapsularlo dentro de otro div para poder hacer que se
 toquen por tamaño pero que solo se muestre el contenido centrado dentro del div----lo normal seria no hacer tanta caja pero para uno radial hay
 que gacer que no se pierda el caminito*/
+/*--------------------------------------GENERALES-------------------------------------*/
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
 /*--------------------------------HEADER----------------------------------------------*/
+.megahead{
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  top: 0%;
+}
 .cajaheader{
+    position:sticky;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: gray;
+   
     align-items: center;
+ z-index: 2;
 }
 .dispheader{
     width: 230px;
-    display: none;
+    display: flex;
     flex-wrap: wrap;  
 }
-.subcaja_head_izq{
-    
-   
-}
-.unionizqheaderarriba{
-    width: 75px;
-    height: 20px;
-    background-color: aqua;
-}
-.unionabajoheaderizq{
-    width: 100%;
-    height: 40px;
-    background-color: aqua;
-}
-.cajadisparador{
+.blancoheader{
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background-color: red;
+    display: flex;
+    visibility:hidden ;
+    
+}
+.despheader{
+    width: 230px;
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap; 
+   
+}
+/*-----------------ZONA IZQUIERDA HEADER--------------------------------------------------*/
+.subcaja_head_izq{
+    position: sticky;
+    display: flex;
 }
 .subcaja_arriba_izq{
     width: 70px;
     height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  
     border-radius: 50%;
     background-color: blueviolet;
 }
+.unionizqheaderarriba{
+    width: 70px;
+    height: 20px;
+    background-color: aqua;
+    visibility: hidden;
+}
+.unionabajoheaderizq{
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+    visibility: hidden;
+}
+.cajaesquinaizq{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    border-radius: 50%;
+    background-color: red;
+    z-index: 2;
+}
+
 .subcaja_bajo_iz{
     width: 70px;
     height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
     border-radius: 50%;
     background-color: palevioletred;
 }
-.disparador:hover .subcaja_head_izq{
+/*--------------------ZONA DERECHA HEADER---------------------------------------*/
+.subcaja_head_der{
+    width: 70px;
+    height: 70px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    border-radius: 50%;
 }
-
-
+.dispheaderder{
+    width: 20%;
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap; 
+    top: 0%;
+   
+}
+.despheaderleft{
+    width: 225px;
+    position: sticky;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+   
+}
+.unionderechaheaderarriba{
+    width: 70px;
+    height: 20px;
+    background-color: aqua;
+    visibility:hidden ;
+}
+.unionderechaheaderbajobis{
+    width: 70px;
+    height: 20px;
+    background-color: aqua;
+    visibility:hidden ;
+}
+.unionabajoheaderder{
+    width: 100%;
+    height: 40px;
+    background-color: aqua;
+    visibility:hidden ;
+}
+.cajaesquinader{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    border-radius: 50%;
+    background-color: red;
+    z-index: 2;
+}
+.subcaja_arriba_der{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+.subcaja_bajo_der{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    float: right;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    border-radius: 50%;
+    background-color: palevioletred;
+}
+.esconder{
+display: none;
+}
+.mostrar{
+    display: flex;
+    flex-wrap: wrap;  
+}
 
 /*----------------------------CUERPO--------------------------------------------------*/
 .main_cur_web{
@@ -159,6 +283,7 @@ que gacer que no se pierda el caminito*/
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+   margin-top: 20%;
 
 }
 .cajaprincipal{
@@ -177,7 +302,7 @@ que gacer que no se pierda el caminito*/
     justify-content: center;  
     align-items: center;
     align-content: center;
-    font-size: xx-small;
+   
     border: 1px solid black;
     background-color: rgba(255, 192, 203,0.5);
 }

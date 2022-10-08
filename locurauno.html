@@ -5,40 +5,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="csslocurauno.css">
+    <script src="./jscurriculumweb.js"></script>
     <title>Menú Radial</title>
 </head>
 
 <body>
     <header class="cajaheader">
+        <div class="megahead">
         <div class="subcaja_head_izq">
             <div class="dispheader">
-            <div class="cajadisparador">
-                disp.header
-            </div>
-            
-                <div class="unionizqheaderarriba"></div>
-                <div class="subcaja_arriba_izq">
-                    tachaaan
+                <div class="cajaesquinaizq" onclick="muestraDiv('grup_header_izq')">
+                    <span>disparador</span>
                 </div>
-                <div class="unionabajoheaderizq"></div>
-                <div class="subcaja_bajo_iz">
-                    tachaaan
+                <div class="despheader esconder" id="grup_header_izq">
+                    <div class="blancoheader"></div>
+                    <div class="unionizqheaderarriba"></div>
+                    <div class="subcaja_arriba_izq">
+                        <span>tachaaan</span>
+                    </div>
+                    <div class="unionabajoheaderizq"></div>
+                    <div class="subcaja_bajo_iz">
+                        <span>tachaaan</span>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="subcaja_head_der">
-            <div class="cajadisparador">
-                disp.header
-            </div>
-            <div class="unionderechaheaderarriba"></div>
-            <div class="subcaja_arriba_der">
-                tachaaan
-            </div>
-            <div class="unionabajoheaderder"></div>
-            <div class="subcaja_bajo_der">
-                tachaaan
+            <div class="cajaesquinader" onclick="muestraDiv('grup_header_der')">
+                    <span>disparador</span>
+                </div>
+            <div class="dispheaderder">
+
+                <div class="despheaderleft esconder" id="grup_header_der">
+                    <div class="subcaja_arriba_der">
+                        <span>tachaaan</span>
+                    </div>
+                    <div class="unionderechaheaderarriba"></div>
+                    <div class="blancoheader"></div>
+                    <div class="unionabajoheaderder"></div>
+                    <div class="unionderechaheaderbajobis"></div>
+                    <div class="subcaja_bajo_der">
+                        <span>tachaaan</span>
+                    </div>
+                </div>
+                
             </div>
         </div>
+    </div>
     </header>
     <main class="main_cur_web">
         <div class="cajaprincipal">
