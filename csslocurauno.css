@@ -105,6 +105,9 @@ que gacer que no se pierda el caminito*/
     margin: 0%;
     box-sizing: border-box;
 }
+.favicon{
+    border-radius: 50%;
+}
 /*--------------------------------HEADER----------------------------------------------*/
 .megahead{
   position: fixed;
