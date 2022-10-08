@@ -124,20 +124,20 @@ que gacer que no se pierda el caminito*/
  z-index: 2;
 }
 .dispheader{
-    width: 230px;
+    width:14rem /*230px*/;
     display: flex;
     flex-wrap: wrap;  
 }
 .blancoheader{
-    width: 70px;
-    height: 70px;
+    width:  4.5rem /*70px*/;
+    height:  4.5rem /*70px*/;
     border-radius: 50%;
     display: flex;
     visibility:hidden ;
     
 }
 .despheader{
-    width: 230px;
+    width:14rem/*230px*/;
     position: fixed;
     display: flex;
     flex-wrap: wrap; 
@@ -149,8 +149,8 @@ que gacer que no se pierda el caminito*/
     display: flex;
 }
 .subcaja_arriba_izq{
-    width: 70px;
-    height: 70px;
+    width: 4.5rem /*70px*/;
+    height:  4.5rem /*70px*/;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -160,20 +160,20 @@ que gacer que no se pierda el caminito*/
     background-color: blueviolet;
 }
 .unionizqheaderarriba{
-    width: 70px;
-    height: 20px;
+    width: 4.5rem /*70px*/;
+    height:  4.5rem /*70px*/;
     background-color: aqua;
     visibility: hidden;
 }
 .unionabajoheaderizq{
     width: 100%;
-    height: 50px;
+    height:4.5rem /*50px*/;
     background-color: aqua;
     visibility: hidden;
 }
 .cajaesquinaizq{
-    width: 70px;
-    height: 70px;
+    width:4.5rem /*70px*/;
+    height:  4.5rem /*70px*/;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -184,8 +184,8 @@ que gacer que no se pierda el caminito*/
 }
 
 .subcaja_bajo_iz{
-    width: 70px;
-    height: 70px;
+    width: 4.5rem /*70px*/;
+    height:  4.5rem /*70px*/;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -195,16 +195,16 @@ que gacer que no se pierda el caminito*/
 }
 /*--------------------ZONA DERECHA HEADER---------------------------------------*/
 .subcaja_head_der{
-    width: 70px;
-    height: 70px;
+    width: 4.5rem /*70px*/;
+   height:  4.5rem /*70px*/;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: right;
     align-content: center;
     border-radius: 50%;
 }
 .dispheaderder{
-    width: 20%;
+    width: 14rem /*230px*/;
     position: fixed;
     display: flex;
     flex-wrap: wrap; 
@@ -212,34 +212,34 @@ que gacer que no se pierda el caminito*/
    
 }
 .despheaderleft{
-    width: 225px;
+    width: 14rem /*230px*/;
     position: sticky;
     display: flex;
     flex-wrap: wrap; 
-    justify-content: space-between;
+    justify-content: right;
    
 }
 .unionderechaheaderarriba{
-    width: 70px;
-    height: 20px;
+    width: 4.5rem /*70px*/;
+    height:  4.5rem /*70px*/;
     background-color: aqua;
     visibility:hidden ;
 }
 .unionderechaheaderbajobis{
-    width: 70px;
-    height: 20px;
+    width: 4.5rem /*70px*/;
+   /* height: 20px;*/
     background-color: aqua;
     visibility:hidden ;
 }
 .unionabajoheaderder{
     width: 100%;
-    height: 40px;
+    height: 4.5rem /*70px*/;
     background-color: aqua;
     visibility:hidden ;
 }
 .cajaesquinader{
-    width: 70px;
-    height: 70px;
+    width: 4.5rem /*70px*/;
+    height:  4.5rem /*70px*/;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -249,8 +249,8 @@ que gacer que no se pierda el caminito*/
     z-index: 2;
 }
 .subcaja_arriba_der{
-    width: 70px;
-    height: 70px;
+    width: 4.5rem /*70px*/;
+    height:  4.5rem /*70px*/;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -259,8 +259,8 @@ que gacer que no se pierda el caminito*/
     background-color: blueviolet;
 }
 .subcaja_bajo_der{
-    width: 70px;
-    height: 70px;
+    width: 4.5rem /*70px*/;
+    height:  4.5rem /*70px*/;
     display: flex;
     float: right;
     flex-wrap: wrap;
