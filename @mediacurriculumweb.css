@@ -1,0 +1,119 @@
+@media screen and (max-width: 780px) {
+    .cajaprincipal{
+        width:25.25rem/* 810px*/;/*46% para responsive*/
+        height:8.65rem/*276px*/;
+        position:relative;
+        margin-top: 30%;
+    }
+    .subcajaarriba{
+        width:6.95rem/*220px*/;/*sta cifra es para dejar un hueco en medio de cada una del mismo tamaño.*/
+        height: 1.95rem/*57px*/;
+        position: absolute; 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;  
+        align-items: center;
+        align-content: center;
+        border: 1px solid black;
+        background-color: rgba(255, 192, 203,0.5);
+        border-radius: 3rem;
+        border-radius: 6rem 0.4rem 6rem;
+    }
+    .unionarriba{
+        position: absolute;
+        width:6.95rem/*222px*/;
+        height:5.2rem/*165px*/;
+        left: 36%;
+    }
+    .subcajaizquierda{
+        width:6.95rem/*220px*/;
+        height:1.95rem/*57px*/;
+        position:absolute;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;  
+        align-items: center;
+        border: 1px solid black;
+        background-color: lightgreen;
+        border-radius: 6rem 0.4rem 6rem;
+    }
+    .unionizquierda{
+        position: absolute;
+        width:16rem/*518px*/ ;
+        height:1.95rem/*60px*/;
+        top: 36%;
+    }
+    .subcajaderecha{
+        width:6.95rem/*220px*/;
+        height:1.95rem/*57px*/;
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;  
+        align-items: center;
+        right: 0%;
+        border: 1px solid black;
+        border-radius: 0.4rem 6rem 0.4rem;
+        background-color: lightcyan;
+    }
+    .unionderecha{
+        width:16rem/*518px*/;
+        height:1.95rem/*60px*/;
+        position: absolute;
+        top: 38%;
+        right: 0%;
+    }
+    .subcajaabajo{
+        width: 6.95rem/*220px*/;
+        height:1.95rem /*57px*/;
+        position: absolute; 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;  
+        align-items: center;  
+        bottom: 0vw;
+        border:1px solid black;
+        background-color: lightcoral;
+        border-radius: 6rem 0.4rem 6rem;
+    }
+    .unionabajo{
+        width:6.95rem/*222px*/;
+        height:5.25rem/*173px */;
+        position: absolute;
+        bottom: 0vw;
+        left: 36%;
+    }
+    
+    .cajacentral{
+        width:6.95rem/*220px*/;/*25.4% para hecerlo en responsive*/
+        height:1.95rem/*57px*/;
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;  
+        align-items: center;
+        left:36%;
+        top:38%;
+        border: 1px solid black;
+        border-radius: 2rem;
+        background-color: azure;
+        z-index: 2;/*ñeñeñeñeñeñeñeñeñeñeñeñe.......que se queda onclick bajo y no se puede volver a dar*/
+        
+    }
+    /*.disparador{
+        left:36%;
+        top:38%;
+        width: 16vw;
+        height: 16vh;
+    }*/
+    
+    .desplegable{
+        display: none;    
+        z-index: 1;
+    }
+    
+        .mostrar_bis{
+            display: block;
+            
+        }
+}
