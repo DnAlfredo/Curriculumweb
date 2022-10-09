@@ -1,9 +1,13 @@
+/*Bajo esta el esquema radial a la mitad de tamaño, se divide por dos el tamaño pero ojo, no el porcentaje de separación de las cajas dentro del cuerpo principal.
+En un teléfono de tamaño medio-grande queda bien, pero me pienso si multiplicar por 0.5 lo dividido por 2.
+Se ha hecho un onclick, pero está preparado para ser útil con hover, tambien se cambien los tamaños para que no molesten fuera.*/
+
 @media screen and (max-width: 780px) {
     .cajaprincipal{
         width:25.25rem/* 810px*/;/*46% para responsive*/
         height:8.65rem/*276px*/;
         position:relative;
-        margin-top: 30%;
+        margin-top: 17%;/*pongo este porcentaje para ver si queda en medio de los circulos las espigas*/
     }
     .subcajaarriba{
         width:6.95rem/*220px*/;/*sta cifra es para dejar un hueco en medio de cada una del mismo tamaño.*/
@@ -14,8 +18,8 @@
         justify-content: center;  
         align-items: center;
         align-content: center;
-        border: 1px solid black;
-        background-color: rgba(255, 192, 203,0.5);
+      
+       
         border-radius: 3rem;
         border-radius: 6rem 0.4rem 6rem;
     }
@@ -33,8 +37,8 @@
         flex-wrap: wrap;
         justify-content: center;  
         align-items: center;
-        border: 1px solid black;
-        background-color: lightgreen;
+     
+       
         border-radius: 6rem 0.4rem 6rem;
     }
     .unionizquierda{
@@ -52,9 +56,8 @@
         justify-content: center;  
         align-items: center;
         right: 0%;
-        border: 1px solid black;
         border-radius: 0.4rem 6rem 0.4rem;
-        background-color: lightcyan;
+      
     }
     .unionderecha{
         width:16rem/*518px*/;
@@ -72,8 +75,8 @@
         justify-content: center;  
         align-items: center;  
         bottom: 0vw;
-        border:1px solid black;
-        background-color: lightcoral;
+      
+       
         border-radius: 6rem 0.4rem 6rem;
     }
     .unionabajo{
@@ -94,9 +97,9 @@
         align-items: center;
         left:36%;
         top:38%;
-        border: 1px solid black;
+       
         border-radius: 2rem;
-        background-color: azure;
+       
         z-index: 2;/*ñeñeñeñeñeñeñeñeñeñeñeñe.......que se queda onclick bajo y no se puede volver a dar*/
         
     }
@@ -107,13 +110,6 @@
         height: 16vh;
     }*/
     
-    .desplegable{
-        display: none;    
-        z-index: 1;
-    }
-    
-        .mostrar_bis{
-            display: block;
-            
-        }
+  
 }
+
