@@ -106,8 +106,16 @@ que gacer que no se pierda el caminito*/
     box-sizing: border-box;
 }
 :root{
-    --color_prueba:rgb(243, 162, 11);
+    --color_prueba:rgb(243, 11, 69) ;
     --sombra_clara:lightblue;
+    --color_borde:orange;
+}
+body{
+    background-image: url('./multimedia/fondofondo.png');
+    background-size:auto;
+    background-repeat: no-repeat;
+   color: aliceblue;
+   font-size: small;
 }
 /*--------------------------------HEADER----------------------------------------------*/
 .megahead{
@@ -158,6 +166,7 @@ que gacer que no se pierda el caminito*/
     align-content: center;
     border-radius: 50%;
     background-color: var(--color_prueba);
+   
    
 }
 .unionizqheaderarriba{
@@ -292,6 +301,7 @@ display: none;
 .main_cur_web{
     width: 100%;
     display: flex;
+    align-content: center;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -320,6 +330,7 @@ display: none;
     background-color: var(--color_prueba);
     border-radius: 3rem;
     border-radius: 6rem 0.4rem 6rem;
+   border: 0.7px solid var(--color_borde);
     
 }
 .unionarriba{
@@ -336,7 +347,7 @@ display: none;
     flex-wrap: wrap;
     justify-content: center;  
     align-items: center;
-    
+    border: 0.7px solid var(--color_borde);
     background-color: var(--color_prueba);
     border-radius: 6rem 0.4rem 6rem;
 }
@@ -357,6 +368,7 @@ display: none;
     right: 0%;
     border-radius: 0.4rem 6rem 0.4rem;
     background-color: var(--color_prueba);
+    border: 0.7px solid var(--color_borde);
 }
 .unionderecha{
     width:32rem/*518px*/;
@@ -376,6 +388,7 @@ display: none;
     bottom: 0vw;
     background-color: var(--color_prueba);
     border-radius: 6rem 0.4rem 6rem;
+    border: 0.7px solid var(--color_borde);
 }
 .unionabajo{
     width:13.9rem/*222px*/;
@@ -397,6 +410,7 @@ display: none;
     top:38%;
     border-radius: 2rem;
     background-color: var(--color_prueba);
+    border: 0.7px solid var(--color_borde);
     z-index: 2;/*ñeñeñeñeñeñeñeñeñeñeñeñe.......que se queda onclick bajo y no se puede volver a dar*/
     
 }

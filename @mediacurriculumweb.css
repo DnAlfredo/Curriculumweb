@@ -3,6 +3,7 @@ En un teléfono de tamaño medio-grande queda bien, pero me pienso si multiplica
 Se ha hecho un onclick, pero está preparado para ser útil con hover, tambien se cambien los tamaños para que no molesten fuera.*/
 
 @media screen and (max-width: 780px) {
+    
     .cajaprincipal{
         width:25.25rem/* 810px*/;/*46% para responsive*/
         height:8.65rem/*276px*/;
