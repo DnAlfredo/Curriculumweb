@@ -106,6 +106,8 @@ que gacer que no se pierda el caminito*/
     box-sizing: border-box;
 }
 :root{
+    --radiu_div_header:50%;
+    --radius_div_radial:6rem 0.4rem 6rem;
     --color_prueba:rgb(243, 11, 69) ;
     --sombra_clara:lightblue;
     --color_borde:orange;
@@ -142,7 +144,7 @@ body{
 .blancoheader{
     width:  4.5rem /*70px*/;
     height:  4.5rem /*70px*/;
-    border-radius: 50%;
+    border-radius: var(--radiu_div_header);
     display: flex;
     visibility:hidden ; 
 }
@@ -164,7 +166,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    border-radius: 50%;
+    border-radius: var(--radiu_div_header);
     background-color: var(--color_prueba);
    
    
@@ -188,7 +190,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    border-radius: 50%;
+    border-radius: var(--radiu_div_header);
     background-color: var(--color_prueba);
     z-index: 2;
 }
@@ -200,7 +202,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    border-radius: 50%;
+    border-radius: var(--radiu_div_header);
     background-color: var(--color_prueba);
 }
 
@@ -212,7 +214,7 @@ body{
     flex-wrap: wrap;
     justify-content: right;
     align-content: center;
-    border-radius: 50%;
+    border-radius: var(--radiu_div_header);
     box-shadow: var(--sombra_clara);
 }
 .dispheaderder{
@@ -254,7 +256,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    border-radius: 50%;
+    border-radius: var(--radiu_div_header);
     background-color: var(--color_prueba);
     z-index: 2;
 }
@@ -265,7 +267,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    border-radius: 50%;
+    border-radius: var(--radiu_div_header);
     background-color: var(--color_prueba);
 }
 .subcaja_medio_der{
@@ -286,7 +288,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    border-radius: 50%;
+    border-radius: var(--radiu_div_header);
     background-color: var(--color_prueba);
 }
 .esconder{
@@ -308,11 +310,19 @@ display: none;
    margin-top: 20%;
 
 }
+.cont_cajaprincipal{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0.8%;
+}
 .cajaprincipal{
     width:50.5rem/* 810px*/;/*46% para responsive*/
     height:17.3rem/*276px*/;
     position:relative;
-    
+   
     
    /* border: 1px solid black;
     background-color: gray;*/
@@ -329,7 +339,7 @@ display: none;
     
     background-color: var(--color_prueba);
     border-radius: 3rem;
-    border-radius: 6rem 0.4rem 6rem;
+    border-radius: var(--radius_div_radial);
    border: 0.7px solid var(--color_borde);
     
 }
@@ -349,7 +359,7 @@ display: none;
     align-items: center;
     border: 0.7px solid var(--color_borde);
     background-color: var(--color_prueba);
-    border-radius: 6rem 0.4rem 6rem;
+    border-radius: var(--radius_div_radial);
 }
 .unionizquierda{
     position: absolute;
@@ -366,7 +376,7 @@ display: none;
     justify-content: center;  
     align-items: center;
     right: 0%;
-    border-radius: 0.4rem 6rem 0.4rem;
+    border-radius:  var(--radius_div_radial);
     background-color: var(--color_prueba);
     border: 0.7px solid var(--color_borde);
 }
@@ -387,7 +397,7 @@ display: none;
     align-items: center;  
     bottom: 0vw;
     background-color: var(--color_prueba);
-    border-radius: 6rem 0.4rem 6rem;
+    border-radius:  var(--radius_div_radial);
     border: 0.7px solid var(--color_borde);
 }
 .unionabajo{

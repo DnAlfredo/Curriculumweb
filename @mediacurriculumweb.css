@@ -9,6 +9,7 @@ Se ha hecho un onclick, pero está preparado para ser útil con hover, tambien s
         height:8.65rem/*276px*/;
         position:relative;
         margin-top: 45%;/*pongo este porcentaje para ver si queda en medio de los circulos las espigas*/
+        
     }
     .subcajaarriba{
         width:6.95rem/*220px*/;/*sta cifra es para dejar un hueco en medio de cada una del mismo tamaño.*/
