@@ -108,16 +108,24 @@ que gacer que no se pierda el caminito*/
 :root{
     --radiu_div_header:50%;
     --radius_div_radial:6rem 0.4rem 6rem;
-    --color_prueba:rgb(243, 11, 69) ;
-    --sombra_clara:lightblue;
-    --color_borde:orange;
+    --color_prueba:rgba(255, 17, 0,0.7)/*url('./multimedia/dondobotonnegro.png')*/ ;
+    --sombra_clara:0.3vh 0.3vh 0.3vh rgb(252, 142, 122);
+    --color_borde:white;
 }
-body{
-    background-image: url('./multimedia/fondofondo.png');
-    background-size:auto;
+body{/*
+    background:#0c0c4e;
+    background-attachment: fixed;  
     background-repeat: no-repeat;
-   color: aliceblue;
-   font-size: small;
+  background-size: 100% 100%;
+   color: white;
+   font-size: medium;
+    */
+    background:url('./multimedia/fondowebgrande.png');
+    background-attachment: fixed;  
+    background-repeat: no-repeat;
+  background-size: 100% 100%;
+   color: white;
+   font-size: medium;
 }
 /*--------------------------------HEADER----------------------------------------------*/
 .megahead{
@@ -167,8 +175,8 @@ body{
     justify-content: center;
     align-content: center;
     border-radius: var(--radiu_div_header);
-    background-color: var(--color_prueba);
-   
+    background: var(--color_prueba);
+    box-shadow: var(--sombra_clara);
    
 }
 .unionizqheaderarriba{
@@ -191,7 +199,8 @@ body{
     justify-content: center;
     align-content: center;
     border-radius: var(--radiu_div_header);
-    background-color: var(--color_prueba);
+    background: var(--color_prueba);
+    box-shadow: var(--sombra_clara);
     z-index: 2;
 }
 
@@ -203,7 +212,8 @@ body{
     justify-content: center;
     align-content: center;
     border-radius: var(--radiu_div_header);
-    background-color: var(--color_prueba);
+    background: var(--color_prueba);
+    box-shadow: var(--sombra_clara);
 }
 
 /*--------------------ZONA DERECHA HEADER---------------------------------------*/
@@ -257,7 +267,8 @@ body{
     justify-content: center;
     align-content: center;
     border-radius: var(--radiu_div_header);
-    background-color: var(--color_prueba);
+    background: var(--color_prueba);
+    box-shadow: var(--sombra_clara);
     z-index: 2;
 }
 .subcaja_arriba_der{
@@ -268,7 +279,8 @@ body{
     justify-content: center;
     align-content: center;
     border-radius: var(--radiu_div_header);
-    background-color: var(--color_prueba);
+    background: var(--color_prueba);
+    box-shadow: var(--sombra_clara);
 }
 .subcaja_medio_der{
     width: 4.5rem /*70px*/;
@@ -278,7 +290,8 @@ body{
     justify-content: center;
     align-content: center;
     border-radius: 50%;
-    background-color: var(--color_prueba);
+    background: var(--color_prueba);
+    box-shadow: var(--sombra_clara);
 }
 .subcaja_bajo_der{
     width: 4.5rem /*70px*/;
@@ -289,7 +302,8 @@ body{
     justify-content: center;
     align-content: center;
     border-radius: var(--radiu_div_header);
-    background-color: var(--color_prueba);
+    background: var(--color_prueba);
+    box-shadow: var(--sombra_clara);
 }
 .esconder{
 display: none;
@@ -311,7 +325,7 @@ display: none;
 
 }
 .cont_cajaprincipal{
-    width: 60%;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -336,8 +350,8 @@ display: none;
     justify-content: center;  
     align-items: center;
     align-content: center;
-    
-    background-color: var(--color_prueba);
+    background: var(--color_prueba);
+    box-shadow: var(--sombra_clara);
     border-radius: 3rem;
     border-radius: var(--radius_div_radial);
    border: 0.7px solid var(--color_borde);
@@ -358,7 +372,8 @@ display: none;
     justify-content: center;  
     align-items: center;
     border: 0.7px solid var(--color_borde);
-    background-color: var(--color_prueba);
+    background: var(--color_prueba);
+    box-shadow: var(--sombra_clara);
     border-radius: var(--radius_div_radial);
 }
 .unionizquierda{
@@ -377,7 +392,8 @@ display: none;
     align-items: center;
     right: 0%;
     border-radius:  var(--radius_div_radial);
-    background-color: var(--color_prueba);
+    background: var(--color_prueba);
+    box-shadow: var(--sombra_clara);
     border: 0.7px solid var(--color_borde);
 }
 .unionderecha{
@@ -396,7 +412,8 @@ display: none;
     justify-content: center;  
     align-items: center;  
     bottom: 0vw;
-    background-color: var(--color_prueba);
+    background: var(--color_prueba);
+    box-shadow: var(--sombra_clara);
     border-radius:  var(--radius_div_radial);
     border: 0.7px solid var(--color_borde);
 }
@@ -419,7 +436,8 @@ display: none;
     left:36%;
     top:38%;
     border-radius: 2rem;
-    background-color: var(--color_prueba);
+    background: var(--color_prueba);
+    box-shadow: var(--sombra_clara);
     border: 0.7px solid var(--color_borde);
     z-index: 2;/*ñeñeñeñeñeñeñeñeñeñeñeñe.......que se queda onclick bajo y no se puede volver a dar*/
     
