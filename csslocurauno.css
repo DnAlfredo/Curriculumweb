@@ -109,7 +109,7 @@ que gacer que no se pierda el caminito*/
     --radiu_div_header:50%;
     --radius_div_radial:6rem 0.4rem 6rem;
     --color_prueba:rgba(255, 17, 0,0.7)/*url('./multimedia/dondobotonnegro.png')*/ ;
-    --sombra_clara:0.3vh 0.3vh 0.3vh rgb(252, 142, 122);
+    --sombra_clara:0.3vh 0.3vh 0.3vh rgb(122, 183, 252);
     --color_borde:white;
 }
 body{/*
@@ -124,7 +124,7 @@ body{/*
     background-attachment: fixed;  
     background-repeat: no-repeat;
   background-size: 100% 100%;
-   color: white;
+   
  
 }
 /*--------------------------------HEADER----------------------------------------------*/
@@ -218,7 +218,7 @@ body{/*
 
 /*--------------------ZONA DERECHA HEADER---------------------------------------*/
 .subcaja_head_der{
-    width: 4.5rem /*70px*/;
+    width: 14rem /*70px*/;
    height:  4.5rem /*70px*/;
     display: flex;
     flex-wrap: wrap;

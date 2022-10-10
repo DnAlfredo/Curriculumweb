@@ -14,8 +14,8 @@ Se ha hecho un onclick, pero está preparado para ser útil con hover, tambien s
         flex-wrap: wrap;  
     }
     .blancoheader{
-        width:  3.375rem /*4.5rem70px*/;
-        height: 3.375rem /* 4.5rem70px*/;
+        width:  3.7rem /*4.5rem70px*/;
+        height: 3.7rem /* 4.5rem70px*/;
         border-radius: var(--radiu_div_header);
         display: flex;
         visibility:hidden ; 
@@ -32,8 +32,8 @@ Se ha hecho un onclick, pero está preparado para ser útil con hover, tambien s
         display: flex;
     }
     .subcaja_arriba_izq{
-        width: 3.375rem /*4.5rem70px*/;
-        height:  3.375rem /*4.5rem70px*/;
+        width: 3.7rem /*4.5rem70px*/;
+        height:  3.7rem /*4.5rem70px*/;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -44,20 +44,20 @@ Se ha hecho un onclick, pero está preparado para ser útil con hover, tambien s
        
     }
     .unionizqheaderarriba{
-        width: 3.5rem /*70px*/;
-        height:   3.375rem  /*4.5rem70px*/;
+        width: 3rem /*70px*/;
+        height:   3.7rem  /*4.5rem70px*/;
         background-color: aqua;
         visibility: hidden;
     }
     .unionabajoheaderizq{
         width: 100%;
-        height: 3.375rem  /*4.5rem50px*/;
+        height: 3.7rem  /*4.5rem50px*/;
         background-color: aqua;
         visibility: hidden;
     }
     .cajaesquinaizq{
-        width:  3.375rem /*4.5rem70px*/;
-        height:  3.375rem   /*4.5rem70px*/;
+        width:  3.7rem /*4.5rem70px*/;
+        height:  3.7rem   /*4.5rem70px*/;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -69,8 +69,8 @@ Se ha hecho un onclick, pero está preparado para ser útil con hover, tambien s
     }
     
     .subcaja_bajo_iz{
-        width: 3.375rem   /*4.5rem70px*/;
-        height: 3.375rem    /*4.5rem70px*/;
+        width: 3.7rem   /*4.5rem70px*/;
+        height: 3.7rem    /*4.5rem70px*/;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -82,8 +82,8 @@ Se ha hecho un onclick, pero está preparado para ser útil con hover, tambien s
     
     /*--------------------ZONA DERECHA HEADER---------------------------------------*/
     .subcaja_head_der{
-        width: 3.375rem   /*4.5rem70px*/;
-       height: 3.375rem    /*4.5rem70px*/;
+        width: 3.7rem   /*4.5rem70px*/;
+       height: 3.7rem    /*4.5rem70px*/;
         display: flex;
         flex-wrap: wrap;
         justify-content: right;
@@ -106,8 +106,8 @@ Se ha hecho un onclick, pero está preparado para ser útil con hover, tambien s
         justify-content: right;
     }
     .unionderechaheaderarriba{
-        width:2.375rem   /*3.5rem70px*/;
-        height:3.375rem    /*4.5rem70px*/;
+        width:3rem   /*3.5rem70px*/;
+        height:3.7rem    /*4.5rem70px*/;
         background-color: aqua;
         visibility:hidden ;
     }
@@ -118,14 +118,14 @@ Se ha hecho un onclick, pero está preparado para ser útil con hover, tambien s
         visibility:hidden ;
     }
     .unionabajoheaderder{
-        width: 29%;
+        width: 31%;
         height:2.65rem /* 3.5rem70px*/;
         background-color: aqua;
         visibility:hidden ;
     }
     .cajaesquinader{
-        width:3.375rem   /*4.5rem70px*/;
-        height:3.375rem    /*4.5rem70px*/;
+        width:3.7rem   /*4.5rem70px*/;
+        height:3.7rem    /*4.5rem70px*/;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -136,8 +136,8 @@ Se ha hecho un onclick, pero está preparado para ser útil con hover, tambien s
         z-index: 2;
     }
     .subcaja_arriba_der{
-        width:3.375rem/* 4.5rem 70px*/;
-        height: 3.375rem /* 4.5rem70px*/;
+        width:3.7rem/* 4.5rem 70px*/;
+        height: 3.7rem /* 4.5rem70px*/;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -147,8 +147,8 @@ Se ha hecho un onclick, pero está preparado para ser útil con hover, tambien s
         box-shadow: var(--sombra_clara);
     }
     .subcaja_medio_der{
-        width:3.375rem /*4.5rem 70px*/;
-        height: 3.375rem  /*4.5rem70px*/;
+        width:3.7rem /*4.5rem 70px*/;
+        height: 3.7rem  /*4.5rem70px*/;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -158,8 +158,8 @@ Se ha hecho un onclick, pero está preparado para ser útil con hover, tambien s
         box-shadow: var(--sombra_clara);
     }
     .subcaja_bajo_der{
-        width:3.375rem /*4.5rem 70px*/;
-        height: 3.375rem  /*4.5rem70px*/;
+        width:3.7rem /*4.5rem 70px*/;
+        height: 3.7rem  /*4.5rem70px*/;
         display: flex;
         float: right;
         flex-wrap: wrap;
