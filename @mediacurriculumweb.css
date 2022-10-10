@@ -3,7 +3,180 @@ En un teléfono de tamaño medio-grande queda bien, pero me pienso si multiplica
 Se ha hecho un onclick, pero está preparado para ser útil con hover, tambien se cambien los tamaños para que no molesten fuera.*/
 
 @media screen and (max-width: 780px) {
+    /*---------------GENERALES-------------------*/
+    body{
+        font-size: small;
+    }
+    /*----------------HEADER--------------------------*/
+    .dispheader{
+        width:10.5rem /*14rem230px----para calcular el tamaño divido por 2 y multiplico por 1´5*/;
+        display: flex;
+        flex-wrap: wrap;  
+    }
+    .blancoheader{
+        width:  3.375rem /*4.5rem70px*/;
+        height: 3.375rem /* 4.5rem70px*/;
+        border-radius: var(--radiu_div_header);
+        display: flex;
+        visibility:hidden ; 
+    }
+    .despheader{
+        width:14rem/*230px*/;
+        position: fixed;
+        display: flex;
+        flex-wrap: wrap; 
+    }
+    /*-----------------ZONA IZQUIERDA HEADER--------------------------------------------------*/
+    .subcaja_head_izq{
+        position: sticky;
+        display: flex;
+    }
+    .subcaja_arriba_izq{
+        width: 3.375rem /*4.5rem70px*/;
+        height:  3.375rem /*4.5rem70px*/;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        border-radius: var(--radiu_div_header);
+        background: var(--color_prueba);
+        box-shadow: var(--sombra_clara);
+       
+    }
+    .unionizqheaderarriba{
+        width: 3.5rem /*70px*/;
+        height:   3.375rem  /*4.5rem70px*/;
+        background-color: aqua;
+        visibility: hidden;
+    }
+    .unionabajoheaderizq{
+        width: 100%;
+        height: 3.375rem  /*4.5rem50px*/;
+        background-color: aqua;
+        visibility: hidden;
+    }
+    .cajaesquinaizq{
+        width:  3.375rem /*4.5rem70px*/;
+        height:  3.375rem   /*4.5rem70px*/;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        border-radius: var(--radiu_div_header);
+        background: var(--color_prueba);
+        box-shadow: var(--sombra_clara);
+        z-index: 2;
+    }
     
+    .subcaja_bajo_iz{
+        width: 3.375rem   /*4.5rem70px*/;
+        height: 3.375rem    /*4.5rem70px*/;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        border-radius: var(--radiu_div_header);
+        background: var(--color_prueba);
+        box-shadow: var(--sombra_clara);
+    }
+    
+    /*--------------------ZONA DERECHA HEADER---------------------------------------*/
+    .subcaja_head_der{
+        width: 3.375rem   /*4.5rem70px*/;
+       height: 3.375rem    /*4.5rem70px*/;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: right;
+        align-content: center;
+        border-radius: var(--radiu_div_header);
+        box-shadow: var(--sombra_clara);
+    }
+    .dispheaderder{
+        width:10.5rem  /*14rem230px*/;
+        position: fixed;
+        display: flex;
+        flex-wrap: wrap; 
+        top: 0%;
+    }
+    .despheaderleft{
+        width:10.5rem  /*14rem230px*/;
+        position: sticky;
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: right;
+    }
+    .unionderechaheaderarriba{
+        width:2.375rem   /*3.5rem70px*/;
+        height:3.375rem    /*4.5rem70px*/;
+        background-color: aqua;
+        visibility:hidden ;
+    }
+    .unionderechaheaderbajobis{
+        width:7,875rem  /*10.5rem70px*/;
+       /*height: 20px;*/
+        background-color: aqua;
+        visibility:hidden ;
+    }
+    .unionabajoheaderder{
+        width: 29%;
+        height:2.65rem /* 3.5rem70px*/;
+        background-color: aqua;
+        visibility:hidden ;
+    }
+    .cajaesquinader{
+        width:3.375rem   /*4.5rem70px*/;
+        height:3.375rem    /*4.5rem70px*/;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        border-radius: var(--radiu_div_header);
+        background: var(--color_prueba);
+        box-shadow: var(--sombra_clara);
+        z-index: 2;
+    }
+    .subcaja_arriba_der{
+        width:3.375rem/* 4.5rem 70px*/;
+        height: 3.375rem /* 4.5rem70px*/;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        border-radius: var(--radiu_div_header);
+        background: var(--color_prueba);
+        box-shadow: var(--sombra_clara);
+    }
+    .subcaja_medio_der{
+        width:3.375rem /*4.5rem 70px*/;
+        height: 3.375rem  /*4.5rem70px*/;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        border-radius: 50%;
+        background: var(--color_prueba);
+        box-shadow: var(--sombra_clara);
+    }
+    .subcaja_bajo_der{
+        width:3.375rem /*4.5rem 70px*/;
+        height: 3.375rem  /*4.5rem70px*/;
+        display: flex;
+        float: right;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        border-radius: var(--radiu_div_header);
+        background: var(--color_prueba);
+        box-shadow: var(--sombra_clara);
+    }
+    .esconder{
+    display: none;
+    }
+    .mostrar{
+        display: flex;
+        flex-wrap: wrap;  
+    }
+    /*-------------------CUERPO---------------------------------------------------*/
     .cajaprincipal{
         width:25.25rem/* 810px*/;/*46% para responsive*/
         height:8.65rem/*276px*/;

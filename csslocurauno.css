@@ -125,7 +125,7 @@ body{/*
     background-repeat: no-repeat;
   background-size: 100% 100%;
    color: white;
-   font-size: medium;
+ 
 }
 /*--------------------------------HEADER----------------------------------------------*/
 .megahead{
@@ -325,7 +325,7 @@ display: none;
 
 }
 .cont_cajaprincipal{
-    width: 60%;
+  
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
