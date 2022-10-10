@@ -21,7 +21,7 @@ Se ha hecho un onclick, pero está preparado para ser útil con hover, tambien s
         visibility:hidden ; 
     }
     .despheader{
-        width:14rem/*230px*/;
+        width:10.5rem/*14rem230px*/;
         position: fixed;
         display: flex;
         flex-wrap: wrap; 
