@@ -108,9 +108,10 @@ que gacer que no se pierda el caminito*/
 :root{
     --radiu_div_header:50%;
     --radius_div_radial:6rem 0.4rem 6rem;
-    --color_prueba:rgba(255, 17, 0,0.7)/*url('./multimedia/dondobotonnegro.png')*/ ;
-    --sombra_clara:0.3vh 0.3vh 0.3vh rgb(122, 183, 252);
+    --color_prueba:/*rgba(255, 17, 0,0.7)*/url('./multimedia/dondobotonnegro.png') ;
+    --sombra_clara:/*0.3vh 0.3vh 0.3vh white*/;
     --color_borde:white;
+    --color_txt_tit:black;
 }
 body{/*
     background:#0c0c4e;
@@ -120,12 +121,14 @@ body{/*
    color: white;
    font-size: medium;
     */
-    background:url('./multimedia/fondowebgrande.png');
+    background-image:url('./multimedia/fondo_papel_pc.png');
     background-attachment: fixed;  
     background-repeat: no-repeat;
   background-size: 100% 100%;
-   
- 
+}
+body p{
+    background-color: white;
+    border-radius: 5px;
 }
 /*--------------------------------HEADER----------------------------------------------*/
 .megahead{
@@ -162,10 +165,13 @@ body{/*
     display: flex;
     flex-wrap: wrap; 
 }
+
 /*-----------------ZONA IZQUIERDA HEADER--------------------------------------------------*/
 .subcaja_head_izq{
     position: sticky;
+    width: 30%;
     display: flex;
+    color: var(--color_txt_tit);
 }
 .subcaja_arriba_izq{
     width: 4.5rem /*70px*/;
@@ -177,6 +183,7 @@ body{/*
     border-radius: var(--radiu_div_header);
     background: var(--color_prueba);
     box-shadow: var(--sombra_clara);
+    color: var(--color_txt_tit);
    
 }
 .unionizqheaderarriba{
@@ -202,6 +209,7 @@ body{/*
     background: var(--color_prueba);
     box-shadow: var(--sombra_clara);
     z-index: 2;
+    color: var(--color_txt_tit);
 }
 
 .subcaja_bajo_iz{
@@ -214,18 +222,19 @@ body{/*
     border-radius: var(--radiu_div_header);
     background: var(--color_prueba);
     box-shadow: var(--sombra_clara);
+    color: var(--color_txt_tit);
+    color: var(--color_txt_tit);
 }
 
 /*--------------------ZONA DERECHA HEADER---------------------------------------*/
 .subcaja_head_der{
-    width: 14rem /*70px*/;
-   height:  4.5rem /*70px*/;
+    width: 30%;
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
     align-content: center;
     border-radius: var(--radiu_div_header);
-    box-shadow: var(--sombra_clara);
+    color: var(--color_txt_tit);
 }
 .dispheaderder{
     width: 14rem /*230px*/;
@@ -269,6 +278,7 @@ body{/*
     border-radius: var(--radiu_div_header);
     background: var(--color_prueba);
     box-shadow: var(--sombra_clara);
+    color: var(--color_txt_tit);
     z-index: 2;
 }
 .subcaja_arriba_der{
@@ -281,6 +291,7 @@ body{/*
     border-radius: var(--radiu_div_header);
     background: var(--color_prueba);
     box-shadow: var(--sombra_clara);
+    color: var(--color_txt_tit);
 }
 .subcaja_medio_der{
     width: 4.5rem /*70px*/;
@@ -292,6 +303,7 @@ body{/*
     border-radius: 50%;
     background: var(--color_prueba);
     box-shadow: var(--sombra_clara);
+    color: var(--color_txt_tit);
 }
 .subcaja_bajo_der{
     width: 4.5rem /*70px*/;
@@ -304,6 +316,7 @@ body{/*
     border-radius: var(--radiu_div_header);
     background: var(--color_prueba);
     box-shadow: var(--sombra_clara);
+    color: var(--color_txt_tit);
 }
 .esconder{
 display: none;
@@ -311,6 +324,34 @@ display: none;
 .mostrar{
     display: flex;
     flex-wrap: wrap;  
+}
+/*-----------------------------------FOOTER------------------------------------------*/
+footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: left;
+}
+.cont_footer{
+    width: 60px;
+   height: 60px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background:var(--color_prueba);
+    border-radius:50% 50% 50% 0%;
+}
+.logo_footer{
+    width: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    z-index: 2;
+
 }
 
 /*----------------------------CUERPO--------------------------------------------------*/
@@ -322,6 +363,7 @@ display: none;
     justify-content: center;
     align-items: center;
    margin-top: 20%;
+   margin-bottom: 10%;
 
 }
 .cont_cajaprincipal{
@@ -355,6 +397,7 @@ display: none;
     border-radius: 3rem;
     border-radius: var(--radius_div_radial);
    border: 0.7px solid var(--color_borde);
+   color: var(--color_txt_tit);
     
 }
 .unionarriba{
@@ -375,6 +418,7 @@ display: none;
     background: var(--color_prueba);
     box-shadow: var(--sombra_clara);
     border-radius: var(--radius_div_radial);
+    color: var(--color_txt_tit);
 }
 .unionizquierda{
     position: absolute;
@@ -395,6 +439,7 @@ display: none;
     background: var(--color_prueba);
     box-shadow: var(--sombra_clara);
     border: 0.7px solid var(--color_borde);
+    color: var(--color_txt_tit);
 }
 .unionderecha{
     width:32rem/*518px*/;
@@ -416,6 +461,7 @@ display: none;
     box-shadow: var(--sombra_clara);
     border-radius:  var(--radius_div_radial);
     border: 0.7px solid var(--color_borde);
+    color: var(--color_txt_tit);
 }
 .unionabajo{
     width:13.9rem/*222px*/;
@@ -440,6 +486,7 @@ display: none;
     box-shadow: var(--sombra_clara);
     border: 0.7px solid var(--color_borde);
     z-index: 2;/*ñeñeñeñeñeñeñeñeñeñeñeñe.......que se queda onclick bajo y no se puede volver a dar*/
+    color: var(--color_txt_tit);
     
 }
 /*.disparador{

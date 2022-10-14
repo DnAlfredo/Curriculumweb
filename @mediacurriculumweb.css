@@ -6,6 +6,7 @@ Se ha hecho un onclick, pero está preparado para ser útil con hover, tambien s
     /*---------------GENERALES-------------------*/
     body{
         font-size: small;
+        background-image:url('./multimedia/fondo_papel_movil.png');
     }
     /*----------------HEADER--------------------------*/
     .dispheader{
@@ -26,9 +27,18 @@ Se ha hecho un onclick, pero está preparado para ser útil con hover, tambien s
         display: flex;
         flex-wrap: wrap; 
     }
+    .cont_logoheader{
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        align-items: center;
+    
+    }
     /*-----------------ZONA IZQUIERDA HEADER--------------------------------------------------*/
     .subcaja_head_izq{
         position: sticky;
+        width: 30%;
         display: flex;
     }
     .subcaja_arriba_izq{
@@ -82,8 +92,8 @@ Se ha hecho un onclick, pero está preparado para ser útil con hover, tambien s
     
     /*--------------------ZONA DERECHA HEADER---------------------------------------*/
     .subcaja_head_der{
-        width: 3.7rem   /*4.5rem70px*/;
-       height: 3.7rem    /*4.5rem70px*/;
+        width:30%;
+      
         display: flex;
         flex-wrap: wrap;
         justify-content: right;
@@ -176,6 +186,34 @@ Se ha hecho un onclick, pero está preparado para ser útil con hover, tambien s
         display: flex;
         flex-wrap: wrap;  
     }
+    /*----------------------------------FOOTER----------------------------------------------*/
+    footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: left;
+}
+.cont_footer{
+    width: 60px;
+    height: 60px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background:var(--color_prueba);
+    border-radius:50% 50% 50% 0%;
+}
+.logo_footer{
+    width: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    z-index: 2;
+
+}
     /*-------------------CUERPO---------------------------------------------------*/
     .cajaprincipal{
         width:25.25rem/* 810px*/;/*46% para responsive*/
