@@ -140,7 +140,8 @@ body p {
     border-radius: 5px;
 
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
 }
@@ -158,6 +159,7 @@ a{
 .cajaheader {
     position: sticky;
     width: 100%;
+    height: 640px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -166,7 +168,7 @@ a{
 }
 
 .dispheader {
-    width: 50%
+    width: 30%
         /*230px*/
     ;
     display: flex;
@@ -277,45 +279,58 @@ a{
     color: var(--color_txt_tit);
     color: var(--color_txt_tit);
 }
-/*------------------------------TXT IZQUIERDA-----------------------------------------*/
 
-.caja_txt_header{
+/*------------------------------TXT IZQUIERDA-----------------------------------------*/
+.cont_cuerpo_txt_header {
     width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.caja_txt_header {
+    width: 50%;
     height: 5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
-    
-    
+
+
 }
-.cuerpo_txt_header{
-    width: 15rem;
+
+.cuerpo_txt_header {
+    width: 23rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
     background-color: black;
-    border-radius: 50%;
-    border-radius:6rem 0.4rem 6rem;
-    margin: 2px;
+
+
+
     padding: 4px;
-    
+
 }
-.tit_txt_header{
+
+.tit_txt_header {
     width: 10rem;
-   color: white;
-    
-   
+    color: white;
+
+
 }
-.txt_header{
+
+.txt_header {
     width: 10rem;
-   color: white;
-  
-  
+    color: white;
+
+
 }
+
 /*--------------------ZONA DERECHA HEADER---------------------------------------*/
 .subcaja_head_der {
     width: 30%;
@@ -338,7 +353,7 @@ a{
 }
 
 .despheaderleft {
-    width: 15rem
+    width: 100%
         /*230px*/
     ;
     position: sticky;
@@ -377,6 +392,7 @@ a{
 }
 
 .cajaesquinader {
+    position: absolute;
     width: 5rem
         /*70px*/
     ;
@@ -392,6 +408,7 @@ a{
     box-shadow: var(--sombra_clara);
     color: var(--color_txt_tit);
     z-index: 2;
+    top: 0%;
 }
 
 .subcaja_arriba_der {
@@ -492,7 +509,7 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 20%;
+    margin-top: 5%;
     margin-bottom: 10%;
 
 }

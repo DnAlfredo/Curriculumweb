@@ -1,11 +1,16 @@
+
+
 function muestraDiv(idloca) {
-
-    let divgoster = document.getElementById(idloca)
-    divgoster.classList.toggle('mostrar') 
-    divgoster.classList.toggle('esconder')
-
-    document.getElementsByClassName('mostrar').style="esconder"
-   
+   let divgoster = document.getElementById(idloca);
+  
+   divgoster.classList.toggle('mostrar')
+  divgoster.classList.toggle('esconder') 
+ 
+  
+}
+function cierraDiv() {
+  let  divabierto=document.getElementsByClassName('mostrar')
+  divabierto.classList.toggle('esconder')
 }
 
 function enseñaRadial(coco) {
@@ -14,3 +19,4 @@ function enseñaRadial(coco) {
     caja_radial.classList.toggle('esconder')
 
 }
+
