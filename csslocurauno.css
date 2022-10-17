@@ -192,7 +192,7 @@ a {
         /*230px*/
     ;
     position: fixed;
-    display: flex;
+    display: none;
     flex-wrap: wrap;
 }
 
@@ -289,8 +289,29 @@ a {
     align-content: center;
 
 }
+.caja_txt_correo {
+    width: 50%;
+    height: 5rem;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
+
+}
 .caja_txt_header {
+    width: 50%;
+    height: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+.caja_txt_tlfn {
     width: 50%;
     height: 5rem;
     display: flex;
@@ -469,6 +490,39 @@ a {
     display: flex;
     flex-wrap: wrap;
 }
+.mostrar_header_peq {
+    display: flex;
+    flex-wrap: wrap;
+}
+/*----------------------------------CUERPO TXT DERECHA----------------------------------------*/
+.super_txt_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cuerpo_txt_header_reglada {
+    width: 23rem;
+   position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    padding: 4px;
+
+}
+.cuerpo_txt_header_cursos {
+    width: 23rem;
+ position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    padding: 4px;
+
+}
+
 
 /*-----------------------------------FOOTER------------------------------------------*/
 footer {
