@@ -4,256 +4,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="csslocurauno.css">
-    <link rel="stylesheet" href="./@mediacurriculumweb.css">
-    <script src="./jscurriculumweb.js"></script>
+    <link rel="stylesheet" href="./estructuraCV.css">
+    <link rel="stylesheet" href="./DiseñoyColorCV.css">
+    <link rel="stylesheet" href="./@mediaCVweb.css">
+    <script src="./progCV.js"></script>
     <link rel="icon" href="./multimedia/logo_frog.png" class="favicon" id="favicon">
     <title>Menú Radial</title>
 </head>
 
-<body id="boddy_CV">
-    <header class="cajaheader">
-        <div class="megahead">
-            <div class="subcaja_head_izq">
-                <div class="dispheader">
-                    <div class="cajaesquinaizq" id="cajacontacto" onclick="muestraDiv('grup_header_izq')">
-                        <p>Contacto</p>
-                    </div>
-                    <div class="despheader " id="grup_header_izq">
-                        <div class="blancoheader"></div>
-                        <div class="unionizqheaderarriba"></div>
-                        <div class="subcaja_arriba_izq" onclick="muestraDivpeq('txt_correo')">
-                            <p>Correo</p>
-                        </div>
-                        <div class="caja_txt_correo esconder" id="txt_correo" onclick="muestraDivpeq('txt_correo')">
-                            <div>
-                                <div class="cuerpo_txt_header">
-                                    <div class="tit_txt_header">
-                                        <h4>Electrónico</h4>
-                                    </div>
-                                    <div class="txt_header">
-                                        <address>
-                                            <a href="mailto:alfredmp@hotmail.com">
-                                                alfredmp@hotmail.com
-                                            </a>
-                                        </address>
-                                    </div>
-                                </div>
-                                <div class="cuerpo_txt_header">
-                                    <div class="tit_txt_header">
-                                        <h4>Postal</h4>
-                                    </div>
-                                    <div class="txt_header">C/San José nº 44<br>La Vall d´Uixó 12600<br>Castellón</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="unionabajoheaderizq"></div>
-                        <div class="subcaja_bajo_iz" onclick="muestraDivpeq('txt_tlfn')">
-                            <p>Teléfono</p>
-                        </div>
-
-                        <div class="caja_txt_tlfn esconder" id="txt_tlfn" onclick="muestraDivpeq('txt_tlfn')">
-                            <div class="cuerpo_txt_header" id="cuerpotelefono">
-                                <div class="tit_txt_header">
-                                    <h4>Móvil</h4>
-                                </div>
-                                <div class="txt_header">679-875-219</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="subcaja_head_der">
-                <div class="cajaesquinader" onclick="muestraDiv('grup_header_der')">
-                    <p>Formación</p>
-                </div>
-
-                <div class="dispheaderder">
-
-                    <div class="despheaderleft esconder" id="grup_header_der">
-
-                        <div class="subcaja_arriba_der" onclick="muestraDivpeq('txt_reglada')">
-                            <p>Reglada</p>
-                        </div>
-
-                        <div class="unionderechaheaderarriba"></div>
-                        <div class="blancoheader"></div>
-                        <div class="cont_cuerpo_txt_header">
-
-                        </div>
-                        <div class="subcaja_medio_der" onclick="muestraDivpeq('txt_cursos')">
-                            <p>Cursos</p>
-                        </div>
-                        <div class="unionabajoheaderder"></div>
-                        <div class="unionderechaheaderbajobis"></div>
-                        <div class="subcaja_bajo_der">
-                            <p>Carnés</p>
-                        </div>
-                        <div class="super_txt_header">
-                        <div class="cuerpo_txt_header_reglada esconder" id="txt_reglada">
-                            <div class="tit_txt_header">
-                                <h4>Graduado E.S.O</h4>
-                            </div>
-                            <div class="txt_header"><a href="https://www.ramiroizquierdo.es/"> Colegio Ramiro
-                                    Izquierdo</a>
-                            </div>
-                            <div class="tit_txt_header">
-                                <h4>Ciclo Formativo Grado Medio Producción Agroecológica</h4>
-                            </div>
-                            <div class="txt_header"><a href="https://portal.edu.gva.es/iesnules/es/inicics/">I.E.S
-                                    Gillabert de
-                                    Centelles</a></div>
-
-
-                            <div class="tit_txt_header">
-                                <h4>Confección y Publicación Páginas Web C.P2</h4>
-                            </div>
-                            <div class="txt_header"><a href="https://portal.edu.gva.es/iesnules/es/inicics/">1200001065
-                                    -Asociación Liberalia</a>
-                            </div>
-                        </div>
-                        <div class="cuerpo_txt_header_cursos esconder" id="txt_cursos">
-                            <div class="tit_txt_header">
-                                <h4>ÑÑÑÑÑÑÑÑ</h4>
-                            </div>
-                            <div class="txt_header"><a href="https://www.ramiroizquierdo.es/"> Colegio Ramiro
-                                    Izquierdo</a>
-                            </div>
-                            <div class="tit_txt_header">
-                                <h4>Ciclo Formativo Grado Medio Producción Agroecológica</h4>
-                            </div>
-                            <div class="txt_header"><a href="https://portal.edu.gva.es/iesnules/es/inicics/">I.E.S
-                                    Gillabert de
-                                    Centelles</a></div>
-
-
-                            <div class="tit_txt_header">
-                                <h4>Confección y Publicación Páginas Web C.P2</h4>
-                            </div>
-                            <div class="txt_header"><a href="https://portal.edu.gva.es/iesnules/es/inicics/">1200001065
-                                    -Asociación Liberalia</a>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-
-
-                </div>
-
-            </div>
-
+<body>
+    <header class="cont_header">
+        <div class="div_foto_header">
+            <img src="" alt="" class="img_header">
         </div>
-
+        <nav class="barra_nav">
+            <div class="cont_cajaprincipal">
+                <div class="cajaprincipal">
+                    <div class="disparador">
+                        <div class="cajacentral" onclick="enseñaRadial('grupo_radial')">
+                            <p>Disparador</p>
+                        </div>
+                        <div class="desplegable esconder" id="grupo_radial">
+                            <div class="unionarriba">
+                                <div class="subcajaarriba">
+                                    <p>Tachaaan!!</p>
+                                </div>
+                            </div>
+                            <div class="unionizquierda">
+                                <div class="subcajaizquierda">
+                                    <p>Tachaaan!!</p>
+                                </div>
+                            </div>
+                            <div class="unionderecha">
+                                <div class="subcajaderecha">
+                                    <p>Tachaaan!!</p>
+                                </div>
+                            </div>
+                            <div class="unionabajo">
+                                <div class="subcajaabajo">
+                                    <p>Tachaaan!!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
 
     </header>
-    <main class="main_cur_web">
-        <div class="cont_cajaprincipal">
-            <div class="cajaprincipal">
-                <div class="disparador">
-                    <div class="cajacentral" onclick="enseñaRadial('grupo_radial')">
-                        <p>Disparador</p>
-                    </div>
-                    <div class="desplegable esconder" id="grupo_radial">
-                        <div class="unionarriba">
-                            <div class="subcajaarriba">
-                                <p>Tachaaan!!</p>
-                            </div>
-                        </div>
-                        <div class="unionizquierda">
-                            <div class="subcajaizquierda">
-                                <p>Tachaaan!!</p>
-                            </div>
-                        </div>
-                        <div class="unionderecha">
-                            <div class="subcajaderecha">
-                                <p>Tachaaan!!</p>
-                            </div>
-                        </div>
-                        <div class="unionabajo">
-                            <div class="subcajaabajo">
-                                <p>Tachaaan!!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+    <main class="main_CV">
+
+        <div class="cont_txt_presentacion">
+            <span class="txt_presentacion">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo temporibus, quidem expedita
+                modi
+                maxime reiciendis minus quasi minima, adipisci dolores at iusto omnis atque ullam eius? Odio,
+                reprehenderit
+                at.
+                Vero consectetur nemo autem distinctio exercitationem asperiores culpa reiciendis, officia aliquid!
+                Minus,
+                voluptatibus. Blanditiis dolor pariatur deleniti, modi dolorem corporis harum enim sed eum fugiat minus
+                ut
+                eaque voluptates id?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae eum, rem eos excepturi dolor natus
+                adipisci, officiis nobis inventore nisi obcaecati voluptate aperiam soluta. Delectus atque nostrum
+                praesentium vitae facere.
+                Ab excepturi rem quis inventore nihil tenetur asperiores assumenda minus mollitia id fugit quasi
+                incidunt maxime quibusdam, nulla eum earum veniam praesentium eos corrupti sunt non? Dolor dolorum
+                corrupti inventore!
+                Iste et quis cumque quae dolorum vero distinctio mollitia temporibus nostrum assumenda, tempora dolor
+                eos officia quo fugiat dicta itaque voluptatem, illum libero soluta nam. Qui nisi cupiditate quis
+                facere!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet natus cupiditate optio debitis velit
+                similique, sint quis id numquam nisi odio minima, doloremque tenetur at totam veritatis hic aspernatur
+                harum?
+                Doloremque dolorum magnam itaque perferendis! Itaque ullam nisi mollitia omnis sed sit repudiandae in
+                rerum. Reprehenderit excepturi fugiat enim aspernatur, atque iure laudantium expedita. Distinctio quo
+                dolor voluptate non ad?
+            </span>
         </div>
-        <div class="cont_cajaprincipal">
-            <div class="cajaprincipal">
-                <div class="disparador">
-                    <div class="cajacentral" onclick="enseñaRadial('grupo_radialbis')">
-                        <p>Disparador</p>
-                    </div>
-                    <div class="desplegable esconder" id="grupo_radialbis">
-                        <div class="unionarriba">
-                            <div class="subcajaarriba">
-                                <p>Tachaaan!!</p>
-                            </div>
-                        </div>
-                        <div class="unionizquierda">
-                            <div class="subcajaizquierda">
-                                <p>Tachaaan!!</p>
-                            </div>
-                        </div>
-                        <div class="unionderecha">
-                            <div class="subcajaderecha">
-                                <p>Tachaaan!!</p>
-                            </div>
-                        </div>
-                        <div class="unionabajo">
-                            <div class="subcajaabajo">
-                                <p>Tachaaan!!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="cont_divs_form">
+            <div class="tit_form">
+                <h3>Formación</h3>
             </div>
-        </div>
-        <div class="cont_cajaprincipal">
-            <div class="cajaprincipal">
-                <div class="disparador">
-                    <div class="cajacentral" onclick="enseñaRadial('grupo_radialtres')">
-                        <p>Disparador</p>
-                    </div>
-                    <div class="desplegable esconder" id="grupo_radialtres">
-                        <div class="unionarriba">
-                            <div class="subcajaarriba">
-                                <p>Tachaaan!!</p>
-                            </div>
-                        </div>
-                        <div class="unionizquierda">
-                            <div class="subcajaizquierda">
-                                <p>Tachaaan!!</p>
-                            </div>
-                        </div>
-                        <div class="unionderecha">
-                            <div class="subcajaderecha">
-                                <p>Tachaaan!!</p>
-                            </div>
-                        </div>
-                        <div class="unionabajo">
-                            <div class="subcajaabajo">
-                                <p>Tachaaan!!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="div_form"><span>Graduado E.S.O</span></div>
+            <div class="div_form">C.F.G.M Agroecología</div>
+            <div class="div_form">CP 2</div>
         </div>
     </main>
-    <footer>
-        <div class="cont_footer">
-            <address>
-                <a href="mailto:frogwebdeveloper@gmail.com">
-                    <img src="./multimedia/logoFrogGrande.png"
-                        alt="rana a manchas negras y azul claro con letras sobre la esplada donde pone, frog developer"
-                        class="logo_footer" title="Dasarrollador de esta página">
-                </a>
-            </address>
-        </div>
-    </footer>
+    <footer class="cont_footer">
 
+    </footer>
 </body>
 
 </html>

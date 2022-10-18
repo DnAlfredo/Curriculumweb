@@ -1,0 +1,257 @@
+/*-----------------------------------------------------------------GENERALES---------------------------------------------*/
+* {
+    margin: 0%;
+    box-sizing: border-box;
+}
+:root{
+    --separacion_estructura_general:6%;
+    --padding_txt_presentacion:3%;
+    --separacion_dentro_caja:2%;
+}
+/*-------------------------------------------------------------------HEADER-----------------------------------------------*/
+.cont_header {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: right;
+  padding: var(--separacion_estructura_general);
+}
+
+.barra_nav {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_foto_header {
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_header {
+    width: 250px;
+    height: 250px;
+
+}
+
+/*------------------------------------------------------------------BARRA NAV---------------------------------------------*/
+/*----------------RADIAL-----------*/
+.main_cur_web {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.cont_cajaprincipal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0.8%;
+
+}
+
+.cajaprincipal {
+    width: 25.25rem;
+    /* 810px*/
+    /*46% para responsive*/
+    height: 8.65rem;
+    /*276px*/
+    position: relative;
+    /* border: 1px solid black;
+    background-color: gray;*/
+}
+
+.subcajaarriba {
+    width: 6.95rem;
+    /*220px*/
+    /*sta cifra es para dejar un hueco en medio de cada una del mismo tamaño.*/
+    height: 1.95rem;
+    /*57px*/
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.unionarriba {
+    position: absolute;
+    width: 6.95rem;
+    /*222px*/
+    height: 5.2rem;
+    /*165px*/
+    left: 36%;
+}
+
+.subcajaizquierda {
+    width: 6.95rem;
+    /*220px*/
+    height: 1.95rem;
+    /*57px*/
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.unionizquierda {
+    position: absolute;
+    width: 16rem;
+    /*518px*/
+    height: 1.95rem;
+    /*60px*/
+    top: 36%;
+}
+
+.subcajaderecha {
+    width: 6.95rem;
+    /*220px*/
+    height: 1.95rem;
+    /*57px*/
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    right: 0%;
+}
+
+.unionderecha {
+    width: 16rem;
+    /*518px*/
+    height: 1.95rem;
+    /*60px*/
+    position: absolute;
+    top: 38%;
+    right: 0%;
+}
+
+.subcajaabajo {
+    width: 6.95rem;
+    /*220px*/
+    height: 1.95rem;
+    /*57px*/
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    bottom: 0vw;
+}
+
+.unionabajo {
+    width: 6.95rem;
+    /*222px*/
+    height: 5.25rem;
+    /*173px */
+    position: absolute;
+    bottom: 0vw;
+    left: 36%;
+}
+
+.cajacentral {
+    width: 6.95rem
+        /*220px*/
+    ;
+    /*25.4% para hecerlo en responsive*/
+    height: 1.95rem
+        /*57px*/
+    ;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    left: 36%;
+    top: 38%;
+    z-index: 2;
+    /*ñeñeñeñeñeñeñeñeñeñeñeñe.......que se queda onclick bajo y no se puede volver a dar*/
+}
+
+.desplegable {
+    display: none;
+    z-index: 1;
+}
+
+.mostrar_bis {
+    display: block;
+}
+
+/*OOOOOJJJOOOOOO para no perder el hover por el camino hasta el elemento deseado hay que encapsularlo dentro de otro div para poder hacer que se
+toquen por tamaño pero que solo se muestre el contenido centrado dentro del div----lo normal seria no hacer tanta caja pero para uno radial hay
+que gacer que no 
+/*--------------------------------------------------------------------MAIN------------------------------------------------*/
+.main_CV {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cont_txt_presentacion{
+position: relative;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: var(--separacion_estructura_general);
+}
+.txt_presentacion{
+width: 75%;
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+text-align: justify;
+padding: var(--padding_txt_presentacion);
+
+}
+.cont_divs_form{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.div_form{
+    position: relative;
+    width: 27%;
+    height: 100px;/*solo para prototipo*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center ;
+    margin: var(--separacion_dentro_caja);
+    text-align: center;
+}
+.tit_form{
+    position: relative;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/*-------------------------------------------------------------------FOOTER----------------------------------------------*/
+.cont_footer{
+    width: 100%;
+    height: 200px;/*solo prototipo*/
+
+}
