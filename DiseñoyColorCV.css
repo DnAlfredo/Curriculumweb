@@ -39,7 +39,7 @@
     --shadow_tit_apt: rgba(255, 0, 0, 0.7);
     --borde_tit_apt: red;
     --col_letra_tit_apt: black;
-     --radius_txt_apt:10px;
+    --radius_txt_apt:10px;
     --fondo_txt_apt: rgba(166, 255, 0, 0.5);
     --shadow_txt_apt: rgba(255, 0, 0, 0.7);
     --borde_txt_apt: red;
@@ -54,16 +54,20 @@
     --shadow_div_esp: rgb(81, 255, 0);
     --borde_div_esp: rgb(255, 136, 0);
     --col_letra_div_esp: black;
-    --radius_tit_trabj:10px;
+    --tam_tit_esp:x-large;
+    --radius_tit_trabj:5px;
     --fondo_tit_trabj: rgba(0, 255, 149, 0.5);
     --shadow_tit_trabj: rgba(157, 255, 0, 0.7);
     --borde_tit_trabj: rgb(0, 38, 255);
     --col_letra_tit_trabj: black;
-    --radius_tab_exp:10px;
-    --fondo_tab_exp: rgba(166, 255, 0, 0.5);
-    --shadow_tab_exp: rgba(204, 94, 219, 0.938);
-    --borde_tab_exp: rgb(0, 255, 242);
-    --col_letra_tab_exp: black;
+    --tam_tit_trabj:x-large;
+    --radius_dd_exp:5px;
+    --fondo_dd_exp: rgba(0, 255, 98, 0.5);
+    --shadow_dd_exp: rgba(204, 94, 219, 0.938);
+    --borde_dd_exp: rgb(197, 212, 212);
+    --col_letra_dd_exp: black;
+    --fondo_celda_dd_exp:rgb(138, 138, 238);
+    
 }
 
 /*-------------------------------------------------------------------HEADER-----------------------------------------------*/
@@ -215,13 +219,11 @@
     color: var(--col_letra_tit_trabj);
     font-size: var(--tam_tit_trabj);
 }
-.tabla_experiencia{
-
-    border-radius: var(--radius_tab_exp);
-    background: var(--fondo_tab_exp);
-    box-shadow: var(--shadow_tab_exp);
-    border: 0.7px solid var(--borde_tab_exp);
-    color: var(--col_letra_tab_exp);
-    
-    
+.seccion_div_exp dd{
+    border-radius: var(--radius_dd_exp);
+    background: var(--fondo_dd_exp);
+    box-shadow: var(--shadow_dd_exp);
+    border: 0.7px solid var(--borde_dd_exp);
+    color: var(--col_letra_dd_exp);
+    font-size: var(--tam_dd_exp);
 }

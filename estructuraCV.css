@@ -11,13 +11,15 @@ h2{
     font-size: medium;
 }
 :root{
+    
     --separacion_estructura_general:4%;
-    --separacion_estructura_tab_exp:6%;
+    --separacion_estructura_tab_exp:3%;
     --separacion_sub_estruct:0.5%;
     --padding_txt_presentacion:3%;
     --separacion_dentro_caja:0.5%;
     --padding_tit_mini:1%;
     --padding_tit:1.5%;
+    --padding_txt_apt:2.5%;
     --padding_txt_ficha:1.5%;
     --margen_tit_bajo:1%
 }
@@ -242,7 +244,7 @@ padding: var(--padding_txt_presentacion);
 /*----------------------------FORMACION-------------------*/
 .cont_form{
     position: relative;
-    width: 100%;
+   /* width: 100%; por si se va el desbordamiento*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -300,7 +302,7 @@ padding: var(--padding_txt_presentacion);
     flex-wrap: wrap;
     justify-content: left;
     align-items: center;
-    margin: var(--separacion_dentro_caja);
+    
 }
 .tit_mini_form{
     position: relative;
@@ -342,7 +344,8 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center;
 align-items: center;
-margin-bottom: var(--padding_tit);
+margin: var(--margen_tit_bajo);
+padding: var(--padding_tit);
 
 
 
@@ -356,6 +359,14 @@ margin-bottom: var(--padding_tit);
     padding: var(--padding_tit_mini);
 }
 /*----------------------------EXPERIENCIA-------------------*/
+.cont_epx{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
 .cont_div_exp{
     position: relative;
     width: 100%;
@@ -367,6 +378,7 @@ margin-bottom: var(--padding_tit);
 }
 .cont_tit_exp{
     position: relative;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -400,6 +412,7 @@ margin-bottom: var(--padding_tit);
     justify-content: center;
     align-items: center;
     margin: var(--separacion_estructura_tab_exp);
+    padding: var(--padding_txt_ficha);
 }
 .tit_trabj_exp{
     position: relative;
@@ -409,13 +422,27 @@ margin-bottom: var(--padding_tit);
     text-align: center;
     padding: var(--padding_tit_mini);
 }
-.tabla_experiencia{
+.seccion_div_exp{
     position: relative;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    margin: var(--separacion_sub_estruct);
+}
+.seccion_div_exp dl{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: large;
+    padding: var(--padding_tit_mini);
+}
+.seccion_div_exp dd{
+    position: relative;
+    width: 85%;
+    text-align: justify;
+    padding: var(--padding_txt_ficha);
 }
 /*-------------------------------------------------------------------FOOTER----------------------------------------------*/
-.cont_epx{
-    width: 100%;
-    height: 200px;/*solo prototipo*/
-}
+
