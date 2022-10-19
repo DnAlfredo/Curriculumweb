@@ -31,4 +31,50 @@
             height: 196px;
         
         }
+        .div_form_peq{
+            position: relative;
+            width: 42.6%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items:center ;
+            text-align: center;
+            margin: var(--separacion_sub_estruct);
+            padding: var(--padding_txt_ficha );
+        }
+        .tit_apt{
+            position: relative;
+            width: 90%;
+            display: flex;
+            height: 7rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: var(--padding_tit);
+            
+            
+            }
+            .txt_apt{
+                position: relative;
+                width: 75%;
+                display: block;
+                text-align: justify;
+              
+            }  
+        /*---------------------EXPERIENCIA------------------------*/
+        .div_exp{
+            position: relative;
+            width: 90%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            font-size: smaller;
+        }
+        .tabla_experiencia{
+            position: relative;
+            display: block;
+            text-align: center;
+        }
 }

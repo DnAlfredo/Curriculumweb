@@ -22,27 +22,35 @@
                 <div class="cajaprincipal">
                     <div class="disparador">
                         <div class="cajacentral" onclick="enseñaRadial('grupo_radial')">
-                            <p>Disparador</p>
+                            <h1>Menú</h1>
                         </div>
                         <div class="desplegable esconder" id="grupo_radial">
                             <div class="unionarriba">
                                 <div class="subcajaarriba">
-                                    <p>Tachaaan!!</p>
+                                    <a href="#zona_formacion">
+                                        <h2>Formación</h2>
+                                    </a>
                                 </div>
                             </div>
                             <div class="unionizquierda">
                                 <div class="subcajaizquierda">
-                                    <p>Tachaaan!!</p>
+                                    <a href="#zona_experiencia">
+                                        <h2>Experiencia</h2>
+                                    </a>
                                 </div>
                             </div>
                             <div class="unionderecha">
                                 <div class="subcajaderecha">
-                                    <p>Tachaaan!!</p>
+                                    <a href="#zona_aptitudes">
+                                        <h2>Aptitudes</h2>
+                                    </a>
                                 </div>
                             </div>
                             <div class="unionabajo">
                                 <div class="subcajaabajo">
-                                    <p>Tachaaan!!</p>
+                                    <a href="#zona_contacto">
+                                        <h2>Contacto</h2>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -50,13 +58,10 @@
                 </div>
             </div>
         </nav>
-
     </header>
-
     <main class="main_CV">
-
         <div class="cont_txt_presentacion">
-            <span class="txt_presentacion">
+            <p class="txt_presentacion">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo temporibus, quidem expedita
                 modi
                 maxime reiciendis minus quasi minima, adipisci dolores at iusto omnis atque ullam eius? Odio,
@@ -82,15 +87,310 @@
                 Doloremque dolorum magnam itaque perferendis! Itaque ullam nisi mollitia omnis sed sit repudiandae in
                 rerum. Reprehenderit excepturi fugiat enim aspernatur, atque iure laudantium expedita. Distinctio quo
                 dolor voluptate non ad?
-            </span>
+            </p>
         </div>
-        <div class="cont_divs_form">
-            <div class="tit_form">
-                <h3>Formación</h3>
+        <div class="cont_form">
+            <div class="tit_form" id="zona_formacion">
+                <h3>
+                    Formación
+                </h3>
             </div>
-            <div class="div_form"><span>Graduado E.S.O</span></div>
-            <div class="div_form">C.F.G.M Agroecología</div>
-            <div class="div_form">CP 2</div>
+            <div class="cont_tit_mini_form">
+                <h4 class="tit_mini_form">
+                    Reglada
+                </h4>
+            </div>
+            <div class="grupo_div_form">
+                <div class="div_form">
+                    <h5>
+                        Graduado E.S.O
+                    </h5>
+                    <div class="bot_div_form" onclick="abreFicha('txt_eso')">&#8597</div>
+                    <div class="txt_div_form esconder" id="txt_eso">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus eius optio
+                            commodi labore impedit magnam fugiat tenetur quae, rerum ex suscipit perferendis ducimus ea
+                            enim
+                            quasi veritatis nisi porro exercitationem.
+                        </p>
+                    </div>
+                </div>
+                <div class="div_form">
+                    <h5>
+                        C.F.G.M Agroecología
+                    </h5>
+                    <div class="bot_div_form" onclick="abreFicha('txt_eco')">&#8597</div>
+                    <div class="txt_div_form esconder" id="txt_eco">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus eius optio
+                            commodi labore impedit magnam fugiat tenetur quae, rerum ex suscipit perferendis ducimus ea
+                            enim
+                            quasi veritatis nisi porro exercitationem.
+                        </p>
+                    </div>
+                </div>
+                <div class="div_form">
+                    <h5>
+                        CP 2
+                    </h5>
+                    <div class="bot_div_form" onclick="abreFicha('txt_cp2')">&#8597</div>
+                    <div class="txt_div_form esconder" id="txt_cp2">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus eius optio
+                            commodi labore impedit magnam fugiat tenetur quae, rerum ex suscipit perferendis ducimus ea
+                            enim
+                            quasi veritatis nisi porro exercitationem.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="cont_tit_mini_form">
+                <h4 class="tit_mini_form">
+                    Cursos/Carnets
+                </h4>
+            </div>
+            <div class="div_form_peq">
+                <h5>
+                    Oficial Pastelería E.S.P
+                </h5>
+                <p class="txt_div_form">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ut cum.
+                </p>
+            </div>
+            <div class="div_form_peq">
+                <h5>
+                    Comunicación y presentaciones en público
+                </h5>
+                <p class="txt_div_form">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ut cum.
+                </p>
+            </div>
+            <div class="div_form_peq">
+                <h5>
+                    Prevención manejo carretillas
+                </h5>
+                <p class="txt_div_form">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ut cum.
+                </p>
+            </div>
+            <div class="div_form_peq">
+                <h5>
+                    Permiso de conducir Clase B
+                </h5>
+                <p class="txt_div_form">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ut cum.
+                </p>
+            </div>
+        </div>
+        <div class="cont_divs_apt" id="zona_aptitudes">
+            <h3 class="tit_apt">
+                Aptitudes
+            </h3>
+            <p class="txt_apt">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla nesciunt vero
+                excepturi amet error
+                ullam, minima blanditiis nam, ex rerum ipsam obcaecati, recusandae est placeat autem omnis sint iste
+                consequuntur!
+                Quae asperiores officiis voluptatem rerum, qui, doloremque deleniti voluptatibus magni nemo, totam
+                veritatis! Eius voluptas minima eos, recusandae mollitia dolores ut saepe officia dignissimos
+                dolorem commodi. Maiores natus odit consequuntur.
+                Id officia quod nemo sapiente voluptatem rem voluptatum quaerat repudiandae iure aliquid, nihil fuga
+                itaque provident cumque placeat nisi alias culpa eos ipsa laudantium laboriosam sunt. Numquam quidem
+                error quaerat?
+            </p>
+        </div>
+        <div class="cont_epx" id="zona_experiencia">
+            <div class="cont_tit_exp">
+            <h3 class="tit_exp">
+                Experiencia Laboral
+            </h3>
+        </div>
+            <div class="cont_div_exp">
+                <div class="div_exp">
+                    <h5 class="tit_trabj_exp">Trabajo 1</h5>
+                    <table class="tabla_experiencia">
+                            <thead>
+                                <tr>
+                                <th>Fecha</th>
+                                <th>Nombre empresa</th>
+                                <th>Puesto desempeñado</th>
+                                <th>Funciones desempeñadas</th>
+                                <th>Conocimientos adquiridos</th>
+                                </tr>
+                            </thead>
+                        <tbody>
+                            <tr>
+                                <td>x</td>
+                                <td>x</td>
+                                <td>x</td>
+                                <td>x</td>
+                                <td>x</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="div_exp">
+                    <h5 class="tit_trabj_exp">Trabajo 2</h5>
+                    <table class="tabla_experiencia">
+                            <thead>
+                                <tr>
+                                <th>Fecha</th>
+                                <th>Nombre empresa</th>
+                                <th>Puesto desempeñado</th>
+                                <th>Funciones desempeñadas</th>
+                                <th>Conocimientos adquiridos</th>
+                                </tr>
+                            </thead>
+                        <tbody>
+                            <tr>
+                                <td>x</td>
+                                <td>x</td>
+                                <td>x</td>
+                                <td>x</td>
+                                <td>x</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="div_exp">
+                    <h5 class="tit_trabj_exp">Trabajo 3</h5>
+                    <table class="tabla_experiencia">
+                            <thead>
+                                <tr>
+                                <th>Fecha</th>
+                                <th>Nombre empresa</th>
+                                <th>Puesto desempeñado</th>
+                                <th>Funciones desempeñadas</th>
+                                <th>Conocimientos adquiridos</th>
+                                </tr>
+                            </thead>
+                        <tbody>
+                            <tr>
+                                <td>x</td>
+                                <td>x</td>
+                                <td>x</td>
+                                <td>x</td>
+                                <td>x</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="div_exp">
+                    <h5 class="tit_trabj_exp">Trabajo 4</h5>
+                    <table class="tabla_experiencia">
+                            <thead>
+                                <tr>
+                                <th>Fecha</th>
+                                <th>Nombre empresa</th>
+                                <th>Puesto desempeñado</th>
+                                <th>Funciones desempeñadas</th>
+                                <th>Conocimientos adquiridos</th>
+                                </tr>
+                            </thead>
+                        <tbody>
+                            <tr>
+                                <td>x</td>
+                                <td>x</td>
+                                <td>x</td>
+                                <td>x</td>
+                                <td>x</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="div_exp">
+                    <h5 class="tit_trabj_exp">Trabajo 5</h5>
+                    <table class="tabla_experiencia">
+                            <thead>
+                                <tr>
+                                <th>Fecha</th>
+                                <th>Nombre empresa</th>
+                                <th>Puesto desempeñado</th>
+                                <th>Funciones desempeñadas</th>
+                                <th>Conocimientos adquiridos</th>
+                                </tr>
+                            </thead>
+                        <tbody>
+                            <tr>
+                                <td>x</td>
+                                <td>x</td>
+                                <td>x</td>
+                                <td>x</td>
+                                <td>x</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="div_exp">
+                    <h5 class="tit_trabj_exp">Trabajo 6</h5>
+                    <table class="tabla_experiencia">
+                            <thead>
+                                <tr>
+                                <th>Fecha</th>
+                                <th>Nombre empresa</th>
+                                <th>Puesto desempeñado</th>
+                                <th>Funciones desempeñadas</th>
+                                <th>Conocimientos adquiridos</th>
+                                </tr>
+                            </thead>
+                        <tbody>
+                            <tr>
+                                <td>x</td>
+                                <td>x</td>
+                                <td>x</td>
+                                <td>x</td>
+                                <td>x</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="div_exp">
+                    <h5 class="tit_trabj_exp">Trabajo 7</h5>
+                    <table class="tabla_experiencia">
+                            <thead>
+                                <tr>
+                                <th>Fecha</th>
+                                <th>Nombre empresa</th>
+                                <th>Puesto desempeñado</th>
+                                <th>Funciones desempeñadas</th>
+                                <th>Conocimientos adquiridos</th>
+                                </tr>
+                            </thead>
+                        <tbody>
+                            <tr>
+                                <td>x</td>
+                                <td>x</td>
+                                <td>x</td>
+                                <td>x</td>
+                                <td>x</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="div_exp">
+                    <h5 class="tit_trabj_exp">Trabajo 8</h5>
+                    <table class="tabla_experiencia">
+                            <thead>
+                                <tr>
+                                <th>Fecha</th>
+                                <th>Nombre empresa</th>
+                                <th>Puesto desempeñado</th>
+                                <th>Funciones desempeñadas</th>
+                                <th>Conocimientos adquiridos</th>
+                                </tr>
+                            </thead>
+                        <tbody>
+                            <tr>
+                                <td>x</td>
+                                <td>x</td>
+                                <td>x</td>
+                                <td>x</td>
+                                <td>x</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </main>
     <footer class="cont_footer">
