@@ -39,35 +39,70 @@
     --shadow_tit_apt: rgba(255, 0, 0, 0.7);
     --borde_tit_apt: red;
     --col_letra_tit_apt: black;
-    --radius_txt_apt:10px;
+    --radius_txt_apt: 10px;
     --fondo_txt_apt: rgba(166, 255, 0, 0.5);
     --shadow_txt_apt: rgba(255, 0, 0, 0.7);
     --borde_txt_apt: red;
     --col_letra_txt_apt: black;
-    --radius_tit_esp:10px;
+    --radius_tit_esp: 10px;
     --fondo_tit_esp: rgba(0, 255, 242, 0.822);
     --shadow_tit_esp: rgba(0, 119, 255, 0.7);
     --borde_tit_esp: rgb(255, 238, 0);
     --col_letra_tit_esp: black;
-    --radius_div_esp:10px;
+    --radius_div_esp: 10px;
     --fondo_div_esp: rgba(0, 255, 242, 0.945);
     --shadow_div_esp: rgb(81, 255, 0);
     --borde_div_esp: rgb(255, 136, 0);
     --col_letra_div_esp: black;
-    --tam_tit_esp:x-large;
-    --radius_tit_trabj:5px;
+    --tam_tit_esp: x-large;
+    --radius_tit_trabj: 5px;
     --fondo_tit_trabj: rgba(0, 255, 149, 0.5);
     --shadow_tit_trabj: rgba(157, 255, 0, 0.7);
     --borde_tit_trabj: rgb(0, 38, 255);
     --col_letra_tit_trabj: black;
-    --tam_tit_trabj:x-large;
-    --radius_dd_exp:5px;
+    --tam_tit_trabj: x-large;
+    --radius_dd_exp: 5px;
     --fondo_dd_exp: rgba(0, 255, 98, 0.5);
     --shadow_dd_exp: rgba(204, 94, 219, 0.938);
     --borde_dd_exp: rgb(197, 212, 212);
     --col_letra_dd_exp: black;
-    --fondo_celda_dd_exp:rgb(138, 138, 238);
-    
+    --tam_tit_trabj: x-large;
+    --radius_bt_fixed: 50%;
+    --fondo_bt_fixed: rgba(238, 255, 0, 0.664);
+    --shadow_bt_fixed: rgba(94, 190, 219, 0.938);
+    --borde_bt_fixed: rgb(0, 10, 10);
+    --col_letra_bt_fixed: black;
+    --radius_bt_cntct:  1.2rem 0.07rem 1.2rem;
+    --fondo_bt_cntct: rgba(245, 91, 1, 0.966);
+    --shadow_bt_cntct: rgba(94, 190, 219, 0.938);
+    --borde_bt_cntct: rgb(0, 10, 10);
+    --col_letra_bt_cntct: black;
+    --tam_tit_cntct: x-large;
+    --radius_tit_cntct: 5px;
+    --fondo_tit_cntct: rgba(255, 0, 221, 0.664);
+    --shadow_tit_cntct: rgba(204, 94, 219, 0.938);
+    --borde_tit_cntct: rgb(253, 0, 0);
+    --col_letra_tit_cntct: black;
+    --tam_tit_correo: x-large;
+    --radius_crp_cntct: 5px;
+    --fondo_crp_cntct: rgba(255, 102, 0, 0.664);
+    --shadow_crp_cntct: rgba(148, 46, 5, 0.938);
+    --borde_crp_cntct: rgb(253, 80, 0);
+    --col_letra_crp_cntct: black;
+    --tam_div_correo: medium;
+    --radius_div_correo: 5px;
+    --fondo_div_correo: rgba(0, 247, 255, 0.664);
+    --shadow_div_correo: rgba(23, 20, 216, 0.938);
+    --borde_div_correo: rgb(38, 0, 253);
+    --col_letra_div_correo: black;
+    --tam_div_tlfn: medium;
+    --radius_div_tlfn: 5px;
+    --fondo_div_tlfn: rgba(0, 247, 255, 0.664);
+    --shadow_div_tlfn: rgba(23, 20, 216, 0.938);
+    --borde_div_tlfn: rgb(38, 0, 253);
+    --col_letra_div_tlfn: black;
+
+
 }
 
 /*-------------------------------------------------------------------HEADER-----------------------------------------------*/
@@ -195,15 +230,16 @@
 }
 
 /*----------------EXPERIENCIA----------------*/
-.tit_exp{
-       border-radius: var(--radius_tit_esp);
+.tit_exp {
+    border-radius: var(--radius_tit_esp);
     background: var(--fondo_tit_esp);
     box-shadow: var(--shadow_tit_esp);
     border: 0.7px solid var(--borde_tit_esp);
     color: var(--col_letra_tit_esp);
     font-size: var(--tam_tit_esp);
 }
-.div_exp{
+
+.div_exp {
     border-radius: var(--radius_div_esp);
     background: var(--fondo_div_esp);
     box-shadow: var(--shadow_div_esp);
@@ -211,7 +247,8 @@
     color: var(--col_letra_div_esp);
     font-size: var(--tam_div_esp);
 }
-.tit_trabj_exp{
+
+.tit_trabj_exp {
     border-radius: var(--radius_tit_trabj);
     background: var(--fondo_tit_trabj);
     box-shadow: var(--shadow_tit_trabj);
@@ -219,11 +256,62 @@
     color: var(--col_letra_tit_trabj);
     font-size: var(--tam_tit_trabj);
 }
-.seccion_div_exp dd{
+
+.seccion_div_exp dd {
     border-radius: var(--radius_dd_exp);
     background: var(--fondo_dd_exp);
     box-shadow: var(--shadow_dd_exp);
     border: 0.7px solid var(--borde_dd_exp);
     color: var(--col_letra_dd_exp);
     font-size: var(--tam_dd_exp);
+}
+
+/*-----------------CONTACTO-------------------*/
+.tit_contct {
+    border-radius: var(--radius_tit_cntct);
+    background: var(--fondo_tit_cntct);
+    box-shadow: var(--shadow_tit_cntct);
+    border: 0.7px solid var(--borde_tit_cntct);
+    color: var(--col_letra_tit_cntct);
+    font-size: var(--tam_tit_cntct);
+}
+.cuerpo_contct{
+    border-radius: var(--radius_crp_cntct);
+    background: var(--fondo_crp_cntct);
+    box-shadow: var(--shadow_crp_cntct);
+    border: 0.7px solid var(--borde_crp_cntct);
+    color: var(--col_letra_crp_cntct);
+    font-size: var(--tam_crp_cntct);
+}
+.correo_elec{
+    border-radius: var(--radius_div_correo);
+    background: var(--fondo_div_correo);
+    box-shadow: var(--shadow_div_correo);
+    border: 0.7px solid var(--borde_div_correo);
+    color: var(--col_letra_div_correo);
+    font-size: var(--tam_div_correo);
+}
+.div_telefono{
+    border-radius: var(--radius_div_tlfn);
+    background: var(--fondo_div_tlfn);
+    box-shadow: var(--shadow_div_tlfn);
+    border: 0.7px solid var(--borde_div_tlfn);
+    color: var(--col_letra_div_tlfn);
+    font-size: var(--tam_div_tlfn);
+}
+.boton_fixed {
+    border-radius: var(--radius_bt_fixed);
+    background: var(--fondo_bt_fixed);
+    box-shadow: var(--shadow_bt_fixed);
+    border: 0.7px solid var(--borde_bt_fixed);
+    color: var(--col_letra_bt_fixed);
+    font-size: var(--tam_bt_fixed);
+}
+.fixed_cntct{
+    border-radius: var(--radius_bt_cntct);
+    background: var(--fondo_bt_cntct);
+    box-shadow: var(--shadow_bt_cntct);
+    border: 0.7px solid var(--borde_bt_cntct);
+    color: var(--col_letra_bt_cntct);
+    font-size: var(--tam_bt_cntct);
 }

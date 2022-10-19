@@ -3,26 +3,30 @@
     margin: 0%;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
     color: auto;
 }
-h2{
+
+h2 {
     font-size: medium;
 }
-:root{
-    
-    --separacion_estructura_general:4%;
-    --separacion_estructura_tab_exp:3%;
-    --separacion_sub_estruct:0.5%;
-    --padding_txt_presentacion:3%;
-    --separacion_dentro_caja:0.5%;
-    --padding_tit_mini:1%;
-    --padding_tit:1.5%;
-    --padding_txt_apt:2.5%;
-    --padding_txt_ficha:1.5%;
-    --margen_tit_bajo:1%
+
+:root {
+
+    --separacion_estructura_general: 4%;
+    --separacion_estructura_tab_exp: 3%;
+    --separacion_sub_estruct: 2.5%;
+    --padding_txt_presentacion: 3%;
+    --separacion_dentro_caja: 0.5%;
+    --padding_tit_mini: 1%;
+    --padding_tit: 1.5%;
+    --padding_txt_apt: 2.5%;
+    --padding_txt_ficha: 1.5%;
+    --margen_tit_bajo: 1%
 }
+
 /*-------------------------------------------------------------------HEADER-----------------------------------------------*/
 .cont_header {
     position: relative;
@@ -31,8 +35,8 @@ h2{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: right;
-  padding: var(--separacion_estructura_general);
-  margin-bottom: var(--separacion_estructura_general);
+    padding: var(--separacion_dentro_caja);
+    margin-bottom: var(--separacion_estructura_general);
 }
 
 .barra_nav {
@@ -206,10 +210,12 @@ h2{
 }
 
 .mostrar {
-    display: block;
+    display: flex;
 }
-.esconder{
+
+.esconder {
     display: none;
+    visibility: hidden;
 }
 
 /*OOOOOJJJOOOOOO para no perder el hover por el camino hasta el elemento deseado hay que encapsularlo dentro de otro div para poder hacer que se
@@ -222,69 +228,76 @@ que gacer que no
     justify-content: center;
     align-items: center;
 }
+
 /*----------------------------PRESENTACION-------------------*/
-.cont_txt_presentacion{
-position: relative;
-width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-margin-bottom: var(--separacion_estructura_general);
+.cont_txt_presentacion {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: var(--separacion_estructura_general);
 }
-.txt_presentacion{
-width: 75%;
-display: flex;
-justify-content: center;
-align-items: center;
-align-content: center;
-text-align: justify;
-padding: var(--padding_txt_presentacion);
+
+.txt_presentacion {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: justify;
+    padding: var(--padding_txt_presentacion);
 
 }
+
 /*----------------------------FORMACION-------------------*/
-.cont_form{
+.cont_form {
     position: relative;
-   /* width: 100%; por si se va el desbordamiento*/
+    /* width: 100%; por si se va el desbordamiento*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: baseline;
     align-content: center;
     margin-bottom: var(--separacion_estructura_general);
-    
+
 
 }
-.grupo_div_form{
+
+.grupo_div_form {
     position: relative;
     width: 100%;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: baseline;
 }
-.div_form{
+
+.div_form {
     position: relative;
     width: 27.7%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items:center ;
+    align-items: center;
     text-align: center;
     margin: var(--separacion_sub_estruct);
-    padding: var(--padding_txt_ficha );
-    
+    padding: var(--padding_txt_ficha);
+
 }
-.div_form_peq{
+
+.div_form_peq {
     position: relative;
     width: 20.6%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items:center ;
+    align-items: center;
     text-align: center;
     margin: var(--separacion_sub_estruct);
-    padding: var(--padding_txt_ficha );
+    padding: var(--padding_txt_ficha);
 }
-.tit_form{
+
+.tit_form {
     position: relative;
     width: 90%;
     height: 7rem;
@@ -295,16 +308,18 @@ padding: var(--padding_txt_presentacion);
     margin-bottom: var(--margen_tit_bajo);
     padding: var(--padding_tit);
 }
-.cont_tit_mini_form{
+
+.cont_tit_mini_form {
     position: relative;
     width: 86%;
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
     align-items: center;
-    
+
 }
-.tit_mini_form{
+
+.tit_mini_form {
     position: relative;
     width: 50%;
     display: flex;
@@ -313,20 +328,23 @@ padding: var(--padding_txt_presentacion);
     align-items: center;
     margin: var(--separacion_dentro_caja);
     padding: var(--padding_tit_mini);
-    
+
 }
-.bot_div_form{
+
+.bot_div_form {
     position: relative;
     width: 100%;
 }
-.txt_div_form{
+
+.txt_div_form {
     position: relative;
     width: 100%;
     text-align: justify;
     padding: var(--padding_txt_ficha);
 }
+
 /*----------------------------APTITUDES-------------------*/
-.cont_divs_apt{
+.cont_divs_apt {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -335,22 +353,23 @@ padding: var(--padding_txt_presentacion);
     margin-bottom: var(--separacion_estructura_general);
 }
 
-.tit_apt{
-position: relative;
-width: 33%;
-display: flex;
-height: 7rem;
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-margin: var(--margen_tit_bajo);
-padding: var(--padding_tit);
+.tit_apt {
+    position: relative;
+    width: 33%;
+    display: flex;
+    height: 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: var(--margen_tit_bajo);
+    padding: var(--padding_tit);
 
 
 
 }
-.txt_apt{
+
+.txt_apt {
     position: relative;
     width: 46%;
     display: block;
@@ -358,8 +377,9 @@ padding: var(--padding_tit);
     margin: var(--separacion_sub_estruct);
     padding: var(--padding_tit_mini);
 }
+
 /*----------------------------EXPERIENCIA-------------------*/
-.cont_epx{
+.cont_epx {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -367,16 +387,18 @@ padding: var(--padding_tit);
     align-items: center;
 
 }
-.cont_div_exp{
+
+.cont_div_exp {
     position: relative;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-bottom: var(--separacion_estructura_general); 
+    margin-bottom: var(--separacion_estructura_general);
 }
-.cont_tit_exp{
+
+.cont_tit_exp {
     position: relative;
     width: 100%;
     display: flex;
@@ -384,7 +406,8 @@ padding: var(--padding_tit);
     justify-content: center;
     align-items: center;
 }
-.tit_exp{
+
+.tit_exp {
 
     position: relative;
     width: 90%;
@@ -396,7 +419,8 @@ padding: var(--padding_tit);
     margin-bottom: var(--margen_tit_bajo);
     padding: var(--padding_tit);
 }
-.cont_div_exp{
+
+.cont_div_exp {
     position: relative;
     width: 100%;
     display: flex;
@@ -404,7 +428,8 @@ padding: var(--padding_tit);
     justify-content: space-around;
     align-items: baseline;
 }
-.div_exp{
+
+.div_exp {
     position: relative;
     width: 40%;
     display: flex;
@@ -414,7 +439,8 @@ padding: var(--padding_tit);
     margin: var(--separacion_estructura_tab_exp);
     padding: var(--padding_txt_ficha);
 }
-.tit_trabj_exp{
+
+.tit_trabj_exp {
     position: relative;
     width: 100%;
     display: inline;
@@ -422,7 +448,8 @@ padding: var(--padding_tit);
     text-align: center;
     padding: var(--padding_tit_mini);
 }
-.seccion_div_exp{
+
+.seccion_div_exp {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -431,18 +458,125 @@ padding: var(--padding_tit);
     text-align: center;
     margin: var(--separacion_sub_estruct);
 }
-.seccion_div_exp dl{
+
+.seccion_div_exp dl {
     position: relative;
     width: 100%;
     text-align: center;
     font-size: large;
     padding: var(--padding_tit_mini);
 }
-.seccion_div_exp dd{
+
+.seccion_div_exp dd {
     position: relative;
     width: 85%;
     text-align: justify;
     padding: var(--padding_txt_ficha);
 }
-/*-------------------------------------------------------------------FOOTER----------------------------------------------*/
 
+/*----------------------------FIXED-------------------*/
+.cont_btn {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    right: 0%;
+    bottom: 0%;
+}
+
+.cont_btn_cntct {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    left: 0%;
+    bottom: 0%;
+}
+
+.fixed_cntct {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    text-align: center;
+    align-content: center;
+    font-size: xx-small;
+    width: 80px;
+    height: 25px;
+    left: 0%;
+    bottom: 0%;
+}
+
+.boton_fixed {
+    position: fixed;
+    float: right;
+    text-align: center;
+    align-content: center;
+    font-size: xx-small;
+    width: 50px;
+    height: 50px;
+    right: 0%;
+    bottom: 0%;
+
+}
+
+/*----------------------------EXPERIENCIA-------------------*/
+.Cont_contacto {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+.div_contacto{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.tit_contct {
+    position: relative;
+    width: 90%;
+    height: 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: var(--margen_tit_bajo);
+}
+.cuerpo_contct{
+    position: relative;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: var(--separacion_sub_estruct);
+    padding: var(--separacion_dentro_caja);
+
+}
+.correo_elec{
+    position: relative;
+    width: 25%;
+    font-size: larger;
+    margin: var(--separacion_dentro_caja);
+    padding: var(--separacion_sub_estruct);
+}
+.div_telefono{
+    position: relative;
+    width: 25%;
+    font-size: larger;
+    margin: var(--separacion_dentro_caja);
+    padding: var(--separacion_sub_estruct);
+}
+/*-------------------------------------------------------------------FOOTER----------------------------------------------*/
