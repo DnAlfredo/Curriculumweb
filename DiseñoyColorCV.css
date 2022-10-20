@@ -11,7 +11,7 @@
     --color_borde_nav: white;
     --color_txt_nav: black;
     --shadow_nav: 0.3vh 0.3vh 0.3vh lightblue;
-    --radius_radial: 6rem 0.4rem 6rem;
+   --radius_radial: 6rem 0.4rem 6rem;
     --radius_txt_presentacion: 10px;
     --color_fondo_txt_presentacion: lightpink;
     --color_borde_txt_presentacion: black:var(--color_borde_nav);
@@ -94,7 +94,9 @@
 
 
 }
-
+a{
+    color:black
+}
 /*-------------------------------------------------------------------HEADER-----------------------------------------------*/
 .cont_header {
     background-color: var(--fondo_header);
@@ -114,12 +116,26 @@
 }
 
 /*----------------RADIAL-----------*/
+.txt_radial_bis {
+
+    color: black;
+    box-shadow:0.5px 0.5px 0.5px rgb(255, 199, 147);
+    border-radius: 5px;
+    padding: 0.5%;
+}
+.txt_radial {color: black;
+    box-shadow:0.5px 0.5px 0.5px rgb(255, 199, 147);
+    border-radius: 5px;
+padding: 0.5%;
+}
+
 .cajacentral {
-    border-radius: 2rem;
+  border-radius: 0.5rem;
     border: 0.7px solid var(--color_borde_nav);
     background: var(--color_nav_center);
     box-shadow: var(--shadow_nav);
     color: var(--color_txt_nav);
+   
 }
 
 .subcajaarriba {

@@ -159,19 +159,20 @@
         padding: var(--padding_txt_ficha);
     }
     
-}
+
    /*---------------------CONTACTO------------------------*/
 .correo_elec{
     position: relative;
     width: 50%;
     font-size: larger;
    
-    padding: var(--separacion_sub_estruct);
+    
 }
 .div_telefono{
     position: relative;
     width: 50%;
     font-size: larger;
    
-    padding: var(--separacion_sub_estruct);
+   
+}
 }

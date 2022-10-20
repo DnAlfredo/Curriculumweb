@@ -5,6 +5,8 @@ function enseñaRadial(coco) {
     caja_radial.classList.toggle('esconder');
   
   }
+ 
+
   function abreFicha(idloca) {
     let divgoster= document.getElementById(idloca);
     divgoster.classList.toggle('mostrar');
