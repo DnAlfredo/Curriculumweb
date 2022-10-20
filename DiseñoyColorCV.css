@@ -67,16 +67,6 @@
     --borde_dd_exp: rgb(197, 212, 212);
     --col_letra_dd_exp: black;
     --tam_tit_trabj: x-large;
-    --radius_bt_fixed: 50%;
-    --fondo_bt_fixed: rgba(238, 255, 0, 0.664);
-    --shadow_bt_fixed: rgba(94, 190, 219, 0.938);
-    --borde_bt_fixed: rgb(0, 10, 10);
-    --col_letra_bt_fixed: black;
-    --radius_bt_cntct:  1.2rem 0.07rem 1.2rem;
-    --fondo_bt_cntct: rgba(245, 91, 1, 0.966);
-    --shadow_bt_cntct: rgba(94, 190, 219, 0.938);
-    --borde_bt_cntct: rgb(0, 10, 10);
-    --col_letra_bt_cntct: black;
     --tam_tit_cntct: x-large;
     --radius_tit_cntct: 5px;
     --fondo_tit_cntct: rgba(255, 0, 221, 0.664);
@@ -266,7 +256,7 @@
     font-size: var(--tam_dd_exp);
 }
 
-/*-----------------CONTACTO-------------------*/
+/*--------------------------------------------------------------------------FOOTER---------------------------------------------------------------------------*/
 .tit_contct {
     border-radius: var(--radius_tit_cntct);
     background: var(--fondo_tit_cntct);
@@ -298,20 +288,4 @@
     border: 0.7px solid var(--borde_div_tlfn);
     color: var(--col_letra_div_tlfn);
     font-size: var(--tam_div_tlfn);
-}
-.boton_fixed {
-    border-radius: var(--radius_bt_fixed);
-    background: var(--fondo_bt_fixed);
-    box-shadow: var(--shadow_bt_fixed);
-    border: 0.7px solid var(--borde_bt_fixed);
-    color: var(--col_letra_bt_fixed);
-    font-size: var(--tam_bt_fixed);
-}
-.fixed_cntct{
-    border-radius: var(--radius_bt_cntct);
-    background: var(--fondo_bt_cntct);
-    box-shadow: var(--shadow_bt_cntct);
-    border: 0.7px solid var(--borde_bt_cntct);
-    color: var(--col_letra_bt_cntct);
-    font-size: var(--tam_bt_cntct);
 }

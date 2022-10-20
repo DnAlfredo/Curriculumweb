@@ -474,58 +474,7 @@ que gacer que no
     padding: var(--padding_txt_ficha);
 }
 
-/*----------------------------FIXED-------------------*/
-.cont_btn {
-    position: fixed;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    right: 0%;
-    bottom: 0%;
-}
-
-.cont_btn_cntct {
-    position: fixed;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    left: 0%;
-    bottom: 0%;
-}
-
-.fixed_cntct {
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    float: right;
-    text-align: center;
-    align-content: center;
-    font-size: xx-small;
-    width: 80px;
-    height: 25px;
-    left: 0%;
-    bottom: 0%;
-}
-
-.boton_fixed {
-    position: fixed;
-    float: right;
-    text-align: center;
-    align-content: center;
-    font-size: xx-small;
-    width: 50px;
-    height: 50px;
-    right: 0%;
-    bottom: 0%;
-
-}
-
-/*----------------------------EXPERIENCIA-------------------*/
+/*-------------------------------------------------------------------FOOTER----------------------------------------------*/
 .Cont_contacto {
     position: relative;
     width: 100%;
@@ -544,26 +493,21 @@ que gacer que no
 }
 .tit_contct {
     position: relative;
-    width: 90%;
-    height: 7rem;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: var(--margen_tit_bajo);
 }
 .cuerpo_contct{
     position: relative;
-    width: 75%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: var(--separacion_sub_estruct);
-    padding: var(--separacion_dentro_caja);
-
 }
 .correo_elec{
     position: relative;
@@ -579,4 +523,3 @@ que gacer que no
     margin: var(--separacion_dentro_caja);
     padding: var(--separacion_sub_estruct);
 }
-/*-------------------------------------------------------------------FOOTER----------------------------------------------*/

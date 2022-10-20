@@ -163,15 +163,15 @@
    /*---------------------CONTACTO------------------------*/
 .correo_elec{
     position: relative;
-    width: 80%;
+    width: 50%;
     font-size: larger;
-    margin: var(--separacion_dentro_caja);
+   
     padding: var(--separacion_sub_estruct);
 }
 .div_telefono{
     position: relative;
     width: 50%;
     font-size: larger;
-    margin: var(--separacion_dentro_caja);
+   
     padding: var(--separacion_sub_estruct);
 }
