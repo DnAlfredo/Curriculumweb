@@ -53,28 +53,27 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .img_header {
     width: 250px;
     height: 250px;
-
+   
 }
 
 /*------------------------------------------------------------------BARRA NAV---------------------------------------------*/
 /*----------------RADIAL-----------*/
-.main_cur_web {
-    width: 100%;
+.cont_cajaprincipal {
     display: flex;
-    align-content: center;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
-    margin-bottom: 10%;
+    margin: 6%;
 }
 
-.cont_cajaprincipal {
+/*--------------RADIAL CON TEXTO---------------------*/
+.cont_cajaprincipal_bis {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -112,12 +111,38 @@ h2{
     z-index: 2;
     
 }
-
-.cajaprincipal {
+.cajaprincipal_bis {
     width: 25.25rem;
     /* 810px*/
     /*46% para responsive*/
     height: 16.65rem;
+    /*276px/8.65 para menu, pero c.v necesito este tamaño, ojo que el hover ya no vale*/
+    position: relative;
+    /* border: 1px solid black;
+    background-color: gray;*/
+    font-size: medium;
+    margin: 0.5%;
+    margin-bottom: var(--separacion_estructura_general);
+}
+.desplegable_bis {
+    display: block;
+    z-index: 1;
+    height: 17.65rem;/*mismo tamño que la caja central*/
+}
+.unionabajo_bis {
+    width: 6.95rem;
+    /*222px*/
+    height: 5.25rem;
+    /*173px */
+    position: absolute;
+    bottom: 10px;
+    left: 36%;
+}
+.cajaprincipal {
+    width: 25.25rem;
+    /* 810px*/
+    /*46% para responsive*/
+    height: 8.65rem;
     /*276px/8.65 para menu, pero c.v necesito este tamaño, ojo que el hover ya no vale*/
     position: relative;
     /* border: 1px solid black;
@@ -218,7 +243,7 @@ h2{
     height: 5.25rem;
     /*173px */
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
     left: 36%;
 }
 
@@ -246,7 +271,7 @@ h2{
 .desplegable {
     display: block;
     z-index: 1;
-    height: 17.65rem;/*mismo tamño que la caja central*/
+    height: 8.65rem;/*mismo tamño que la caja central*/
 }
 
 .mostrar {
@@ -267,6 +292,7 @@ que gacer que no
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    
 }
 
 /*----------------------------PRESENTACION-------------------*/

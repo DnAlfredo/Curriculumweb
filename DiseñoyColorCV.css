@@ -1,6 +1,7 @@
 /*-----------------------------------------------------------------GENERALES---------------------------------------------*/
 :root {
-    --fondo_header: lightcyan;
+    --fondo_header:none;
+    --shadow_img_header:black/*rgb(92, 91, 91)*/;
     --fondo_foto: blue;
     --radius_foto: 50%;
     --color_nav_up: orange;
@@ -11,7 +12,7 @@
     --color_borde_nav: white;
     --color_txt_nav: black;
     --shadow_nav: 0.3vh 0.3vh 0.3vh lightblue;
-   --radius_radial: 6rem 0.4rem 6rem;
+    --radius_radial: 6rem 0.4rem 6rem;
     --radius_txt_presentacion: 10px;
     --color_fondo_txt_presentacion: lightpink;
     --color_borde_txt_presentacion: black:var(--color_borde_nav);
@@ -94,48 +95,51 @@
 
 
 }
-a{
-    color:black
+
+a {
+    color: black
 }
+
 /*-------------------------------------------------------------------HEADER-----------------------------------------------*/
 .cont_header {
     background-color: var(--fondo_header);
 }
 
 .img_header {
-    background-color: var(--fondo_foto);
+   
     border-radius: var(--radius_foto);
+   
 }
 
-/*------------------------------------------------------------------BARRA NAV---------------------------------------------*/
-.main_CV {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
+
+body {
+    background-image:   radial-gradient(white,darkgray ,gray);
+    
 }
 
 /*----------------RADIAL-----------*/
 .txt_radial_bis {
 
     color: black;
-    box-shadow:0.5px 0.5px 0.5px rgb(255, 199, 147);
+    box-shadow: 0.5px 0.5px 0.5px rgb(255, 199, 147);
     border-radius: 5px;
     padding: 0.5%;
 }
-.txt_radial {color: black;
-    box-shadow:0.5px 0.5px 0.5px rgb(255, 199, 147);
+
+.txt_radial {
+    color: black;
+    box-shadow: 0.5px 0.5px 0.5px rgb(255, 199, 147);
     border-radius: 5px;
-padding: 0.5%;
+    padding: 0.5%;
 }
 
 .cajacentral {
-  border-radius: 0.5rem;
+    border-radius: 0.5rem;
     border: 0.7px solid var(--color_borde_nav);
     background: var(--color_nav_center);
     box-shadow: var(--shadow_nav);
     color: var(--color_txt_nav);
-   
+
 }
 
 .subcajaarriba {
@@ -175,6 +179,7 @@ padding: 0.5%;
 .txt_presentacion {
     border-radius: var(--radius_txt_presentacion);
     background: var(--color_fondo_txt_presentacion);
+    background-image: linear-gradient(to bottom right, beige, white);
     box-shadow: var(--shadow_txt_presentacion);
     border: 0.7px solid var(--color_borde_txt_presentacion);
     color: var(--color_letra_presentacion);
@@ -281,7 +286,8 @@ padding: 0.5%;
     color: var(--col_letra_tit_cntct);
     font-size: var(--tam_tit_cntct);
 }
-.cuerpo_contct{
+
+.cuerpo_contct {
     border-radius: var(--radius_crp_cntct);
     background: var(--fondo_crp_cntct);
     box-shadow: var(--shadow_crp_cntct);
@@ -289,7 +295,8 @@ padding: 0.5%;
     color: var(--col_letra_crp_cntct);
     font-size: var(--tam_crp_cntct);
 }
-.correo_elec{
+
+.correo_elec {
     border-radius: var(--radius_div_correo);
     background: var(--fondo_div_correo);
     box-shadow: var(--shadow_div_correo);
@@ -297,7 +304,8 @@ padding: 0.5%;
     color: var(--col_letra_div_correo);
     font-size: var(--tam_div_correo);
 }
-.div_telefono{
+
+.div_telefono {
     border-radius: var(--radius_div_tlfn);
     background: var(--fondo_div_tlfn);
     box-shadow: var(--shadow_div_tlfn);
