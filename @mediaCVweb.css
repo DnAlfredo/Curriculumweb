@@ -2,7 +2,7 @@
    /*---------------------GENERALES------------------------*/
     :root{
     
-        --separacion_estructura_general:20%;
+        --separacion_estructura_general:30%;
         --separacion_estructura_tab_exp:5%;
         --separacion_sub_estruct:2.5%;
         --padding_txt_presentacion:3%;
@@ -13,33 +13,7 @@
         --padding_txt_ficha:1.5%;
         --margen_tit_bajo:10%
     }
-    /*---------------------FIXED----------------------------*/
-    .fixed_cntct{
-        position: fixed;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        float: right;
-        text-align: center;
-        align-content: center;
-        font-size: xx-small;
-        width: 60px;
-        height: 25px;
-        left: 0%;
-        bottom: 0%;
-    }
-    .boton_fixed{
-        position: fixed;
-        float: right;
-        text-align: center;
-        align-content: center;
-        font-size: xx-small;
-        width: 40px;
-        height: 40px;
-        right: 0%;
-        bottom: 0%;
-        
-    }
+
        /*---------------------RADIAL------------------------*/
     .cont_header {
         position: relative;
@@ -61,7 +35,7 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        margin-bottom: var(--margen_tit_bajo);
+       
     }
 
     /*---------------------PRESENTACION------------------------*/
@@ -88,6 +62,13 @@
         padding: var(--padding_txt_ficha );
         
     }
+    .tit_form {
+      width: 90%;
+        font-size:larger;
+    }
+    .tit_mini_form {
+        font-size: medium;
+    }
     .div_form_peq {
         position: relative;
         width: 75%;
@@ -98,6 +79,7 @@
         text-align: center;
         margin: var(--separacion_sub_estruct);
         padding: var(--padding_txt_ficha);
+        font-size: medium;
     }
     .cont_tit_mini_form{
         position: relative;
@@ -106,8 +88,9 @@
         justify-content: center;
         align-items: center;
         margin: var(--separacion_sub_estruct);
-
-        
+    }
+    .txt_div_form {
+        font-size: small;
     }
     /*---------------------APTITUDES------------------------*/
     .tit_apt {
@@ -119,7 +102,7 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-   
+       font-size: larger;
         padding: var(--padding_tit);
     }
     .tit_mini_form{
@@ -131,6 +114,8 @@
         align-items: center;
         margin: var(--separacion_dentro_caja);
         padding: var(--padding_tit_mini);
+        font-size: medium;
+
         
     }
     .txt_apt {
@@ -140,6 +125,7 @@
         text-align: justify;
         margin: var(--separacion_sub_estruct);
         padding: var(--padding_txt_apt);
+        font-size: small;
     }
 
     /*---------------------EXPERIENCIA------------------------*/
@@ -150,7 +136,7 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        font-size: smaller;
+        font-size: small;
     }
     .seccion_div_exp dd{
         position: relative;

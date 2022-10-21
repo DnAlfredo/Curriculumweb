@@ -93,7 +93,7 @@ h2{
     text-align: justify;
     top:42px;
     float: left;
-    font-size: medium;
+    font-size: small;
     z-index: 2;
 }
 
@@ -124,6 +124,26 @@ h2{
     margin: 0.5%;
     margin-bottom: var(--separacion_estructura_general);
 }
+.cajacentral_bis {
+    width: 6.95rem
+        /*220px*/
+    ;
+    /*25.4% para hecerlo en responsive*/
+    height: 2.3rem
+        /*57px ---- para que sirva el hover con el nuevo tamaño*/
+    ;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    text-align: center;
+    left: 36%;
+    top: 38%;
+    z-index: 2;
+    /*ñeñeñeñeñeñeñeñeñeñeñeñe.......que se queda onclick bajo y no se puede volver a dar*/
+}
 .desplegable_bis {
     display: block;
     z-index: 1;
@@ -132,10 +152,164 @@ h2{
 .unionabajo_bis {
     width: 6.95rem;
     /*222px*/
-    height: 5.25rem;
+    height: 8.6rem;
     /*173px */
     position: absolute;
-    bottom: 10px;
+    bottom: 27px;
+    left: 36%;
+}
+
+.unionarriba_bis {
+    position: absolute;
+    width: 6.95rem;
+    /*222px*/
+    height: 8.6rem;
+    /*165px*/
+    left: 36%;
+}
+.subcajaarriba_bis {
+    width: 6.95rem;
+    /*220px*/
+    /*sta cifra es para dejar un hueco en medio de cada una del mismo tamaño.*/
+    height: 1.95rem;
+    /*57px*/
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: medium;
+
+}
+
+.unionarriba_bis {
+    position: absolute;
+    width: 6.95rem;
+    /*222px*/
+    height: 8.2rem;
+    /*165px*/
+    left: 36%;
+}
+
+.subcajaizquierda_bis {
+    width: 6.95rem;
+    /*220px*/
+    height: 1.95rem;
+    /*57px*/
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+}
+
+.unionizquierda_bis {
+    position: absolute;
+    width: 16rem;
+    /*518px*/
+    height: 1.95rem;
+    /*60px*/
+    top: 38%;
+}
+
+.subcajaderecha_bis {
+    width: 6.95rem;
+    /*220px*/
+    height: 1.95rem;
+    /*57px*/
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    right: 0%;
+    font-size: medium;
+}
+
+.unionderecha_bis {
+    width: 16rem;
+    /*518px*/
+    height: 1.95rem;
+    /*60px*/
+    position: absolute;
+    top: 38%;
+    right: 0%;
+}
+
+.subcajaabajo_bis {
+    width: 6.95rem;
+    /*220px*/
+    height: 1.95rem;
+    /*57px*/
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    bottom: 0vw;
+    font-size: medium;
+}
+
+.unionabajo_bis {
+    width: 6.95rem;
+    /*222px*/
+    height: 8.25rem;
+    /*173px */
+    position: absolute;
+    bottom: 31px;
+    left: 36%;
+}
+
+.cajacentral_bis {
+    width: 6.95rem
+        /*220px*/
+    ;
+    /*25.4% para hecerlo en responsive*/
+    height: 2.3rem
+        /*57px*/
+    ;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    text-align: center;
+    left: 36%;
+    top: 38%;
+    z-index: 2;
+    /*ñeñeñeñeñeñeñeñeñeñeñeñe.......que se queda onclick bajo y no se puede volver a dar*/
+}
+
+.desplegable_bis {
+    display: block;
+    z-index: 1;
+    height: 8.65rem;/*mismo tamño que la caja central*/
+}
+/*------------------------------------RADIAL CON TEXTO----------*/
+.desplegable {
+    display: block;
+    z-index: 1;
+    height: 17.65rem;/*mismo tamño que la caja central*/
+}
+.unionabajo {
+    width: 6.95rem;
+    /*222px*/
+    height: 8.6rem;
+    /*173px */
+    position: absolute;
+    bottom: 27px;
+    left: 36%;
+}
+
+.unionarriba {
+    position: absolute;
+    width: 6.95rem;
+    /*222px*/
+    height: 8.6rem;
+    /*165px*/
     left: 36%;
 }
 .cajaprincipal {
@@ -149,7 +323,7 @@ h2{
     background-color: gray;*/
     font-size: medium;
     margin: 0.5%;
-    margin-bottom: var(--separacion_estructura_general);
+   
 }
 
 .subcajaarriba {
@@ -319,8 +493,7 @@ que gacer que no
 /*----------------------------FORMACION-------------------*/
 .cont_form {
     position: relative;
-    /* width: 100%; por si se va el desbordamiento*/
-
+     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -366,7 +539,7 @@ que gacer que no
 
 .tit_form {
     position: relative;
-    width: 90%;
+    width: 75%;
     height: 7rem;
     display: flex;
     flex-wrap: wrap;
@@ -381,7 +554,7 @@ que gacer que no
     width: 86%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
 
 }
@@ -391,7 +564,7 @@ que gacer que no
     width: 50%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     margin: var(--separacion_dentro_caja);
     padding: var(--padding_tit_mini);

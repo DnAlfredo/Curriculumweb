@@ -1,50 +1,83 @@
 /*-----------------------------------------------------------------GENERALES---------------------------------------------*/
 :root {
-    --fondo_header:none;
-    --shadow_img_header:black/*rgb(92, 91, 91)*/;
-    --fondo_foto: blue;
+    --fondo_header: none;
+    --shadow_img_header: black
+        /*rgb(92, 91, 91)*/
+    ;
     --radius_foto: 50%;
-    --color_nav_up: orange;
-    --color_nav_down: orange;
-    --color_nav_left: orange;
-    --color_nav_right: orange;
-    --color_nav_center: green;
+    --color_nav_up: #97A8A6;
+    --color_nav_down: #97A8A6;
+    --color_nav_left: #97A8A6;
+    --color_nav_right: #97A8A6;
+    --color_nav_center: #53585C;
+    /*---------------------------------------BIS*/
+    --color_nav_up_bis: #97A8A6;
+    --color_nav_down_bis: #97A8A6;
+    --color_nav_left_bis: #97A8A6;
+    --color_nav_right_bis: #97A8A6;
+    --color_nav_center_bis: #53585C;
+    /*---------------------------------------BIS*/
     --color_borde_nav: white;
-    --color_txt_nav: black;
-    --shadow_nav: 0.3vh 0.3vh 0.3vh lightblue;
+    --color_txt_nav: white;
+    --shadow_nav: 0.2vh 0.2vh 0.2vh #F5F5F5;
     --radius_radial: 6rem 0.4rem 6rem;
+    /*---------------------------------------BIS*/
+    --color_borde_nav_bis: white;
+    --color_txt_nav_bis: black;
+    --shadow_nav_bis: 0.2vh 0.2vh 0.2vh #F5F5F5;
+    --radius_radial_bis: 6rem 0.4rem 6rem;
+    /*---------------------------------------BIS*/
+
     --radius_txt_presentacion: 10px;
-    --color_fondo_txt_presentacion: lightpink;
-    --color_borde_txt_presentacion: black:var(--color_borde_nav);
+    --color_fondo_txt_presentacion: #F5F5F5;
+    --color_borde_txt_presentacion: #F5F5F5;
     --color_letra_presentacion: black;
-    --shadow_txt_presentacion: 0.3vh 0.3vh 0.3vh violet;
-    --fondo_div_form: rgb(185, 76, 212);
-    --borde_div_form: black;
+    --shadow_txt_presentacion: 0.2vh 0.2vh 0.2vh #F5F5F5;
+
+    --fondo_div_form: #97A8A6;
+    --borde_div_form: none;
     --col_letra_div_form: white;
-    --shadow_div_form: 0.3vh 0.3vh 0.3vh rgba(86, 8, 105, 0.5);
+    --txtshadow_div_form: 0 0 3px #F5F5F5;
+    --shadow_div_form: 0.3vh 0.3vh 0.3vh #F5F5F5;
     --radius_div_form: 10px;
-    --fondo_div_form_peq: rgb(185, 76, 212);
+    --fondo_txt_div_form:#F5F5F5;
+
+    --fondo_div_form_peq:#97A8A6;
     --borde_div_form_peq: black;
-    --col_letra_div_form_peq: white;
+    --col_letra_div_form_peq: black;
     --shadow_div_form_peq: 0.3vh 0.3vh 0.3vh rgba(86, 8, 105, 0.5);
     --radius_div_form_peq: 10px;
-    --fondo_tit_form: rgb(168, 168, 13);
-    --borde_tit_form: yellow;
-    --shadow_tit_form: lightyellow;
+
+    --fondo_tit_form: #545454;
+    --borde_tit_form: none;
+    --shadow_tit_form: 0.5vh 0.5vh 0.5vh #F5F5F5;
     --radius_tit_form: 15px;
     --letra_tit_form: pink;
-    --tam_tit_form: x-large;
-    --tam_letra_mini_tit_form: larger;
+    --tam_tit_form: xx-large;
+
+    --fondo_tit_miniform: #A3A8A0;
+    --borde_tit_miniform: none;
+    --shadow_tit_miniform: 0.5vh 0.5vh 0.5vh #F5F5F5;
+    --radius_tit_miniform: 15px;
+    --letra_tit_miniform: pink;
+    --tam_letra_mini_tit_form: x-large;
+    --col_letra_div_miniform: white;
+    --col_letr_txt_div_form:black;
+    --radius_txt_div_form:5px;
+    
+   /*border: 0.7px solid var(--borde_div_form);*/
+   
     --radius_tit_apt: 10px;
     --fondo_tit_apt: rgb(255, 0, 0, 0.5);
     --shadow_tit_apt: rgba(255, 0, 0, 0.7);
     --borde_tit_apt: red;
     --col_letra_tit_apt: black;
-    --radius_txt_apt: 10px;
+    --radius_txt_apt: 5px;
     --fondo_txt_apt: rgba(166, 255, 0, 0.5);
     --shadow_txt_apt: rgba(255, 0, 0, 0.7);
     --borde_txt_apt: red;
     --col_letra_txt_apt: black;
+
     --radius_tit_esp: 10px;
     --fondo_tit_esp: rgba(0, 255, 242, 0.822);
     --shadow_tit_esp: rgba(0, 119, 255, 0.7);
@@ -56,42 +89,70 @@
     --borde_div_esp: rgb(255, 136, 0);
     --col_letra_div_esp: black;
     --tam_tit_esp: x-large;
+
     --radius_tit_trabj: 5px;
     --fondo_tit_trabj: rgba(0, 255, 149, 0.5);
     --shadow_tit_trabj: rgba(157, 255, 0, 0.7);
     --borde_tit_trabj: rgb(0, 38, 255);
     --col_letra_tit_trabj: black;
     --tam_tit_trabj: x-large;
+
     --radius_dd_exp: 5px;
     --fondo_dd_exp: rgba(0, 255, 98, 0.5);
     --shadow_dd_exp: rgba(204, 94, 219, 0.938);
     --borde_dd_exp: rgb(197, 212, 212);
     --col_letra_dd_exp: black;
+
     --tam_tit_trabj: x-large;
     --tam_tit_cntct: x-large;
+
     --radius_tit_cntct: 5px;
     --fondo_tit_cntct: rgba(255, 0, 221, 0.664);
     --shadow_tit_cntct: rgba(204, 94, 219, 0.938);
     --borde_tit_cntct: rgb(253, 0, 0);
     --col_letra_tit_cntct: black;
+
     --tam_tit_correo: x-large;
     --radius_crp_cntct: 5px;
     --fondo_crp_cntct: rgba(255, 102, 0, 0.664);
     --shadow_crp_cntct: rgba(148, 46, 5, 0.938);
     --borde_crp_cntct: rgb(253, 80, 0);
     --col_letra_crp_cntct: black;
+
     --tam_div_correo: medium;
     --radius_div_correo: 5px;
     --fondo_div_correo: rgba(0, 247, 255, 0.664);
     --shadow_div_correo: rgba(23, 20, 216, 0.938);
     --borde_div_correo: rgb(38, 0, 253);
     --col_letra_div_correo: black;
+
     --tam_div_tlfn: medium;
     --radius_div_tlfn: 5px;
     --fondo_div_tlfn: rgba(0, 247, 255, 0.664);
     --shadow_div_tlfn: rgba(23, 20, 216, 0.938);
     --borde_div_tlfn: rgb(38, 0, 253);
     --col_letra_div_tlfn: black;
+
+    --col_txt_radial: black;
+    --fondo_txt_radial: #F5F5F5;
+    --shadow_txt_radial: #F5F5F5;
+    --border_txt_radial: none;
+    --padding_txt_radial: 0.5%;
+    /*--------------------------------radial_bis*/
+    --col_txt_radial_bis: black;
+    --fondo_txt_radial_bis: #F5F5F5;
+    --shadow_txt_radial_bis: #F5F5F5;
+    --border_txt_radial_bis: none;
+    --padding_txt_radial_bis: 0.5%;
+
+
+    /*Colores sugeridos por adobe*/
+    --col_adobe: #53585C;
+    --col_adobe: #A8A897;
+    --col_adobe: #545454;
+    --col_adobe: #F5F5F5;
+    --col_adobe: #97A8A6;
+    --col_adobe: #A3A8A0;
 
 
 }
@@ -106,27 +167,39 @@ a {
 }
 
 .img_header {
-   
+
     border-radius: var(--radius_foto);
-   
+
 }
 
 
 body {
-    background-image:   radial-gradient(white,darkgray ,gray);
-    
+    background-image: radial-gradient(white, #a9a9a9, gray);
+
 }
 
 /*----------------RADIAL-----------*/
 .txt_radial_bis {
 
-    color: black;
-    box-shadow: 0.5px 0.5px 0.5px rgb(255, 199, 147);
-    border-radius: 5px;
-    padding: 0.5%;
+    color: var(--col_txt_radial);
+    background-color: var(--fondo_txt_radial);
+    box-shadow: 0.5px 0.5px 0.5px var(--shadow_txt_radial);
+    border-radius: var(--border_txt_radial);
+    padding: var(--padding_txt_radial);
+
 }
 
 .txt_radial {
+    color: var(--col_txt_radial);
+    background-color: var(--fondo_txt_radial);
+    box-shadow: 0.5px 0.5px 0.5px var(--shadow_txt_radial);
+    border-radius: var(--border_txt_radial);
+    padding: var(--padding_txt_radial);
+
+
+
+
+
     color: black;
     box-shadow: 0.5px 0.5px 0.5px rgb(255, 199, 147);
     border-radius: 5px;
@@ -174,6 +247,52 @@ body {
     color: var(--color_txt_nav);
 }
 
+/*------------------------------------------------------------------------------------------------------RADIAL CON TEXTO---------------------*/
+.cajacentral_bis {
+    border-radius: 0.5rem;
+    border: 0.7px solid var(--color_borde_nav_bis);
+    background: var(--color_nav_center_bis);
+    box-shadow: var(--shadow_nav_bis);
+    color: var(--color_txt_nav_bis);
+    padding: var(--separacion_dentro_caja);
+
+}
+
+.subcajaarriba_bis {
+    border-radius: var(--radius_radial_bis);
+    background: var(--color_nav_up_bis);
+    box-shadow: var(--shadow_nav_bis);
+    border-radius: var(--radius_radial_bis);
+    border: 0.7px solid var(--color_borde_nav_bis);
+    color: var(--color_txt_nav);
+}
+
+.subcajaizquierda_bis {
+    border-radius: var(--radius_radial_bis);
+    border: 0.7px solid var(--color_borde_nav_bis);
+    background: var(--color_nav_right_bis);
+    box-shadow: var(--shadow_nav_bis);
+    border-radius: var(--radius_radial_bis);
+    color: var(--color_txt_nav_bis);
+}
+
+.subcajaderecha_bis {
+    border-radius: var(--radius_radial_bis);
+    border-radius: var(--radius_radial_bis);
+    background: var(--color_nav_left_bis);
+    box-shadow: var(--shadow_nav_bis);
+    border: 0.7px solid var(--color_borde_nav_bis);
+    color: var(--color_txt_nav_bis);
+}
+
+.subcajaabajo_bis {
+    border-radius: var(--radius_radial_bis);
+    background: var(--color_nav_down_bis);
+    box-shadow: var(--shadow_nav_bis);
+    border: 0.7px solid var(--color_borde_nav_bis);
+    color: var(--color_txt_nav_bis);
+}
+
 /*--------------------------------------------------------------------MAIN------------------------------------------------*/
 /*---------------PRESENTACION--------------*/
 .txt_presentacion {
@@ -200,25 +319,33 @@ body {
     box-shadow: var(--shadow_div_form_peq);
     border: 0.7px solid var(--borde_div_form_peq);
     color: var(--col_letra_div_form_peq);
+    font-size: large;
 }
 
 .tit_form {
     border-radius: var(--radius_tit_form);
-    background: var(--fondo_tit_form);
-    box-shadow: var(--shadow_tit_form);
-    border: 0.7px solid var(--borde_tit_form);
+     background: var(--fondo_tit_form);
+   /* box-shadow: var(--shadow_tit_form);*/
+    text-shadow: var(--txtshadow_div_form);
+    /* border: 0.7px solid var(--borde_tit_form);*/
     color: var(--col_letra_div_form);
     font-size: var(--tam_tit_form);
 }
 
 .tit_mini_form {
-    border-radius: var(--radius_div_form);
-    background: var(--fondo_div_form);
-    box-shadow: var(--shadow_div_form);
-    border: 0.7px solid var(--borde_div_form);
-    color: var(--col_letra_div_form);
+    border-radius: var(--radius_tit_miniform);
+    background-color: var(--fondo_tit_miniform);
+    box-shadow: var(--shadow_tit_miniform);
+   /*border: 0.7px solid var(--borde_div_form);*/
+    color: var(--col_letra_div_miniform);
     font-size: var(--tam_letra_mini_tit_form);
+    text-shadow: var(--txtshadow_div_form);
 
+}
+.txt_div_form {
+    background-color: var(--fondo_txt_div_form);
+    color:var(--col_letr_txt_div_form);
+    border-radius: var(--radius_txt_div_form);
 }
 
 /*----------------APTITUDES----------------*/
