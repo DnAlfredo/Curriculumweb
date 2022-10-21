@@ -52,16 +52,16 @@
     --borde_tit_form: none;
     --shadow_tit_form: 0.3vh 0.3vh 0.3vh #F5F5F5;
     --radius_tit_form: 15px;
-    --letra_tit_form: pink;
     --tam_tit_form: xx-large;
     --col_txt_tit_form:white;
 
     --fondo_tit_miniform: #A3A8A0;
     --borde_tit_miniform: none;
     --shadow_tit_miniform: 0.5vh 0.5vh 0.5vh #F5F5F5;
+    --shadow_txt_tit_miniform: 0 0 3px #F5F5F5;
     --radius_tit_miniform: 15px;
     --tam_letra_mini_tit_form: x-large;
-    --col_letra_div_miniform: black;
+    --col_letra_div_miniform:#53585C ;
     --col_letr_txt_div_form:black;
     --radius_txt_div_form:5px;
     
@@ -84,8 +84,9 @@
     --fondo_tit_esp:#53585C;
     --shadow_tit_esp: 0 0 3px #F5F5F5;
     --borde_tit_esp: none;
-    --col_letra_tit_esp: white;
-    --shadow_txt_tit_esp:0 0 3px #F5F5F5;
+    --col_letra_tit_esp:white;
+   
+    --shadow_txt_tit_esp:0 0 5px #F5F5F5;
     --radius_div_esp: 10px;
     --fondo_div_esp:#97A8A6;
     --shadow_div_esp: 0.5vh 0.5vh 0.5vh #F5F5F5 ;
@@ -141,12 +142,12 @@
     --col_txt_radial: black;
     --fondo_txt_radial: #F5F5F5;
     --shadow_txt_radial: #F5F5F5;
-    --border_txt_radial: none;
+    --border_txt_radial: 5px;
     --padding_txt_radial: 0.5%;
     /*--------------------------------radial_bis*/
     --col_txt_radial_bis: black;
     --fondo_txt_radial_bis: #F5F5F5;
-    --shadow_txt_radial_bis: #F5F5F5;
+    --shadow_txt_radial_bis:0.5vh 0.5vh 0.5vh #F5F5F5;
     --border_txt_radial_bis: none;
     --padding_txt_radial_bis: 0.5%;
 /*----------------------------------------------FIXED*/
@@ -197,7 +198,7 @@ body {
 
     color: var(--col_txt_radial);
     background-color: var(--fondo_txt_radial);
-    box-shadow: 0.5px 0.5px 0.5px var(--shadow_txt_radial);
+    box-shadow: var(--shadow_txt_radial);
     border-radius: var(--border_txt_radial);
     padding: var(--padding_txt_radial);
 
@@ -210,7 +211,7 @@ body {
     border-radius: var(--border_txt_radial);
     padding: var(--padding_txt_radial);
     color: black;
-    box-shadow: 0.5px 0.5px 0.5px rgb(255, 199, 147);
+    box-shadow: 0.5px 0.5px 0.5px #F5F5F5;
     border-radius: 5px;
     padding: 0.5%;
 }
@@ -317,7 +318,7 @@ body {
 .div_form {
     border-radius: var(--radius_div_form);
     background: var(--fondo_div_form);
-    box-shadow: var(--shadow_div_form);
+    /*box-shadow: var(--shadow_div_form);*/
     border: 0.7px solid var(--borde_div_form);
     color: var(--col_letra_div_form);
 }
@@ -325,15 +326,25 @@ body {
 .div_form_peq {
     border-radius: var(--radius_div_form_peq);
     background: var(--fondo_div_form_peq);
-    box-shadow: var(--shadow_div_form_peq);
+    /*box-shadow: var(--shadow_div_form_peq);*/
     border: 0.7px solid var(--borde_div_form_peq);
     color: var(--col_letra_div_form_peq);
 }
 
 .tit_form {
     border-radius: var(--radius_tit_form);
-     background: var(--fondo_tit_form);
-   box-shadow: var(--shadow_tit_form);
+    /* background: var(--fondo_tit_form);*/
+  /* box-shadow: var(--shadow_tit_form);*/
+    text-shadow: var(--txtshadow_div_form);
+    /* border: 0.7px solid var(--borde_tit_form);*/
+    color: var(--col_txt_tit_form);
+    font-size: var(--tam_tit_form);
+}
+.div_subrayado_tit,
+.div_subrayado_tit_peq{
+    border-radius: var(--radius_tit_form);
+    background: var(--fondo_tit_form);
+  /* box-shadow: var(--shadow_tit_form);*/
     text-shadow: var(--txtshadow_div_form);
     /* border: 0.7px solid var(--borde_tit_form);*/
     color: var(--col_txt_tit_form);
@@ -342,12 +353,12 @@ body {
 
 .tit_mini_form {
     border-radius: var(--radius_tit_miniform);
-    background-color: var(--fondo_tit_miniform);
-    box-shadow: var(--shadow_tit_miniform);
+    /*background-color: var(--fondo_tit_miniform);
+    box-shadow: var(--shadow_tit_miniform);*/
    /*border: 0.7px solid var(--borde_div_form); no queda bien*/
     color: var(--col_letra_div_miniform);
     font-size: var(--tam_letra_mini_tit_form);
-   /*text-shadow: var(--txtshadow_div_form);*/
+   text-shadow: var(--shadow_txt_tit_miniform);
 
 }
 .txt_div_form {
@@ -359,8 +370,8 @@ body {
 /*----------------APTITUDES----------------*/
 .tit_apt {
     border-radius: var(--radius_tit_apt);
-    background: var(--fondo_tit_apt);
-    box-shadow: var(--shadow_tit_apt);
+    /*background: var(--fondo_tit_apt);
+    box-shadow: var(--shadow_tit_apt);*/
     border: 0.7px solid var(--borde_tit_apt);
     color: var(--col_letra_tit_apt);
     font-size: var(--tam_tit_form);
@@ -380,18 +391,18 @@ body {
 /*----------------EXPERIENCIA----------------*/
 .tit_exp {
     border-radius: var(--radius_tit_esp);
-    background: var(--fondo_tit_esp);
-    box-shadow: var(--shadow_tit_esp);
+    /*background: var(--fondo_tit_esp);
+    box-shadow: var(--shadow_tit_esp);*/
     border: 0.7px solid var(--borde_tit_esp);
     color: var(--col_letra_tit_esp);
     font-size: var(--tam_tit_esp);
-    text-shadow: var(--shadow_tit_esp);
+    text-shadow: var(--shadow_txt_tit_esp);
 }
 
 .div_exp {
     border-radius: var(--radius_div_esp);
     background: var(--fondo_div_esp);
-    box-shadow: var(--shadow_div_esp);
+   /* box-shadow: var(--shadow_div_esp);*/
     border: 0.7px solid var(--borde_div_esp);
     color: var(--col_letra_div_esp);
     font-size: var(--tam_div_esp);

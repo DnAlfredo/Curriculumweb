@@ -96,11 +96,13 @@
                 <h3>
                     Formación
                 </h3>
+                <div class="div_subrayado_tit"></div>
             </div>
             <div class="cont_tit_mini_form">
                 <h4 class="tit_mini_form">
                     Reglada
                 </h4>
+                <div class="div_subrayado_tit_peq"></div>
             </div>
 
             <div class="div_form">
@@ -135,7 +137,8 @@
                 <h5>
                     CP 2
                 </h5>
-                <div class="bot_div_form" onclick="abreFicha('txt_cp2')"><span class="flecha_div_form">&#8597</span></div>
+                <div class="bot_div_form" onclick="abreFicha('txt_cp2')"><span class="flecha_div_form">&#8597</span>
+                </div>
                 <div class="txt_div_form esconder" id="txt_cp2">
                     <p>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus eius optio
@@ -150,50 +153,54 @@
                 <h4 class="tit_mini_form">
                     Cursos/Carnets
                 </h4>
+                <div class="div_subrayado_tit_peq"></div>
             </div>
-            <div class="div_form_peq">
+            <div class="div_form_peq" onclick="abreFicha('txt_of_miniform')">
                 <h5>
                     Oficial Pastelería E.S.P
                 </h5>
-                <span class="flecha_div_form" onclick="abreFicha('txt_of_miniform')">&#8597</span>
+                <span class="flecha_div_form">&#8597</span>
                 <p class="txt_div_form esconder" id="txt_of_miniform">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ut cum.
                 </p>
             </div>
-            <div class="div_form_peq">
+            <div class="div_form_peq" onclick="abreFicha('txt_com_miniform')">
                 <h5>
                     Comunicación y presentaciones en público
                 </h5>
-                <span class="flecha_div_form" onclick="abreFicha('txt_com_miniform')">&#8597</span>
-                
+                <span class="flecha_div_form">&#8597</span>
+
                 <p class="txt_div_form esconder" id="txt_com_miniform">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ut cum.
                 </p>
-            
+
             </div>
-            <div class="div_form_peq">
+            <div class="div_form_peq" onclick="abreFicha('txt_prev_miniform')">
                 <h5>
                     Prevención manejo carretillas
                 </h5>
-                <span class="flecha_div_form" onclick="abreFicha('txt_prev_miniform')">&#8597</span>
+                <span class="flecha_div_form">&#8597</span>
                 <p class="txt_div_form esconder" id="txt_prev_miniform">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ut cum.
                 </p>
             </div>
-            <div class="div_form_peq">
+            <div class="div_form_peq" onclick="abreFicha('txt_perm_miniform')">
                 <h5>
                     Permiso de conducir Clase B
                 </h5>
-                <span class="flecha_div_form" onclick="abreFicha('txt_perm_miniform')">&#8597</span>
+                <span class="flecha_div_form">&#8597</span>
                 <p class="txt_div_form esconder" id="txt_perm_miniform">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ut cum.
                 </p>
             </div>
         </div>
         <div class="cont_divs_apt" id="zona_aptitudes">
-            <h3 class="tit_apt">
-                Aptitudes
-            </h3>
+            <div class="tit_apt">
+                <h3>
+                    Aptitudes
+                </h3>
+                <div class="div_subrayado_tit"></div>
+            </div>
             <p class="txt_apt">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla nesciunt vero
                 excepturi amet error
@@ -208,10 +215,11 @@
             </p>
         </div>
         <div class="cont_epx" id="zona_experiencia">
-            <div class="cont_tit_exp">
-                <h3 class="tit_exp">
+            <div class="tit_exp">
+                <h3>
                     Experiencia Laboral
                 </h3>
+                <div class="div_subrayado_tit"></div>
             </div>
             <div class="cont_div_exp">
                 <div class="div_exp">
@@ -462,14 +470,14 @@
                     <div class="desplegable_bis esconder" id="grupo_radial_bis">
                         <div class="unionarriba_bis">
                             <div class="subcajaarriba_bis">
-                                    <h5><a href="https://baldocer.com/" target="_blank"> Baldoccer S.A</a></h5>
+                                <h5><a href="https://baldocer.com/" target="_blank"> Baldoccer S.A</a></h5>
                                 </a>
                             </div>
                         </div>
                         <div class="unionizquierda_bis">
                             <div class="subcajaizquierda_bis" onclick="enseñaRadial('txt_radial_fun')">
-                                    <h5>Funciones</h5>
-                                    <span>&#8595</span>
+                                <h5>Funciones</h5>
+                                <span>&#8595</span>
                                 </a>
                             </div>
                             <div class="txt_radial esconder" id="txt_radial_fun">
@@ -482,12 +490,12 @@
                         </div>
                         <div class="unionderecha_bis">
                             <div class="subcajaderecha_bis" onclick="enseñaRadial('txt_radial_apt')">
-                                    <h5>Aptitudes</h5>
-                                    <span>&#8595</span>
+                                <h5>Aptitudes</h5>
+                                <span>&#8595</span>
                                 </a>
                             </div>
                             <div class="txt_radial_bis esconder" id="txt_radial_apt">
-                                <span >Producción de tintas para la industria. Una vez
+                                <span>Producción de tintas para la industria. Una vez
                                     comprobado el cumplimiento de los valores de
                                     calidad, envasado y paletizado del producto. Utilizando
                                     herramientas de medición, carretilla elevadora y
@@ -496,7 +504,7 @@
                         </div>
                         <div class="unionabajo_bis">
                             <div class="subcajaabajo_bis">
-                                    <h5>2017-2021</h5>
+                                <h5>2017-2021</h5>
                                 </a>
                             </div>
                         </div>

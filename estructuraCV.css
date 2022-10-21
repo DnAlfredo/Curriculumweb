@@ -544,15 +544,41 @@ que gacer que no
 .tit_form {
     position: relative;
     width: 75%;
-    height: 7rem;
+    min-width: 75%;
+    height: 5rem;
+    min-height: 5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-bottom: var(--margen_tit_bajo);
-    padding: var(--padding_tit);
+    
 }
-
+.div_subrayado_tit {
+    position: relative;
+    width: 100%;
+    min-width: 100%;
+    height:5px;
+    max-width: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: var(--margen_tit_bajo);
+   
+}
+.div_subrayado_tit_peq{
+    position: relative;
+    width: 17%;
+    min-width: 17%;
+    height:5px;
+    max-width: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: var(--margen_tit_bajo);
+}
 .cont_tit_mini_form {
     position: relative;
     width: 100%;
@@ -566,21 +592,21 @@ que gacer que no
 
 .tit_mini_form {
     position: relative;
-    width: 32%;
-    height: 4rem;
+    width: 100%;
+    min-width: 100%;
+    height: 2rem;
+    min-height: 2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: var(--separacion_dentro_caja);
-    padding: var(--padding_tit_mini);
-
+   
 }
 
 .bot_div_form {
     position: relative;
-    width: 100%;
+    width: 15px;
 }
 
 .txt_div_form {
@@ -596,6 +622,7 @@ que gacer que no
 .cont_divs_apt {
     position: relative;
     display: flex;
+    width: 100%;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -604,15 +631,16 @@ que gacer que no
 
 .tit_apt {
     position: relative;
-    width: 33%;
+    width: 35%;
     display: flex;
-    height: 7rem;
+    height: 5rem;
+    min-height: 5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin: var(--margen_tit_bajo);
-    padding: var(--padding_tit);
+    
 
 
 
@@ -658,14 +686,16 @@ que gacer que no
 .tit_exp {
 
     position: relative;
-    width: 90%;
-    height: 7rem;
+    width: 75%;
+    min-width: 75%;
+    height: 5rem;
+    min-height: 5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-bottom: var(--margen_tit_bajo);
-    padding: var(--padding_tit);
+   
 }
 
 .cont_div_exp {
