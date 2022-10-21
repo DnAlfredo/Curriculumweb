@@ -27,6 +27,7 @@
 
     .img_header {
         height: 176px;
+        width: 176px;
     }
 
     .barra_nav {
@@ -64,7 +65,7 @@
     }
     .tit_form {
       width: 90%;
-        font-size:larger;
+        font-size:x-large;
     }
     .tit_mini_form {
         font-size: medium;
@@ -102,7 +103,19 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-       font-size: larger;
+        font-size:x-large;
+        padding: var(--padding_tit);
+    }
+    .tit_exp {
+        position: relative;
+        width: 90%;
+        display: flex;
+        height: 7rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        font-size:x-large;
         padding: var(--padding_tit);
     }
     .tit_mini_form{
@@ -114,7 +127,7 @@
         align-items: center;
         margin: var(--separacion_dentro_caja);
         padding: var(--padding_tit_mini);
-        font-size: medium;
+        font-size: large;
 
         
     }
@@ -125,7 +138,7 @@
         text-align: justify;
         margin: var(--separacion_sub_estruct);
         padding: var(--padding_txt_apt);
-        font-size: small;
+        font-size: medium;
     }
 
     /*---------------------EXPERIENCIA------------------------*/

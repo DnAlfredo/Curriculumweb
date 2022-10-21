@@ -23,7 +23,7 @@
     --radius_radial: 6rem 0.4rem 6rem;
     /*---------------------------------------BIS*/
     --color_borde_nav_bis: white;
-    --color_txt_nav_bis: black;
+    --color_txt_nav_bis: white;
     --shadow_nav_bis: 0.2vh 0.2vh 0.2vh #F5F5F5;
     --radius_radial_bis: 6rem 0.4rem 6rem;
     /*---------------------------------------BIS*/
@@ -36,101 +36,106 @@
 
     --fondo_div_form: #97A8A6;
     --borde_div_form: none;
-    --col_letra_div_form: white;
+    --col_letra_div_form: black;
     --txtshadow_div_form: 0 0 3px #F5F5F5;
     --shadow_div_form: 0.3vh 0.3vh 0.3vh #F5F5F5;
     --radius_div_form: 10px;
     --fondo_txt_div_form:#F5F5F5;
 
     --fondo_div_form_peq:#97A8A6;
-    --borde_div_form_peq: black;
+    --borde_div_form_peq: none;
     --col_letra_div_form_peq: black;
-    --shadow_div_form_peq: 0.3vh 0.3vh 0.3vh rgba(86, 8, 105, 0.5);
+    --shadow_div_form_peq: 0.3vh 0.3vh 0.3vh #F5F5F5 ;
     --radius_div_form_peq: 10px;
 
-    --fondo_tit_form: #545454;
+    --fondo_tit_form: #53585C;
     --borde_tit_form: none;
-    --shadow_tit_form: 0.5vh 0.5vh 0.5vh #F5F5F5;
+    --shadow_tit_form: 0.3vh 0.3vh 0.3vh #F5F5F5;
     --radius_tit_form: 15px;
     --letra_tit_form: pink;
     --tam_tit_form: xx-large;
+    --col_txt_tit_form:white;
 
     --fondo_tit_miniform: #A3A8A0;
     --borde_tit_miniform: none;
     --shadow_tit_miniform: 0.5vh 0.5vh 0.5vh #F5F5F5;
     --radius_tit_miniform: 15px;
-    --letra_tit_miniform: pink;
     --tam_letra_mini_tit_form: x-large;
-    --col_letra_div_miniform: white;
+    --col_letra_div_miniform: black;
     --col_letr_txt_div_form:black;
     --radius_txt_div_form:5px;
     
    /*border: 0.7px solid var(--borde_div_form);*/
    
     --radius_tit_apt: 10px;
-    --fondo_tit_apt: rgb(255, 0, 0, 0.5);
-    --shadow_tit_apt: rgba(255, 0, 0, 0.7);
-    --borde_tit_apt: red;
-    --col_letra_tit_apt: black;
+    --fondo_tit_apt: #53585C;
+    --shadow_tit_apt:0.5vh 0.5vh 0.5vh #F5F5F5;
+    --shadow_txt_tit_apt: 0 0 3px #F5F5F5;
+    --borde_tit_apt:none;
+    --col_letra_tit_apt: white;
     --radius_txt_apt: 5px;
-    --fondo_txt_apt: rgba(166, 255, 0, 0.5);
-    --shadow_txt_apt: rgba(255, 0, 0, 0.7);
-    --borde_txt_apt: red;
+    --fondo_txt_apt:#F5F5F5;
+    --shadow_txt_apt: none;
+    --borde_txt_apt: none;
     --col_letra_txt_apt: black;
+    --tam_txt_apt:medium;
 
     --radius_tit_esp: 10px;
-    --fondo_tit_esp: rgba(0, 255, 242, 0.822);
-    --shadow_tit_esp: rgba(0, 119, 255, 0.7);
-    --borde_tit_esp: rgb(255, 238, 0);
-    --col_letra_tit_esp: black;
+    --fondo_tit_esp:#53585C;
+    --shadow_tit_esp: 0 0 3px #F5F5F5;
+    --borde_tit_esp: none;
+    --col_letra_tit_esp: white;
+    --shadow_txt_tit_esp:0 0 3px #F5F5F5;
     --radius_div_esp: 10px;
-    --fondo_div_esp: rgba(0, 255, 242, 0.945);
-    --shadow_div_esp: rgb(81, 255, 0);
-    --borde_div_esp: rgb(255, 136, 0);
-    --col_letra_div_esp: black;
-    --tam_tit_esp: x-large;
+    --fondo_div_esp:#97A8A6;
+    --shadow_div_esp: 0.5vh 0.5vh 0.5vh #F5F5F5 ;
+    --borde_div_esp: none;
+    --col_letra_div_esp: white;
+    --tam_tit_esp: xx-large;
 
-    --radius_tit_trabj: 5px;
-    --fondo_tit_trabj: rgba(0, 255, 149, 0.5);
-    --shadow_tit_trabj: rgba(157, 255, 0, 0.7);
-    --borde_tit_trabj: rgb(0, 38, 255);
-    --col_letra_tit_trabj: black;
+    --radius_tit_trabj: 10px;
+    --fondo_tit_trabj:#A3A8A0;
+    --shadow_tit_trabj:0 0 3px  #F5F5F5 ;
+    --borde_tit_trabj: none;
+    --col_letra_tit_trabj: white;
     --tam_tit_trabj: x-large;
+    --shadow_txt_trabj:0 0 3px #F5F5F5;
 
     --radius_dd_exp: 5px;
-    --fondo_dd_exp: rgba(0, 255, 98, 0.5);
-    --shadow_dd_exp: rgba(204, 94, 219, 0.938);
-    --borde_dd_exp: rgb(197, 212, 212);
+    --fondo_dd_exp:#F5F5F5;
+    --shadow_dd_exp:none ;
+    --borde_dd_exp: none;
     --col_letra_dd_exp: black;
 
     --tam_tit_trabj: x-large;
     --tam_tit_cntct: x-large;
 
-    --radius_tit_cntct: 5px;
-    --fondo_tit_cntct: rgba(255, 0, 221, 0.664);
-    --shadow_tit_cntct: rgba(204, 94, 219, 0.938);
-    --borde_tit_cntct: rgb(253, 0, 0);
-    --col_letra_tit_cntct: black;
-
+    --radius_tit_cntct: 10px;
+    --fondo_tit_cntct:#545454;
+    --shadow_tit_cntct:0 0 3px  #F5F5F5;
+    --borde_tit_cntct:none;
+    --col_letra_tit_cntct: white;
+    --shadow_txt_tit_cntct:0 0 3px #F5F5F5;
     --tam_tit_correo: x-large;
+
     --radius_crp_cntct: 5px;
-    --fondo_crp_cntct: rgba(255, 102, 0, 0.664);
-    --shadow_crp_cntct: rgba(148, 46, 5, 0.938);
-    --borde_crp_cntct: rgb(253, 80, 0);
+    --fondo_crp_cntct: #F5F5F5;
+    --shadow_crp_cntct: #F5F5F5;
+    --borde_crp_cntct: none;
     --col_letra_crp_cntct: black;
 
     --tam_div_correo: medium;
     --radius_div_correo: 5px;
-    --fondo_div_correo: rgba(0, 247, 255, 0.664);
-    --shadow_div_correo: rgba(23, 20, 216, 0.938);
-    --borde_div_correo: rgb(38, 0, 253);
+    --fondo_div_correo: #A3A8A0;
+    --shadow_div_correo:0.5vh 0.5vh 0.5vh #F5F5F5;
+    --borde_div_correo: none;
     --col_letra_div_correo: black;
 
     --tam_div_tlfn: medium;
     --radius_div_tlfn: 5px;
-    --fondo_div_tlfn: rgba(0, 247, 255, 0.664);
-    --shadow_div_tlfn: rgba(23, 20, 216, 0.938);
-    --borde_div_tlfn: rgb(38, 0, 253);
+    --fondo_div_tlfn:#A3A8A0 ;
+    --shadow_div_tlfn: 0.5vh 0.5vh 0.5vh #F5F5F5;
+    --borde_div_tlfn: none;
     --col_letra_div_tlfn: black;
 
     --col_txt_radial: black;
@@ -144,8 +149,11 @@
     --shadow_txt_radial_bis: #F5F5F5;
     --border_txt_radial_bis: none;
     --padding_txt_radial_bis: 0.5%;
-
-
+/*----------------------------------------------FIXED*/
+--fondo_div_fixed:#A3A8A0;
+--borde_div_fixed:none;
+--shadow_div_fixed:#F5F5F5;
+--radius_div_fixed:50%;
     /*Colores sugeridos por adobe*/
     --col_adobe: #53585C;
     --col_adobe: #A8A897;
@@ -177,7 +185,13 @@ body {
     background-image: radial-gradient(white, #a9a9a9, gray);
 
 }
-
+/*----------------------FIXED------------------------*/
+.bot_vv_inicio{
+    background-color: var(--fondo_div_fixed);
+    border: var(--borde_div_fixed);
+    box-shadow: var(--shadow_div_fixed);
+    border-radius: var(--radius_div_fixed);
+}
 /*----------------RADIAL-----------*/
 .txt_radial_bis {
 
@@ -195,11 +209,6 @@ body {
     box-shadow: 0.5px 0.5px 0.5px var(--shadow_txt_radial);
     border-radius: var(--border_txt_radial);
     padding: var(--padding_txt_radial);
-
-
-
-
-
     color: black;
     box-shadow: 0.5px 0.5px 0.5px rgb(255, 199, 147);
     border-radius: 5px;
@@ -264,7 +273,7 @@ body {
     box-shadow: var(--shadow_nav_bis);
     border-radius: var(--radius_radial_bis);
     border: 0.7px solid var(--color_borde_nav_bis);
-    color: var(--color_txt_nav);
+    /*color: var(--color_txt_nav);*/
 }
 
 .subcajaizquierda_bis {
@@ -273,7 +282,7 @@ body {
     background: var(--color_nav_right_bis);
     box-shadow: var(--shadow_nav_bis);
     border-radius: var(--radius_radial_bis);
-    color: var(--color_txt_nav_bis);
+   /*color: var(--color_txt_nav);*/
 }
 
 .subcajaderecha_bis {
@@ -282,7 +291,7 @@ body {
     background: var(--color_nav_left_bis);
     box-shadow: var(--shadow_nav_bis);
     border: 0.7px solid var(--color_borde_nav_bis);
-    color: var(--color_txt_nav_bis);
+   /*color: var(--color_txt_nav);*/
 }
 
 .subcajaabajo_bis {
@@ -290,7 +299,7 @@ body {
     background: var(--color_nav_down_bis);
     box-shadow: var(--shadow_nav_bis);
     border: 0.7px solid var(--color_borde_nav_bis);
-    color: var(--color_txt_nav_bis);
+   /*color: var(--color_txt_nav);*/
 }
 
 /*--------------------------------------------------------------------MAIN------------------------------------------------*/
@@ -319,16 +328,15 @@ body {
     box-shadow: var(--shadow_div_form_peq);
     border: 0.7px solid var(--borde_div_form_peq);
     color: var(--col_letra_div_form_peq);
-    font-size: large;
 }
 
 .tit_form {
     border-radius: var(--radius_tit_form);
      background: var(--fondo_tit_form);
-   /* box-shadow: var(--shadow_tit_form);*/
+   box-shadow: var(--shadow_tit_form);
     text-shadow: var(--txtshadow_div_form);
     /* border: 0.7px solid var(--borde_tit_form);*/
-    color: var(--col_letra_div_form);
+    color: var(--col_txt_tit_form);
     font-size: var(--tam_tit_form);
 }
 
@@ -336,10 +344,10 @@ body {
     border-radius: var(--radius_tit_miniform);
     background-color: var(--fondo_tit_miniform);
     box-shadow: var(--shadow_tit_miniform);
-   /*border: 0.7px solid var(--borde_div_form);*/
+   /*border: 0.7px solid var(--borde_div_form); no queda bien*/
     color: var(--col_letra_div_miniform);
     font-size: var(--tam_letra_mini_tit_form);
-    text-shadow: var(--txtshadow_div_form);
+   /*text-shadow: var(--txtshadow_div_form);*/
 
 }
 .txt_div_form {
@@ -356,6 +364,7 @@ body {
     border: 0.7px solid var(--borde_tit_apt);
     color: var(--col_letra_tit_apt);
     font-size: var(--tam_tit_form);
+    text-shadow: var(--shadow_txt_tit_apt);
 }
 
 .txt_apt {
@@ -364,7 +373,8 @@ body {
     box-shadow: var(--shadow_txt_apt);
     border: 0.7px solid var(--borde_txt_apt);
     color: var(--col_letra_txt_apt);
-    font-size: var(--tam_txt_form);
+    font-size: var( --tam_txt_apt);
+    
 }
 
 /*----------------EXPERIENCIA----------------*/
@@ -375,6 +385,7 @@ body {
     border: 0.7px solid var(--borde_tit_esp);
     color: var(--col_letra_tit_esp);
     font-size: var(--tam_tit_esp);
+    text-shadow: var(--shadow_tit_esp);
 }
 
 .div_exp {
@@ -393,6 +404,7 @@ body {
     border: 0.7px solid var(--borde_tit_trabj);
     color: var(--col_letra_tit_trabj);
     font-size: var(--tam_tit_trabj);
+    /*text-shadow: var(--sahadow_tit_trabj);*/
 }
 
 .seccion_div_exp dd {
@@ -412,6 +424,7 @@ body {
     border: 0.7px solid var(--borde_tit_cntct);
     color: var(--col_letra_tit_cntct);
     font-size: var(--tam_tit_cntct);
+    text-shadow: var(--shadow_tit_cntct);
 }
 
 .cuerpo_contct {

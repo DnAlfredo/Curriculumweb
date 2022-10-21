@@ -12,21 +12,38 @@ h2{
     font-size: medium;
 }
 
-
 :root {
-
     --separacion_estructura_general: 4%;
     --separacion_estructura_tab_exp: 1%;
-    --separacion_sub_estruct: 2.5%;
+    --separacion_sub_estruct: 1.5%;
     --padding_txt_presentacion: 3%;
     --separacion_dentro_caja: 0.5%;
     --padding_tit_mini: 1%;
     --padding_tit: 1.5%;
     --padding_txt_apt: 2.5%;
-    --padding_txt_ficha: 1.5%;
+    --padding_txt_ficha: 0.5%;
     --margen_tit_bajo: 1%
 }
-
+/*----------------------------FIXED---------------------------------------------*/
+.cont_bot_vlv_inicio{
+    position: fixed;
+    float: right;
+    bottom: 0%;
+    right: 0%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.bot_vv_inicio{
+   position: absolute;
+    width: 100%;
+    display: block;
+    text-align: center;
+    z-index: 10;
+}
 /*-------------------------------------------------------------------HEADER-----------------------------------------------*/
 .cont_header {
     position: relative;
@@ -53,13 +70,11 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .img_header {
     width: 250px;
     height: 250px;
-   
 }
 
 /*------------------------------------------------------------------BARRA NAV---------------------------------------------*/
@@ -79,8 +94,6 @@ h2{
     justify-content: center;
     align-items: center;
     margin: 6%;
-  
-
 }
 
 .txt_radial {
@@ -109,7 +122,6 @@ h2{
     float: right;
     font-size: small;
     z-index: 2;
-    
 }
 .cajaprincipal_bis {
     width: 25.25rem;
@@ -120,7 +132,7 @@ h2{
     position: relative;
     /* border: 1px solid black;
     background-color: gray;*/
-    font-size: medium;
+   
     margin: 0.5%;
     margin-bottom: var(--separacion_estructura_general);
 }
@@ -179,7 +191,7 @@ h2{
     justify-content: center;
     align-items: center;
     align-content: center;
-    font-size: medium;
+    font-size: large;
 
 }
 
@@ -202,7 +214,7 @@ h2{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    font-size: medium;
+    font-size: large;
 }
 
 .unionizquierda_bis {
@@ -225,7 +237,7 @@ h2{
     justify-content: center;
     align-items: center;
     right: 0%;
-    font-size: medium;
+    font-size: large;
 }
 
 .unionderecha_bis {
@@ -249,7 +261,7 @@ h2{
     justify-content: center;
     align-items: center;
     bottom: 0vw;
-    font-size: medium;
+    font-size: large;
 }
 
 .unionabajo_bis {
@@ -262,26 +274,6 @@ h2{
     left: 36%;
 }
 
-.cajacentral_bis {
-    width: 6.95rem
-        /*220px*/
-    ;
-    /*25.4% para hecerlo en responsive*/
-    height: 2.3rem
-        /*57px*/
-    ;
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    font-size: medium;
-    text-align: center;
-    left: 36%;
-    top: 38%;
-    z-index: 2;
-    /*ñeñeñeñeñeñeñeñeñeñeñeñe.......que se queda onclick bajo y no se puede volver a dar*/
-}
 
 .desplegable_bis {
     display: block;
@@ -493,11 +485,11 @@ que gacer que no
 /*----------------------------FORMACION-------------------*/
 .cont_form {
     position: relative;
-     width: 100%;
+     
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
     align-content: center;
     margin-bottom: var(--separacion_estructura_general);
 
@@ -514,7 +506,7 @@ que gacer que no
 
 .div_form {
     position: relative;
-    width: 19.7%;
+    width: 13.7%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -524,17 +516,29 @@ que gacer que no
     padding: var(--padding_txt_ficha);
 
 }
-
+.bot_div_form{
+     margin: 0.5%;
+}
+.flecha_div_form{
+    width: 20px;
+   
+}
 .div_form_peq {
     position: relative;
     width: 15.6%;
     display: flex;
+    min-height: 4.5rem;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin: var(--separacion_sub_estruct);
     padding: var(--padding_txt_ficha);
+}
+.div_form_peq h5,
+.div_form h5{
+    font-size: large;
+    width: 100%;
 }
 
 .tit_form {
@@ -551,7 +555,8 @@ que gacer que no
 
 .cont_tit_mini_form {
     position: relative;
-    width: 86%;
+    width: 100%;
+   
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -561,11 +566,13 @@ que gacer que no
 
 .tit_mini_form {
     position: relative;
-    width: 50%;
+    width: 32%;
+    height: 4rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin: var(--separacion_dentro_caja);
     padding: var(--padding_tit_mini);
 
@@ -581,6 +588,8 @@ que gacer que no
     width: 100%;
     text-align: justify;
     padding: var(--padding_txt_ficha);
+    font-size: revert;
+    
 }
 
 /*----------------------------APTITUDES-------------------*/
@@ -620,7 +629,6 @@ que gacer que no
 
 /*----------------------------EXPERIENCIA-------------------*/
 .cont_epx {
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

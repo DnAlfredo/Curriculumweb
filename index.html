@@ -135,7 +135,7 @@
                 <h5>
                     CP 2
                 </h5>
-                <div class="bot_div_form" onclick="abreFicha('txt_cp2')">&#8597</div>
+                <div class="bot_div_form" onclick="abreFicha('txt_cp2')"><span class="flecha_div_form">&#8597</span></div>
                 <div class="txt_div_form esconder" id="txt_cp2">
                     <p>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus eius optio
@@ -155,7 +155,8 @@
                 <h5>
                     Oficial Pastelería E.S.P
                 </h5>
-                <p class="txt_div_form">
+                <span class="flecha_div_form" onclick="abreFicha('txt_of_miniform')">&#8597</span>
+                <p class="txt_div_form esconder" id="txt_of_miniform">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ut cum.
                 </p>
             </div>
@@ -163,15 +164,19 @@
                 <h5>
                     Comunicación y presentaciones en público
                 </h5>
-                <p class="txt_div_form">
+                <span class="flecha_div_form" onclick="abreFicha('txt_com_miniform')">&#8597</span>
+                
+                <p class="txt_div_form esconder" id="txt_com_miniform">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ut cum.
                 </p>
+            
             </div>
             <div class="div_form_peq">
                 <h5>
                     Prevención manejo carretillas
                 </h5>
-                <p class="txt_div_form">
+                <span class="flecha_div_form" onclick="abreFicha('txt_prev_miniform')">&#8597</span>
+                <p class="txt_div_form esconder" id="txt_prev_miniform">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ut cum.
                 </p>
             </div>
@@ -179,12 +184,10 @@
                 <h5>
                     Permiso de conducir Clase B
                 </h5>
-                <p class="txt_div_form">
+                <span class="flecha_div_form" onclick="abreFicha('txt_perm_miniform')">&#8597</span>
+                <p class="txt_div_form esconder" id="txt_perm_miniform">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ut cum.
                 </p>
-            </div>
-            <div class="cont_bot_vlv_inicio">
-                <div class="bot_vv_inicio"><a href=""></a></div>
             </div>
         </div>
         <div class="cont_divs_apt" id="zona_aptitudes">
@@ -500,6 +503,9 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="cont_bot_vlv_inicio">
+            <div class="bot_vv_inicio"><a href="#zona_inicio">&#8593</a></div>
         </div>
     </main>
     <footer class="cont_footer">
