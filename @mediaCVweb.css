@@ -1,20 +1,21 @@
 @media screen and (max-width: 780px) {
-   /*---------------------GENERALES------------------------*/
-    :root{
-    
-        --separacion_estructura_general:30%;
-        --separacion_estructura_tab_exp:5%;
-        --separacion_sub_estruct:2.5%;
-        --padding_txt_presentacion:3%;
-        --separacion_dentro_caja:0.5%;
-        --padding_tit_mini:1%;
-        --padding_tit:1.5%;
-        --padding_txt_apt:2.5%;
-        --padding_txt_ficha:1.5%;
-        --margen_tit_bajo:10%
+
+    /*---------------------GENERALES------------------------*/
+    :root {
+
+        --separacion_estructura_general: 30%;
+        --separacion_estructura_tab_exp: 5%;
+        --separacion_sub_estruct: 2.5%;
+        --padding_txt_presentacion: 3%;
+        --separacion_dentro_caja: 0.5%;
+        --padding_tit_mini: 1%;
+        --padding_tit: 1.5%;
+        --padding_txt_apt: 2.5%;
+        --padding_txt_ficha: 1.5%;
+        --margen_tit_bajo: 10%
     }
 
-       /*---------------------RADIAL------------------------*/
+    /*---------------------RADIAL------------------------*/
     .cont_header {
         position: relative;
         width: 100%;
@@ -36,7 +37,7 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-       
+
     }
 
     /*---------------------PRESENTACION------------------------*/
@@ -51,25 +52,28 @@
     }
 
     /*---------------------FORMACION------------------------*/
-    .div_form{
+    .div_form {
         position: relative;
         width: 75%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        align-items:center ;
+        align-items: center;
         text-align: center;
         margin: var(--separacion_sub_estruct);
-        padding: var(--padding_txt_ficha );
-        
+        padding: var(--padding_txt_ficha);
+
     }
+
     .tit_form {
-      width: 90%;
-        font-size:x-large;
+        width: 90%;
+        font-size: x-large;
     }
+
     .tit_mini_form {
         font-size: medium;
     }
+
     .div_form_peq {
         position: relative;
         width: 75%;
@@ -82,7 +86,8 @@
         padding: var(--padding_txt_ficha);
         font-size: medium;
     }
-    .cont_tit_mini_form{
+
+    .cont_tit_mini_form {
         position: relative;
         display: flex;
         height: 3rem;
@@ -91,43 +96,48 @@
         align-items: center;
         margin: var(--separacion_sub_estruct);
     }
+
     .txt_div_form {
         font-size: small;
     }
+
     /*---------------------APTITUDES------------------------*/
     .tit_apt {
         position: relative;
         width: 90%;
         display: flex;
-       
+
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        font-size:x-large;
+        font-size: x-large;
         margin: var(--margen_tit_bajo);
     }
+
     .tit_exp {
         position: relative;
         width: 90%;
         display: flex;
-      
+
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        font-size:x-large;
+        font-size: x-large;
         margin: var(--margen_tit_bajo);
     }
-    .tit_mini_form{
+
+    .tit_mini_form {
         position: relative;
         width: 60%;
-       
+
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        align-items: center;        
+        align-items: center;
     }
+
     .txt_apt {
         position: relative;
         width: 75%;
@@ -148,40 +158,65 @@
         align-items: center;
         font-size: small;
     }
-    .seccion_div_exp dd{
+
+    .seccion_div_exp dd {
         position: relative;
         width: 83%;
         text-align: center;
         padding: var(--padding_txt_ficha);
     }
-    
 
-   /*---------------------CONTACTO------------------------*/
-.correo_elec{
-    position: relative;
-    width: 48%;
-    font-size: small;
-   
-    
-}
-.div_telefono{
-    position: relative;
-    width: 48%;
-    font-size: small;
-   
-   
-}
-/*------------------------SUBRAYADO-----------------------*/
-.div_subrayado_tit_peq{
-    position: relative;
-    width: 40%;
-    min-width:40%;
-    height:5px;
-    max-width: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: var(--margen_tit_bajo);
-}
+
+    /*---------------------CONTACTO------------------------*/
+    .esconder_cntct {
+        display: none;
+        visibility: hidden;
+        width: 25%;
+    }
+    .mostrar_cntct{
+        display: flex;
+        min-width: 50%;
+    }
+    .Cont_contacto {
+        position: relative;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+    .cuerpo_contct {
+        position: relative;
+        width: 100%;
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+
+    .correo_elec {
+        position: relative;
+        width: 100%;
+        font-size: small;
+    }
+
+    .div_telefono {
+        position: relative;
+        width: 100%;
+        font-size: small;
+    }
+
+    /*------------------------SUBRAYADO-----------------------*/
+    .div_subrayado_tit_peq {
+        position: relative;
+        width: 40%;
+        min-width: 40%;
+        height: 5px;
+        max-width: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: var(--margen_tit_bajo);
+    }
 }

@@ -8,7 +8,8 @@ a {
     text-decoration: none;
     color: auto;
 }
-h2{
+
+h2 {
     font-size: medium;
 }
 
@@ -24,30 +25,9 @@ h2{
     --padding_txt_ficha: 0.5%;
     --margen_tit_bajo: 1%
 }
-/*----------------------------FIXED---------------------------------------------*/
-.cont_bot_vlv_inicio{
-    position: fixed;
-    float: right;
-    bottom: 0%;
-    right: 0%;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-.bot_vv_inicio{
-   position: absolute;
-    width: 30px;
-    height: 33px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    z-index: 10;
-}
+
+
+
 /*-------------------------------------------------------------------HEADER-----------------------------------------------*/
 .cont_header {
     position: relative;
@@ -89,6 +69,7 @@ h2{
     justify-content: center;
     align-items: center;
     margin: 6%;
+   
 }
 
 /*--------------RADIAL CON TEXTO---------------------*/
@@ -108,10 +89,10 @@ h2{
     justify-content: center;
     align-items: center;
     text-align: justify;
-    top:42px;
+    top: 42px;
     float: left;
     font-size: small;
-    z-index: 2;
+ 
 }
 
 .txt_radial_bis {
@@ -125,8 +106,9 @@ h2{
     top: 42px;
     float: right;
     font-size: small;
-    z-index: 2;
+ 
 }
+
 .cajaprincipal_bis {
     width: 25.25rem;
     /* 810px*/
@@ -136,10 +118,11 @@ h2{
     position: relative;
     /* border: 1px solid black;
     background-color: gray;*/
-   
+
     margin: 0.5%;
-    margin-bottom: var(--separacion_estructura_general);
+
 }
+
 .cajacentral_bis {
     width: 6.95rem
         /*220px*/
@@ -160,11 +143,14 @@ h2{
     z-index: 2;
     /*ñeñeñeñeñeñeñeñeñeñeñeñe.......que se queda onclick bajo y no se puede volver a dar*/
 }
+
 .desplegable_bis {
     display: block;
     z-index: 1;
-    height: 17.65rem;/*mismo tamño que la caja central*/
+    height: 17.65rem;
+    /*mismo tamño que la caja central*/
 }
+
 .unionabajo_bis {
     width: 6.95rem;
     /*222px*/
@@ -183,6 +169,7 @@ h2{
     /*165px*/
     left: 36%;
 }
+
 .subcajaarriba_bis {
     width: 6.95rem;
     /*220px*/
@@ -281,15 +268,19 @@ h2{
 
 .desplegable_bis {
     display: block;
-    z-index: 1;
-    height: 8.65rem;/*mismo tamño que la caja central*/
+
+    height: 8.65rem;
+    /*mismo tamño que la caja central*/
 }
+
 /*------------------------------------RADIAL CON TEXTO----------*/
 .desplegable {
     display: block;
-    z-index: 1;
-    height: 17.65rem;/*mismo tamño que la caja central*/
+
+    height: 17.65rem;
+    /*mismo tamño que la caja central*/
 }
+
 .unionabajo {
     width: 6.95rem;
     /*222px*/
@@ -308,6 +299,7 @@ h2{
     /*165px*/
     left: 36%;
 }
+
 .cajaprincipal {
     width: 25.25rem;
     /* 810px*/
@@ -319,7 +311,7 @@ h2{
     background-color: gray;*/
     font-size: medium;
     margin: 0.5%;
-   
+
 }
 
 .subcajaarriba {
@@ -434,25 +426,32 @@ h2{
     text-align: center;
     left: 36%;
     top: 38%;
-    z-index: 2;
+z-index: 2;
     /*ñeñeñeñeñeñeñeñeñeñeñeñe.......que se queda onclick bajo y no se puede volver a dar*/
 }
 
 .desplegable {
     display: block;
-    z-index: 1;
-    height: 8.65rem;/*mismo tamño que la caja central*/
+    height: 8.65rem;
+    /*mismo tamño que la caja central*/
 }
 
 .mostrar {
     display: flex;
 }
-
+.mostrar_cntct{
+    display: flex;
+    min-width: 50%;
+}
 .esconder {
     display: none;
-    visibility: hidden;
-}
 
+}
+.esconder_cntct{
+    display: none;
+visibility: hidden;
+  width: 25%;
+}
 /*OOOOOJJJOOOOOO para no perder el hover por el camino hasta el elemento deseado hay que encapsularlo dentro de otro div para poder hacer que se
 toquen por tamaño pero que solo se muestre el contenido centrado dentro del div----lo normal seria no hacer tanta caja pero para uno radial hay
 que gacer que no 
@@ -462,7 +461,7 @@ que gacer que no
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 /*----------------------------PRESENTACION-------------------*/
@@ -489,7 +488,7 @@ que gacer que no
 /*----------------------------FORMACION-------------------*/
 .cont_form {
     position: relative;
-     
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -520,13 +519,16 @@ que gacer que no
     padding: var(--padding_txt_ficha);
 
 }
-.bot_div_form{
-     margin: 0.5%;
+
+.bot_div_form {
+    margin: 0.5%;
 }
-.flecha_div_form{
+
+.flecha_div_form {
     width: 20px;
-   
+
 }
+
 .div_form_peq {
     position: relative;
     width: 15.6%;
@@ -539,8 +541,9 @@ que gacer que no
     margin: var(--separacion_sub_estruct);
     padding: var(--padding_txt_ficha);
 }
+
 .div_form_peq h5,
-.div_form h5{
+.div_form h5 {
     font-size: large;
     width: 100%;
 }
@@ -556,37 +559,63 @@ que gacer que no
     justify-content: center;
     align-items: center;
     margin-bottom: var(--margen_tit_bajo);
-    
+
 }
+
 .div_subrayado_tit {
     position: relative;
     width: 100%;
     min-width: 100%;
-    height:5px;
+    height: 5px;
+    max-width: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+
+}
+
+.div_subdoble_tit_peq {
+    position: relative;
+    width: 34%;
+    min-width: 34%;
+    height: 5px;
     max-width: 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-bottom: var(--margen_tit_bajo);
-   
 }
-.div_subrayado_tit_peq{
+
+.cont_subr_peq {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div_subrayado_tit_peq {
     position: relative;
     width: 17%;
     min-width: 17%;
-    height:5px;
+    height: 5px;
     max-width: 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-bottom: var(--margen_tit_bajo);
+    margin-bottom: 3px;
 }
+
 .cont_tit_mini_form {
     position: relative;
     width: 100%;
-   
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -605,7 +634,7 @@ que gacer que no
     justify-content: center;
     align-items: center;
     text-align: center;
-   
+
 }
 
 .bot_div_form {
@@ -619,7 +648,7 @@ que gacer que no
     text-align: justify;
     padding: var(--padding_txt_ficha);
     font-size: revert;
-    
+
 }
 
 /*----------------------------APTITUDES-------------------*/
@@ -644,7 +673,7 @@ que gacer que no
     justify-content: center;
     align-items: center;
     margin: var(--margen_tit_bajo);
-    
+
 
 
 
@@ -699,7 +728,7 @@ que gacer que no
     justify-content: center;
     align-items: center;
     margin: var(--margen_tit_bajo);
-   
+
 }
 
 .cont_div_exp {
@@ -758,22 +787,23 @@ que gacer que no
 }
 
 /*-------------------------------------------------------------------FOOTER----------------------------------------------*/
+.cont_footer {
+    position: fixed;
+    width: 100%;
+    float: left;
+    bottom: 0%;
+    left: 0%;
+    z-index: 2;
+}
+
 .Cont_contacto {
     position: relative;
-    width: 100%;
+    width: 25%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: baseline;
-}
-
-.div_contacto {
-    position: relative;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: baseline;
+    z-index: 9;
 }
 
 .tit_contct {
@@ -784,22 +814,25 @@ que gacer que no
     justify-content: center;
     align-items: center;
     text-align: center;
+    z-index: 9;
 }
 
 .cuerpo_contct {
     position: relative;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
+    z-index: 9;
 }
 
 .correo_elec {
     position: relative;
-    width: 20%;
-    font-size: larger;
+    width: 240px;
+    height: 37px;
+    display: block;
+    text-align: center;
     margin: var(--separacion_dentro_caja);
     padding: var(--separacion_dentro_caja);
 
@@ -808,8 +841,11 @@ que gacer que no
 
 .div_telefono {
     position: relative;
-    width: 20%;
-    font-size: larger;
+    width: 240px;
+    height: 37px;
+    display: block;
+    text-align: center;
     margin: var(--separacion_dentro_caja);
+    padding: var(--separacion_dentro_caja);
 
 }

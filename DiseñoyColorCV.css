@@ -111,7 +111,7 @@
     --tam_tit_trabj: x-large;
     --tam_tit_cntct: x-large;
 
-    --radius_tit_cntct: 10px;
+    --radius_tit_cntct: 5px;
     --fondo_tit_cntct:#545454;
     --shadow_tit_cntct:0 0 3px  #F5F5F5;
     --borde_tit_cntct:none;
@@ -186,13 +186,7 @@ body {
     background-image: radial-gradient(white, #a9a9a9, gray);
 
 }
-/*----------------------FIXED------------------------*/
-.bot_vv_inicio{
-    background-color: var(--fondo_div_fixed);
-    border: var(--borde_div_fixed);
-    box-shadow: var(--shadow_div_fixed);
-    border-radius: var(--radius_div_fixed);
-}
+
 /*----------------RADIAL-----------*/
 .txt_radial_bis {
 
@@ -341,7 +335,8 @@ body {
     font-size: var(--tam_tit_form);
 }
 .div_subrayado_tit,
-.div_subrayado_tit_peq{
+.div_subrayado_tit_peq,
+.div_subdoble_tit_peq{
     border-radius: var(--radius_tit_form);
     background: var(--fondo_tit_form);
   /* box-shadow: var(--shadow_tit_form);*/
