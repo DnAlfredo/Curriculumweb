@@ -39,8 +39,12 @@ h2{
 }
 .bot_vv_inicio{
    position: absolute;
-    width: 100%;
-    display: block;
+    width: 30px;
+    height: 33px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     z-index: 10;
 }
@@ -694,7 +698,7 @@ que gacer que no
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-bottom: var(--margen_tit_bajo);
+    margin: var(--margen_tit_bajo);
    
 }
 

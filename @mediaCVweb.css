@@ -85,6 +85,7 @@
     .cont_tit_mini_form{
         position: relative;
         display: flex;
+        height: 3rem;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
@@ -98,38 +99,34 @@
         position: relative;
         width: 90%;
         display: flex;
-        height: 7rem;
+       
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         font-size:x-large;
-        padding: var(--padding_tit);
+        margin: var(--margen_tit_bajo);
     }
     .tit_exp {
         position: relative;
         width: 90%;
         display: flex;
-        height: 7rem;
+      
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         font-size:x-large;
-        padding: var(--padding_tit);
+        margin: var(--margen_tit_bajo);
     }
     .tit_mini_form{
         position: relative;
         width: 60%;
+       
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
-        margin: var(--separacion_dentro_caja);
-        padding: var(--padding_tit_mini);
-        font-size: large;
-
-        
+        align-items: center;        
     }
     .txt_apt {
         position: relative;
@@ -162,16 +159,29 @@
    /*---------------------CONTACTO------------------------*/
 .correo_elec{
     position: relative;
-    width: 50%;
-    font-size: larger;
+    width: 48%;
+    font-size: small;
    
     
 }
 .div_telefono{
     position: relative;
-    width: 50%;
-    font-size: larger;
+    width: 48%;
+    font-size: small;
    
    
+}
+/*------------------------SUBRAYADO-----------------------*/
+.div_subrayado_tit_peq{
+    position: relative;
+    width: 40%;
+    min-width:40%;
+    height:5px;
+    max-width: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: var(--margen_tit_bajo);
 }
 }
