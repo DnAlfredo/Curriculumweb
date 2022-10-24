@@ -597,7 +597,7 @@ que gacer que no
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-bottom: var(--margen_tit_bajo);
+  
 }
 
 .cont_subr_peq {
@@ -664,9 +664,9 @@ que gacer que no
 
 /*----------------------------APTITUDES-------------------*/
 .cont_divs_apt {
-    position: relative;
+ 
     display: flex;
-    width: 100%;
+ 
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -684,10 +684,6 @@ que gacer que no
     justify-content: center;
     align-items: center;
     margin: var(--margen_tit_bajo);
-
-
-
-
 }
 
 .txt_apt {
@@ -709,8 +705,6 @@ que gacer que no
 }
 
 .cont_div_exp {
-    position: relative;
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

@@ -149,28 +149,14 @@
     }
 
     /*---------------------EXPERIENCIA------------------------*/
-    .div_exp {
-        position: relative;
-        width: 90%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        font-size: small;
-    }
 
-    .seccion_div_exp dd {
-        position: relative;
-        width: 83%;
-        text-align: center;
-        padding: var(--padding_txt_ficha);
-    }
+ 
     .cont_cajaprincipal_bis {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        margin:6%;
+        margin:10%;
     }
     .subcajaarriba_bis,
     .subcajaarriba_bis,
@@ -208,14 +194,14 @@
     top: 42px;
     float: right;
     font-size: small;
-
+    
 }
 
 .cajaprincipal_bis {
     width: 25.25rem;
     /* 810px*/
     /*46% para responsive*/
-    height: 16.65rem;
+    height: 20.98rem;
     /*276px/8.65 para menu, pero c.v necesito este tamaño, ojo que el hover ya no vale*/
     position: relative;
     /* border: 1px solid black;
@@ -243,7 +229,15 @@
     z-index: 2;
     /*ñeñeñeñeñeñeñeñeñeñeñeñe.......que se queda onclick bajo y no se puede volver a dar*/
 }
-
+.disparador_bis{
+    position: relative;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 25.25rem;
+    height: 20.98rem;
+   
+}
 .desplegable_bis {
     display: block;
     z-index: 1;
@@ -414,6 +408,16 @@ font-size: small;
         width: 100%;
         font-size: small;
     }
+
+    .esconder {
+        display: none;
+        width: 0px;
+    
+    }
+    
+.mostrar {
+    display: flex;
+}
 
     /*------------------------SUBRAYADO-----------------------*/
     .div_subrayado_tit_peq {
