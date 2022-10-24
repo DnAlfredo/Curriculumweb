@@ -69,7 +69,7 @@ h2 {
     justify-content: center;
     align-items: center;
     margin: 6%;
-   
+
 }
 
 /*--------------RADIAL CON TEXTO---------------------*/
@@ -78,7 +78,7 @@ h2 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin:3%;
+    margin: 3%;
 }
 
 .txt_radial {
@@ -92,7 +92,7 @@ h2 {
     top: 42px;
     float: left;
     font-size: small;
- 
+
 }
 
 .txt_radial_bis {
@@ -106,7 +106,7 @@ h2 {
     top: 42px;
     float: right;
     font-size: small;
- 
+
 }
 
 .cajaprincipal_bis {
@@ -119,7 +119,7 @@ h2 {
     /* border: 1px solid black;
     background-color: gray;*/
 
-    
+
 }
 
 .cajacentral_bis {
@@ -425,7 +425,7 @@ h2 {
     text-align: center;
     left: 36%;
     top: 38%;
-z-index: 2;
+    z-index: 2;
     /*ñeñeñeñeñeñeñeñeñeñeñeñe.......que se queda onclick bajo y no se puede volver a dar*/
 }
 
@@ -438,20 +438,24 @@ z-index: 2;
 .mostrar {
     display: flex;
 }
-.mostrar_cntct{
+
+.mostrar_cntct {
     display: flex;
     min-width: 50%;
 }
+
 .esconder {
     display: none;
     width: 0px;
 
 }
-.esconder_cntct{
+
+.esconder_cntct {
     display: none;
-visibility: hidden;
-  width: 25%;
+    visibility: hidden;
+    width: 25%;
 }
+
 /*OOOOOJJJOOOOOO para no perder el hover por el camino hasta el elemento deseado hay que encapsularlo dentro de otro div para poder hacer que se
 toquen por tamaño pero que solo se muestre el contenido centrado dentro del div----lo normal seria no hacer tanta caja pero para uno radial hay
 que gacer que no 
@@ -794,6 +798,10 @@ que gacer que no
     bottom: 0%;
     left: 0%;
     z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ 
 }
 
 .Cont_contacto {
@@ -847,5 +855,22 @@ que gacer que no
     text-align: center;
     margin: var(--separacion_dentro_caja);
     padding: var(--separacion_dentro_caja);
+
+}
+
+.cont_vuelve {
+    position: relative;
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:flex-end;
+    text-align: center;
+    z-index: 9;
+
+    
+}
+.btn_vlv{
+    width: 100%;
 
 }

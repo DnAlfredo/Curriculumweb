@@ -459,3 +459,12 @@ body {
     color: var(--col_letra_div_tlfn);
     font-size: var(--tam_div_tlfn);
 }
+.btn_vlv{
+    border-radius: var(--radius_tit_cntct);
+    background: var(--fondo_tit_cntct);
+    box-shadow: var(--shadow_tit_cntct);
+    border: 0.7px solid var(--borde_tit_cntct);
+    color: var(--col_letra_tit_cntct);
+    font-size: var(--tam_tit_cntct);
+    text-shadow: var(--shadow_tit_cntct);
+}
