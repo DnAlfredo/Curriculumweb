@@ -165,7 +165,13 @@
         text-align: center;
         padding: var(--padding_txt_ficha);
     }
-
+    .cont_cajaprincipal_bis {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin:6%;
+    }
 
     /*---------------------CONTACTO------------------------*/
     .esconder_cntct {

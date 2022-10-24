@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estructuraCV.css">
+    <link rel="stylesheet" href="./DiseñoyColorCV.css">
+    <link rel="stylesheet" href="./@mediaCVweb.css">
+    <script src="./progCV.js"></script>
+    <link rel="icon" href="./multimedia/logo_frog.png" class="favicon" id="favicon">
+    <title>Menú Radial</title>
+</head>
+
+<body>
+
+
+    <header class="cont_header">
+        <div class="div_foto_header" id="zona_inicio">
+            <img src="./multimedia/foto1retocada.JPG" alt="" class="img_header">
+
+        </div>
+        <nav class="barra_nav">
+            <div class="cont_cajaprincipal">
+                <div class="cajaprincipal">
+                    <div class="disparador">
+                        <div class="cajacentral" onclick="enseñaRadial('grupo_radial')">
+                            <h1>Menú</h1>
+                        </div>
+                        <div class="desplegable esconder" id="grupo_radial">
+                            <div class="unionarriba">
+                                <div class="subcajaarriba">
+                                    <a href="./formacionc.v.html">
+                                        <h2>Formación</h2>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="unionizquierda">
+                                <div class="subcajaizquierda">
+                                    <a href="./experienciac.v.html">
+                                        <h2>Exp. Laboral</h2>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="unionderecha">
+                                <div class="subcajaderecha">
+                                    <a href="./aptitudes.html">
+                                        <h2>Aptitudes</h2>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="unionabajo">
+                                <div class="subcajaabajo">
+                                    <a href="./descargarC.V.html">
+                                        <h2>C.V</h2>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <main class="main_formacion">
+        <div class="cont_form">
+            <div class="tit_form" id="zona_formacion">
+                <h3>
+                    Formación
+                </h3>
+                <div class="div_subrayado_tit"></div>
+                <div class="cont_subr_peq">
+                    <div class="div_subdoble_tit_peq"></div>
+                </div>
+            </div>
+            <div class="cont_tit_mini_form">
+                <h4 class="tit_mini_form">
+                    Reglada
+                </h4>
+                <div class="div_subrayado_tit_peq"></div>
+            </div>
+
+            <div class="div_form">
+                <h5>
+                    Graduado E.S.O
+                </h5>
+                <div class="bot_div_form" onclick="abreFicha('txt_eso')">&#8597</div>
+                <div class="txt_div_form esconder" id="txt_eso">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus eius optio
+                        commodi labore impedit magnam fugiat tenetur quae, rerum ex suscipit perferendis ducimus ea
+                        enim
+                        quasi veritatis nisi porro exercitationem.
+                    </p>
+                </div>
+            </div>
+            <div class="div_form">
+                <h5>
+                    C.F.G.M Agroecología
+                </h5>
+                <div class="bot_div_form" onclick="abreFicha('txt_eco')">&#8597</div>
+                <div class="txt_div_form esconder" id="txt_eco">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus eius optio
+                        commodi labore impedit magnam fugiat tenetur quae, rerum ex suscipit perferendis ducimus ea
+                        enim
+                        quasi veritatis nisi porro exercitationem.
+                    </p>
+                </div>
+            </div>
+            <div class="div_form">
+                <h5>
+                    CP 2
+                </h5>
+                <div class="bot_div_form" onclick="abreFicha('txt_cp2')"><span class="flecha_div_form">&#8597</span>
+                </div>
+                <div class="txt_div_form esconder" id="txt_cp2">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus eius optio
+                        commodi labore impedit magnam fugiat tenetur quae, rerum ex suscipit perferendis ducimus ea
+                        enim
+                        quasi veritatis nisi porro exercitationem.
+                    </p>
+                </div>
+            </div>
+
+            <div class="cont_tit_mini_form">
+                <h4 class="tit_mini_form">
+                    Cursos/Carnets
+                </h4>
+                <div class="div_subrayado_tit_peq"></div>
+            </div>
+            <div class="div_form_peq" onclick="abreFicha('txt_of_miniform')">
+                <h5>
+                    Oficial Pastelería E.S.P
+                </h5>
+                <span class="flecha_div_form">&#8595</span>
+                <p class="txt_div_form esconder" id="txt_of_miniform">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ut cum.
+                </p>
+            </div>
+            <div class="div_form_peq" onclick="abreFicha('txt_com_miniform')">
+                <h5>
+                    Comunicación y presentaciones en público
+                </h5>
+                <span class="flecha_div_form">&#8597</span>
+
+                <p class="txt_div_form esconder" id="txt_com_miniform">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ut cum.
+                </p>
+
+            </div>
+            <div class="div_form_peq" onclick="abreFicha('txt_prev_miniform')">
+                <h5>
+                    Prevención manejo carretillas
+                </h5>
+                <span class="flecha_div_form">&#8595</span>
+                <p class="txt_div_form esconder" id="txt_prev_miniform">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ut cum.
+                </p>
+            </div>
+            <div class="div_form_peq" onclick="abreFicha('txt_perm_miniform')">
+                <h5>
+                    Permiso de conducir Clase B
+                </h5>
+                <span class="flecha_div_form">&#8595</span>
+                <p class="txt_div_form esconder" id="txt_perm_miniform">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ut cum.
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer class="cont_footer">
+        <div class="Cont_contacto" id="cont_cntct">
+            <div class="cuerpo_contct esconder_cntct" id="txt_cntct">
+                <div class="correo_elec">
+                    <h5>Correo electrónico</h5>
+                    <a href="mailto:a.m.p.desarrolloweb@gmail.com">a.m.p.desarrolloweb@gmail.com</a>
+                </div>
+                <div class="div_telefono">
+                    <h5>Teléfono</h5>
+                    <a href="tel:679875219">xxx-xxx-xxx</a>
+                </div>
+            </div>
+            <h3 class="tit_contct" onclick="abreFichacntct('txt_cntct')">
+                Contacto
+            </h3>
+        </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
