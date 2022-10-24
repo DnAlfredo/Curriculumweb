@@ -47,7 +47,20 @@ h2 {
     justify-content: center;
     align-items: center;
 }
+.cont_estilos{
+    position: relative;
+    width: 100%;
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.div_estilo{
+    position: relative;
+    display: block;
+    text-align: center;
 
+}
 .div_foto_header {
     position: relative;
     width: 50%;
@@ -78,12 +91,12 @@ h2 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 3%;
+    margin: 1%;
 }
 
 .txt_radial {
     position: relative;
-    width: 55%;
+    width: 60%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -97,7 +110,7 @@ h2 {
 
 .txt_radial_bis {
     position: relative;
-    width: 55%;
+    width: 60%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -110,10 +123,10 @@ h2 {
 }
 
 .cajaprincipal_bis {
-    width: 25.25rem;
+    width: 35.4rem;
     /* 810px*/
     /*46% para responsive*/
-    height: 16.65rem;
+    height: 17.98rem;
     /*276px/8.65 para menu, pero c.v necesito este tamaño, ojo que el hover ya no vale*/
     position: relative;
     /* border: 1px solid black;
@@ -123,11 +136,11 @@ h2 {
 }
 
 .cajacentral_bis {
-    width: 6.95rem
+    width: 8.34rem
         /*220px*/
     ;
     /*25.4% para hecerlo en responsive*/
-    height: 2.3rem
+    height: 2.76rem
         /*57px ---- para que sirva el hover con el nuevo tamaño*/
     ;
     position: absolute;
@@ -135,10 +148,9 @@ h2 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    font-size: medium;
     text-align: center;
-    left: 36%;
-    top: 38%;
+    left: 37.5%;
+    top: 42.2%;
     z-index: 2;
     /*ñeñeñeñeñeñeñeñeñeñeñeñe.......que se queda onclick bajo y no se puede volver a dar*/
 }
@@ -146,34 +158,27 @@ h2 {
 .desplegable_bis {
     display: block;
     z-index: 1;
-    height: 17.65rem;
+    height: 21.98rem;
     /*mismo tamño que la caja central*/
 }
 
 .unionabajo_bis {
-    width: 6.95rem;
+    width: 8.34rem;
     /*222px*/
-    height: 8.6rem;
+    height: 10.3rem;
     /*173px */
     position: absolute;
-    bottom: 27px;
-    left: 36%;
+    bottom: 0px;
+    left: 37.5%;
 }
 
-.unionarriba_bis {
-    position: absolute;
-    width: 6.95rem;
-    /*222px*/
-    height: 8.6rem;
-    /*165px*/
-    left: 36%;
-}
+
 
 .subcajaarriba_bis {
-    width: 6.95rem;
+    width: 8.4rem;
     /*220px*/
     /*sta cifra es para dejar un hueco en medio de cada una del mismo tamaño.*/
-    height: 1.95rem;
+    height: 2.4rem;
     /*57px*/
     position: absolute;
     display: flex;
@@ -181,45 +186,46 @@ h2 {
     justify-content: center;
     align-items: center;
     align-content: center;
-    font-size: large;
+    text-align: center;
+   
 
 }
 
 .unionarriba_bis {
     position: absolute;
-    width: 6.95rem;
+    width: 8.34rem;
     /*222px*/
-    height: 8.2rem;
+    height: 10.3rem;
     /*165px*/
-    left: 36%;
+    left: 37.5%;
 }
 
 .subcajaizquierda_bis {
-    width: 6.95rem;
+    width: 8.4rem;
     /*220px*/
-    height: 1.95rem;
+    height: 2.4rem;
     /*57px*/
     position: absolute;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    font-size: large;
+    text-align: center;
 }
 
 .unionizquierda_bis {
     position: absolute;
-    width: 16rem;
+    width: 22.2rem;
     /*518px*/
-    height: 1.95rem;
+    height: 2.55rem;
     /*60px*/
-    top: 38%;
+    top: 42.2%;
 }
 
 .subcajaderecha_bis {
-    width: 6.95rem;
+    width: 8.4rem;
     /*220px*/
-    height: 1.95rem;
+    height: 2.4rem;
     /*57px*/
     position: absolute;
     display: flex;
@@ -227,23 +233,24 @@ h2 {
     justify-content: center;
     align-items: center;
     right: 0%;
-    font-size: large;
+    text-align: center;
+    
 }
 
 .unionderecha_bis {
-    width: 16rem;
+    width: 22.2rem;
     /*518px*/
-    height: 1.95rem;
+    height: 2.55rem;
     /*60px*/
     position: absolute;
-    top: 38%;
+    top: 42.2%;
     right: 0%;
 }
 
 .subcajaabajo_bis {
-    width: 6.95rem;
+    width: 8.4rem;
     /*220px*/
-    height: 1.95rem;
+    height: 2.4rem;
     /*57px*/
     position: absolute;
     display: flex;
@@ -251,28 +258,28 @@ h2 {
     justify-content: center;
     align-items: center;
     bottom: 0vw;
-    font-size: large;
-}
+    text-align: center;
 
-.unionabajo_bis {
-    width: 6.95rem;
-    /*222px*/
-    height: 8.25rem;
-    /*173px */
-    position: absolute;
-    bottom: 31px;
-    left: 36%;
+    
+}
+.disparador_bis{
+    position: relative;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 35.4rem;
+    height: 17.98rem;
+   
 }
 
 
 .desplegable_bis {
     display: block;
-
-    height: 8.65rem;
+    height: 10.38rem;
     /*mismo tamño que la caja central*/
 }
 
-/*------------------------------------RADIAL CON TEXTO----------*/
+/*------------------------------------RADIAL SIN TEXTO----------*/
 .desplegable {
     display: block;
 
@@ -735,15 +742,6 @@ que gacer que no
 
 }
 
-.cont_div_exp {
-    position: relative;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: baseline;
-}
-
 .div_exp {
     position: relative;
     width: 30%;
@@ -838,7 +836,7 @@ que gacer que no
 .correo_elec {
     position: relative;
     width: 240px;
-    height: 37px;
+    height: 42px;
     display: block;
     text-align: center;
     margin: var(--separacion_dentro_caja);
@@ -850,7 +848,7 @@ que gacer que no
 .div_telefono {
     position: relative;
     width: 240px;
-    height: 37px;
+    height: 42px;
     display: block;
     text-align: center;
     margin: var(--separacion_dentro_caja);

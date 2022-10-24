@@ -24,7 +24,7 @@
     /*---------------------------------------BIS*/
     --color_borde_nav_bis: white;
     --color_txt_nav_bis: white;
-    --shadow_nav_bis: 0.2vh 0.2vh 0.2vh #F5F5F5;
+    --shadow_nav_bis: 0.2vh 0.2vh 0.2vh/* #F5F5F5*/black;
     --radius_radial_bis: 6rem 0.4rem 6rem;
     /*---------------------------------------BIS*/
 
@@ -186,7 +186,11 @@ body {
     background-image: radial-gradient(white, #a9a9a9, gray);
 
 }
-
+.div_estilo{
+    background-color: gray;
+    border: 1px solid gray;
+    
+}
 /*----------------RADIAL-----------*/
 .txt_radial_bis {
 
