@@ -6,7 +6,7 @@
 
 a {
     text-decoration: none;
-    color: auto;
+    
 }
 
 h2 {
@@ -448,7 +448,7 @@ h2 {
 
 .mostrar_cntct {
     display: flex;
-    min-width: 50%;
+    min-width: 25%;
 }
 
 .esconder {
@@ -675,7 +675,7 @@ que gacer que no
 
 .tit_apt {
     position: relative;
-    width: 35%;
+    width: 75%;
     display: flex;
     height: 5rem;
     min-height: 5rem;
@@ -798,7 +798,7 @@ que gacer que no
 
 .Cont_contacto {
     position: relative;
-    width: 25%;
+    width: 7%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -859,10 +859,11 @@ que gacer que no
     align-items:flex-end;
     text-align: center;
     z-index: 9;
+  
 
     
 }
 .btn_vlv{
     width: 100%;
-
+  color: white;
 }

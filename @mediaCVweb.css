@@ -14,7 +14,10 @@
         --padding_txt_ficha: 1.5%;
         --margen_tit_bajo: 10%
     }
-
+    .mostrar_cntct {
+        display: flex;
+        min-width: 50%;
+    }
     /*---------------------RADIAL------------------------*/
     .cont_header {
         position: relative;

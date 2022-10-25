@@ -53,7 +53,7 @@
     --shadow_tit_form: 0.3vh 0.3vh 0.3vh #F5F5F5;
     --radius_tit_form: 15px;
     --tam_tit_form: xx-large;
-    --col_txt_tit_form:white;
+    --col_txt_tit_form:#53585C;
 
     --fondo_tit_miniform: #A3A8A0;
     --borde_tit_miniform: none;
@@ -72,7 +72,7 @@
     --shadow_tit_apt:0.5vh 0.5vh 0.5vh #F5F5F5;
     --shadow_txt_tit_apt: 0 0 3px #F5F5F5;
     --borde_tit_apt:none;
-    --col_letra_tit_apt: white;
+    --col_letra_tit_apt: #53585C;
     --radius_txt_apt: 5px;
     --fondo_txt_apt:#F5F5F5;
     --shadow_txt_apt: none;
@@ -84,7 +84,7 @@
     --fondo_tit_esp:#53585C;
     --shadow_tit_esp: 0 0 3px #F5F5F5;
     --borde_tit_esp: none;
-    --col_letra_tit_esp:white;
+    --col_letra_tit_esp:#53585C;
    
     --shadow_txt_tit_esp:0 0 5px #F5F5F5;
     --radius_div_esp: 10px;
