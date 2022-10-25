@@ -442,26 +442,7 @@ h2 {
     /*mismo tamño que la caja central*/
 }
 
-.mostrar {
-    display: flex;
-}
 
-.mostrar_cntct {
-    display: flex;
-    min-width: 25%;
-}
-
-.esconder {
-    display: none;
-    width: 0px;
-
-}
-
-.esconder_cntct {
-    display: none;
-    visibility: hidden;
-    width: 25%;
-}
 
 /*OOOOOJJJOOOOOO para no perder el hover por el camino hasta el elemento deseado hay que encapsularlo dentro de otro div para poder hacer que se
 toquen por tamaño pero que solo se muestre el contenido centrado dentro del div----lo normal seria no hacer tanta caja pero para uno radial hay
@@ -503,7 +484,7 @@ que gacer que no
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     align-content: center;
     margin-bottom: var(--separacion_estructura_general);
 
@@ -530,14 +511,14 @@ que gacer que no
     padding: var(--padding_txt_ficha);
 
 }
-
 .bot_div_form {
-    margin: 0.5%;
+  
+    width: 100%;   
 }
-
 .flecha_div_form {
     width: 20px;
-
+  position: relative;  
+  margin: 0.5%;
 }
 
 .div_form_peq {
@@ -626,11 +607,11 @@ que gacer que no
 .cont_tit_mini_form {
     position: relative;
     width: 100%;
-
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-top: var( --separacion_estructura_general);
 
 }
 
@@ -648,19 +629,15 @@ que gacer que no
 
 }
 
-.bot_div_form {
-    position: relative;
-    width: 15px;
-}
-
 .txt_div_form {
     position: relative;
     width: 100%;
-    text-align: justify;
+    
     padding: var(--padding_txt_ficha);
     font-size: revert;
 
 }
+
 
 /*----------------------------APTITUDES-------------------*/
 .cont_divs_apt {
@@ -798,7 +775,7 @@ que gacer que no
 
 .Cont_contacto {
     position: relative;
-    width: 7%;
+    width: 110px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -866,4 +843,24 @@ que gacer que no
 .btn_vlv{
     width: 100%;
   color: white;
+}
+.mostrar {
+    display: flex;
+}
+
+.mostrar_cntct {
+    display: flex;
+    min-width: 450px;
+}
+
+.esconder {
+    display: none;
+    width: 0px;
+
+}
+
+.esconder_cntct {
+    display: none;
+    visibility: hidden;
+    width: 25%;
 }
