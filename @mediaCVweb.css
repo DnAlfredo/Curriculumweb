@@ -118,7 +118,7 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        font-size: x-large;
+        font-size: xx-large;
         margin: var(--margen_tit_bajo);
     }
 
@@ -126,12 +126,11 @@
         position: relative;
         width: 90%;
         display: flex;
-
-        display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        font-size: x-large;
+        font-size: xx-large;
+        text-align: center;
         margin: var(--margen_tit_bajo);
     }
 

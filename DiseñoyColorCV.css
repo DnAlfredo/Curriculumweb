@@ -107,7 +107,7 @@ font-size: xx-large;
 
 /*----------------FORMACION----------------*/
 .div_form {
-    border-radius:5rem 0.4rem 5rem;
+    border-radius:4rem 0.4rem 4rem;
     background: #97A8A6;
     /*box-shadow: var(--shadow_div_form);*/
     border: none;
@@ -116,7 +116,7 @@ font-size: xx-large;
 
 
 .div_form_peq {
-    border-radius:5rem 0.4rem 5rem;
+    border-radius:4rem 0.4rem 4rem;
     background:#97A8A6;
     /*box-shadow: var(--shadow_div_form_peq);*/
     border:none;
