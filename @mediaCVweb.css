@@ -57,7 +57,7 @@
     /*---------------------FORMACION------------------------*/
     .div_form {
         position: relative;
-        width: 75%;
+        width: 16rem;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -67,19 +67,23 @@
         padding: var(--padding_txt_ficha);
 
     }
-
+    .div_form_peq h5, .div_form h5 {
+        font-size: medium;
+        width: 100%;
+      }
     .tit_form {
         width: 90%;
-        font-size: x-large;
+        font-size: xx-large;
+        margin-top: 0%;
     }
 
     .tit_mini_form {
-        font-size: medium;
+        font-size: x-large;
     }
 
     .div_form_peq {
         position: relative;
-        width: 75%;
+        width: 16rem;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;

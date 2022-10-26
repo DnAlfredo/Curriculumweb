@@ -12,10 +12,6 @@
 
 }
 
-a {
-    color: black
-}
-
 /*-------------------------------------------------------------------HEADER-----------------------------------------------*/
 .img_header {
 
@@ -40,7 +36,7 @@ body {
     color: black;
     box-shadow: 0.5px 0.5px 0.5px #F5F5F5;
     border-radius: 5px;
-    padding: 0.5%;
+    padding: 1%;
 }
 
 .cajacentral{
@@ -50,6 +46,7 @@ body {
     box-shadow:  0.2vh 0.2vh 0.2vh #F5F5F5;
     color: white;
 }
+
 .subcajaarriba,
 .subcajaizquierda,
 .subcajaderecha,
@@ -58,13 +55,23 @@ body {
     border: 0.7px solid white;
     background: #97A8A6;
     box-shadow:  0.2vh 0.2vh 0.2vh #F5F5F5;
-    color: white;
-
+   
+}
+.subcajaarriba a,
+.subcajaizquierda a,
+.subcajaderecha a,
+.subcajaabajo a{
+    color:black;
 }
 /*------------------------------------------------------------------------------------------------------RADIAL CON TEXTO---------------------*/
+.tit_exp{
+text-shadow: 0 0 3px #F5F5F5;
+color: #53585C;
+font-size: xx-large;
+}
 .cajacentral_bis{
     background:rgba(83, 88, 92,0.5);
-    border-radius:6rem 0.4rem 6rem;
+    border-radius:5rem 0.4rem 5rem;
     border: 0.7px solid  white;
     
     box-shadow: 0.2vh 0.2vh 0.2vh/* #F5F5F5*/black;
@@ -79,9 +86,14 @@ body {
     border: 0.7px solid  white;
     background: #97A8A6;
     box-shadow: 0.2vh 0.2vh 0.2vh/* #F5F5F5*/black;
-    color: black;
+    
     padding: var(--separacion_dentro_caja);
-
+}
+.subcajaarriba_bis a,
+.subcajaizquierda_bis a,
+.subcajaderecha_bis a,
+.subcajaabajo_bis a{
+    color:black
 }
 /*--------------------------------------------------------------------MAIN------------------------------------------------*/
 /*---------------PRESENTACION--------------*/
@@ -95,15 +107,16 @@ body {
 
 /*----------------FORMACION----------------*/
 .div_form {
-    border-radius:10px;
+    border-radius:5rem 0.4rem 5rem;
     background: #97A8A6;
     /*box-shadow: var(--shadow_div_form);*/
     border: none;
-    color: black;
+  
 }
 
+
 .div_form_peq {
-    border-radius:10px;
+    border-radius:5rem 0.4rem 5rem;
     background:#97A8A6;
     /*box-shadow: var(--shadow_div_form_peq);*/
     border:none;
@@ -141,9 +154,11 @@ body {
 }
 .txt_div_form {
     background-color:#F5F5F5;
-    border-radius: 5px;
+    border-radius: 5rem 0.4rem 5rem;
 }
-
+.txt_div_form  a{
+    color: black;
+}
 /*----------------APTITUDES----------------*/
 .tit_apt {
     border-radius:15px;
@@ -191,7 +206,9 @@ body {
     border-radius: 5px;
     background:#545454;
     box-shadow: #F5F5F5;
-    color: white;
     text-shadow:0 0 3px  #F5F5F5;
     font-size: x-large;
+}
+.btn_vlv a{
+    color:white;
 }
