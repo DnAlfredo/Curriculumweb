@@ -226,6 +226,33 @@
                     <dd>xxxxxxxxxxxxxxxxxxxxxxxxxxx</dd>
                 </div>
             </div>
+            <div>
+                <table>
+                    <tr>
+                        <td>
+                            Año: 2013
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Centro Formativo
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="http://www.asociacionliberalia.com/" target="_blank"> Asociación Liberalia
+                                &#8599</a>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Nules
+                        </td>
+                    </tr>
+                </table>
+            </div>
             <!--
             <div class="div_exp">
                 <div class="seccion_div_exp">
@@ -250,16 +277,84 @@
                 </div>
             </div>
             -->
+
             <style>
-                    .div_exp {
-        position: relative;
-        width: 90%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        font-size: small;
-    }
+                :root {
+                    --radius_tit_esp: 10px;
+                    --fondo_tit_esp: #53585C;
+                    --shadow_tit_esp: 0 0 3px #F5F5F5;
+                    --borde_tit_esp: none;
+                    --col_letra_tit_esp: #53585C;
+
+                    --shadow_txt_tit_esp: 0 0 5px #F5F5F5;
+                    --radius_div_esp: 10px;
+                    --fondo_div_esp: #97A8A6;
+                    --shadow_div_esp: 0.5vh 0.5vh 0.5vh #F5F5F5;
+                    --borde_div_esp: none;
+                    --col_letra_div_esp: white;
+                    --tam_tit_esp: xx-large;
+
+                    --radius_tit_trabj: 10px;
+                    --fondo_tit_trabj: #A3A8A0;
+                    --shadow_tit_trabj: 0 0 3px #F5F5F5;
+                    --borde_tit_trabj: none;
+                    --col_letra_tit_trabj: white;
+                    --tam_tit_trabj: x-large;
+                    --shadow_txt_trabj: 0 0 3px #F5F5F5;
+                    --radius_dd_exp: 5px;
+                    --fondo_dd_exp: #F5F5F5;
+                    --shadow_dd_exp: none;
+                    --borde_dd_exp: none;
+                    --col_letra_dd_exp: black;
+                }
+
+                /*----------------EXPERIENCIA----------------*/
+                .tit_exp {
+                    border-radius: 15px;
+                    /*background: var(--fondo_tit_esp);
+    box-shadow: var(--shadow_tit_esp);*/
+                    color: #53585C;
+                    font-size: xx-large;
+                    text-shadow: 0 0 3px #F5F5F5;
+                }
+
+                .div_exp {
+                    border-radius: 10px;
+                    background: #97A8A6;
+                    /* box-shadow: var(--shadow_div_esp);*/
+
+                    color: white;
+
+                }
+
+                .tit_trabj_exp {
+                    border-radius: 10px;
+                    background: #A3A8A0;
+                    box-shadow: 0 0 3px #F5F5F5;
+
+                    color: white;
+                    font-size: x-large;
+                    /*text-shadow: var(--sahadow_tit_trabj);*/
+                }
+
+                .seccion_div_exp dd {
+                    border-radius: r;
+                    background: var(--fondo_dd_exp);
+                    box-shadow: var(--shadow_dd_exp);
+                    border: 0.7px solid var(--borde_dd_exp);
+                    color: var(--col_letra_dd_exp);
+                    font-size: var(--tam_dd_exp);
+                }
+
+                .div_exp {
+                    position: relative;
+                    width: 90%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: small;
+                }
 
                 .seccion_div_exp dd {
                     position: relative;
