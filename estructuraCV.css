@@ -10,10 +10,9 @@ a {
     
 }
 
-h2 {
-    font-size: medium;
+h3,h4{
+    font-size: small;
 }
-
 :root {
     --separacion_estructura_general: 4%;
     --separacion_estructura_tab_exp: 1%;
@@ -83,6 +82,7 @@ h2 {
     justify-content: center;
     align-items: center;
     margin: 6%;
+    
 
 }
 
@@ -132,7 +132,7 @@ h2 {
     position: relative;
     /* border: 1px solid black;
     background-color: gray;*/
-
+   
 
 }
 
@@ -150,10 +150,14 @@ h2 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    left: 37.5%;
+   
+    left: 38.2%;
     top: 42.2%;
     z-index: 2;
     /*ñeñeñeñeñeñeñeñeñeñeñeñe.......que se queda onclick bajo y no se puede volver a dar*/
+}
+.cajacentral_bis h2{
+    font-size: smaller;
 }
 
 .desplegable_bis {
@@ -479,7 +483,8 @@ que gacer que no
 }
 
 /*----------------------------FORMACION-------------------*/
-.cont_form {
+.cont_form,
+.cont_tit_pub {
     position: relative;
 
     display: flex;
@@ -502,7 +507,7 @@ que gacer que no
 
 .div_form {
     position: relative;
-    width: 14%;
+    width: 17rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -524,7 +529,7 @@ que gacer que no
 
 .div_form_peq {
     position: relative;
-    width: 15.6%;
+    width: 17rem;
     display: flex;
     min-height: 4.5rem;
     flex-wrap: wrap;
@@ -541,7 +546,8 @@ que gacer que no
     width: 100%;
 }
 
-.tit_form {
+.tit_form,
+.tit_pub{
     position: relative;
     width: 75%;
     min-width: 75%;
@@ -726,40 +732,7 @@ que gacer que no
     padding: var(--padding_txt_ficha);
 }
 
-.tit_trabj_exp {
-    position: relative;
-    width: 100%;
-    display: inline;
-    align-items: center;
-    text-align: center;
-    padding: var(--padding_tit_mini);
-}
 
-.seccion_div_exp {
-    position: relative;
-    width: 70%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: var(--separacion_sub_estruct);
-}
-
-.seccion_div_exp dl {
-    position: relative;
-    width: 70%;
-    text-align: center;
-    font-size: large;
-    padding: var(--padding_tit_mini);
-}
-
-.seccion_div_exp dd {
-    position: relative;
-    width: 85%;
-    text-align: justify;
-    padding: var(--padding_txt_ficha);
-}
 
 /*-------------------------------------------------------------------FOOTER----------------------------------------------*/
 .cont_footer {

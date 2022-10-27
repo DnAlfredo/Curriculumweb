@@ -10,7 +10,10 @@ function enseñaRadial(coco) {
 function abreFicha(idloca) {
   let divgoster = document.getElementById(idloca);
   divgoster.classList.toggle('mostrar');
-  divgoster.classList.toggle('esconder')
+  divgoster.classList.toggle('esconder');
+  if (document.getElementById('') ) {
+    
+  }
 
 }
 
