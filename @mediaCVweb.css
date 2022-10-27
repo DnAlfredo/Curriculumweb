@@ -57,7 +57,7 @@
     /*---------------------FORMACION------------------------*/
     .div_form {
         position: relative;
-        width: 16rem;
+        width: 17rem;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -83,7 +83,7 @@
 
     .div_form_peq {
         position: relative;
-        width: 16rem;
+        width: 17rem;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
