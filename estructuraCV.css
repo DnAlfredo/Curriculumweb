@@ -34,7 +34,7 @@ h3,h4{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: right;
     padding: var(--separacion_dentro_caja);
     margin-bottom: var(--separacion_estructura_general);
@@ -435,7 +435,7 @@ h3,h4{
     align-items: center;
     font-size: medium;
     text-align: center;
-    left: 36%;
+    left: 35%;
     top: 38%;
     z-index: 2;
     /*ñeñeñeñeñeñeñeñeñeñeñeñe.......que se queda onclick bajo y no se puede volver a dar*/
@@ -757,7 +757,9 @@ que gacer que no
     align-items: baseline;
     z-index: 9;
 }
-
+.contcolor{
+    width: 50%;
+}
 .tit_contct {
     position: relative;
     width: 100%;
@@ -787,8 +789,6 @@ que gacer que no
     text-align: center;
     margin: var(--separacion_dentro_caja);
     padding: var(--separacion_dentro_caja);
-
-
 }
 
 .div_telefono {
@@ -810,10 +810,7 @@ que gacer que no
     justify-content: center;
     align-items:flex-end;
     text-align: center;
-    z-index: 9;
-  
-
-    
+    z-index: 9;    
 }
 .btn_vlv{
     width: 100%;

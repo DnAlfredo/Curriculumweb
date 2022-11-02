@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./estructuraCV.css">
-    <link rel="stylesheet" href="./DiseñoyColorCV.css">
+    <link rel="stylesheet" href="./DiseñoyColorCV.css" id="cssdrag">
     <link rel="stylesheet" href="./@mediaCVweb.css">
     <script src="./progCV.js"></script>
     <link rel="icon" href="./multimedia/logo_frog.png" class="favicon" id="favicon">
@@ -68,6 +68,35 @@
                 </div>
             </div>
         </nav>
+        
+        <div class="contcolor">
+            <div class="cajaprincipal">
+                <div class="disparador">
+                    <div class="cajacentral" onclick="enseñaRadial('grupo_radialcolor')">
+                        <span>
+                            <b>Menú</b>
+                        </span>
+                    </div>
+                    <div class="desplegable esconder" id="grupo_radialcolor">
+                        <div class="unionizquierda">
+                            <div class="subcajaizquierda">
+                                <span onclick="cambiaInterfaz()">
+                                    <b>Vivos</b>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="unionderecha">
+                            <div class="subcajaderecha">
+                                <span onclick="cambiaColores()">
+                                    <b>Discretos</b>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
     </header>
     <main class="publicacion">
         <div class="cont_tit_pub">
@@ -101,8 +130,6 @@
             <div class="btn_vlv"><a href="./index.html">Inicio</a></div>
 
         </div>
-
-
     </footer>
 </body>
 

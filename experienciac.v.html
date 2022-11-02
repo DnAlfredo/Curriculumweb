@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./estructuraCV.css">
-    <link rel="stylesheet" href="./DiseñoyColorCV.css">
+    <link rel="stylesheet" href="./DiseñoyColorCV.css" id="cssdrag">
     <link rel="stylesheet" href="./@mediaCVweb.css">
     <script src="./progCV.js"></script>
     <link rel="icon" href="./multimedia/logo_frog.png" class="favicon" id="favicon">
     <title>Menú Radial</title>
 </head>
 
-<body>
+<body onload="mantenerCss()">
     <header class="cont_header">
         <div class="div_foto_header" id="zona_inicio">
             <img src="./multimedia/foto1retocada.JPG" alt="" class="img_header">
@@ -69,6 +69,7 @@
                 </div>
             </div>
         </nav>
+      
     </header>
     <main class="main_explab">
         <div class="cont_epx" id="zona_experiencia">
@@ -85,7 +86,7 @@
                 <div class="cont_cajaprincipal_bis">
                     <div class="cajaprincipal_bis">
                         <div class="disparador_bis">
-                            <div class="cajacentral_bis" onclick="enseñaRadial('grupo_radial_bis')">
+                            <div class="cajacentral_bis" onclick="abreFicha('grupo_radial_bis')">
                                 <h2>
                                     Op. Planta-Clasificador
                                 </h2>
