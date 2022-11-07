@@ -7,12 +7,14 @@
 
 a {
     text-decoration: none;
-    
+
 }
 
-h3,h4{
+h3,
+h4 {
     font-size: small;
 }
+
 :root {
     --separacion_estructura_general: 4%;
     --separacion_estructura_tab_exp: 1%;
@@ -47,20 +49,23 @@ h3,h4{
     justify-content: center;
     align-items: center;
 }
-.cont_estilos{
+
+.cont_estilos {
     position: relative;
     width: 100%;
-    display:flex ;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
-.div_estilo{
+
+.div_estilo {
     position: relative;
     display: block;
     text-align: center;
 
 }
+
 .div_foto_header {
     position: relative;
     width: 50%;
@@ -82,7 +87,7 @@ h3,h4{
     justify-content: center;
     align-items: center;
     margin: 6%;
-    
+
 
 }
 
@@ -132,7 +137,7 @@ h3,h4{
     position: relative;
     /* border: 1px solid black;
     background-color: gray;*/
-   
+
 
 }
 
@@ -150,13 +155,14 @@ h3,h4{
     justify-content: center;
     align-items: center;
     text-align: center;
-   
+
     left: 38.2%;
     top: 42.2%;
     z-index: 2;
     /*ñeñeñeñeñeñeñeñeñeñeñeñe.......que se queda onclick bajo y no se puede volver a dar*/
 }
-.cajacentral_bis h2{
+
+.cajacentral_bis h2 {
     font-size: smaller;
 }
 
@@ -192,7 +198,7 @@ h3,h4{
     align-items: center;
     align-content: center;
     text-align: center;
-   
+
 
 }
 
@@ -239,7 +245,7 @@ h3,h4{
     align-items: center;
     right: 0%;
     text-align: center;
-    
+
 }
 
 .unionderecha_bis {
@@ -265,16 +271,17 @@ h3,h4{
     bottom: 0vw;
     text-align: center;
 
-    
+
 }
-.disparador_bis{
+
+.disparador_bis {
     position: relative;
     display: block;
     flex-wrap: wrap;
     justify-content: center;
     width: 35.4rem;
     height: 17.98rem;
-   
+
 }
 
 
@@ -421,7 +428,7 @@ h3,h4{
 }
 
 .cajacentral {
-    width:7.3rem
+    width: 7.3rem
         /*220px*/
     ;
     /*25.4% para hecerlo en responsive*/
@@ -483,8 +490,7 @@ que gacer que no
 }
 
 /*----------------------------FORMACION-------------------*/
-.cont_form,
-.cont_tit_pub {
+.cont_form {
     position: relative;
 
     display: flex;
@@ -517,14 +523,16 @@ que gacer que no
     padding: var(--padding_txt_ficha);
 
 }
+
 .bot_div_form {
-  
-    width: 100%;   
+
+    width: 100%;
 }
+
 .flecha_div_form {
     width: 20px;
-  position: relative;  
-  margin: 0.5%;
+    position: relative;
+    margin: 0.5%;
 }
 
 .div_form_peq {
@@ -546,8 +554,7 @@ que gacer que no
     width: 100%;
 }
 
-.tit_form,
-.tit_pub{
+.tit_form {
     position: relative;
     width: 75%;
     min-width: 75%;
@@ -586,7 +593,7 @@ que gacer que no
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-  
+
 }
 
 .cont_subr_peq {
@@ -619,7 +626,7 @@ que gacer que no
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: var( --separacion_estructura_general);
+    margin-top: var(--separacion_estructura_general);
 
 }
 
@@ -649,9 +656,9 @@ que gacer que no
 
 /*----------------------------APTITUDES-------------------*/
 .cont_divs_apt {
- 
+
     display: flex;
- 
+
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -677,9 +684,11 @@ que gacer que no
     display: block;
     text-align: justify;
     margin: var(--separacion_sub_estruct);
-    padding: var(--padding_tit_mini);
+    padding: 3%;
 }
-
+.txt_apt li{
+    margin: 4%;
+}
 /*----------------------------EXPERIENCIA-------------------*/
 .cont_epx {
     display: flex;
@@ -732,7 +741,101 @@ que gacer que no
     padding: var(--padding_txt_ficha);
 }
 
+/*---------------------PUBLICACION----------------*/
+.tit_pub {
+    position: relative;
+    width: 75%;
+    min-width: 75%;
+    height: 5rem;
+    min-height: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: var(--margen_tit_bajo);
+    margin-top: var(--separacion_estructura_general);
+}
 
+.cont_tit_pub {
+    position: relative;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+    margin-bottom: var(--separacion_estructura_general);
+}
+
+.cont_tit_port,
+.cont_tit_loc {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: var(--separacion_estructura_general);
+}
+
+.tit_port,
+.tit_loc {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.cont_port,
+.cont_locuras {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cont_enlace_port{
+    position: relative;
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.img_portfolio {
+    width: 100px;
+    min-width: 150px;
+    height: 150px;
+    min-height: 150px;
+    margin-top: 20%;
+    border-radius: 10px;
+}
+.txt_img_port{
+    width: 100%;
+}
+.div_practica{
+    width: 95%;
+    height: 500px;
+    margin-top: 5%;
+    background-color: azure;
+}
+.div_subdoble_tit_pract {
+    position: relative;
+    width:275px;
+    min-width: 275px;
+    height: 5px;
+    max-width: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
 
 /*-------------------------------------------------------------------FOOTER----------------------------------------------*/
 .cont_footer {
@@ -745,7 +848,7 @@ que gacer que no
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
- 
+
 }
 
 .Cont_contacto {
@@ -757,9 +860,11 @@ que gacer que no
     align-items: baseline;
     z-index: 9;
 }
-.contcolor{
+
+.contcolor {
     width: 50%;
 }
+
 .tit_contct {
     position: relative;
     width: 100%;
@@ -790,39 +895,29 @@ que gacer que no
     margin: var(--separacion_dentro_caja);
     padding: var(--separacion_dentro_caja);
 }
-
-.div_telefono {
-    position: relative;
-    width: 240px;
-    height: 42px;
-    display: block;
-    text-align: center;
-    margin: var(--separacion_dentro_caja);
-    padding: var(--separacion_dentro_caja);
-
-}
-
 .cont_vuelve {
     position: relative;
     width: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items:flex-end;
+    align-items: flex-end;
     text-align: center;
-    z-index: 9;    
+    z-index: 9;
 }
-.btn_vlv{
+
+.btn_vlv {
     width: 100%;
-  color: white;
+    color: white;
 }
+
 .mostrar {
     display: flex;
 }
 
 .mostrar_cntct {
     display: flex;
-    min-width: 450px;
+    min-width: 250px;
 }
 
 .esconder {

@@ -125,7 +125,7 @@
         display: block;
         text-align: justify;
         margin: var(--separacion_sub_estruct);
-        padding: var(--padding_txt_apt);
+        padding: 7%;
         font-size: medium;
     }
 
@@ -357,6 +357,16 @@ font-size: small;
     height: 8.65rem;
     /*mismo tamño que la caja central*/
 }
+/*------------------PUBLICACION-------------------------*/
+.cont_enlace_port{
+    position: relative;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
     /*---------------------CONTACTO------------------------*/
     .esconder_cntct {
         display: none;
@@ -365,7 +375,7 @@ font-size: small;
     }
     .mostrar_cntct{
         display: flex;
-        min-width: 50%;
+        min-width: 60%;
     }
     .Cont_contacto {
         position: relative;
@@ -389,13 +399,6 @@ font-size: small;
         width: 100%;
         font-size: small;
     }
-
-    .div_telefono {
-        position: relative;
-        width: 100%;
-        font-size: small;
-    }
-
     .esconder {
         display: none;
         width: 0px;
@@ -418,5 +421,17 @@ font-size: small;
         justify-content: center;
         align-items: center;
         margin-bottom: var(--margen_tit_bajo);
+    }
+    .div_subdoble_tit_pract {
+        position: relative;
+        width:275px;
+        min-width: 275px;
+        height: 5px;
+        max-width: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    
     }
 }

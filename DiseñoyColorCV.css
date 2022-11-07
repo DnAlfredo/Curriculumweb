@@ -123,8 +123,8 @@ font-size: x-large;
     color:black;
 }
 
-.tit_form,
-.tit_pub {
+.tit_form
+{
     border-radius: 15px;
     /* background: var(--fondo_tit_form);*/
   /* box-shadow: var(--shadow_tit_form);*/
@@ -178,6 +178,33 @@ font-size: x-large;
     color:#53585C;
     font-size:medium;
 }
+/*-------------------------PUBLICACION--------------------*/
+.tit_pub {
+    border-radius: 15px;
+    /* background: var(--fondo_tit_form);*/
+  /* box-shadow: var(--shadow_tit_form);*/
+    text-shadow:0 0 3px #F5F5F5;
+    /* border: 0.7px solid var(--borde_tit_form);*/
+    color: #53585C;
+    font-size: x-large;
+}
+.tit_port,
+.tit_loc{
+    border-radius: 15px;
+    /*background-color: var(--fondo_tit_miniform);
+    box-shadow: var(--shadow_tit_miniform);*/
+   /*border: 0.7px solid var(--borde_div_form); no queda bien*/
+    color:#53585C;
+    font-size: large;
+   text-shadow: 0 0 3px #F5F5F5;
+}
+.div_subdoble_tit_pract{
+    border-radius: 4rem 0.4rem 4rem;
+    background: #53585C;
+  /* box-shadow: var(--shadow_tit_form);*/
+    text-shadow: 0 0 3px #F5F5F5;
+    /* border: 0.7px solid var(--borde_tit_form);*/
+}
 /*--------------------------------------------------------------------------FOOTER---------------------------------------------------------------------------*/
 .tit_contct {
     border-radius: 5px;
@@ -196,8 +223,7 @@ font-size: x-large;
     font-size:medium;
 }
 
-.correo_elec,
-.div_telefono {
+.correo_elec{
     border-radius: 5px;
     background:#A3A8A0;
     box-shadow:0.5vh 0.5vh 0.5vh #F5F5F5;
