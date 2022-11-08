@@ -820,9 +820,12 @@ que gacer que no
 }
 .div_practica{
     width: 95%;
-    height: 500px;
     margin-top: 5%;
     background-color: azure;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .div_subdoble_tit_pract {
     position: relative;
@@ -836,7 +839,17 @@ que gacer que no
     align-items: center;
 
 }
-
+.boton_ejmpl_prct{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20%;
+    
+}
 /*-------------------------------------------------------------------FOOTER----------------------------------------------*/
 .cont_footer {
     position: fixed;
