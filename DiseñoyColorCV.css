@@ -208,6 +208,8 @@ font-size: x-large;
 .boton_ejmpl_prct{
     background-color:#A8A897 ;
     border-radius: 50%;
+}
+.boton_ejmpl_prct a{
     color: black;
 }
 /*--------------------------------------------------------------------------FOOTER---------------------------------------------------------------------------*/

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estructuraCV.css">
+    <link rel="stylesheet" href="./DiseñoyColorCV.css" id="cssdrag">
+    <link rel="stylesheet" href="./@mediaCVweb.css">
+    <link rel="stylesheet" href="./csspract2_web.css">
+    <script src="./progCV.js"></script>
+    <link rel="icon" href="./multimedia/logo_frog.png" class="favicon" id="favicon">
+    <title>Menú Radial</title>
+</head>
+
+<body>
+    <header class="cont_header">
+        <div class="div_foto_header" id="zona_inicio">
+            <img src="./multimedia/foto1retocada.JPG" alt="" class="img_header">
+        </div>
+        <nav class="barra_nav">
+            <div class="cont_cajaprincipal">
+                <div class="cajaprincipal">
+                    <div class="disparador">
+                        <div class="cajacentral" onclick="enseñaRadial('grupo_radial')">
+                            <span>
+                                <b>Menú</b>
+                            </span>
+                        </div>
+                        <div class="desplegable esconder" id="grupo_radial">
+                            <div class="unionarriba">
+                                <div class="subcajaarriba">
+                                    <a href="./formacionc.v.html">
+                                        <span>
+                                            <b>Formación</b>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="unionizquierda">
+                                <div class="subcajaizquierda">
+                                    <a href="./experienciac.v.html">
+                                        <span>
+                                            <b>Exp. Laboral</b>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="unionderecha">
+                                <div class="subcajaderecha">
+                                    <a href="./aptitudes.html">
+                                        <span>
+                                            <b>Aptitudes</b>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="unionabajo">
+                                <div class="subcajaabajo">
+                                    <a href="./publicacion.html">
+                                        <span>
+                                            <b>Publicación</b>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main_pract2">
+        <div class="cont_tit_loc">
+            <div class="tit_loc">
+                <h2>Zona de Prácticas</h2>
+            </div>
+            <div class="div_subdoble_tit_pract"></div>
+        </div>
+        <div class="div_practica">
+            <div class="cont_galeria"> 
+                <div class="btn_galeria_drch" onclick="cambiaImg(-1)">&#8592</div>
+                <div class="botongaleria" id="boton_inicio" onclick="muestraImg('logo_frog.png')">¿QUIERES VER FOTOS?<br><br> CLICK PARA EMPEZAR
+                </div>
+                <div id="divimg_galeria"><img src="./multimedia/logo_frog.png" alt="" id="img_galeria"></div>
+                <div class="btn_galeria_izq" onclick="cambiaImg(1)">&#8594</div>
+                <div id="botones_mini">
+                    <div id="icon_img1" onclick="fotoDirecta(0)"><img src="./multimedia/DSCN0083.jpg" alt="" class="img_mini">
+                    </div>
+                    <div id="icon_img2" onclick="fotoDirecta(1)"><img src="./multimedia/DSCN0155.jpg" alt="" class="img_mini">
+                    </div>
+                    <div id="icon_img3" onclick="fotoDirecta(2)"><img src="./multimedia/IMG_0106.jpg" alt="" class="img_mini">
+                    </div>
+                    <div id="icon_img4" onclick="fotoDirecta(3)"><img src="./multimedia/IMG_0147.jpg" alt="" class="img_mini">
+                    </div>
+                    <div id="icon_img5" onclick="fotoDirecta(4)"><img src="./multimedia/IMG_0207.jpg" alt="" class="img_mini">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="cont_footer">
+        <div class="Cont_contacto" id="cont_cntct">
+            <div class="cuerpo_contct esconder_cntct" id="txt_cntct">
+                <div class="correo_elec">
+                    <h5>Correo electrónico</h5>
+                    <a href="mailto:a.m.p.desarrolloweb@gmail.com">a.m.p.desarrolloweb@gmail.com</a>
+                </div>
+            </div>
+            <h3 class="tit_contct" onclick="abreFichacntct('txt_cntct')">
+                Contacto
+            </h3>
+        </div>
+        <div class="cont_vuelve">
+            <h3 class="btn_vlv"><a href="./publicacion.html">Atrás</a></h3>
+
+        </div>
+    </footer>
+</body>
+
+</html>

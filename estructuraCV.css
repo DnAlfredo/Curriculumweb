@@ -820,6 +820,7 @@ que gacer que no
 }
 .div_practica{
     width: 95%;
+    height: 100%;
     margin-top: 5%;
     background-color: azure;
     display: flex;
@@ -847,7 +848,7 @@ que gacer que no
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 20%;
+    margin: 5%;
     
 }
 /*-------------------------------------------------------------------FOOTER----------------------------------------------*/

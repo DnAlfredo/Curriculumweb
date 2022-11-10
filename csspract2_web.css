@@ -1,0 +1,108 @@
+.main_pract2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont_galeria {
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3%;
+    background-color: rgba(0, 250, 208, 0.521);
+    border-radius: 4rem 0.4rem 4rem;
+
+}
+#divimg_galeria {
+    width: 300px;
+    
+    display: none;
+    justify-content: center;
+    align-items: center;  
+     margin: 2%;
+     box-shadow: 4px 4px 4px rgb(56, 138, 158);
+     border-radius: 5px;
+}
+#img_galeria {
+    width: 100%;
+    border-radius: 5px;
+ 
+}
+
+.btn_galeria_drch,
+.btn_galeria_izq{
+    width:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    background-color:  rgb(16, 231, 195);
+    border-radius: 4rem 0.4rem 4rem;
+    margin: 2%;
+
+}
+#botones_mini{
+    position: relative;
+    width: 100%;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#boton_inicio{
+position: relative;
+width: 70%;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+border-radius: 4rem 0.4rem 4rem;
+background-color: rgb(16, 231, 195);
+}
+.img_mini{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+#icon_img1,
+#icon_img5,
+#icon_img2,
+#icon_img3,
+#icon_img4 {
+    width: 2rem;
+    height: 2rem;
+    box-shadow: 4px 4px 4px rgb(56, 138, 158);
+    border-radius: 5px;
+    margin: 1%;
+}
+@media screen and (max-width: 780px) {
+    .btn_galeria_drch,
+    .btn_galeria_izq{
+        width:10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: larger;
+        background-color:  rgb(16, 231, 195);
+        border-radius: 4rem 0.4rem 4rem;
+        margin: 2%;
+    
+    }
+    #img_galeria {
+        width: 100%;  
+    }
+    #divimg_galeria {
+        width:50%;
+        height: 50%;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        margin: 2%;
+        box-shadow: 4px 4px 4px rgb(56, 138, 158);
+        border-radius: 5px;
+    }
+}
