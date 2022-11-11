@@ -2,7 +2,7 @@
 * {
     margin: 0%;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 a {
@@ -40,6 +40,7 @@ h4 {
     align-items: right;
     padding: var(--separacion_dentro_caja);
     margin-bottom: var(--separacion_estructura_general);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .barra_nav {
@@ -87,7 +88,7 @@ h4 {
     justify-content: center;
     align-items: center;
     margin: 6%;
-
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -98,6 +99,7 @@ h4 {
     justify-content: center;
     align-items: center;
     margin: 1%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .txt_radial {
@@ -465,6 +467,7 @@ que gacer que no
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -499,7 +502,7 @@ que gacer que no
     align-items: baseline;
     align-content: center;
     margin-bottom: var(--separacion_estructura_general);
-
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -663,6 +666,7 @@ que gacer que no
     justify-content: center;
     align-items: center;
     margin-bottom: var(--separacion_estructura_general);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .tit_apt {
@@ -695,7 +699,7 @@ que gacer que no
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .cont_div_exp {
@@ -742,6 +746,9 @@ que gacer que no
 }
 
 /*---------------------PUBLICACION----------------*/
+.main_publicacion{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .tit_pub {
     position: relative;
     width: 75%;
@@ -754,6 +761,7 @@ que gacer que no
     align-items: center;
     margin-bottom: var(--margen_tit_bajo);
     margin-top: var(--separacion_estructura_general);
+    
 }
 
 .cont_tit_pub {
@@ -776,6 +784,7 @@ que gacer que no
     justify-content: center;
     align-items: center;
     margin-top: var(--separacion_estructura_general);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .tit_port,
@@ -861,6 +870,7 @@ que gacer que no
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
