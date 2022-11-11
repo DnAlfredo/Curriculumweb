@@ -33,7 +33,7 @@ h4 {
 /*-------------------------------------------------------------------HEADER-----------------------------------------------*/
 .cont_header {
     position: relative;
-    width: 100%;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -770,7 +770,7 @@ que gacer que no
 .cont_tit_port,
 .cont_tit_loc {
     position: relative;
-    width: 100%;
+   
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -792,7 +792,7 @@ que gacer que no
 .cont_port,
 .cont_locuras {
     position: relative;
-    width: 100%;
+   
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -822,7 +822,6 @@ que gacer que no
     width: 95%;
     height: 100%;
     margin-top: 5%;
-    background-color: azure;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

@@ -1,0 +1,81 @@
+/*--------------------------Main-----------------------------*/
+.cont_cabecera{
+position: relative;
+width: 100%;
+min-height: 200px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+background-image: url('./multimedia/DSCN0083.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+box-shadow:0.5vh 0.5vh 0.5vh rgb(136, 74, 74);
+margin-top: 4%;
+
+}
+.cont_tit{
+    position: relative;
+    width: 30%;
+    display: block;
+   text-align: center;
+
+}
+.cont_nav{
+    position: relative;
+    width: 70%;
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   text-align: center;
+   background-color: rgba(66, 66, 65, 0.438);
+}
+.cont_nav a{
+    font-size: x-large;
+    color: white;
+}
+.cont_cuerpo_carte{
+    min-height: 400px;
+    background-image: url('./multimedia/fondo_papel_movil.png');
+    background-repeat: no-repeat;
+background-size: cover
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 780px) {
+    .cont_tit{
+        position: relative;
+        width: 50%;
+        display: block;
+       text-align: center;
+    
+    }
+    .cont_nav{
+        position: relative;
+        width: 100%;
+        display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+       align-items: center;
+       text-align: center;
+    }
+}

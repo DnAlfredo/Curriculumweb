@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20%;
 }
 
 .cont_galeria {
@@ -13,23 +14,26 @@
     justify-content: space-around;
     align-items: center;
     margin: 3%;
-    background-color: rgba(0, 250, 208, 0.521);
+    background-color: #545454;
     border-radius: 4rem 0.4rem 4rem;
 
 }
 #divimg_galeria {
     width: 300px;
-    
+    height: 350px;
     display: none;
     justify-content: center;
     align-items: center;  
      margin: 2%;
-     box-shadow: 4px 4px 4px rgb(56, 138, 158);
+    background-color: #F5F5F5;
      border-radius: 5px;
 }
 #img_galeria {
-    width: 100%;
+    position: relative;
+    width: 96%;
+    height: 80%;
     border-radius: 5px;
+    bottom:8%;
  
 }
 
@@ -40,7 +44,7 @@
     justify-content: center;
     align-items: center;
     font-size: x-large;
-    background-color:  rgb(16, 231, 195);
+    background-color:  #F5F5F5;
     border-radius: 4rem 0.4rem 4rem;
     margin: 2%;
 
@@ -61,7 +65,7 @@ justify-content: center;
 align-items: center;
 text-align: center;
 border-radius: 4rem 0.4rem 4rem;
-background-color: rgb(16, 231, 195);
+background-color: #F5F5F5;
 }
 .img_mini{
     width: 2rem;
@@ -75,7 +79,7 @@ background-color: rgb(16, 231, 195);
 #icon_img4 {
     width: 2rem;
     height: 2rem;
-    box-shadow: 4px 4px 4px rgb(56, 138, 158);
+    box-shadow: 4px 4px 4px #F5F5F5;
     border-radius: 5px;
     margin: 1%;
 }
@@ -87,22 +91,20 @@ background-color: rgb(16, 231, 195);
         justify-content: center;
         align-items: center;
         font-size: larger;
-        background-color:  rgb(16, 231, 195);
+        background-color:  #F5F5F5;
         border-radius: 4rem 0.4rem 4rem;
         margin: 2%;
     
     }
-    #img_galeria {
-        width: 100%;  
-    }
+  
     #divimg_galeria {
-        width:50%;
-        height: 50%;
+        width:63%;
+       
         display: none;
         justify-content: center;
         align-items: center;
         margin: 2%;
-        box-shadow: 4px 4px 4px rgb(56, 138, 158);
+        
         border-radius: 5px;
     }
 }

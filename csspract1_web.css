@@ -1,8 +1,8 @@
 
 :root {
-    --primario: #8d950e;
-    --secundario:blue;
-    --borde_oscuro: 1px solid #8d950e;
+   
+    --secundario:#53585C;
+    
     --margen_entre_fichas: 2vh;
     --sombra: none;
     --complementario: white;
@@ -10,9 +10,9 @@
     --radius_peq: 50%;
     --padding_tit: 0px;
     --padding_txt: 2vh;
-    --color_esquema_2: conic-gradient(lightblue, blue,lightblue);
+    --color_esquema_2: conic-gradient(#F5F5F5,#53585C,#F5F5F5);
     --color_animado: rgba(255, 165, 0, 0.7);
-    --color_tipos1:blue;
+    --color_tipos1:#53585C;
    
     
 
@@ -25,8 +25,8 @@
 }
 .main_ejemplos_pract h1{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
-    color: green;
-    text-shadow: 0 0 3px red;
+    color: #53585C;
+    text-shadow: 0 0 3px #F5F5F5;
 }
 .cuerpoesclero {
     display: flex;
