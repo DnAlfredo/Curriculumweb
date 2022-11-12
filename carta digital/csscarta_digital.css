@@ -1,5 +1,5 @@
 /*----------------------------GENERALES----------------------*/
-.cont_separador{
+.cont_separador {
     position: relative;
     width: 100%;
     display: flex;
@@ -10,26 +10,29 @@
     margin-bottom: 2%;
 
 }
-.raya_separador_izq{
-    
+
+.raya_separador_izq {
+
     border-right: 28px solid transparent;
-     border-top: 11px solid transparent;
-     border-left: 22px solid rgb(83, 47, 47);
-     border-bottom: 14px solid rgb(83, 47, 47);
+    border-top: 11px solid transparent;
+    border-left: 22px solid rgb(83, 47, 47);
+    border-bottom: 14px solid rgb(83, 47, 47);
 }
-.raya_separador_der{
+
+.raya_separador_der {
     border-left: 22px solid transparent;
     border-top: 15px solid transparent;
     border-right: 28px solid rgb(83, 47, 47);
     border-bottom: 11px solid rgb(83, 47, 47);
 }
-.circulo_separador{
+
+.circulo_separador {
     width: 25px;
     height: 25px;
-border-radius: 50%;
-background-color: rgb(83, 47, 47);
-margin-left: 1%;
-margin-right: 1%;
+    border-radius: 50%;
+    background-color: rgb(83, 47, 47);
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 /*--------------------------Main-----------------------------*/
@@ -85,7 +88,10 @@ margin-right: 1%;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 1200px;
+    z-index: -2;
+
 }
+
 /*--------------------------PRESENTACION-----------------------------*/
 .cont_tit_present {
     position: relative;
@@ -109,20 +115,23 @@ margin-right: 1%;
     color: rgb(124, 76, 76);
 
 }
+
 .div_raya_tit {
     position: relative;
     width: 15%;
     height: 1.5px;
     background-color: black;
 }
-.cont_txt_present{
+
+.cont_txt_present {
     position: relative;
     display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
-.txt_present{
+
+.txt_present {
     position: relative;
     width: 100%;
     display: block;
@@ -130,8 +139,9 @@ align-items: center;
     font-size: x-large;
     padding: 3%;
 }
+
 /*--------------------------ENTRANTES-----------------------------*/
-.cont_entrantes{
+.cont_entrantes {
     position: relative;
     width: 100%;
     display: flex;
@@ -140,9 +150,44 @@ align-items: center;
     align-items: center;
     margin-top: 8%;
     margin-bottom: 2%;
+  
 
 }
-.cont_tit_entr{
+
+.cnt_img_entr {
+    position: relative;
+    width: 100%;
+    height:200px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    z-index: 3;
+}
+
+.img_entr1 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    top: 40%;
+
+}
+
+.img_entr2 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    top: 20%;
+
+}
+
+.cont_tit_entr {
     position: relative;
     width: 10%;
     display: flex;
@@ -152,7 +197,8 @@ align-items: center;
     font-size: xx-large;
     color: rgb(124, 76, 76);
 }
-.cont_txt_entr{
+
+.cont_txt_entr {
     position: relative;
     width: 85%;
     display: flex;
@@ -160,37 +206,97 @@ align-items: center;
     justify-content: center;
     align-items: center;
     font-size: large;
-    margin-top:2%;
+    margin-top: 2%;
 }
-.plt_entr{
+
+.plt_entr {
     position: relative;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content:center;
+    justify-content: center;
     align-items: baseline;
-    
+    margin: 0.5%;
 }
-.nom_plt{
+
+.nom_plt {
     position: relative;
     width: 10%;
+    display: inline;
+    text-align: end;
+    font-size: larger;
+}
+
+.linea_plt_pvp {
+    position: relative;
+    width: 48%;
+    border-bottom: 0.8px dotted;
+}
+
+.pvp_plt {
+    position: relative;
+    width: 10%;
+    display: inline;
+    text-align: justify;
+}
+
+/*--------------------------ENTRANTES-----------------------------*/
+.cnt_carnes {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+    margin-bottom: 2%;
+}
+
+.cnt_tit_carns {
+    position: relative;
+    width: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    color: rgb(124, 76, 76);
+}
+
+.cnt_txt_crns {
+    position: relative;
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    margin-top: 2%;
+}
+
+.linea_plt_pvp_crns {
+    position: relative;
+    width: 30%;
+    border-bottom: 0.8px dotted;
+}
+
+.nom_plt_crns {
+    position: relative;
+    width: 28%;
     display: inline;
     text-align: justify;
     font-size: larger;
 }
-.linea_plt_pvp{
-    position: relative;
-    width: 48%;
-    border-bottom:0.8px dotted;
-}
-.pvp_plt{
-    position: relative;
-    width: 10%;
-    display: inline;
-    text-align: justify;
-}
 
-
+.plt_crns {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    margin: 1%;
+}
 
 
 
@@ -237,8 +343,9 @@ align-items: center;
         height: 1.5px;
         background-color: darkgray;
     }
+
     /*ENTRANTES*/
-    .cont_tit_entr{
+    .cont_tit_entr {
         position: relative;
         width: 41%;
         display: flex;
@@ -248,7 +355,8 @@ align-items: center;
         font-size: xx-large;
         color: rgb(124, 76, 76);
     }
-    .cont_tit_entr{
+
+    .cont_tit_entr {
         position: relative;
         width: 10%;
         display: flex;
@@ -258,24 +366,28 @@ align-items: center;
         font-size: xx-large;
         color: rgb(124, 76, 76);
     }
-    .cont_txt_entr{
+
+    .cont_txt_entr {
         position: relative;
         width: 85%;
         font-size: large;
     }
-    .nom_plt{
+
+    .nom_plt {
         position: relative;
         width: 42%;
         display: inline;
         text-align: justify;
         font-size: larger;
     }
-    .linea_plt_pvp{
+
+    .linea_plt_pvp {
         position: relative;
         width: 48%;
-        border-bottom:0.8px dotted;
+        border-bottom: 0.8px dotted;
     }
-    .pvp_plt{
+
+    .pvp_plt {
         position: relative;
         width: 10%;
         display: inline;
