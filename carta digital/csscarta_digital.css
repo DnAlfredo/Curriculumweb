@@ -84,9 +84,7 @@
 }
 
 .cont_cuerpo_carte {
-    background-image: url('./multimedia/fondo_papel_movil.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: whitesmoke;
     min-height: 1200px;
     z-index: -2;
 
@@ -294,7 +292,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: baseline;
+    align-items: end;
     margin: 1%;
 }
 
@@ -358,7 +356,7 @@
 
     .cont_tit_entr {
         position: relative;
-        width: 10%;
+        width: 50%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -393,4 +391,15 @@
         display: inline;
         text-align: justify;
     }
+    
+.cnt_tit_carns {
+    position: relative;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    color: rgb(124, 76, 76);
+}
 }
