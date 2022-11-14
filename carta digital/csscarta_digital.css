@@ -54,7 +54,7 @@
 
 .txt_alerg_plt {
     width: 25%;
-  display: flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -62,10 +62,43 @@
     margin-right: 2%;
 }
 
-#img_foto {
-    width: 80px;
-    height: 80px;
+.cont_close_alerg {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2%;
+
+}
+
+.div_close_alerg {
+    display: block;
+    text-align: center;
+    font-size: smaller;
+}
+
+.cont_img_plt {
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.img_foto {
+    width: 7%;
+    height: 7%;
     border-radius: 5px;
+}
+
+.img_ampliada {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    z-index: 6;
+
 }
 
 /*--------------------------Main-----------------------------*/
@@ -137,6 +170,10 @@
     min-height: 1200px;
     z-index: -2;
     padding-bottom: 25%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 
@@ -181,7 +218,7 @@
 
 .txt_present {
     position: relative;
-    width: 100%;
+    width: 50%;
     display: block;
     text-align: justify;
 
@@ -202,27 +239,6 @@
 
 }
 
-.img_entr1 {
-    position: relative;
-    width: 60px;
-    height: 60px;
-    display: flex;
-    flex-wrap: wrap;
-    float: right;
-    top: 40%;
-
-}
-
-.img_entr2 {
-    position: relative;
-    width: 60px;
-    height: 60px;
-    display: flex;
-    flex-wrap: wrap;
-    float: left;
-    top: 20%;
-
-}
 
 .cont_tit_entr {
     position: relative;
@@ -274,16 +290,6 @@
     width: 10%;
     display: inline;
     text-align: justify;
-}
-
-.cont_img_plt {
-    position: relative;
-    width: 100%;
-
-    justify-content: center;
-    align-items: center;
-
-
 }
 
 /*--------------------------CARNES-----------------------------*/
@@ -397,8 +403,9 @@
     width: 30%;
     border-bottom: 0.8px dotted;
 }
+
 /*--------------------------ARROCES-----------------------------*/
-.cnt_arrcs{
+.cnt_arrcs {
     position: relative;
     width: 100%;
     display: flex;
@@ -408,7 +415,8 @@
     margin-top: 8%;
     margin-bottom: 2%;
 }
-.cnt_tit_arrcs{
+
+.cnt_tit_arrcs {
     position: relative;
     width: 10%;
     display: flex;
@@ -418,7 +426,8 @@
     font-size: x-large;
     color: rgb(124, 76, 76);
 }
-.cnt_txt_arrcs{
+
+.cnt_txt_arrcs {
     position: relative;
     width: 90%;
     display: flex;
@@ -427,7 +436,8 @@
     align-items: center;
     margin-top: 2%;
 }
-.plt_arrcs{
+
+.plt_arrcs {
     position: relative;
     width: 100%;
     display: flex;
@@ -436,19 +446,22 @@
     align-items: end;
     margin: 1%;
 }
-.nom_plt_arrcs{
+
+.nom_plt_arrcs {
     position: relative;
-    width: 25%;
+    width: 22%;
     display: inline;
     text-align: justify;
 }
-.linea_plt_pvp_arrcs{
+
+.linea_plt_pvp_arrcs {
     position: relative;
     width: 30%;
     border-bottom: 0.8px dotted;
 }
+
 /*--------------------------FUERA DE CARTA-----------------------------*/
-.cnt_fcrt{
+.cnt_fcrt {
     position: relative;
     width: 100%;
     display: flex;
@@ -456,28 +469,32 @@
     justify-content: center;
     align-items: center;
     margin-top: 8%;
-   
+
 }
-.cnt_tit_fcrt{
+
+.cnt_tit_fcrt {
     position: relative;
-    width: 10%;
+    width: 15%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-size: x-large;
     color: rgb(124, 76, 76);
 }
-.cnt_txt_fcrt{
+
+.cnt_txt_fcrt {
     position: relative;
     width: 90%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 2%; 
+    margin-top: 2%;
 }
-.plt_fcrt{
+
+.plt_fcrt {
     position: relative;
     width: 100%;
     display: flex;
@@ -486,16 +503,94 @@
     align-items: end;
     margin: 1%;
 }
-.nom_plt_fcrt{
+
+.nom_plt_fcrt {
     position: relative;
-    width: 25%;
+    width: 15%;
     display: inline;
     text-align: justify;
 }
-.linea_plt_pvp_fcrt{
+
+.linea_plt_pvp_fcrt {
     position: relative;
     width: 30%;
     border-bottom: 0.8px dotted;
+}
+
+/*--------------------------ENTRANTES-----------------------------*/
+.cnt_pstr {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.cnt_tit_pstr {
+    position: relative;
+    width: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(124, 76, 76);
+}
+
+.cnt_txt_pstr {
+    position: relative;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.plt_pstr {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: end;
+    margin: 1%;
+}
+
+.nom_plt_pstr {
+    position: relative;
+    width: 15%;
+    display: inline;
+    text-align: justify;
+}
+
+.linea_plt_pvp_pstr {
+    position: relative;
+    width: 30%;
+    border-bottom: 0.8px dotted;
+}
+
+/*--------------------------ENTRANTES-----------------------------*/
+.cont_txt_pie {
+    position: relative;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.txt_pie {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 /*---------------------------------------------------------RESPONSIVE---------------------------------------------------------------*/
@@ -503,13 +598,13 @@
 
     /*GENERALES*/
     .txt_alerg_plt {
-        width: 50%;
+        width: 17%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin-right: 2%;
+        margin-right: 10%;
     }
 
     .nom_plt_crns {
@@ -519,10 +614,18 @@
         text-align: justify;
     }
 
-    #img_foto {
-        width: 50px;
-        height: 40px;
+    .img_foto {
+        width: 17%;
+        height: 17%;
         border-radius: 5px;
+    }
+
+    .img_ampliada {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        z-index: 6;
+
     }
 
     /*MAIN*/
@@ -559,6 +662,13 @@
         width: 10%;
         height: 1.5px;
         background-color: darkgray;
+    }
+
+    .txt_present {
+        position: relative;
+        width: 80%;
+        display: block;
+        text-align: justify;
     }
 
     /*ENTRANTES*/
@@ -635,7 +745,7 @@
     /*PESCADOS*/
     .cnt_tit_pscds {
         position: relative;
-        width: 35%;
+        width: 38%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -651,8 +761,9 @@
         text-align: justify;
         font-size: small;
     }
+
     /*ARROCES*/
-    .cnt_tit_arrcs{
+    .cnt_tit_arrcs {
         position: relative;
         width: 35%;
         display: flex;
@@ -662,17 +773,19 @@
         font-size: x-large;
         color: rgb(124, 76, 76);
     }
-    .nom_plt_arrcs{
+
+    .nom_plt_arrcs {
         position: relative;
         width: 54%;
         display: inline;
         text-align: justify;
         font-size: small;
     }
+
     /*FUERA DE CATA*/
-    .cnt_tit_fcrt{
+    .cnt_tit_fcrt {
         position: relative;
-        width: 35%;
+        width: 50%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -680,7 +793,29 @@
         font-size: large;
         color: rgb(124, 76, 76);
     }
-    .nom_plt_fcrt{
+
+    .nom_plt_fcrt {
+        position: relative;
+        width: 54%;
+        display: inline;
+        text-align: justify;
+        font-size: small;
+    }
+
+    /*POSTRES*/
+    .cnt_tit_pstr {
+        position: relative;
+        width: 32%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: x-large;
+        color: rgb(124, 76, 76);
+    }
+
+    .nom_plt_pstr {
         position: relative;
         width: 54%;
         display: inline;
