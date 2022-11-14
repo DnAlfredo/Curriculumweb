@@ -47,7 +47,7 @@
     background-color: blue;
 }
 .txt_alerg_plt{
-    width: 50%;
+    width: 25%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -56,8 +56,8 @@
     margin-right:2%;
 }
 #img_foto{
-    width: 35px;
-    height: 35px; 
+    width: 70px;
+    height: 70px; 
     border-radius: 5px;
 }
 /*--------------------------Main-----------------------------*/
@@ -327,6 +327,22 @@
 }
 
 @media screen and (max-width: 780px) {
+    /*GENERALES*/
+    .txt_alerg_plt{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-right:2%;
+    }
+    #img_foto{
+        width: 35px;
+        height: 35px; 
+        border-radius: 5px;
+    }
+    /*MAIN*/
     .cont_tit {
         position: relative;
         width: 50%;
