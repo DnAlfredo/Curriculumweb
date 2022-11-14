@@ -34,32 +34,40 @@
     margin-left: 1%;
     margin-right: 1%;
 }
-.esconder_rte{
+
+.esconder_rte {
     display: none;
 }
-.mostrar_rte{
-   display: flex;
+
+.mostrar_rte {
+    display: flex;
 }
-.div_alerg{
+
+.div_alerg {
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color: blue;
+    margin-right: 1%;
+    margin-left: 1%;
 }
-.txt_alerg_plt{
+
+.txt_alerg_plt {
     width: 25%;
-    display: flex;
+  display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-right:2%;
+    margin-right: 2%;
 }
-#img_foto{
-    width: 70px;
-    height: 70px; 
+
+#img_foto {
+    width: 80px;
+    height: 80px;
     border-radius: 5px;
 }
+
 /*--------------------------Main-----------------------------*/
 .main_falso_cart {
     font-family: "Sofia", sans-serif;
@@ -82,47 +90,53 @@
 
 .cont_tit {
     position: relative;
-    width: 30%;
+
     display: block;
     text-align: center;
 
     font-size: x-large;
     color: rgb(177, 107, 107);
 }
-.btn_menu{
+
+.btn_menu {
     width: 100%;
     color: rgb(134, 5, 5);
-  
+    background-color: rgba(66, 66, 65, 0.438);
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: xx-large;
 }
+
 #cont_nav {
     position: relative;
-    width: 70%;
- flex-wrap: wrap;
- justify-content: center;
- align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-  
+
 
 }
-.btn_nav{
+
+.btn_nav {
     width: 100%;
     text-align: center;
+    background-color: rgba(66, 66, 65, 0.438);
 }
+
 #cont_nav a {
     color: white;
-    font-family:"Sofia", sans-serif;
+    font-family: "Sofia", sans-serif;
     font-size: large;
-    background-color: rgba(66, 66, 65, 0.438);
+
 }
 
 .cont_cuerpo_carte {
     background-color: whitesmoke;
     min-height: 1200px;
     z-index: -2;
+    padding-bottom: 25%;
 
 }
 
@@ -152,8 +166,8 @@
 
 .div_raya_tit {
     position: relative;
-    width: 15%;
-    height: 1.5px;
+    width: 5%;
+    height: 1px;
     background-color: black;
 }
 
@@ -170,7 +184,7 @@
     width: 100%;
     display: block;
     text-align: justify;
-    
+
     padding: 3%;
 }
 
@@ -184,7 +198,7 @@
     align-items: center;
     margin-top: 8%;
     margin-bottom: 2%;
-  
+
 
 }
 
@@ -217,7 +231,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    font-size:large;
+    font-size: x-large;
     color: rgb(124, 76, 76);
 }
 
@@ -243,15 +257,15 @@
 
 .nom_plt {
     position: relative;
-    width: 10%;
+    width: 13%;
     display: inline;
     text-align: end;
- 
+
 }
 
 .linea_plt_pvp {
     position: relative;
-    width: 48%;
+    width: 45%;
     border-bottom: 0.8px dotted;
 }
 
@@ -261,19 +275,21 @@
     display: inline;
     text-align: justify;
 }
-.cont_img_plt{
+
+.cont_img_plt {
     position: relative;
     width: 100%;
-  
+
     justify-content: center;
     align-items: center;
- 
+
 
 }
 
 /*--------------------------CARNES-----------------------------*/
 .cnt_carnes {
     position: relative;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -311,7 +327,7 @@
 
 .nom_plt_crns {
     position: relative;
-    width: 54%;
+    width: 25%;
     display: inline;
     text-align: justify;
 }
@@ -326,22 +342,189 @@
     margin: 1%;
 }
 
+/*--------------------------PESCADOS-----------------------------*/
+.cnt_pscds {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+    margin-bottom: 2%;
+}
+
+.cnt_tit_pscds {
+    position: relative;
+    width: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    color: rgb(124, 76, 76);
+}
+
+.cnt_txt_pscds {
+    position: relative;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.plt_pscds {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: end;
+    margin: 1%;
+}
+
+.nom_plt_pscds {
+    position: relative;
+    width: 25%;
+    display: inline;
+    text-align: justify;
+}
+
+.linea_plt_pvp_pscds {
+    position: relative;
+    width: 30%;
+    border-bottom: 0.8px dotted;
+}
+/*--------------------------ARROCES-----------------------------*/
+.cnt_arrcs{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+    margin-bottom: 2%;
+}
+.cnt_tit_arrcs{
+    position: relative;
+    width: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    color: rgb(124, 76, 76);
+}
+.cnt_txt_arrcs{
+    position: relative;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.plt_arrcs{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: end;
+    margin: 1%;
+}
+.nom_plt_arrcs{
+    position: relative;
+    width: 25%;
+    display: inline;
+    text-align: justify;
+}
+.linea_plt_pvp_arrcs{
+    position: relative;
+    width: 30%;
+    border-bottom: 0.8px dotted;
+}
+/*--------------------------FUERA DE CARTA-----------------------------*/
+.cnt_fcrt{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+   
+}
+.cnt_tit_fcrt{
+    position: relative;
+    width: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    color: rgb(124, 76, 76);
+}
+.cnt_txt_fcrt{
+    position: relative;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%; 
+}
+.plt_fcrt{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: end;
+    margin: 1%;
+}
+.nom_plt_fcrt{
+    position: relative;
+    width: 25%;
+    display: inline;
+    text-align: justify;
+}
+.linea_plt_pvp_fcrt{
+    position: relative;
+    width: 30%;
+    border-bottom: 0.8px dotted;
+}
+
+/*---------------------------------------------------------RESPONSIVE---------------------------------------------------------------*/
 @media screen and (max-width: 780px) {
+
     /*GENERALES*/
-    .txt_alerg_plt{
+    .txt_alerg_plt {
         width: 50%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin-right:2%;
+        margin-right: 2%;
     }
-    #img_foto{
-        width: 35px;
-        height: 35px; 
+
+    .nom_plt_crns {
+        position: relative;
+        width: 54%;
+        display: inline;
+        text-align: justify;
+    }
+
+    #img_foto {
+        width: 50px;
+        height: 40px;
         border-radius: 5px;
     }
+
     /*MAIN*/
     .cont_tit {
         position: relative;
@@ -373,7 +556,7 @@
 
     .div_raya_tit {
         position: relative;
-        width: 20%;
+        width: 10%;
         height: 1.5px;
         background-color: darkgray;
     }
@@ -392,7 +575,7 @@
 
     .cont_tit_entr {
         position: relative;
-        width: 50%;
+        width: 45%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -404,7 +587,7 @@
     .cont_txt_entr {
         position: relative;
         width: 90%;
-     
+
     }
 
     .nom_plt {
@@ -428,22 +611,80 @@
         text-align: justify;
         font-size: small;
     }
-     /*CARNES*/
-.cnt_tit_carns {
-    position: relative;
-    width: 40%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    font-size: x-large;
-    color: rgb(124, 76, 76);
-}
-.nom_plt_crns {
-    position: relative;
-    width: 54%;
-    display: inline;
-    text-align: justify;
-    font-size: small;
-}
+
+    /*CARNES*/
+    .cnt_tit_carns {
+        position: relative;
+        width: 35%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        font-size: x-large;
+        color: rgb(124, 76, 76);
+    }
+
+    .nom_plt_crns {
+        position: relative;
+        width: 54%;
+        display: inline;
+        text-align: justify;
+        font-size: small;
+    }
+
+    /*PESCADOS*/
+    .cnt_tit_pscds {
+        position: relative;
+        width: 35%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        font-size: x-large;
+        color: rgb(124, 76, 76);
+    }
+
+    .nom_plt_pscds {
+        position: relative;
+        width: 54%;
+        display: inline;
+        text-align: justify;
+        font-size: small;
+    }
+    /*ARROCES*/
+    .cnt_tit_arrcs{
+        position: relative;
+        width: 35%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        font-size: x-large;
+        color: rgb(124, 76, 76);
+    }
+    .nom_plt_arrcs{
+        position: relative;
+        width: 54%;
+        display: inline;
+        text-align: justify;
+        font-size: small;
+    }
+    /*FUERA DE CATA*/
+    .cnt_tit_fcrt{
+        position: relative;
+        width: 35%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        font-size: large;
+        color: rgb(124, 76, 76);
+    }
+    .nom_plt_fcrt{
+        position: relative;
+        width: 54%;
+        display: inline;
+        text-align: justify;
+        font-size: small;
+    }
 }

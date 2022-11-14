@@ -85,7 +85,7 @@
                 <div class="cont_tit">
                     <h1>Restaurante<br>El Bosque</h1>
                 </div>
-                <div class="btn_menu" onclick="abreFichaRte('cont_nav')">
+                <div class="btn_menu" onclick="abreFichaMenu('cont_nav')">
                     &#9776
                 </div>
                 <div class="esconder_rte" id="cont_nav">
@@ -148,44 +148,55 @@
                         <!--plantilla para poner platos con precio 
                           <div class="plt_entr">
                             <div class="nom_plt">
-                                xxx
+                                xxx    &#8675
                             </div>
                             <div class="linea_plt_pvp"></div>
                             <div class="pvp_plt">
                                 X.€
                             </div>
+                            <div id="cont_img_entr1" class="esconder_rte cont_img_plt">
+                                <div class="txt_alerg_plt">
+                                    Alérgenos: 
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                </div>
+                                <img src="./multimedia/pexels-ruslan-khmelevsky-14118125.jpg" alt="" id="img_foto">
+                            </div>
                         </div>-->
 
                         <div class="plt_entr">
-                            <div class="nom_plt" onclick="abreFichaRte('cont_img_plt1')" title="abrir">
+                            <div class="nom_plt" onclick="abreFichaRte('cont_img_entr1')" title="abrir">
                                 Patatas Bravas &#8675
                             </div>
                             <div class="linea_plt_pvp"></div>
                             <div class="pvp_plt">
                                 8.€
                             </div>
-                            <div id="cont_img_plt1" class="esconder_rte cont_img_plt">
+                            <div id="cont_img_entr1" class="esconder_rte cont_img_plt">
                                 <div class="txt_alerg_plt">
-                                    Alérgenos: 
+                                    Alérgenos:
                                     <div class="div_alerg"></div>
                                     <div class="div_alerg"></div>
                                     <div class="div_alerg"></div>
                                     <div class="div_alerg"></div>
                                 </div>
                                 <img src="./multimedia/pexels-ruslan-khmelevsky-14118125.jpg" alt="" id="img_foto">
+
                             </div>
                         </div>
                         <div class="plt_entr">
-                            <div class="nom_plt" onclick="abreFichaRte('cont_img_plt2')" title="abrir">
+                            <div class="nom_plt" onclick="abreFichaRte('cont_img_entr2')" title="abrir">
                                 Tabla de Ibéricos &#8675
                             </div>
                             <div class="linea_plt_pvp"></div>
                             <div class="pvp_plt">
                                 15.€
                             </div>
-                            <div id="cont_img_plt2" class="esconder_rte cont_img_plt">
+                            <div id="cont_img_entr2" class="esconder_rte cont_img_plt">
                                 <div class="txt_alerg_plt">
-                                    Alérgenos: 
+                                    Alérgenos:
                                     <div class="div_alerg"></div>
                                     <div class="div_alerg"></div>
                                     <div class="div_alerg"></div>
@@ -195,16 +206,16 @@
                             </div>
                         </div>
                         <div class="plt_entr">
-                            <div class="nom_plt" onclick="abreFichaRte('cont_img_plt3')" title="abrir">
+                            <div class="nom_plt" onclick="abreFichaRte('cont_img_entr3')" title="abrir">
                                 Tabla de Quesos &#8675
                             </div>
                             <div class="linea_plt_pvp"></div>
                             <div class="pvp_plt">
                                 11.€
                             </div>
-                            <div id="cont_img_plt3" class="esconder_rte cont_img_plt">
+                            <div id="cont_img_entr3" class="esconder_rte cont_img_plt">
                                 <div class="txt_alerg_plt">
-                                    Alérgenos: 
+                                    Alérgenos:
                                     <div class="div_alerg"></div>
                                     <div class="div_alerg"></div>
                                     <div class="div_alerg"></div>
@@ -214,16 +225,16 @@
                             </div>
                         </div>
                         <div class="plt_entr">
-                            <div class="nom_plt" onclick="abreFichaRte('cont_img_plt4')" title="abrir">
+                            <div class="nom_plt" onclick="abreFichaRte('cont_img_entr4')" title="abrir">
                                 Fritura de Lonja &#8675
                             </div>
                             <div class="linea_plt_pvp"></div>
                             <div class="pvp_plt">
                                 18.€
                             </div>
-                            <div id="cont_img_plt4" class="esconder_rte cont_img_plt">
+                            <div id="cont_img_entr4" class="esconder_rte cont_img_plt">
                                 <div class="txt_alerg_plt">
-                                    Alérgenos: 
+                                    Alérgenos:
                                     <div class="div_alerg"></div>
                                     <div class="div_alerg"></div>
                                     <div class="div_alerg"></div>
@@ -233,16 +244,16 @@
                             </div>
                         </div>
                         <div class="plt_entr">
-                            <div class="nom_plt" onclick="abreFichaRte('cont_img_plt5')" title="abrir">
+                            <div class="nom_plt" onclick="abreFichaRte('cont_img_entr5')" title="abrir">
                                 Verdura en Tempura &#8675
                             </div>
                             <div class="linea_plt_pvp"></div>
                             <div class="pvp_plt">
                                 9.€
                             </div>
-                            <div id="cont_img_plt5" class="esconder_rte cont_img_plt">
+                            <div id="cont_img_entr5" class="esconder_rte cont_img_plt">
                                 <div class="txt_alerg_plt">
-                                    Alérgenos: 
+                                    Alérgenos:
                                     <div class="div_alerg"></div>
                                     <div class="div_alerg"></div>
                                     <div class="div_alerg"></div>
@@ -252,16 +263,16 @@
                             </div>
                         </div>
                         <div class="plt_entr">
-                            <div class="nom_plt" onclick="abreFichaRte('cont_img_plt6')" title="abrir">
+                            <div class="nom_plt" onclick="abreFichaRte('cont_img_entr6')" title="abrir">
                                 Ahumados &#8675
                             </div>
                             <div class="linea_plt_pvp"></div>
                             <div class="pvp_plt">
                                 16.€
                             </div>
-                            <div id="cont_img_plt6" class="esconder_rte cont_img_plt">
+                            <div id="cont_img_entr6" class="esconder_rte cont_img_plt">
                                 <div class="txt_alerg_plt">
-                                    Alérgenos: 
+                                    Alérgenos:
                                     <div class="div_alerg"></div>
                                     <div class="div_alerg"></div>
                                     <div class="div_alerg"></div>
@@ -271,16 +282,16 @@
                             </div>
                         </div>
                         <div class="plt_entr">
-                            <div class="nom_plt" onclick="abreFichaRte('cont_img_plt7')" title="abrir">
+                            <div class="nom_plt" onclick="abreFichaRte('cont_img_entr7')" title="abrir">
                                 Lorem ipsum &#8675
                             </div>
                             <div class="linea_plt_pvp"></div>
                             <div class="pvp_plt">
                                 X.€
                             </div>
-                            <div id="cont_img_plt7" class="esconder_rte cont_img_plt">
+                            <div id="cont_img_entr7" class="esconder_rte cont_img_plt">
                                 <div class="txt_alerg_plt">
-                                    Alérgenos: 
+                                    Alérgenos:
                                     <div class="div_alerg"></div>
                                     <div class="div_alerg"></div>
                                     <div class="div_alerg"></div>
@@ -290,16 +301,16 @@
                             </div>
                         </div>
                         <div class="plt_entr">
-                            <div class="nom_plt" onclick="abreFichaRte('cont_img_plt8')" title="abrir">
+                            <div class="nom_plt" onclick="abreFichaRte('cont_img_entr8')" title="abrir">
                                 Dolor it amet &#8675
                             </div>
                             <div class="linea_plt_pvp"></div>
                             <div class="pvp_plt">
                                 X.€
                             </div>
-                            <div id="cont_img_plt8" class="esconder_rte cont_img_plt">
+                            <div id="cont_img_entr8" class="esconder_rte cont_img_plt">
                                 <div class="txt_alerg_plt">
-                                    Alérgenos: 
+                                    Alérgenos:
                                     <div class="div_alerg"></div>
                                     <div class="div_alerg"></div>
                                     <div class="div_alerg"></div>
@@ -309,16 +320,16 @@
                             </div>
                         </div>
                         <div class="plt_entr">
-                            <div class="nom_plt" onclick="abreFichaRte('cont_img_plt9')" title="abrir">
+                            <div class="nom_plt" onclick="abreFichaRte('cont_img_entr9')" title="abrir">
                                 Laborum &#8675
                             </div>
                             <div class="linea_plt_pvp"></div>
                             <div class="pvp_plt">
                                 X.€
                             </div>
-                            <div id="cont_img_plt9" class="esconder_rte cont_img_plt">
+                            <div id="cont_img_entr9" class="esconder_rte cont_img_plt">
                                 <div class="txt_alerg_plt">
-                                    Alérgenos: 
+                                    Alérgenos:
                                     <div class="div_alerg"></div>
                                     <div class="div_alerg"></div>
                                     <div class="div_alerg"></div>
@@ -328,16 +339,16 @@
                             </div>
                         </div>
                         <div class="plt_entr">
-                            <div class="nom_plt" onclick="abreFichaRte('cont_img_plt10')" title="abrir">
+                            <div class="nom_plt" onclick="abreFichaRte('cont_img_entr10')" title="abrir">
                                 Architecto cum aliquid &#8675
                             </div>
                             <div class="linea_plt_pvp"></div>
                             <div class="pvp_plt">
                                 X.€
                             </div>
-                            <div id="cont_img_plt10" class="esconder_rte cont_img_plt">
+                            <div id="cont_img_entr10" class="esconder_rte cont_img_plt">
                                 <div class="txt_alerg_plt">
-                                    Alérgenos: 
+                                    Alérgenos:
                                     <div class="div_alerg"></div>
                                     <div class="div_alerg"></div>
                                     <div class="div_alerg"></div>
@@ -357,75 +368,492 @@
 
                     <div class="cnt_txt_crns">
                         <div class="plt_crns">
-                            <div class="nom_plt_crns">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            <div class="nom_plt_crns" onclick="abreFichaRte('cont_img_crns1')">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. &#8675
                             </div>
                             <div class="linea_plt_pvp_crns"></div>
                             <div class="pvp_plt">
                                 X,xx.€
                             </div>
+                            <div id="cont_img_crns1" class="esconder_rte cont_img_plt">
+                                <div class="txt_alerg_plt">
+                                    Alérgenos:
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                </div>
+                                <img src="./multimedia/pexels-matheus-bertelli-14303577.jpg" alt="" id="img_foto">
+                            </div>
                         </div>
                         <div class="plt_crns">
-                            <div class="nom_plt_crns">
+                            <div class="nom_plt_crns" onclick="abreFichaRte('cont_img_crns2')">
                                 Fugiat obcaecati tenetur
-                                eaque delectus a asperiores fuga quae
+                                eaque delectus a asperiores fuga quae &#8675
                             </div>
                             <div class="linea_plt_pvp_crns"></div>
                             <div class="pvp_plt">
                                 X.€
                             </div>
+                            <div id="cont_img_crns2" class="esconder_rte cont_img_plt">
+                                <div class="txt_alerg_plt">
+                                    Alérgenos:
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                </div>
+                                <img src="./multimedia/pexels-matheus-bertelli-14303577.jpg" alt="" id="img_foto">
+                            </div>
                         </div>
                         <div class="plt_crns">
-                            <div class="nom_plt_crns">
+                            <div class="nom_plt_crns" onclick="abreFichaRte('cont_img_crns3')">
                                 Fugiat amet aspernatur reiciendis velit
-                                quisquam molestiae doloremque quia
+                                quisquam molestiae doloremque quia &#8675
                             </div>
                             <div class="linea_plt_pvp_crns"></div>
                             <div class="pvp_plt">
                                 X.€
                             </div>
+                            <div id="cont_img_crns3" class="esconder_rte cont_img_plt">
+                                <div class="txt_alerg_plt">
+                                    Alérgenos:
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                </div>
+                                <img src="./multimedia/pexels-matheus-bertelli-14303577.jpg" alt="" id="img_foto">
+                            </div>
                         </div>
                         <div class="plt_crns">
-                            <div class="nom_plt_crns">
+                            <div class="nom_plt_crns" onclick="abreFichaRte('cont_img_crns4')">
                                 Officiis impedit eaque erum reiciendis aliquam dolore vitae minima sit repudiandae
+                                &#8675
                             </div>
                             <div class="linea_plt_pvp_crns"></div>
                             <div class="pvp_plt">
                                 X.€
                             </div>
+                            <div id="cont_img_crns4" class="esconder_rte cont_img_plt">
+                                <div class="txt_alerg_plt">
+                                    Alérgenos:
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                </div>
+                                <img src="./multimedia/pexels-matheus-bertelli-14303577.jpg" alt="" id="img_foto">
+                            </div>
                         </div>
                         <div class="plt_crns">
-                            <div class="nom_plt_crns">
-                                Beatae adipisci porro corrupti voluptas sapiente numquam.
+                            <div class="nom_plt_crns" onclick="abreFichaRte('cont_img_crns5')">
+                                Beatae adipisci porro corrupti voluptas sapiente numquam. &#8675
                             </div>
                             <div class="linea_plt_pvp_crns"></div>
                             <div class="pvp_plt">
                                 X.€
                             </div>
+                            <div id="cont_img_crns5" class="esconder_rte cont_img_plt">
+                                <div class="txt_alerg_plt">
+                                    Alérgenos:
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                </div>
+                                <img src="./multimedia/pexels-matheus-bertelli-14303577.jpg" alt="" id="img_foto">
+                            </div>
                         </div>
                         <div class="plt_crns">
-                            <div class="nom_plt_crns">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, at.
+                            <div class="nom_plt_crns" onclick="abreFichaRte('cont_img_crns6')">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, at. &#8675
                             </div>
                             <div class="linea_plt_pvp_crns"></div>
                             <div class="pvp_plt">
                                 X.€
                             </div>
+                            <div id="cont_img_crns6" class="esconder_rte cont_img_plt">
+                                <div class="txt_alerg_plt">
+                                    Alérgenos:
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                </div>
+                                <img src="./multimedia/pexels-matheus-bertelli-14303577.jpg" alt="" id="img_foto">
+                            </div>
                         </div>
                         <div class="plt_crns">
-                            <div class="nom_plt_crns">
+                            <div class="nom_plt_crns" onclick="abreFichaRte('cont_img_crns7')">
                                 Rerum magnam eligendi facilis maiores repellendus ratione libero assumenda, corrupti
+                                &#8675
                             </div>
                             <div class="linea_plt_pvp_crns"></div>
                             <div class="pvp_plt">
                                 X.€
+                            </div>
+                            <div id="cont_img_crns7" class="esconder_rte cont_img_plt">
+                                <div class="txt_alerg_plt">
+                                    Alérgenos:
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                </div>
+                                <img src="./multimedia/pexels-matheus-bertelli-14303577.jpg" alt="" id="img_foto">
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="cnt_pscds" id="pescados">
+                    <div class="div_raya_tit"></div>
+                    <div class="cnt_tit_pscds">
+                        <h2>Pescados</h2>
+                    </div>
+                    <div class="div_raya_tit"></div>
 
+                    <div class="cnt_txt_pscds">
+                        <div class="plt_pscds">
+                            <div class="nom_plt_pscds" onclick="abreFichaRte('cont_img_pscds1')">
+                                Rerum magnam eligendi facilis maiores repellendus ratione libero assumenda, corrupti
+                                &#8675
+                            </div>
+                            <div class="linea_plt_pvp_pscds"></div>
+                            <div class="pvp_plt">
+                                X.€
+                            </div>
+                            <div id="cont_img_pscds1" class="esconder_rte cont_img_plt">
+                                <div class="txt_alerg_plt">
+                                    Alérgenos:
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                </div>
+                                <img src="./multimedia/pexels-matheus-bertelli-14303577.jpg" alt="" id="img_foto">
+                            </div>
+                        </div>
+                        <div class="plt_pscds">
+                            <div class="nom_plt_pscds" onclick="abreFichaRte('cont_img_pscds2')">
+                                Rerum magnam eligendi facilis maiores repellendus ratione libero assumenda, corrupti
+                                &#8675
+                            </div>
+                            <div class="linea_plt_pvp_pscds"></div>
+                            <div class="pvp_plt">
+                                X.€
+                            </div>
+                            <div id="cont_img_pscds2" class="esconder_rte cont_img_plt">
+                                <div class="txt_alerg_plt">
+                                    Alérgenos:
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                </div>
+                                <img src="./multimedia/pexels-matheus-bertelli-14303577.jpg" alt="" id="img_foto">
+                            </div>
+                        </div>
+                        <div class="plt_pscds">
+                            <div class="nom_plt_pscds" onclick="abreFichaRte('cont_img_pscds3')">
+                                Rerum magnam eligendi facilis maiores repellendus ratione libero assumenda, corrupti
+                                &#8675
+                            </div>
+                            <div class="linea_plt_pvp_pscds"></div>
+                            <div class="pvp_plt">
+                                X.€
+                            </div>
+                            <div id="cont_img_pscds3" class="esconder_rte cont_img_plt">
+                                <div class="txt_alerg_plt">
+                                    Alérgenos:
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                </div>
+                                <img src="./multimedia/pexels-matheus-bertelli-14303577.jpg" alt="" id="img_foto">
+                            </div>
+                        </div>
+                        <div class="plt_pscds">
+                            <div class="nom_plt_pscds" onclick="abreFichaRte('cont_img_pscds4')">
+                                Rerum magnam eligendi facilis maiores repellendus ratione libero assumenda, corrupti
+                                &#8675
+                            </div>
+                            <div class="linea_plt_pvp_pscds"></div>
+                            <div class="pvp_plt">
+                                X.€
+                            </div>
+                            <div id="cont_img_pscds4" class="esconder_rte cont_img_plt">
+                                <div class="txt_alerg_plt">
+                                    Alérgenos:
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                </div>
+                                <img src="./multimedia/pexels-matheus-bertelli-14303577.jpg" alt="" id="img_foto">
+                            </div>
+                        </div>
+                        <div class="plt_pscds">
+                            <div class="nom_plt_pscds" onclick="abreFichaRte('cont_img_pscds5')">
+                                Rerum magnam eligendi facilis maiores repellendus ratione libero assumenda corrupti
+                                &#8675
+                            </div>
+                            <div class="linea_plt_pvp_pscds"></div>
+                            <div class="pvp_plt">
+                                X.€
+                            </div>
+                            <div id="cont_img_pscds5" class="esconder_rte cont_img_plt">
+                                <div class="txt_alerg_plt">
+                                    Alérgenos:
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                </div>
+                                <img src="./multimedia/pexels-matheus-bertelli-14303577.jpg" alt="" id="img_foto">
+                            </div>
+                        </div>
+                        <div class="plt_pscds">
+                            <div class="nom_plt_pscds" onclick="abreFichaRte('cont_img_pscds6')">
+                                Rerum magnam eligendi facilis maiores repellendus ratione libero assumenda corrupti
+                                &#8675
+                            </div>
+                            <div class="linea_plt_pvp_pscds"></div>
+                            <div class="pvp_plt">
+                                X.€
+                            </div>
+                            <div id="cont_img_pscds6" class="esconder_rte cont_img_plt">
+                                <div class="txt_alerg_plt">
+                                    Alérgenos:
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                </div>
+                                <img src="./multimedia/pexels-matheus-bertelli-14303577.jpg" alt="" id="img_foto">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cnt_arrcs" id="arroces">
+                    <div class="div_raya_tit"></div>
+                    <div class="cnt_tit_arrcs">
+                        <h2>Arroces</h2>
+                    </div>
+                    <div class="div_raya_tit"></div>
+                    <div class="cnt_txt_arrcs">
+                        <div class="plt_arrcs">
+                            <div class="nom_plt_arrcs" onclick="abreFichaRte('cont_img_arrcs1')">
+                                Lorem ipsum dolor sit amet consectetur eius &#8675
+                            </div>
+                            <div class="linea_plt_pvp_arrcs"></div>
+                            <div class="pvp_plt">
+                                X.€
+                            </div>
+                            <div id="cont_img_arrcs1" class="esconder_rte cont_img_plt">
+                                <div class="txt_alerg_plt">
+                                    Alérgenos:
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                </div>
+                                <img src="./multimedia/pexels-ruslan-khmelevsky-14118125.jpg" alt="" id="img_foto">
+                            </div>
+                        </div>
+                        <div class="plt_arrcs">
+                            <div class="nom_plt_arrcs" onclick="abreFichaRte('cont_img_arrcs2')">
+                                Laboriosam beatae deserunt
+                                harum ea aspernatur &#8675
+                            </div>
+                            <div class="linea_plt_pvp_arrcs"></div>
+                            <div class="pvp_plt">
+                                X.€
+                            </div>
+                            <div id="cont_img_arrcs2" class="esconder_rte cont_img_plt">
+                                <div class="txt_alerg_plt">
+                                    Alérgenos:
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                </div>
+                                <img src="./multimedia/pexels-ruslan-khmelevsky-14118125.jpg" alt="" id="img_foto">
+                            </div>
+                        </div>
+                        <div class="plt_arrcs">
+                            <div class="nom_plt_arrcs" onclick="abreFichaRte('cont_img_arrcs3')">
+                                Fugiat atque minima corrupti sint nihil sit ad odit &#8675
+                            </div>
+                            <div class="linea_plt_pvp_arrcs"></div>
+                            <div class="pvp_plt">
+                                X.€
+                            </div>
+                            <div id="cont_img_arrcs3" class="esconder_rte cont_img_plt">
+                                <div class="txt_alerg_plt">
+                                    Alérgenos:
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                </div>
+                                <img src="./multimedia/pexels-ruslan-khmelevsky-14118125.jpg" alt="" id="img_foto">
+                            </div>
+                        </div>
+                        <div class="plt_arrcs">
+                            <div class="nom_plt_arrcs" onclick="abreFichaRte('cont_img_arrcs4')">
+                                Blanditiis aliquid fugit voluptates labore pariatur &#8675
+
+                            </div>
+                            <div class="linea_plt_pvp_arrcs"></div>
+                            <div class="pvp_plt">
+                                X.€
+                            </div>
+                            <div id="cont_img_arrcs4" class="esconder_rte cont_img_plt">
+                                <div class="txt_alerg_plt">
+                                    Alérgenos:
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                </div>
+                                <img src="./multimedia/pexels-ruslan-khmelevsky-14118125.jpg" alt="" id="img_foto">
+                            </div>
+                        </div>
+                        <div class="plt_arrcs">
+                            <div class="nom_plt_arrcs" onclick="abreFichaRte('cont_img_arrcs5')">
+                                Vitae omnis eveniet atque deserunt error iste ad numquam &#8675
+                            </div>
+                            <div class="linea_plt_pvp_arrcs"></div>
+                            <div class="pvp_plt">
+                                X.€
+                            </div>
+                            <div id="cont_img_arrcs5" class="esconder_rte cont_img_plt">
+                                <div class="txt_alerg_plt">
+                                    Alérgenos:
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                </div>
+                                <img src="./multimedia/pexels-ruslan-khmelevsky-14118125.jpg" alt="" id="img_foto">
+                            </div>
+                        </div>
+                        <div class="plt_arrcs">
+                            <div class="nom_plt_arrcs" onclick="abreFichaRte('cont_img_arrcs6')">
+                                Accusantium dolorum officiis, ipsam dolores molestiae temporibus &#8675
+                            </div>
+                            <div class="linea_plt_pvp_arrcs"></div>
+                            <div class="pvp_plt">
+                                X.€
+                            </div>
+                            <div id="cont_img_arrcs6" class="esconder_rte cont_img_plt">
+                                <div class="txt_alerg_plt">
+                                    Alérgenos:
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                </div>
+                                <img src="./multimedia/pexels-ruslan-khmelevsky-14118125.jpg" alt="" id="img_foto">
+                            </div>
+                        </div>
+                        <div class="plt_arrcs">
+                            <div class="nom_plt_arrcs" onclick="abreFichaRte('cont_img_arrcs7')">
+                                Ad iure alias ipsum accusamus quaerat veritatis &#8675
+                            </div>
+                            <div class="linea_plt_pvp_arrcs"></div>
+                            <div class="pvp_plt">
+                                X.€
+                            </div>
+                            <div id="cont_img_arrcs7" class="esconder_rte cont_img_plt">
+                                <div class="txt_alerg_plt">
+                                    Alérgenos:
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                </div>
+                                <img src="./multimedia/pexels-ruslan-khmelevsky-14118125.jpg" alt="" id="img_foto">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="cnt_fcrt" id="fuera_carta">
+                    <div class="div_raya_tit"></div>
+                    <div class="cnt_tit_fcrt">
+                        <h2>Fuera<br>de Carta</h2>
+                    </div>
+                    <div class="div_raya_tit"></div>
+                    <div class="cnt_txt_fcrt">
+                        <div class="plt_fcrt">
+                            <div class="nom_plt_fcrt" onclick="abreFichaRte('cont_img_fcrt1')">
+                                Ad iure alias ipsum accusamus &#8675
+                            </div>
+                            <div class="linea_plt_pvp_fcrt"></div>
+                            <div class="pvp_plt">
+                                X.€
+                            </div>
+                            <div id="cont_img_fcrt1" class="esconder_rte cont_img_plt">
+                                <div class="txt_alerg_plt">
+                                    Alérgenos:
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                </div>
+                                <img src="./multimedia/pexels-ruslan-khmelevsky-14118125.jpg" alt="" id="img_foto">
+                            </div>
+
+                        </div>
+                        <div class="plt_fcrt">
+                            <div class="nom_plt_fcrt" onclick="abreFichaRte('cont_img_fcrt2')">
+                                Ad iure alias ipsum accusamus  &#8675
+                            </div>
+                            <div class="linea_plt_pvp_fcrt"></div>
+                            <div class="pvp_plt">
+                                X.€
+                            </div>
+                            <div id="cont_img_fcrt2" class="esconder_rte cont_img_plt">
+                                <div class="txt_alerg_plt">
+                                    Alérgenos:
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                </div>
+                                <img src="./multimedia/pexels-ruslan-khmelevsky-14118125.jpg" alt="" id="img_foto">
+                            </div>
+
+                        </div>
+                        <div class="plt_fcrt">
+                            <div class="nom_plt_fcrt" onclick="abreFichaRte('cont_img_fcrt3')">
+                                Ad iure alias ipsum accusamus &#8675
+                            </div>
+                            <div class="linea_plt_pvp_fcrt"></div>
+                            <div class="pvp_plt">
+                                X.€
+                            </div>
+                            <div id="cont_img_fcrt3" class="esconder_rte cont_img_plt">
+                                <div class="txt_alerg_plt">
+                                    Alérgenos:
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                    <div class="div_alerg"></div>
+                                </div>
+                                <img src="./multimedia/pexels-ruslan-khmelevsky-14118125.jpg" alt="" id="img_foto">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+
     </main>
     <footer class="cont_footer">
         <div class="Cont_contacto" id="cont_cntct">
