@@ -12,12 +12,7 @@ function abreFicha(idloca) {
   divgoster.classList.toggle('esconder');
  
 }
-function abreFichaRte(idloca) {
-  let divgoster = document.getElementById(idloca);
-  divgoster.classList.toggle('mostrar_rte');
-  divgoster.classList.toggle('esconder_rte');
- 
-}
+
 
 function cierramenu() {
   abreFicha(idloca)
