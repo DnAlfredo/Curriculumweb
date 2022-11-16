@@ -100,7 +100,22 @@
     z-index: 6;
 
 }
+.mini_img_plt {
+    position: relative;
+    width: 1.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 0.5%;
+    
+}
 
+.mini_img_plt img {
+    width: 100%;
+    border-radius: 50%;
+}
 /*--------------------------Main-----------------------------*/
 .main_falso_cart {
     font-family: "Sofia", sans-serif;
@@ -281,7 +296,7 @@
 
 .linea_plt_pvp {
     position: relative;
-    width: 45%;
+    width: 40%;
     border-bottom: 0.8px dotted;
 }
 
@@ -573,7 +588,7 @@
     border-bottom: 0.8px dotted;
 }
 
-/*--------------------------ENTRANTES-----------------------------*/
+/*--------------------------TEXTO PIE-----------------------------*/
 .cont_txt_pie {
     position: relative;
     width: 90%;
@@ -582,6 +597,8 @@
     justify-content: center;
     align-items: center;
     text-align: justify;
+    margin-top: 10%;
+    margin-bottom: 5%;
 }
 
 .txt_pie {
@@ -710,7 +727,7 @@
 
     .linea_plt_pvp {
         position: relative;
-        width: 48%;
+        width: 25%;
         border-bottom: 0.8px dotted;
     }
 
@@ -720,6 +737,24 @@
         display: inline;
         text-align: justify;
         font-size: small;
+    }
+
+    .mini_img_plt {
+        position: relative;
+        width: 7%;
+        display: inline;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: right;
+        margin-left: 0.5%;
+        
+      font-size: xx-small;
+    }
+
+    .mini_img_plt img {
+        width: 100%;
+        border-radius: 50%;
     }
 
     /*CARNES*/
@@ -742,6 +777,12 @@
         font-size: small;
     }
 
+    .linea_plt_pvp_crns {
+        position: relative;
+        width: 20%;
+        border-bottom: 0.8px dotted;
+    }
+
     /*PESCADOS*/
     .cnt_tit_pscds {
         position: relative;
@@ -762,6 +803,13 @@
         font-size: small;
     }
 
+    .linea_plt_pvp_pscds {
+        position: relative;
+        width: 25%;
+        border-bottom: 0.8px dotted;
+    }
+
+
     /*ARROCES*/
     .cnt_tit_arrcs {
         position: relative;
@@ -780,6 +828,12 @@
         display: inline;
         text-align: justify;
         font-size: small;
+    }
+
+    .linea_plt_pvp_arrcs {
+        position: relative;
+        width: 25%;
+        border-bottom: 0.8px dotted;
     }
 
     /*FUERA DE CATA*/
@@ -802,6 +856,12 @@
         font-size: small;
     }
 
+    .linea_plt_pvp_fcrt {
+        position: relative;
+        width: 25%;
+        border-bottom: 0.8px dotted;
+    }
+
     /*POSTRES*/
     .cnt_tit_pstr {
         position: relative;
@@ -821,5 +881,11 @@
         display: inline;
         text-align: justify;
         font-size: small;
+    }
+
+    .linea_plt_pvp_pstr {
+        position: relative;
+        width: 25%;
+        border-bottom: 0.8px dotted;
     }
 }
