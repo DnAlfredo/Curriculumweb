@@ -6,7 +6,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 2%;
+    margin-top: 8%;
     margin-bottom: 2%;
 
 }
@@ -102,7 +102,7 @@
 }
 .mini_img_plt {
     position: relative;
-    width: 1.5%;
+    width: 1%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -116,6 +116,7 @@
     width: 100%;
     border-radius: 50%;
 }
+
 /*--------------------------Main-----------------------------*/
 .main_falso_cart {
     font-family: "Sofia", sans-serif;
@@ -149,7 +150,7 @@
 .btn_menu {
     width: 100%;
     color: rgb(134, 5, 5);
-    background-color: rgba(66, 66, 65, 0.438);
+    background-color:/* rgba(66, 66, 65, 0.438)*/rgba(245, 245, 245, 0.541);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -170,11 +171,11 @@
 .btn_nav {
     width: 100%;
     text-align: center;
-    background-color: rgba(66, 66, 65, 0.438);
+    background-color: /*rgba(66, 66, 65, 0.438)*/rgba(245, 245, 245, 0.541);
 }
 
 #cont_nav a {
-    color: white;
+    color: /*white rgb(134, 5, 5)*/black;
     font-family: "Sofia", sans-serif;
     font-size: large;
 
@@ -545,7 +546,7 @@
 
 .cnt_tit_pstr {
     position: relative;
-    width: 15%;
+    width: 9%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -600,7 +601,17 @@
     margin-top: 10%;
     margin-bottom: 5%;
 }
-
+.cnt_tit_pie{
+    position: relative;
+    width: 17%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(124, 76, 76);
+}
 .txt_pie {
     position: relative;
     width: 100%;
@@ -887,5 +898,17 @@
         position: relative;
         width: 25%;
         border-bottom: 0.8px dotted;
+    }
+    /*TEXTO PIE*/
+    .cnt_tit_pie{
+        position: relative;
+        width: 65%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: larger;
+        color: rgb(124, 76, 76);
     }
 }
