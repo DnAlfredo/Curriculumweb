@@ -123,6 +123,7 @@ align-items: center;
     flex-wrap: wrap;
     text-align: center;
     justify-content: space-around;
+    align-items: center;
     animation-name:animelogo;
     animation-duration: 1s;
     font-size: 2rem;
@@ -144,12 +145,23 @@ align-items: center;
    padding-top: 2.5rem;
 }
 .textopubli{
-    width: 33%;
+    width: 40%;
     height: 25%;
     padding-top: 0.5rem;
     color: rgb(36, 81, 92) ;
 }
-.textopubli a{
+.mapapubli{
+    width: 40%;
+    height: 25%;
+    padding-top: 0.5rem;
+    color: rgb(36, 81, 92) ;
+}
+.logopubli{
+    width: 30%;
+    
+}
+.textopubli a,
+.mapapubli a{
     color: rgb(36, 81, 92) ;
 }
 
@@ -162,6 +174,7 @@ align-items: center;
     border: 1px solid rgb(36, 81, 92);
     border-radius: 0.3rem;
     background-color: rgba(36, 81, 92,0.3);
+    margin-top: 2%;
 }
 /*-------------FOOTER------------------------------------*/
  footer{
@@ -183,24 +196,22 @@ footer img{
 
 @media screen and (max-width:780px) {
 
-    
+    .imgpubli{
+        width: 50%;
+        border-radius: 2rem;
+       
+    }
     .publicont{
-        font-size:1rem;
+        height: 100%;
+        font-size:medium;
     }
     .contactopubli{
+        width: 30%;
         padding-top: 1rem;
     }
    .textopubli{
        height: 4rem;
-   }
-   .logopubli{
-       width: 5rem;
-       justify-content: center;
-   }
-   .logopubliz{
-    width: 5rem;
-    justify-content: center;
-   }
+   } 
    .barranav a{
        font-size: 1rem;
    } 
