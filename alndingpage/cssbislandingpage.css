@@ -18,6 +18,7 @@ html {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 1rem;
     
 }
 .logo img {
@@ -130,24 +131,25 @@ align-items: center;
     color:rgb(36, 81, 92) ;
     background-color: rgba(255, 255, 255,0.7); 
     border-radius: 3rem;
+    margin-top: 1rem;
 }
 .h2publi{
     width: 100%;
     justify-content: center;
 }
 .imgpubli{
-    width: 33%;
+    width: 30%;
     border-radius: 2rem;
    
 }
 .contactopubli {
-   width: 33%;
+   width: 25%;
    padding-top: 2.5rem;
 }
 .textopubli{
     width: 40%;
     height: 25%;
-    padding-top: 0.5rem;
+  
     color: rgb(36, 81, 92) ;
 }
 .mapapubli{
@@ -158,6 +160,9 @@ align-items: center;
 }
 .logopubli{
     width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 .textopubli a,
@@ -170,11 +175,11 @@ align-items: center;
     height: 10%;
     text-decoration: none;
     color:rgb(36, 81, 92) ;
-    top: 0;
+    
     border: 1px solid rgb(36, 81, 92);
     border-radius: 0.3rem;
-    background-color: rgba(36, 81, 92,0.3);
-    margin-top: 2%;
+    margin-bottom: 5%;
+   
 }
 /*-------------FOOTER------------------------------------*/
  footer{
@@ -186,6 +191,12 @@ align-items: center;
     align-items: center;
     align-content: center;
     background-color: rgba(29, 81, 97, 0.5);
+}
+.textofooter{
+    width: 60%;
+    height: 25%;
+    padding-top: 0.5rem;
+    color: whitesmoke;
 }
 footer img{
     width: 3rem;
