@@ -1,0 +1,191 @@
+html {
+    background-color: /*rgba(29, 81, 97, 0.5)*/ rgba(49, 144, 168,0.2);
+}
+.principal {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    display: inline;
+   
+}
+/*------------HEADER------------------------------*/
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.logo img {
+ 
+    border-radius: 5rem;
+    height: 100%;
+    text-align: opacity;
+    box-shadow: 3rem 3rem 6rem rgb(36, 81, 92);
+    animation-name:animelogo;
+    animation-duration: 1s;    
+}
+@keyframes animelogo{
+    0%{ opacity:0;}5%{opacity:0.5;}10%{opacity:0.1 ;}15%{opacity:0.15;}20%{opacity:0.2;}25%{opacity:0.25;}30%{opacity:0.3;}35%{opacity:0.35;}
+    40%{opacity:0.4;}45%{opacity:0.45;}50%{opacity:0.5 ;}55%{opacity:0.55;}60%{opacity: 0.6;}65%{opacity:0.65;}70%{opacity:0.7 ;}
+    75%{opacity:0.75;}80%{opacity:0.8 ;}85%{opacity:0.85;}90%{opacity:0.9 ;}95%{opacity:0.95;}100%{opacity:1;}
+} 
+
+/*--------------MAIN-------------------------------*/
+.contenedorfichas {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.ficha {
+    width: 30rem;
+    height: 22rem;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    /*box-shadow: 3rem 6rem 9rem #24515c;*/
+    box-shadow: 3rem 3rem 3rem rgb(36, 81, 92);
+    background-color:/*rgba(36, 81, 92, 0.2)*/rgba(36, 81, 92,0.8) ;
+    /*border:1px solid gray;*//*--no resulta del todo comodo a la vista, esperar opinion del que sabe--*/
+    position:relative;
+    animation-name:animeleft;
+    animation-duration: 1s;
+}
+@keyframes animeleft{
+    0%{ left:50%;}5%{left: 47.5%;}10%{left: 45%;}15%{left: 42.5%;}20%{left:40%;}25%{left: 37.5%;}30%{left:35%;}35%{left: 32.5%;}40%{left:30%;}
+    45%{left: 27.5%;}50%{left: 25%;}55%{left: 22.5%;}60%{left: 20%;}65%{left: 17.5%;}70%{left: 15%;}75%{left: 12.5%;}80%{left: 10%;}
+    85%{left: 7.5%;}90%{left: 5%;}95%{left: 2.5%;}100%{left: 0%;}
+}
+.fichaiz{
+    width: 30rem;
+    height: 22rem;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    /* box-shadow: 3rem 6rem 9rem #24515c;*/
+    box-shadow: 3rem 3rem 3rem rgb(36, 81, 92);
+    background-color:/*rgba(36, 81, 92, 0.2)*/rgba(36, 81, 92,0.8) ;
+    position:relative;
+    animation-name:animerigth;
+    animation-duration: 1s;
+}
+@keyframes animerigth{
+    0%{ right:50%;}5%{right: 47.5%;}10%{right: 45%;}15%{right: 42.5%;}20%{right:40%;}25%{right: 37.5%;}30%{right:35%;}35%{right: 32.5%;}
+    40%{right:30%;}45%{right: 27.5%;}50%{right: 25%;}55%{right: 22.5%;}60%{right: 20%;}65%{right: 17.5%;}70%{right: 15%;}75%{right: 12.5%;}
+    80%{right: 10%;}85%{right: 7.5%;}90%{right: 5%;}95%{right: 2.5%;}100%{right: 0%;}
+}
+.imgficha {
+    height: 14rem;
+    width: 20rem;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+.imgficha>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3rem;
+    box-shadow: 3rem 3rem 3rem #3190A8;
+}
+.textoficha {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem auto;
+    font-size: medium;
+    color:whitesmoke;
+    
+}
+/*--------------------BARRA PUBLI------------------------------*/
+.publicont {
+    /* box-shadow: 3rem 3rem 3rem rgba(29, 81, 97,0.5);*/
+    width: 100%;
+    position:relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    animation-name:animelogo;
+    animation-duration: 1s;
+    font-size: 2rem;
+    color:rgb(36, 81, 92) ;
+    background-color: rgba(255, 255, 255,0.7); 
+    border-radius: 3rem;
+}
+.h2publi{
+    width: 100%;
+    justify-content: center;
+}
+.imgpubli{
+    width: 33%;
+    border-radius: 2rem;
+   
+}
+.contactopubli {
+   width: 33%;
+   padding-top: 2.5rem;
+}
+.textopubli{
+    width: 33%;
+    height: 25%;
+    padding-top: 0.5rem;
+    color: rgb(36, 81, 92) ;
+}
+.textopubli a{
+    color: rgb(36, 81, 92) ;
+}
+
+@media screen and (max-width:400px) {
+    .publicont{
+        font-size:1rem;
+    }
+    .contactopubli{
+        padding-top: 1rem;
+    }
+   .textopubli{
+       height: 4rem;
+   }
+   .logopubli{
+       width: 5rem;
+       justify-content: center;
+   }
+   .logopubliz{
+    width: 5rem;
+    justify-content: center;
+   }
+   .barranav a{
+       font-size: 1rem;
+   } 
+}
+.mailpubli{
+    width: 33%;
+    height: 10%;
+    text-decoration: none;
+    color:rgb(36, 81, 92) ;
+    top: 0;
+    border: 1px solid rgb(36, 81, 92);
+    border-radius: 0.3rem;
+    background-color: rgba(36, 81, 92,0.3);
+}
+/*-------------FOOTER------------------------------------*/
+ footer{
+    width: 100%;
+    height: 100%;
+  
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: rgba(29, 81, 97, 0.5);
+}
+footer img{
+    width: 3rem;
+   border-radius: 5rem;
+   
+}
