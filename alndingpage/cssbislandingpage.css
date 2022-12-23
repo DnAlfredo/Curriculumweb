@@ -1,3 +1,6 @@
+*{
+    margin: 0%;
+}
 html {
     background-color: /*rgba(29, 81, 97, 0.5)*/ rgba(49, 144, 168,0.2);
 }
@@ -40,6 +43,14 @@ html {
     align-items: center;
     justify-content: center;
     gap: 1rem;
+}
+.cont_fichas{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+
 }
 .ficha {
     width: 30rem;
@@ -95,6 +106,7 @@ html {
 .textoficha {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     margin: 1rem auto;
@@ -141,28 +153,6 @@ html {
     color: rgb(36, 81, 92) ;
 }
 
-@media screen and (max-width:400px) {
-    .publicont{
-        font-size:1rem;
-    }
-    .contactopubli{
-        padding-top: 1rem;
-    }
-   .textopubli{
-       height: 4rem;
-   }
-   .logopubli{
-       width: 5rem;
-       justify-content: center;
-   }
-   .logopubliz{
-    width: 5rem;
-    justify-content: center;
-   }
-   .barranav a{
-       font-size: 1rem;
-   } 
-}
 .mailpubli{
     width: 33%;
     height: 10%;
@@ -188,4 +178,30 @@ footer img{
     width: 3rem;
    border-radius: 5rem;
    
+}
+/*--------------------------------@media------------------------------------------------*/
+
+@media screen and (max-width:780px) {
+
+    
+    .publicont{
+        font-size:1rem;
+    }
+    .contactopubli{
+        padding-top: 1rem;
+    }
+   .textopubli{
+       height: 4rem;
+   }
+   .logopubli{
+       width: 5rem;
+       justify-content: center;
+   }
+   .logopubliz{
+    width: 5rem;
+    justify-content: center;
+   }
+   .barranav a{
+       font-size: 1rem;
+   } 
 }

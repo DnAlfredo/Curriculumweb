@@ -850,13 +850,15 @@ que gacer que no
 }
 .boton_ejmpl_prct{
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 1.5%;
     margin: 5%;
+    margin-bottom: 10%;
     
 }
 /*-------------------------------------------------------------------FOOTER----------------------------------------------*/
