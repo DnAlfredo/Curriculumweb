@@ -8,210 +8,302 @@
     <meta name="keyword" content="quiromasaje,osteopatia,terapias alternativas,la vall duixo">
     <meta name="description"
         content="en esta web podrás encontrar toda la informacion necesaria sobre una persona dedicada desde hace 25 años al quiromasaje, acupuntura y terapias alternativas.Con excelents referencias y exquisito trato.Su ubicacion es en La Vall d´Uixó.">
+    <!-- Estas son las comunes por estar en la página de curriculum web -->
+    <link rel="stylesheet" href="../estructuraCV.css">
+    <link rel="stylesheet" href="../DiseñoyColorCV.css" id="cssdrag">
+    <link rel="stylesheet" href="../@mediaCVweb.css">
     <link rel="stylesheet" href="cssbislandingpage.css">
+    <link rel="stylesheet" href=".../@mediaCVweb.css">
+    <script src="../progCV.js"></script>
+    <script src="./jsCarta.js"></script>
     <link rel="icon" href="./multimedia/logo_frog.png" class="favicon" id="favicon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Landingpage</title>
 </head>
 
 <body>
-    <div class="principal">
-        <header class="logo">
-            <h1>
-                <a href="./index.html"><img src="./multimedia/logo_frog_mini.png" alt="Logotipo de la empresa"></a>
-            </h1>
-        </header>
-        <div class="publicont">
-            <div class="contactopubli">
-                <span>Texto corporativo<br>ideas principales</span>
-            </div>
-            <div class="mapapubli">
-                <span><i class="fa">&#xf095;</i> <a href="tel:(aqui el nº tlfn)" style="text-decoration:none"
-                        title="si pulsas llamas al número">XXX-XXX-XXX</a></span><br>
-                <a href="https://www.google.com/maps/place/Ajuntament+de+la+Vall+d'Uix%C3%B3/@39.8222653,-0.2319299,16z/data=!4m5!3m4!1s0xd600deefda21efd:0xf03ec4d4e2c993b2!8m2!3d39.8238695!4d-0.2324568"
-                    title="Me puedes encontrar aquí" target="_blanck"><img class="imgpubli"
-                        src="./multimedia/imgmapa.jpg" alt="mapa google con la direccion del centro de Masajes"></a>
-            </div>
-            <div class="contactopubli">
-                <span>Texto corporativo<br>ideas principales</span>
-            </div>
+    <header class="cont_header">
+        <div class="div_foto_header" id="zona_inicio">
+            <img src="./multimedia/foto1retocada.JPG" alt="" class="img_header">
         </div>
-    </div>
-
-
-    <main>
-        <div class="contenedorfichas">
-            <div class="cont_fichas">
-                <div class="ficha">
-                    <div class="imgficha">
-                        <img src="./multimedia/foto1.jpg" alt="">
-                    </div>
-                    <div class="textoficha">
-                        <h2>Texto Servicio Ofertado</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum inventore error a, qui
-                            fugiat,fugit quae magnam veritatis
-                            laudantium saepe alias architecto rerum cumque tenetur, maiores quaerat tempore veniam.
-                            Quas!</p>
-                    </div>
-                </div>
-                <div class="fichaiz">
-                    <div class="imgficha">
-                        <img src="./multimedia/foto1.jpg" alt="">
-                    </div>
-                    <div class="textoficha">
-                        <h2>Texto Servicio Ofertado</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum inventore error a, qui
-                            fugiat,fugit quae magnam veritatis
-                            laudantium saepe alias architecto rerum cumque tenetur, maiores quaerat tempore veniam.
-                            Quas!
-                        </p>
+        <nav class="barra_nav">
+            <div class="cont_cajaprincipal">
+                <div class="cajaprincipal">
+                    <div class="disparador">
+                        <div class="cajacentral" onclick="enseñaRadial('grupo_radial')">
+                            <span>
+                                <b>Menú</b>
+                            </span>
+                        </div>
+                        <div class="desplegable esconder" id="grupo_radial">
+                            <div class="unionarriba">
+                                <div class="subcajaarriba">
+                                    <a href="../formacionc.v.html">
+                                        <span>
+                                            <b>Formación</b>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="unionizquierda">
+                                <div class="subcajaizquierda">
+                                    <a href="../experienciac.v.html">
+                                        <span>
+                                            <b>Exp. Laboral</b>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="unionderecha">
+                                <div class="subcajaderecha">
+                                    <a href="../aptitudes.html">
+                                        <span>
+                                            <b>Aptitudes</b>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="unionabajo">
+                                <div class="subcajaabajo">
+                                    <a href="../publicacion.html">
+                                        <span>
+                                            <b>Publicación</b>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="cont_fichas">
-                <div class="ficha">
-                    <div class="imgficha">
-                        <img src="./multimedia/foto1.jpg" alt="">
-                    </div>
-                    <div class="textoficha">
-                        <h2>Texto Servicio Ofertado</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum inventore error a, qui fugiat,
-                            fugit quae magnam veritatis laudantium saepe alias architecto rerum cumque tenetur, maiores
-                            quaerat tempore veniam. Quas!
-                        </p>
-                    </div>
-                </div>
+        </nav>
+    </header>
+    <main class="main_carta_digital">
+        <div class="cont_tit_loc">
+            <div class="tit_loc">
+                <h2>Zona de Prácticas</h2>
             </div>
+            <div class="div_subdoble_tit_pract"></div>
+        </div>
+        <div class="principal">
+            <header class="logo">
+                <h1>
+                    <a href="./index.html"><img src="./multimedia/logo_frog_mini.png" alt="Logotipo de la empresa"></a>
+                </h1>
+            </header>
             <div class="publicont">
-                <div class="logopubli">
-                    <img src="./multimedia/logo_frog_mini.png" alt="logotipo vitae" class="imgpubli logopubli">
+                <div class="contactopubli">
+                    <span>Texto corporativo<br>ideas principales</span>
                 </div>
-                <div class="textopubli">
-                    <span>Texto de Contacto<br><a href="tel:(aqui tlfn)" style="text-decoration:none"><i
-                                class="fa">&#xf095;</i>- XXX-XXX-XXX</a></span><br>
-                    <a href='mail-to:blablabla@hotmail.com?subject=Consulta&tratamientos' class="mailpubli">Manda un
-                        correo</a>
+                <div class="mapapubli">
+                    <span><i class="fa">&#xf095;</i> <a href="tel:(aqui el nº tlfn)" style="text-decoration:none"
+                            title="si pulsas llamas al número">XXX-XXX-XXX</a></span><br>
+                    <a href="https://www.google.com/maps/place/Ajuntament+de+la+Vall+d'Uix%C3%B3/@39.8222653,-0.2319299,16z/data=!4m5!3m4!1s0xd600deefda21efd:0xf03ec4d4e2c993b2!8m2!3d39.8238695!4d-0.2324568"
+                        title="Me puedes encontrar aquí" target="_blanck"><img class="imgpubli"
+                            src="./multimedia/imgmapa.jpg" alt="mapa google con la direccion del centro de Masajes"></a>
                 </div>
-                <div class="logopubli">
-                    <img src="./multimedia/logo_frog_mini.png" alt="logotipo vitae" class="imgpubli logopubliz">
-                </div>
-            </div>
-            <div class="cont_fichas">
-                <div class="ficha">
-                    <div class="imgficha">
-                        <img src="./multimedia/foto1.jpg" alt="">
-                    </div>
-                    <div class="textoficha">
-                        <h2>Texto Servicio Ofertado</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum inventore error a, qui
-                            fugiat,fugit quae magnam veritatis
-                            laudantium saepe alias architecto rerum cumque tenetur, maiores quaerat tempore veniam.
-                            Quas!
-                        </p>
-                    </div>
-                </div>
-                <div class="fichaiz">
-                    <div class="imgficha">
-                        <img src="./multimedia/foto1.jpg" alt="">
-                    </div>
-                    <div class="textoficha">
-                        <h2>Texto Servicio Ofertado</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum inventore error a, qui
-                            fugiat,fugit quae magnam veritatis
-                            laudantium saepe alias architecto rerum cumque tenetur, maiores quaerat tempore veniam.
-                            Quas!
-                        </p>
-                    </div>
+                <div class="contactopubli">
+                    <span>Texto corporativo<br>ideas principales</span>
                 </div>
             </div>
-            <div class="cont_fichas">
-                <div class="fichaiz">
-                    <div class="imgficha">
-                        <img src="./multimedia/foto1.jpg" alt="">
-                    </div>
-                    <div class="textoficha">
-                        <h2>Texto Servicio Ofertado</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum inventore error a, qui fugiat,
-                            fugit quae magnam veritatis
-                            laudantium saepe alias architecto rerum cumque tenetur, maiores quaerat tempore veniam.
-                            Quas!
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="publicont">
-                <div class="logopubli">
-                    <img src="./multimedia/logo_frog_mini.png" alt="logotipo vitae" class="imgpubli logopubli">
-                </div>
-                <div class="textopubli">
-                    <span>Texto de Contacto<br><a href="tel:(aqui el telefono" style="text-decoration:none"><i
-                                class="fa">&#xf095;</i>- XXX-XXX-XXX</a></span><br>
-                    <a href="mail-to:a.m.p.desarrolloweb@gmail.com?subject=Consulta&tratamientos"
-                        class="mailpubli">Manda un correo</a>
-                </div>
-                <div class="logopubli">
-                    <img src="./multimedia/logo_frog_mini.png" alt="rana de forma abstracta de color negro y verde"
-                        class="imgpubli logopubliz">
-                </div>
-            </div>
-            <div class="cont_fichas">
-                <div class="ficha">
-                    <div class="imgficha">
-                        <img src="./multimedia/foto1.jpg" alt="">
-                    </div>
-                    <div class="textoficha">
-                        <h2>Texto Servicio Ofertado</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum inventore error a, qui
-                            fugiat,fugit quae magnam veritatis
-                            laudantium saepe alias architecto rerum cumque tenetur, maiores quaerat tempore veniam.
-                            Quas!
-                        </p>
-                    </div>
-                </div>
-                <div class="fichaiz">
-                    <div class="imgficha">
-                        <img src="./multimedia/foto1.jpg" alt="">
-                    </div>
-                    <div class="textoficha">
-                        <h2>Texto Servicio Ofertado</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum inventore error a, qui
-                            fugiat,fugit quae magnam veritatis
-                            laudantium saepe alias architecto rerum cumque tenetur, maiores quaerat tempore veniam.
-                            Quas!
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="cont_fichas">
-                <div class="ficha">
-                    <div class="imgficha">
-                        <img src="./multimedia/foto1.jpg" alt="">
-                    </div>
-                    <div class="textoficha">
-                        <h2>Texto Servicio Ofertado</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum inventore error a, qui
-                            fugiat,fugit quae magnam veritatis
-                            laudantium saepe alias architecto rerum cumque tenetur, maiores quaerat tempore veniam.
-                            Quas!
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-    <footer>
-        <div>
-            <a href=""><img src="./multimedia/logo_frog_mini.png" alt=""></a>
-        </div>
-        <div class="textofooter">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis omnis ad placeat
-            animi
-            quos tenetur quidem, quis eius quae. Nobis, sunt accusamus dignissimos possimus molestias consequatur illo
-            voluptatibus laborum officia?</div>
-        <div>
-            <a href=""><img src="./multimedia/logo_frog_mini.png" alt=""></a>
         </div>
 
-    </footer>
+
+        <main>
+            <div class="contenedorfichas">
+                <div class="cont_fichas">
+                    <div class="ficha">
+                        <div class="imgficha">
+                            <img src="./multimedia/foto1.jpg" alt="">
+                        </div>
+                        <div class="textoficha">
+                            <h2>Texto Servicio Ofertado</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum inventore error a, qui
+                                fugiat,fugit quae magnam veritatis
+                                laudantium saepe alias architecto rerum cumque tenetur, maiores quaerat tempore veniam.
+                                Quas!</p>
+                        </div>
+                    </div>
+                    <div class="fichaiz">
+                        <div class="imgficha">
+                            <img src="./multimedia/foto1.jpg" alt="">
+                        </div>
+                        <div class="textoficha">
+                            <h2>Texto Servicio Ofertado</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum inventore error a, qui
+                                fugiat,fugit quae magnam veritatis
+                                laudantium saepe alias architecto rerum cumque tenetur, maiores quaerat tempore veniam.
+                                Quas!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont_fichas">
+                    <div class="ficha">
+                        <div class="imgficha">
+                            <img src="./multimedia/foto1.jpg" alt="">
+                        </div>
+                        <div class="textoficha">
+                            <h2>Texto Servicio Ofertado</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum inventore error a, qui
+                                fugiat,
+                                fugit quae magnam veritatis laudantium saepe alias architecto rerum cumque tenetur,
+                                maiores
+                                quaerat tempore veniam. Quas!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="publicont">
+                    <div class="logopubli">
+                        <img src="./multimedia/logo_frog_mini.png" alt="logotipo vitae" class="imgpubli logopubli">
+                    </div>
+                    <div class="textopubli">
+                        <span>Texto de Contacto<br><a href="tel:(aqui tlfn)" style="text-decoration:none"><i
+                                    class="fa">&#xf095;</i>- XXX-XXX-XXX</a></span><br>
+                        <a href='mail-to:blablabla@hotmail.com?subject=Consulta&tratamientos' class="mailpubli">Manda un
+                            correo</a>
+                    </div>
+                    <div class="logopubli">
+                        <img src="./multimedia/logo_frog_mini.png" alt="logotipo vitae" class="imgpubli logopubliz">
+                    </div>
+                </div>
+                <div class="cont_fichas">
+                    <div class="ficha">
+                        <div class="imgficha">
+                            <img src="./multimedia/foto1.jpg" alt="">
+                        </div>
+                        <div class="textoficha">
+                            <h2>Texto Servicio Ofertado</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum inventore error a, qui
+                                fugiat,fugit quae magnam veritatis
+                                laudantium saepe alias architecto rerum cumque tenetur, maiores quaerat tempore veniam.
+                                Quas!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="fichaiz">
+                        <div class="imgficha">
+                            <img src="./multimedia/foto1.jpg" alt="">
+                        </div>
+                        <div class="textoficha">
+                            <h2>Texto Servicio Ofertado</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum inventore error a, qui
+                                fugiat,fugit quae magnam veritatis
+                                laudantium saepe alias architecto rerum cumque tenetur, maiores quaerat tempore veniam.
+                                Quas!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont_fichas">
+                    <div class="fichaiz">
+                        <div class="imgficha">
+                            <img src="./multimedia/foto1.jpg" alt="">
+                        </div>
+                        <div class="textoficha">
+                            <h2>Texto Servicio Ofertado</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum inventore error a, qui
+                                fugiat,
+                                fugit quae magnam veritatis
+                                laudantium saepe alias architecto rerum cumque tenetur, maiores quaerat tempore veniam.
+                                Quas!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="publicont">
+                    <div class="logopubli">
+                        <img src="./multimedia/logo_frog_mini.png" alt="logotipo vitae" class="imgpubli logopubli">
+                    </div>
+                    <div class="textopubli">
+                        <span>Texto de Contacto<br><a href="tel:(aqui el telefono" style="text-decoration:none"><i
+                                    class="fa">&#xf095;</i>- XXX-XXX-XXX</a></span><br>
+                        <a href="mail-to:a.m.p.desarrolloweb@gmail.com?subject=Consulta&tratamientos"
+                            class="mailpubli">Manda un correo</a>
+                    </div>
+                    <div class="logopubli">
+                        <img src="./multimedia/logo_frog_mini.png" alt="rana de forma abstracta de color negro y verde"
+                            class="imgpubli logopubliz">
+                    </div>
+                </div>
+                <div class="cont_fichas">
+                    <div class="ficha">
+                        <div class="imgficha">
+                            <img src="./multimedia/foto1.jpg" alt="">
+                        </div>
+                        <div class="textoficha">
+                            <h2>Texto Servicio Ofertado</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum inventore error a, qui
+                                fugiat,fugit quae magnam veritatis
+                                laudantium saepe alias architecto rerum cumque tenetur, maiores quaerat tempore veniam.
+                                Quas!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="fichaiz">
+                        <div class="imgficha">
+                            <img src="./multimedia/foto1.jpg" alt="">
+                        </div>
+                        <div class="textoficha">
+                            <h2>Texto Servicio Ofertado</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum inventore error a, qui
+                                fugiat,fugit quae magnam veritatis
+                                laudantium saepe alias architecto rerum cumque tenetur, maiores quaerat tempore veniam.
+                                Quas!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont_fichas">
+                    <div class="ficha">
+                        <div class="imgficha">
+                            <img src="./multimedia/foto1.jpg" alt="">
+                        </div>
+                        <div class="textoficha">
+                            <h2>Texto Servicio Ofertado</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum inventore error a, qui
+                                fugiat,fugit quae magnam veritatis
+                                laudantium saepe alias architecto rerum cumque tenetur, maiores quaerat tempore veniam.
+                                Quas!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contfooter">
+                <div>
+                    <a href=""><img src="./multimedia/logo_frog_mini.png" alt=""></a>
+                </div>
+                <div class="textofooter">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis omnis ad
+                    placeat
+                    animi
+                    quos tenetur quidem, quis eius quae. Nobis, sunt accusamus dignissimos possimus molestias
+                    consequatur
+                    illo
+                    voluptatibus laborum officia?</div>
+                <div>
+                    <a href=""><img src="./multimedia/logo_frog_mini.png" alt=""></a>
+                </div>
+            </div>
+        </main>
+        <footer class="cont_footer">
+            <div class="Cont_contacto" id="cont_cntct">
+                <div class="cuerpo_contct esconder_cntct" id="txt_cntct">
+                    <div class="correo_elec">
+                        <h5>Correo electrónico</h5>
+                        <a href="mailto:a.m.p.desarrolloweb@gmail.com">a.m.p.desarrolloweb@gmail.com</a>
+                    </div>
+                </div>
+                <h3 class="tit_contct" onclick="abreFichacntct('txt_cntct')">
+                    Contacto
+                </h3>
+            </div>
+            <div class="cont_vuelve">
+                <h3 class="btn_vlv"><a href="../publicacion.html">Atrás</a></h3>
+
+            </div>
+        </footer>
 </body>
 
 </html>
