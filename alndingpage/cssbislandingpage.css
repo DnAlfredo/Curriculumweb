@@ -211,6 +211,15 @@ align-items: center;
 /*--------------------------------@media------------------------------------------------*/
 
 @media screen and (max-width:780px) {
+    .logo img {
+        width: 100%;
+           border-radius: 5rem;
+           height: 100%;
+           text-align: opacity;
+           box-shadow: 1rem 1rem 2rem rgb(36, 81, 92);
+           animation-name:animelogo;
+           animation-duration: 1s;    
+       }
     .mailpubli{
      font-size: medium;
 
