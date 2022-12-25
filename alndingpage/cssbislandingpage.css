@@ -183,24 +183,25 @@ align-items: center;
 }
 /*-------------FOOTER------------------------------------*/
  .contfooter{
-    width: 100%;
-    height: 100%;
-  
+    width: 100%; 
     display:flex ;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     align-content: center;
     background-color: rgba(29, 81, 97, 0.5);
 }
 .textofooter{
-    width: 60%;
+    width: 100%;
     height: 25%;
     padding-top: 0.5rem;
     color: whitesmoke;
 }
-.contfooter img{
+.imgfooter img{
     width: 3rem;
    border-radius: 5rem;
+   margin: 10%;
+   padding: 1%;
    
 }
 /*--------------------------------@media------------------------------------------------*/
@@ -235,7 +236,7 @@ align-items: center;
     padding: 0.5rem;
     border-radius: 1rem;
     /*box-shadow: 3rem 6rem 9rem #24515c;*/
-    box-shadow: 3rem 3rem 3rem rgb(36, 81, 92);
+    box-shadow: 1rem 1rem 1rem rgb(36, 81, 92);
     background-color:/*rgba(36, 81, 92, 0.2)*/rgba(36, 81, 92,0.8) ;
     /*border:1px solid gray;*//*--no resulta del todo comodo a la vista, esperar opinion del que sabe--*/
     position:relative;
@@ -248,7 +249,7 @@ align-items: center;
     padding: 0.5rem;
     border-radius: 1rem;
     /* box-shadow: 3rem 6rem 9rem #24515c;*/
-    box-shadow: 3rem 3rem 3rem rgb(36, 81, 92);
+    box-shadow: 1rem 1rem 1rem rgb(36, 81, 92);
     background-color:/*rgba(36, 81, 92, 0.2)*/rgba(36, 81, 92,0.8) ;
     position:relative;
     animation-name:animerigth;
@@ -261,6 +262,12 @@ align-items: center;
     justify-content: center;
     align-items: center;
     
+}
+.imgficha>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3rem;
+    box-shadow: 0.5rem 0.3rem 0.5rem #3190A8;
 }
 .textoficha {
     width: 100%;
