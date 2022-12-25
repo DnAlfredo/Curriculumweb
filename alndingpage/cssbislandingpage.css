@@ -190,12 +190,16 @@ align-items: center;
     align-items: center;
     align-content: center;
     background-color: rgba(29, 81, 97, 0.5);
+    margin-bottom: 15%;
+    margin-top: 10%;
 }
 .textofooter{
     width: 100%;
     height: 25%;
+    text-align: center;
     padding-top: 0.5rem;
     color: whitesmoke;
+    margin-bottom: 2%;
 }
 .imgfooter img{
     width: 3rem;
@@ -207,9 +211,10 @@ align-items: center;
 /*--------------------------------@media------------------------------------------------*/
 
 @media screen and (max-width:780px) {
-.mailpubli{
-    font-size: medium;
-}
+    .mailpubli{
+     font-size: medium;
+
+    }
     .imgpubli{
         width: 50%;
         border-radius: 2rem;
@@ -226,10 +231,10 @@ align-items: center;
     }
    .textopubli{
        height: 4rem;
-   } 
+    } 
    .barranav a{
        font-size: 1rem;
-   } 
+    } 
    .ficha {
     width: 11.5rem;
     margin: 0.5rem;
@@ -242,7 +247,7 @@ align-items: center;
     position:relative;
     animation-name:animeleft;
     animation-duration: 1s;
-}
+    }
 .fichaiz{
     width: 11.5rem;
     margin: 0.5rem;
