@@ -4,6 +4,9 @@
 html {
     background-color: /*rgba(29, 81, 97, 0.5)*/ rgba(49, 144, 168,0.2);
 }
+.main_landingpage{
+    background-color: rgba(36, 81, 92,0.4);
+}
 .principal {
     position: relative;
     width: 100%;
