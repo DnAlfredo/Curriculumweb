@@ -1,10 +1,82 @@
-.cont_img_header img{
+/*-----------------------GENERALES-----------------------------*/
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+/*---------------------------EFECTOS------------------------*/
+@keyframes animelogo{
+    0%{ opacity:0;}5%{opacity:0.5;}10%{opacity:0.1 ;}15%{opacity:0.15;}20%{opacity:0.2;}25%{opacity:0.25;}30%{opacity:0.3;}35%{opacity:0.35;}
+    40%{opacity:0.4;}45%{opacity:0.45;}50%{opacity:0.5 ;}55%{opacity:0.55;}60%{opacity: 0.6;}65%{opacity:0.65;}70%{opacity:0.7 ;}
+    75%{opacity:0.75;}80%{opacity:0.8 ;}85%{opacity:0.85;}90%{opacity:0.9 ;}95%{opacity:0.95;}100%{opacity:1;}
+} 
+@keyframes deslizamientoder_izq{
+0%   {visibility:none; left:-200px; top:-200px;}
+15%{visibility:none; left:-175px; top:-175px;}
+  25% {visibility:none; left:-125px; top:-125px;}
+  35%{visibility:none; left:-100px; top:-100px;}
+  50%  {visibility:none; left:-75px; top:-75px;}
+  65%{visibility:none; left:-75px; top:-75px;}
+  75%{visibility:none; left:-50px; top:-50px;} 
+  85%{visibility:beige; left:-25px; top:-25px;}
+  100% {color:beige; left:0px; top:0px;}
+}
+/*-----------------------HEADER-----------------------------*/
+.cont_header {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    animation-name:animelogo;
+    animation-duration: 1.5s;  
+}
+
+.cont_img_header {
+    position: relative;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cont_txt_header {
+    position: relative;
+    width: 50%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif/*'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif*/;
+    font-size: large;
+    text-align: center;
+    text-shadow: 0 0 3px yellow;
+    color: beige;
+    margin-top: 0.5%;
+    animation-name:animelogo;
+    animation-duration: 0.5s;
+}
+
+.img-header {
     position: relative;
     width: 17rem;
     height: 15rem;
-    border-radius: 50%;
+    margin-top: 1%;
+    border-radius: 10px;
+    background-color: antiquewhite;  
+    box-shadow: 0 0 15px antiquewhite;
+
 }
-.text_prov{
+
+/*-----------------------MAIN-----------------------------*/
+.main_recuerdo {
+    margin-top: 2%;
+    height: 550px;
+    background-color: black
+        /*linear-gradient(to bottom left,antiquewhite,darkgray,darkgray )*/
+    ;
+
+}
+
+.text_prov {
     display: flex;
     justify-content: center;
     align-items: center;
