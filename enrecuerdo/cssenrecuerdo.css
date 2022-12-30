@@ -1,0 +1,14 @@
+.cont_img_header img{
+    position: relative;
+    width: 17rem;
+    height: 15rem;
+    border-radius: 50%;
+}
+.text_prov{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    color: red;
+}
