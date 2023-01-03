@@ -52,8 +52,7 @@
     text-shadow: 0 0 3px yellow;
     color: beige;
     margin-top: 0.5%;
-    animation-name:animelogo;
-    
+    animation-name:animelogo; 
     animation-duration: 0.5s;
 }
 
@@ -63,8 +62,6 @@
     height: 15rem;
     margin-top: 1%;
     border-radius: 10px;
-   
-
 }
 
 /*-----------------------MAIN-----------------------------*/
@@ -84,8 +81,7 @@
 }
 .cont_txt{
     position: relative;
-    width: 100%;
-    
+    width: 100%; 
     background-image:radial-gradient(antiquewhite, antiquewhite, antiquewhite,black,black);
     padding: 0.5%;
     display: flex;
@@ -99,13 +95,59 @@
 }
 .txt_recuerdo{
     position: relative;
-   width:70% ;
+    width:70% ;
     font-size: smaller;
- text-align: center;
- padding:4% ;
+    text-align: center;
+    padding:4% ;
   
 }
+.galeria_recurd{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+margin-top: 15%;
+    margin-bottom: 15%;
 
+}
+.cont_img_recurd{
+    width: 150px;
+    height: 190px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+    background-color: white;
+}
+
+.img_galr_recurd{
+    width: 90%;
+    height: 75%;
+    margin-bottom: 22%;
+    
+}
+#img_glr_rcrd1{
+    rotate:-20deg;
+
+}
+#img_glr_rcrd2{
+    rotate:10deg;
+
+}
+#img_glr_rcrd3{
+rotate:-5deg;
+}
+#img_glr_rcrd4{
+rotate:20deg;
+
+}
+#img_glr_rcrd5{
+
+rotate: 10deg;
+}
 .text_prov {
     
     color: red;
