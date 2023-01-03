@@ -30,6 +30,7 @@
     align-items: center;
     animation-name:animelogo;
     animation-duration: 1.5s;  
+  
 }
 
 .cont_img_header {
@@ -52,6 +53,7 @@
     color: beige;
     margin-top: 0.5%;
     animation-name:animelogo;
+    
     animation-duration: 0.5s;
 }
 
@@ -61,26 +63,51 @@
     height: 15rem;
     margin-top: 1%;
     border-radius: 10px;
-    background-color: antiquewhite;  
-    box-shadow: 0 0 15px antiquewhite;
+   
 
 }
 
 /*-----------------------MAIN-----------------------------*/
 .main_recuerdo {
     margin-top: 2%;
-    height: 550px;
     background-color: black
         /*linear-gradient(to bottom left,antiquewhite,darkgray,darkgray )*/
     ;
 
 }
-
-.text_prov {
+.cont_main{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center ;
+    align-content: center;
+}
+.cont_txt{
+    position: relative;
+    width: 100%;
+    
+    background-image:radial-gradient(antiquewhite, antiquewhite, antiquewhite,black,black);
+    padding: 0.5%;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:medium;
+    padding: 1%;
+}
+.txt_recuerdo{
+    position: relative;
+   width:70% ;
+    font-size: smaller;
+ text-align: center;
+ padding:4% ;
+  
+}
+
+.text_prov {
+    
     color: red;
 }
+/*animation-iteration-count: 10; Esto es para decir cuantas veces queremos repetir la animación, puede utilizarse para hacer repetir algo mientras el usuario hace scroll, como un opacity de una img*/
