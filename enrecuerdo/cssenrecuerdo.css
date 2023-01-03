@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0%;
 }
+
 /*---------------------------EFECTOS------------------------*/
 @keyframes animelogo{
     0%{ opacity:0;}5%{opacity:0.5;}10%{opacity:0.1 ;}15%{opacity:0.15;}20%{opacity:0.2;}25%{opacity:0.25;}30%{opacity:0.3;}35%{opacity:0.35;}
@@ -78,6 +79,7 @@
     justify-content: center;
     align-items:center ;
     align-content: center;
+   
 }
 .cont_txt{
     position: relative;
@@ -108,8 +110,9 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-margin-top: 15%;
+    margin-top: 15%;
     margin-bottom: 15%;
+
 
 }
 .cont_img_recurd{
@@ -119,37 +122,71 @@ margin-top: 15%;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-   
-    background-color: white;
+    background-color: /*rgb(255, 255, 255)*/rgb(250, 250, 229);
 }
-
 .img_galr_recurd{
     width: 90%;
     height: 75%;
     margin-bottom: 22%;
     
 }
-#img_glr_rcrd1{
+.img_glr_rcrd1{
     rotate:-20deg;
-
+   
 }
-#img_glr_rcrd2{
+.img_glr_rcrd2{
     rotate:10deg;
+   
+}
 
-}
-#img_glr_rcrd3{
-rotate:-5deg;
-}
-#img_glr_rcrd4{
-rotate:20deg;
-
-}
-#img_glr_rcrd5{
-
-rotate: 10deg;
-}
 .text_prov {
     
     color: red;
+}
+.cont_img_txt_rcrd{
+    position: relative;
+    width: 100%;
+    height: 270px;
+    display: flex;
+  justify-content: center;
+  align-content: center;
+    margin-bottom: 15%;
+
+}
+.img_txt_rcrd{
+    width: 100%;
+    
+}
+.txt_img_rcrd{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    z-index: 2;
+    background-color: rgba(255, 255, 255,0.5);
+    padding: 0.7%;
+}
+.cont_dispimg_rcrd{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 90%;
+}
+.cont_dispimg_rcrd img{
+    width: 150px;
+    border-radius: 5px;
+}
+.img_disdimg_rcrd{
+   
+    width: 300px;
+}
+.mostrar{
+    display: flex;
+}
+.esconder{
+    display: none;
 }
 /*animation-iteration-count: 10; Esto es para decir cuantas veces queremos repetir la animación, puede utilizarse para hacer repetir algo mientras el usuario hace scroll, como un opacity de una img*/
