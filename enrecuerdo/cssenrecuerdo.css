@@ -166,27 +166,31 @@
     background-color: rgba(255, 255, 255,0.5);
     padding: 0.7%;
 }
-.cont_dispimg_rcrd{
+.cont_imgesquina_rcrd{
     position: relative;
+    width: 92%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     align-content: center;
-    width: 90%;
+    border-radius: 5px;  
+    margin-bottom: 15%;
 }
-.cont_dispimg_rcrd img{
-    width: 150px;
-    border-radius: 5px;
-}
+
 .img_disdimg_rcrd{
+    width: 40%;
+    float: right;
+    border-radius:120% 120% 120% 120%;
+    box-shadow:0.6vh 0.6vh 0.6vh rgba(255, 166, 0, 0.308) ;
+    border: 1px solid transparent;
+    
+    margin-bottom: 1%;
+
+}
+.txt_imgesquina_rcrd{
+    position: relative;
+background-color: rgba(250, 235, 215, 0.514);
+border-radius: 5px;
    
-    width: 300px;
-}
-.mostrar{
-    display: flex;
-}
-.esconder{
-    display: none;
 }
 /*animation-iteration-count: 10; Esto es para decir cuantas veces queremos repetir la animación, puede utilizarse para hacer repetir algo mientras el usuario hace scroll, como un opacity de una img*/
