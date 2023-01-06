@@ -67,6 +67,8 @@
 
 /*-----------------------MAIN-----------------------------*/
 .main_recuerdo {
+    position: relative;
+    width: 100%;
     margin-top: 2%;
     background-color: black
     /*linear-gradient(to bottom left,antiquewhite,darkgray,darkgray )*/
