@@ -46,17 +46,54 @@
 
 .cont_txt_header_recuerdo {
     position: relative;
-    width: 30%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif/*'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif*/;
     font-size:x-large;
     text-align: center;
-    text-shadow: 0 0 3px yellow;
-    color: beige;
+    text-shadow: 0 0 3px silver;
+    color: silver;
     margin-top: 1%;
     animation-name:animelogo; 
     animation-duration: 0.5s;
 }
+.tit_header{
+    width: 100%;
+    margin-top: 0%;
+}
 
+.cont_txt_header_recuerdo h2{
+    position: relative;
+    width: 100%;
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size:large;
+}
+.linea_up_titrcrd{
+position: relative;
+    width: 150px;
+    height: 2px;
+    background-color: silver;
+}
+.liena_med_tjitrcrd{
+    position: relative;
+    width:5%;
+    height:2px;
+    background-color: silver;
+}
+.lineadown_titrcrd{
+    position: relative;
+    width: 150px;
+    height: 2px;
+    background-color: silver;
+}
 .img-header {
     position: relative;
     width: 37rem;
@@ -223,7 +260,7 @@
     margin-bottom: 1%;
 }
 .img_disdimg_rcrd{
-    width: 72%;
+    width: 75%;
     float: right;
     border-radius:120% 120% 120% 120%;
     border: 1px solid transparent;    
@@ -402,11 +439,11 @@
         justify-content: center;
         align-items: center;
         align-content: center;
-        background-image:radial-gradient(white, white,black,black);
+        background-image:radial-gradient(silver, silver,black,black);
          border-radius:120% 120% 120% 120%;
     }
     .img_disdimg_rcrd2{
-        width: 70%;
+        width: 72%;
         float: right;
         border-radius:120% 120% 120% 120%;
         /*box-shadow:0.6vh 0.6vh 0.6vh  ;
@@ -427,7 +464,7 @@
     
     }
     .img_disdimg_rcrd{
-        width: 70%;
+        width: 72%;
         float: right;
         border-radius:120% 120% 120% 120%;
         border: 1px solid transparent;
