@@ -53,16 +53,16 @@
     align-items: center;
     align-content: center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif/*'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif*/;
-    font-size:x-large;
+    font-size:xx-large;
     text-align: center;
     text-shadow: 0 0 3px silver;
     color: silver;
-    margin-top: 1%;
+    margin-top: 3%;
     animation-name:animelogo; 
     animation-duration: 0.5s;
 }
 .tit_header{
-    width: 100%;
+    width: 180px;
     margin-top: 0%;
 }
 
@@ -76,28 +76,45 @@
     align-content: center;
     font-size:large;
 }
+.cont_linea_up{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 .linea_up_titrcrd{
 position: relative;
-    width: 150px;
+    width: 155px;
     height: 2px;
     background-color: silver;
 }
 .liena_med_tjitrcrd{
     position: relative;
-    width:5%;
+    width:25px;
     height:2px;
     background-color: silver;
 }
+.cont_linea_down{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
 .lineadown_titrcrd{
     position: relative;
-    width: 150px;
+    width: 155px;
     height: 2px;
     background-color: silver;
 }
 .img-header {
     position: relative;
-    width: 37rem;
-    height: 27rem;
+    width: 50rem;
+    height: 40rem;
     margin-top: 1%;
     border-radius: 15px;
 }
@@ -107,10 +124,8 @@ position: relative;
     position: relative;
     width: 100%;
     margin-top: 2%;
-    background-color: black
+    background-color: black ;
     /*linear-gradient(to bottom left,antiquewhite,darkgray,darkgray )*/
-    ;
-
 }
 .cont_main{
     display: flex;
@@ -123,7 +138,7 @@ position: relative;
 .cont_txt{
     position: relative;
     width: 45%; 
-       background-image:radial-gradient(antiquewhite, antiquewhite,black,black);
+    background-image:radial-gradient(antiquewhite, antiquewhite,black,black);
     padding: 0.5%;
     display: flex;
     flex-wrap: wrap;
@@ -131,13 +146,12 @@ position: relative;
     align-items: center;
     text-align: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size:medium;
     padding: 1%;
+    margin-top: 2%;
 }
 .txt_recuerdo{
     position: relative;
     width:50% ;
-    font-size: smaller;
     text-align: center;
     padding:4% ;
  
@@ -154,8 +168,8 @@ position: relative;
 
 }
 .cont_img_recurd{
-    width: 279px;
-    height: 340px;
+    width: 299px;
+    height: 428px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -200,13 +214,14 @@ position: relative;
 }
 .ficha_img_recuerdo_der,
 .ficha_img_recuerdo_iz{
-    width: 30%;
+    width: 45%;
     margin-inline: 2%;
-    border-radius: 5px;
+    margin-top: 4%;
+    
 }
 .img_txt_rcrd{
     width: 100%;
-    
+    border-radius: 5px;
     
 }
 #txt_img_rcrd1{
@@ -217,12 +232,13 @@ position: relative;
     z-index: 2;
     background-color: rgba(255, 255, 255,0.5);
     padding: 0.7%;
+   
 }
 #txt_img_rcrd2{
     position: absolute;
     width: 19%;
     text-align: center;   
-    margin-left: 11%;
+    margin-right: 45%;
     z-index: 2;
     background-color: rgba(255, 255, 255,0.5);
     padding: 0.7%;
@@ -237,8 +253,6 @@ position: relative;
     align-items: center;
     align-content: center;
     border-radius: 5px;  
-   
-    margin-bottom: 10%;
 }
 .marco_imgsquina_rcrd2{
     position: relative;
@@ -291,12 +305,19 @@ position: relative;
 /*animation-iteration-count: 10; Esto es para decir cuantas veces queremos repetir la animación, puede utilizarse para hacer repetir algo mientras el usuario hace scroll, como un opacity de una img*/
 
 @media screen and (max-width: 780px) {
+    .cont_txt_header_recuerdo {
+        font-size:x-large;
+    }
     .main_recuerdo {
         margin-top: 2%;
         background-color: black
         /*linear-gradient(to bottom left,antiquewhite,darkgray,darkgray )*/
         ;
     
+    }
+    .tit_header{
+        width: 180px;
+        margin-top: 0%;
     }
     .img-header {
         position: relative;
