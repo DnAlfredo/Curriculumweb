@@ -1,0 +1,75 @@
+/* writing-mode: vertical-lr;
+  text-orientation: upright;
+  esto es para hecer un tit vertical para ponerlo en un lado */
+  /*---------------------GENERALES---------------------------------*/
+  .main_general_carta2{
+    width: 100%;
+    height: 1500px;
+   /* background-image: repeating-radial-gradient(white,rgb(4, 4, 75),rgb(4, 4, 75));*/
+    background-image: url('./multimedia_carta2/IMG_0285.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/*----------------------HEADER-------------------------------------*/
+.header_carta2{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5%;
+} 
+.tit_header{
+     width: 100%;
+}
+.h1_header_carta2{
+    position: relative;
+    width: 100%;
+    color: rgb(7, 7, 136);
+    font-size:4pc;
+}
+.h2_header_carta2{
+    position: relative;
+    width: 100%;
+    color: rgb(38, 38, 189);
+    font-size: 2pc;
+}
+.cont_sticky_carta2{
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.cont_ancla_sticky{
+    width: 22%;
+    text-align: center;
+    font-size: large;
+    color: rgb(38, 38, 189) ;
+    font-weight: bold;
+    background-color: rgba(240, 255, 255,0.5);
+    border-radius: 50%;
+    margin-top: 1%;
+}
+.div_blnc_sticky{
+    width: 16%;
+   
+}
+
+.tit_vertical_carta2{
+    width: 5%;
+    height: auto;
+    color: rgb(38, 38, 189);
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    margin-top: 8%;
+    background-color: rgba(255, 255, 255,0.5);
+    border-radius: 30%;
+  }
