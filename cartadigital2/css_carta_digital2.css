@@ -45,7 +45,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: baseline;
+    align-items: baseline; 
+    z-index: 9;
 }
 .cont_ancla_sticky{
     position: relative;
@@ -58,15 +59,46 @@
     align-content: center;
     text-align: center;
     font-size: large;
-    background-color:rgb(38, 38, 189) ;
-    box-shadow:0.1vh 0.1vh 0.1vh/* rgb(120, 243, 223)*/white;
     color:white  ;
     font-weight: bold;
-    border-radius: 50%;
+    border-radius: 50% ;
     margin-top: 1%;
+   
+}
+.prueba{
+  position: relative;
+  width: 85px;
+  height: 62px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  font-size: large;
+ 
+  font-weight: bold;
+  margin-top: 1%;
+}
+.prueba a{
+  color:white  ;
 }
 .cont_ancla_sticky a{
     color: white;
+}
+.linea_ancla_sticky{
+  width:30px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-inline: 4px;
+}
+.punto_ancla_sticky{
+  width: 5px;
+  height: 5px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 50%;
 }
 .div_blnc_sticky{
     width: 16px;
@@ -100,12 +132,12 @@
     align-content: center;
     color:white ;
     text-align: center;
-    font-size: larger;
+    font-size: xx-large;
     font-weight: bold;
     writing-mode: vertical-lr;
     text-orientation: upright;
    
-    background-color: rgb(38, 38, 189);
+   /* background-color: rgb(38, 38, 189);*/
     border-radius: 30%;
   }
   .cont_platosmenu_carta2{
@@ -121,7 +153,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: baseline;
+    align-items: center;
     align-content: space-around;
   }
   .cont_imgmenu_carta2{
@@ -135,4 +167,7 @@
     width: 150px;
     border-radius: 50%;
     border-bottom: 2px solid rgb(38, 38, 189) ;
+  }
+  .precio_menu_carta{
+    color: white;
   }
