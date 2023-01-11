@@ -47,6 +47,8 @@
     justify-content: space-around;
     align-items: baseline; 
     z-index: 9;
+    background-color: rgba(255, 255, 255,0.3);
+    padding-bottom: 9px;
 }
 .cont_ancla_sticky{
     position: relative;
@@ -62,7 +64,7 @@
     font-weight: bold;
     border-radius: 50% ;
     margin-top: 1%;
-   
+  
 }
 
 .prueba a{
