@@ -36,7 +36,7 @@
     position: relative;
     width: 100%;
     color: white;
-    font-size: 2pc;
+    font-size: 1pc;
 }
 .cont_sticky_carta2{
     position: sticky;
@@ -51,7 +51,6 @@
 .cont_ancla_sticky{
     position: relative;
     width: 85px;
-    height: 62px;
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
@@ -65,21 +64,7 @@
     margin-top: 1%;
    
 }
-.prueba{
-  position: relative;
-  width: 85px;
-  height: 62px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content:center;
-  align-items: center;
-  align-content: center;
-  text-align: center;
-  font-size: large;
- 
-  font-weight: bold;
-  margin-top: 1%;
-}
+
 .prueba a{
   color:white  ;
 }
@@ -88,20 +73,20 @@
 }
 .linea_ancla_sticky{
   width:30px;
-  background-color: white;
-  border: 1px solid white;
+  background-color:rgb(38, 38, 189) /*white*/;
+  border: 0.5px solid rgb(38, 38, 189) /*white*/;
   border-radius: 50%;
   margin-inline: 4px;
 }
 .punto_ancla_sticky{
   width: 5px;
   height: 5px;
-  border: 1px solid white;
-  background-color: white;
+  border: 1px solid rgb(38, 38, 189) /*white*/;
+  background-color: rgb(38, 38, 189) /*white*/;
   border-radius: 50%;
 }
 .div_blnc_sticky{
-    width: 16px;
+    width: 32px;
    
 }
 .div_blnc_sticky2{
