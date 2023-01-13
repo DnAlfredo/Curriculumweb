@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="../@mediaCVweb.css">
     <link rel="stylesheet" href="css_carta_digital2.css">
     <link rel="stylesheet" href=".../@mediaCVweb.css">
+    <link href='https://fonts.googleapis.com/css?family=Architects Daughter' rel='stylesheet'>
     <script src="../progCV.js"></script>
+    <script src="./jscarta2.js"></script>
     <link rel="icon" href="./multimedia/logo_frog.png" class="favicon" id="favicon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Carta Rte 2</title>
@@ -87,50 +89,59 @@
                 <div class="h2_header_carta2">Especialistas en Comidas Marineras</div>
             </div>
         </div>
-        <nav class="cont_sticky_carta2">
-            <div class="div_blnc_sticky"></div>
-            <div class="cont_ancla_sticky"><a href="#raciones">Raciones </a>
-                <div class="linea_ancla_sticky"></div>
-                <div class="punto_ancla_sticky"></div>
-                <div class="linea_ancla_sticky"></div>
+        <nav class="cont_botn_sticky">
+            <div class="btn_desp_sticky_carta2" onclick="abreMenu('cont_sticky')">
+                <div class="ralla_btnmenu_carta2"></div>
+                <div class="ralla_btnmenu_carta2"></div>
+                <div class="ralla_btnmenu_carta2"></div>
             </div>
-            <div class="div_blnc_sticky"></div>
-            <div class="cont_ancla_sticky"><a href="#frituras">Frituras</a>
-                <div class="linea_ancla_sticky"></div>
-                <div class="punto_ancla_sticky"></div>
-                <div class="linea_ancla_sticky"></div>
+            <div class="cont_sticky_carta2 esconder_rte"id="cont_sticky">
+                <div class="div_blnc_sticky"></div>
+                <div class="cont_ancla_sticky"><a href="#raciones">Raciones </a>
+                    <div class="linea_ancla_sticky"></div>
+                    <div class="punto_ancla_sticky"></div>
+                    <div class="linea_ancla_sticky"></div>
+                </div>
+                <div class="div_blnc_sticky"></div>
+                <div class="cont_ancla_sticky"><a href="#frituras">Frituras</a>
+                    <div class="linea_ancla_sticky"></div>
+                    <div class="punto_ancla_sticky"></div>
+                    <div class="linea_ancla_sticky"></div>
+                </div>
+                <div class="div_blnc_sticky"></div>
+                <div class="cont_ancla_sticky"><a href="#arroces">Arroces</a>
+                    <div class="linea_ancla_sticky"></div>
+                    <div class="punto_ancla_sticky"></div>
+                    <div class="linea_ancla_sticky"></div>
+                </div>
+                <div class="div_blnc_sticky"></div>
+                <div class="div_blnc_sticky"></div>
+                <div class="div_blnc_sticky"></div>
+                <div class="cont_ancla_sticky"><a href="#cazuelas">Cazuelas</a>
+                    <div class="linea_ancla_sticky"></div>
+                    <div class="punto_ancla_sticky"></div>
+                    <div class="linea_ancla_sticky"></div>
+                </div>
+                <div class="div_blnc_sticky"></div>
+                <div class="cont_ancla_sticky"><a href="#parrilla">Parrilla</a>
+                    <div class="linea_ancla_sticky"></div>
+                    <div class="punto_ancla_sticky"></div>
+                    <div class="linea_ancla_sticky"></div>
+                </div>
+                <div class="div_blnc_sticky"></div>
+                <div class="div_blnc_sticky"></div>
+                <div class="cont_ancla_sticky"><a href="#bebidas">Bebibas</a>
+                    <div class="linea_ancla_sticky"></div>
+                    <div class="punto_ancla_sticky"></div>
+                    <div class="linea_ancla_sticky"></div>
+                </div>
+                <div class="div_blnc_sticky"></div>
+                <div class="cont_ancla_sticky"><a href="#postres">Postres</a>
+                    <div class="linea_ancla_sticky"></div>
+                    <div class="punto_ancla_sticky"></div>
+                    <div class="linea_ancla_sticky"></div>
+                </div>
             </div>
-            <div class="div_blnc_sticky"></div>
-            <div class="cont_ancla_sticky"><a href="#arroces">Arroces</a>
-                <div class="linea_ancla_sticky"></div>
-                <div class="punto_ancla_sticky"></div>
-                <div class="linea_ancla_sticky"></div>
-            </div>
-            <div class="div_blnc_sticky"></div>
-            <div class="div_blnc_sticky"></div>
-            <div class="div_blnc_sticky"></div>
-            <div class="cont_ancla_sticky"><a href="#cazuelas">Cazuelas</a>
-                <div class="linea_ancla_sticky"></div>
-                <div class="punto_ancla_sticky"></div>
-                <div class="linea_ancla_sticky"></div>
-            </div>
-            <div class="div_blnc_sticky"></div>
-            <div class="cont_ancla_sticky">Parrilla<div class="linea_ancla_sticky"></div>
-                <div class="punto_ancla_sticky"></div>
-                <div class="linea_ancla_sticky"></div>
-            </div>
-            <div class="div_blnc_sticky"></div>
-            <div class="div_blnc_sticky"></div>
-            <div class="cont_ancla_sticky">Bebibas<div class="linea_ancla_sticky"></div>
-                <div class="punto_ancla_sticky"></div>
-                <div class="linea_ancla_sticky"></div>
-            </div>
-            <div class="div_blnc_sticky"></div>
-            <div class="cont_ancla_sticky">Postres<div class="linea_ancla_sticky"></div>
-                <div class="punto_ancla_sticky"></div>
-                <div class="linea_ancla_sticky"></div>
-            </div>
-
         </nav>
         <div class="main_cartadigital2">
             <!------------------RACIONES----------------------->
@@ -138,453 +149,663 @@
                 <div class="tit_vertical_carta2" id="raciones">Raciones</div>
                 <div class="contgeneral_platosmenu_carta2">
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
             <!----------------------------------SEPARADOR----------------------------->
-            <div class="cont_separador">
+            <div class="cont_separador" id="frituras">
                 <div class="linea_sep_carta2"></div>
                 <div class="punto_sep_carta2"></div>
                 <div class="linea_sep_carta2"></div>
             </div>
             <!-----------------------FRITURAS--------------------->
             <div class="cont_reciones_carta2">
-                <div class="tit_vertical_carta2" id="frituras">Frituras</div>
+                <div class="tit_vertical_carta2">Frituras</div>
                 <div class="contgeneral_platosmenu_carta2">
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
             <!----------------------------------SEPARADOR----------------------------->
-            <div class="cont_separador">
+            <div class="cont_separador" id="arroces">
                 <div class="linea_sep_carta2"></div>
                 <div class="punto_sep_carta2"></div>
                 <div class="linea_sep_carta2"></div>
             </div>
             <!----------------------------ARROCES------------------------------------>
             <div class="cont_reciones_carta2">
-                <div class="tit_vertical_carta2" id="arroces">Arroces</div>
+                <div class="tit_vertical_carta2">Arroces</div>
                 <div class="contgeneral_platosmenu_carta2">
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
             <!----------------------------------SEPARADOR----------------------------->
-            <div class="cont_separador">
+            <div class="cont_separador" id="cazuelas">
                 <div class="linea_sep_carta2"></div>
                 <div class="punto_sep_carta2"></div>
                 <div class="linea_sep_carta2"></div>
             </div>
             <!-------------------------------CAZUELAS----------------------------------->
             <div class="cont_reciones_carta2">
-                <div class="tit_vertical_carta2" id="cazueals">Cazuelas</div>
+                <div class="tit_vertical_carta2">Cazuelas</div>
                 <div class="contgeneral_platosmenu_carta2">
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
             <!----------------------------------SEPARADOR----------------------------->
-            <div class="cont_separador">
+            <div class="cont_separador" id="parrilla">
                 <div class="linea_sep_carta2"></div>
                 <div class="punto_sep_carta2"></div>
                 <div class="linea_sep_carta2"></div>
             </div>
             <!-------------------------------PARRILLA---------------------------------------->
             <div class="cont_reciones_carta2">
-                <div class="tit_vertical_carta2" id="parrilla">Parrilla</div>
+                <div class="tit_vertical_carta2">Parrilla</div>
                 <div class="contgeneral_platosmenu_carta2">
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
             <!----------------------------------SEPARADOR----------------------------->
-            <div class="cont_separador">
+            <div class="cont_separador" id="bebidas">
                 <div class="linea_sep_carta2"></div>
                 <div class="punto_sep_carta2"></div>
                 <div class="linea_sep_carta2"></div>
             </div>
-               <!--------------------------------------BEBIDAS---------------------------------------------->
+            <!--------------------------------------BEBIDAS---------------------------------------------->
             <div class="cont_reciones_carta2">
-                <div class="tit_vertical_carta2" id="bebidas">Bebidas</div>
+                <div class="tit_vertical_carta2">Bebidas</div>
                 <div class="contgeneral_platosmenu_carta2">
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-                   <!----------------------------------SEPARADOR----------------------------->
-                   <div class="cont_separador">
-                    <div class="linea_sep_carta2"></div>
-                    <div class="punto_sep_carta2"></div>
-                    <div class="linea_sep_carta2"></div>
-                </div>
-     <!------------------------------POSTRES------------------------------------------------>
+            <!----------------------------------SEPARADOR----------------------------->
+            <div class="cont_separador" id="postres">
+                <div class="linea_sep_carta2"></div>
+                <div class="punto_sep_carta2"></div>
+                <div class="linea_sep_carta2"></div>
+            </div>
+            <!------------------------------POSTRES------------------------------------------------>
             <div class="cont_reciones_carta2">
-                <div class="tit_vertical_carta2" id="postres">Postres</div>
+                <div class="tit_vertical_carta2">Postres</div>
                 <div class="contgeneral_platosmenu_carta2">
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                     <div class="cont_platomenu_carta2">
-                        <div class="cont_imgmenu_carta2">
+                        <div class="cont_imgmenu_carta2" onclick="abreFichaRte(this)">
                             <img src="./multimedia_carta2/pexels-hadis-11179202.jpg" alt="" class="imgmenu_carta2">
                         </div>
                         <div class="linea_menu_carta2"></div>
                         <div class="cont_precio_carta2">
                             <div class="precio_menu_carta">Xx,xx €</div>
+                        </div>
+                        <div class="esconder_rte cont_txt_pltmenu_carta2">
+                            <p class="txt_platomenu_carta2" id="">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
                         </div>
                     </div>
                 </div>

@@ -9,6 +9,7 @@
   /* background-image: url('./multimedia_carta2/IMG_0285.JPG');*/
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: 'Architects Daughter'
 }
 
 /*----------------------HEADER-------------------------------------*/
@@ -40,7 +41,26 @@
   color: white;
   font-size: 1pc;
 }
-
+.btn_desp_sticky_carta2{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ align-items: center;
+ align-content: center;
+  background-color: white;
+  border-radius: 50%;
+}
+.ralla_btnmenu_carta2{
+  position: relative;
+  width: 80%;
+  height: 5px;
+  background-color: rgb(4, 4, 75);
+  border-radius: 50%;
+  margin: 2.5px;
+}
 .cont_sticky_carta2 {
   position: sticky;
   top: 0%;
@@ -53,7 +73,18 @@
   background-color: rgba(255, 255, 255, 0.3);
   padding-bottom: 9px;
 }
-
+.cont_botn_sticky{
+  position: sticky;
+  top: 0%;
+  width: 99%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+  z-index: 9;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding-bottom: 9px;
+}
 .cont_ancla_sticky {
   position: relative;
   width: 85px;
@@ -165,7 +196,14 @@
   align-content: space-around;
   
 }
-
+.txt_platomenu_carta2{
+  width: 80%;
+  color: white;
+  justify-content: center;
+  align-items: center;
+align-content: center;
+text-align: center;
+}
 .cont_imgmenu_carta2 {
   width: 70px;
 }
@@ -211,4 +249,10 @@ background-color: white;
 border-radius: 50%;
 margin-left: 5px;
 margin-right: 5px;
+}
+.mostrar_rte{
+  display: flex;
+}
+.esconder_rte{
+  display: none;
 }
