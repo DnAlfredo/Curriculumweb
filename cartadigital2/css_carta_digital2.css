@@ -4,11 +4,14 @@
 /*---------------------GENERALES---------------------------------*/
 .main_general_carta2 {
   width: 100%;
+  display: flex;
+flex-wrap: wrap;
+justify-content: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- /* background-color: rgb(4, 4, 75);*/
-   background-image: url('./multimedia_carta2/fondo_carta2.jpg');
+  /* background-color: rgb(4, 4, 75);*/
+  background-image: url('./multimedia_carta2/fondo_carta2.jpg');
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   font-family: 'Architects Daughter'
 }
 
@@ -31,29 +34,31 @@
 .h1_header_carta2 {
   position: relative;
   width: 100%;
-  color:  rgb(6, 6, 184);
-  font-size: 4pc;
+  color: rgb(6, 6, 184);
+  font-size: 6pc;
 }
 
 .h2_header_carta2 {
   position: relative;
   width: 100%;
-  color:  rgb(6, 6, 184);
-  font-size: 1pc;
+  color: rgb(6, 6, 184);
+  font-size: 1.5pc;
 }
-.btn_desp_sticky_carta2{
+
+.btn_desp_sticky_carta2 {
   position: relative;
-  width: 30px;
-  height: 30px;
+  width: 45px;
+  height: 45px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
- align-items: center;
- align-content: center;
+  align-items: center;
+  align-content: center;
   background-color: white;
   border-radius: 50%;
 }
-.ralla_btnmenu_carta2{
+
+.ralla_btnmenu_carta2 {
   position: relative;
   width: 60%;
   height: 3.5px;
@@ -61,6 +66,7 @@
   border-radius: 50%;
   margin: 2.5px;
 }
+
 .cont_sticky_carta2 {
   position: sticky;
   top: 0%;
@@ -70,11 +76,12 @@
   justify-content: space-around;
   align-items: baseline;
   z-index: 9;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.726);
   padding-bottom: 9px;
 
 }
-.cont_botn_sticky{
+
+.cont_botn_sticky {
   position: sticky;
   top: 0%;
   width: 99%;
@@ -84,25 +91,28 @@
   align-items: baseline;
   z-index: 9;
 }
+
 .cont_ancla_sticky {
   position: relative;
-  width: 85px;
+  width: 120px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   align-content: center;
   text-align: center;
-  font-size: large;
-  color:  rgb(6, 6, 184);
+  font-size: x-large;
+  color: rgb(6, 6, 184);
   font-weight: bold;
   border-radius: 50%;
   margin-top: 1%;
 
 }
+
 .cont_ancla_sticky a {
-  color:  rgb(6, 6, 184);
+  color: rgb(6, 6, 184);
 }
+
 .linea_ancla_sticky {
   width: 30px;
   background-color: rgb(6, 6, 184)
@@ -129,12 +139,14 @@
 
 .div_blnc_sticky {
   width: 32px;
-
+display: none;
 }
 
 .div_blnc_sticky2 {
+  display: none;
   width: 10px;
 }
+
 /*--------------------------------MAIN------------------------------------------------*/
 .main_cartadigital2 {
   position: relative;
@@ -151,8 +163,8 @@
   justify-content: center;
   align-items: center;
   align-content: space-around;
-  margin-top: 30%;
-  margin-bottom: 20%;
+  margin-top: 15%;
+  margin-bottom: 10%;
 }
 
 .tit_vertical_carta2 {
@@ -161,9 +173,9 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  color:  rgb(6, 6, 184);
+  color: rgb(6, 6, 184);
   text-align: center;
-  font-size: xx-large;
+  font-size: 3pc;
   font-weight: bold;
   writing-mode: vertical-lr;
   text-orientation: upright;
@@ -187,34 +199,38 @@
   justify-content: space-around;
   align-items: center;
   align-content: space-around;
-  
+
 }
-.cont_txt_pltmenu_carta2{
+
+.cont_txt_pltmenu_carta2 {
   position: relative;
   width: 100%;
   flex-wrap: wrap;
- justify-content: center;
- align-items: center;
- align-content: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 
 }
+
 .txt_platomenu_carta2,
-.cont_alergcarta2{
+.cont_alergcarta2 {
   width: 80%;
-  color:  rgb(6, 6, 184);
+  color: rgb(6, 6, 184);
   display: flex;
   justify-content: center;
   align-items: center;
-align-content: center;
-text-align: center;
+  align-content: center;
+  text-align: center;
 }
-.alerg_cara2{
+
+.alerg_cara2 {
   width: 20px;
   border-radius: 50%;
   margin-inline: 5px;
 }
+
 .cont_imgmenu_carta2 {
-  width: 70px;
+  width: 100px;
 }
 
 .imgmenu_carta2 {
@@ -223,16 +239,18 @@ text-align: center;
 }
 
 .linea_menu_carta2 {
-  width: 150px;
+  width: 300px;
   border-radius: 50%;
   border-bottom: 2px solid rgb(6, 6, 184);
 }
 
 .precio_menu_carta {
-  color:  rgb(6, 6, 184);
+  color: rgb(6, 6, 184);
+  font-size: x-large;
 }
+
 /*-----------SEPARADOR---------------*/
-.cont_separador{
+.cont_separador {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -241,57 +259,64 @@ text-align: center;
   align-content: center;
   margin-top: 5%;
   margin-bottom: 5%;
- 
-}
-.linea_sep_carta2{
-position: relative;
-width: 75px;
-height: 2px;
-background-color:  rgb(6, 6, 184);
-border-radius: 50%;
 
 }
-.punto_sep_carta2{
-position: relative;
-width: 10px;
-height: 10px;
-background-color:  rgb(6, 6, 184);
-border-radius: 50%;
-margin-left: 5px;
-margin-right: 5px;
+
+.linea_sep_carta2 {
+  position: relative;
+  width: 75px;
+  height: 2px;
+  background-color: rgb(6, 6, 184);
+  border-radius: 50%;
+
 }
-.mostrar_rte{
+
+.punto_sep_carta2 {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  background-color: rgb(6, 6, 184);
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.mostrar_rte {
   display: flex;
 }
-.esconder_rte{
+
+.esconder_rte {
   display: none;
 }
-#postres{
+
+#postres {
   margin-bottom: 20%;
 }
+
 /*------------------------------------------------------FOOTER-----------------------------------------*/
-.footer_carta2{
+.footer_carta2 {
   position: relative;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: baseline;
-  align-content:center;
+  align-content: center;
   text-align: center;
 
 }
-.cont_alerg_carta2{
+
+.cont_alerg_carta2 {
   position: relative;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
   align-content: center;
- 
+
 }
-.tit_alerg_carta2{
+
+.tit_alerg_carta2 {
   position: relative;
   width: 100%;
   display: flex;
@@ -299,23 +324,27 @@ margin-right: 5px;
   align-items: center;
   align-content: center;
   margin-bottom: 10px;
-  color:  rgb(6, 6, 184);
-  font-size:x-large;
+  color: rgb(6, 6, 184);
+  font-size: x-large;
 }
-.alerg_carta2{
+
+.alerg_carta2 {
   position: relative;
   width: 50px;
   display: block;
-margin-inline: 20px;
+  margin-inline: 20px;
 }
-.img_alerg_carta2{
+
+.img_alerg_carta2 {
   position: relative;
   width: 25px;
   height: 25px;
   border-radius: 50%;
 }
-.txt_alerg_carta2{
+
+.txt_alerg_carta2 {
   position: relative;
   font-size: x-small;
-  color:  rgb(6, 6, 184);
+  color: rgb(6, 6, 184);
 }
+
