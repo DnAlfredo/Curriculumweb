@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
     <title>Restos</title>
 </head>
 
-<body>
+<body style="display: flex;justify-content: center;align-content: center;align-items: center;padding: 5%;">
     <header>
 
     </header>
     <main>
-        <div class="cont_div_exp">
+        <!-- <div class="cont_div_exp">
             <div class="div_exp">
                 <div class="seccion_div_exp">
                     <dl>Puesto</dl>
@@ -252,8 +253,8 @@
                         </td>
                     </tr>
                 </table>
-            </div>
-            <!--
+            </div>*/
+       
             <div class="div_exp">
                 <div class="seccion_div_exp">
                     <dl></dl>
@@ -278,91 +279,1002 @@
             </div>
             -->
 
-            <style>
-                :root {
-                    --radius_tit_esp: 10px;
-                    --fondo_tit_esp: #53585C;
-                    --shadow_tit_esp: 0 0 3px #F5F5F5;
-                    --borde_tit_esp: none;
-                    --col_letra_tit_esp: #53585C;
+        <style>
+            :root {
+                --radius_tit_esp: 10px;
+                --fondo_tit_esp: #53585C;
+                --shadow_tit_esp: 0 0 3px #F5F5F5;
+                --borde_tit_esp: none;
+                --col_letra_tit_esp: #53585C;
 
-                    --shadow_txt_tit_esp: 0 0 5px #F5F5F5;
-                    --radius_div_esp: 10px;
-                    --fondo_div_esp: #97A8A6;
-                    --shadow_div_esp: 0.5vh 0.5vh 0.5vh #F5F5F5;
-                    --borde_div_esp: none;
-                    --col_letra_div_esp: white;
-                    --tam_tit_esp: xx-large;
+                --shadow_txt_tit_esp: 0 0 5px #F5F5F5;
+                --radius_div_esp: 10px;
+                --fondo_div_esp: #97A8A6;
+                --shadow_div_esp: 0.5vh 0.5vh 0.5vh #F5F5F5;
+                --borde_div_esp: none;
+                --col_letra_div_esp: white;
+                --tam_tit_esp: xx-large;
 
-                    --radius_tit_trabj: 10px;
-                    --fondo_tit_trabj: #A3A8A0;
-                    --shadow_tit_trabj: 0 0 3px #F5F5F5;
-                    --borde_tit_trabj: none;
-                    --col_letra_tit_trabj: white;
-                    --tam_tit_trabj: x-large;
-                    --shadow_txt_trabj: 0 0 3px #F5F5F5;
-                    --radius_dd_exp: 5px;
-                    --fondo_dd_exp: #F5F5F5;
-                    --shadow_dd_exp: none;
-                    --borde_dd_exp: none;
-                    --col_letra_dd_exp: black;
-                }
+                --radius_tit_trabj: 10px;
+                --fondo_tit_trabj: #A3A8A0;
+                --shadow_tit_trabj: 0 0 3px #F5F5F5;
+                --borde_tit_trabj: none;
+                --col_letra_tit_trabj: white;
+                --tam_tit_trabj: x-large;
+                --shadow_txt_trabj: 0 0 3px #F5F5F5;
+                --radius_dd_exp: 5px;
+                --fondo_dd_exp: #F5F5F5;
+                --shadow_dd_exp: none;
+                --borde_dd_exp: none;
+                --col_letra_dd_exp: black;
+            }
 
-                /*----------------EXPERIENCIA----------------*/
-                .tit_exp {
-                    border-radius: 15px;
-                    /*background: var(--fondo_tit_esp);
+            /*----------------EXPERIENCIA----------------*/
+            * {
+                margin: 0%;
+                box-sizing: border-box;
+            }
+
+            .tit_exp {
+                border-radius: 15px;
+                /*background: var(--fondo_tit_esp);
     box-shadow: var(--shadow_tit_esp);*/
-                    color: #53585C;
-                    font-size: xx-large;
-                    text-shadow: 0 0 3px #F5F5F5;
-                }
+                color: #53585C;
+                font-size: xx-large;
+                text-shadow: 0 0 3px #F5F5F5;
+            }
 
-                .div_exp {
-                    border-radius: 10px;
-                    background: #97A8A6;
-                    /* box-shadow: var(--shadow_div_esp);*/
+            .div_exp {
+                border-radius: 10px;
+                background: #97A8A6;
+                /* box-shadow: var(--shadow_div_esp);*/
 
-                    color: white;
+                color: white;
 
-                }
+            }
 
-                .tit_trabj_exp {
-                    border-radius: 10px;
-                    background: #A3A8A0;
-                    box-shadow: 0 0 3px #F5F5F5;
+            .tit_trabj_exp {
+                border-radius: 10px;
+                background: #A3A8A0;
+                box-shadow: 0 0 3px #F5F5F5;
 
-                    color: white;
-                    font-size: x-large;
-                    /*text-shadow: var(--sahadow_tit_trabj);*/
-                }
+                color: white;
+                font-size: x-large;
+                /*text-shadow: var(--sahadow_tit_trabj);*/
+            }
 
-                .seccion_div_exp dd {
-                    border-radius: r;
-                    background: var(--fondo_dd_exp);
-                    box-shadow: var(--shadow_dd_exp);
-                    border: 0.7px solid var(--borde_dd_exp);
-                    color: var(--col_letra_dd_exp);
-                    font-size: var(--tam_dd_exp);
-                }
+            .seccion_div_exp dd {
+                border-radius: r;
+                background: var(--fondo_dd_exp);
+                box-shadow: var(--shadow_dd_exp);
+                border: 0.7px solid var(--borde_dd_exp);
+                color: var(--col_letra_dd_exp);
+                font-size: var(--tam_dd_exp);
+            }
 
-                .div_exp {
+            .div_exp {
+                position: relative;
+                width: 90%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                font-size: small;
+            }
+
+            .seccion_div_exp dd {
+                position: relative;
+                width: 83%;
+                text-align: center;
+                padding: var(--padding_txt_ficha);
+            }
+
+            /*#354f50
+               ----------------------------------------------
+logo pequeño
+
+                .cont_logo {
                     position: relative;
-                    width: 90%;
+                    width: 200px;
+                    height: 200px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-content: center;
+                    align-items: center;
+                    border: 4px solid #06c8d0;
+                    border-radius: 50%;
+                    font-family: 'Courier New', Courier, monospace;
+                    background-color: black;
+
+                }
+
+                .cont_icono {
+                    position: relative;
+                    width: 100%;
                     display: flex;
                     flex-wrap: wrap;
                     justify-content: center;
                     align-items: center;
-                    font-size: small;
+                    align-content: center;
+
                 }
 
-                .seccion_div_exp dd {
+                .pantalla_icono {
                     position: relative;
-                    width: 83%;
-                    text-align: center;
-                    padding: var(--padding_txt_ficha);
+                    width: 25%;
+                    box-shadow: 0.5vh 0.5vh 0.5vh #06c8d0;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: center;
+                    border: 1px solid black;
+                    border-radius: 5px;
+                    background-color:
+                        #06c8d0
+                        ;
                 }
-            </style>
+
+                .espaciblnc_icono {
+                    position: relative;
+                    width: 100%;
+                    visibility: hidden;
+                    height: 0.3pc;
+                }
+
+                .txt_icono {
+                    font-size: x-small;
+                }
+
+                .espaciblnc_icono_btn {
+                    position: relative;
+                    width: 100%;
+                    height: 0.3pc;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+                .ralla_pantalla_icono {
+                    width: 100%;
+                    border: 0.5px solid black;
+                }
+
+                .boton_pntll_icono {
+                    position: relative;
+                    width: 20%;
+                    border: 1px solid black;
+                    border-radius: 50%;
+                }
+
+                .cont_piepc_icono {
+                    position: relative;
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    align-content: center;
+                }
+
+                .piepc_icono {
+                    position: relative;
+                    width: 13%;
+                    height: 0.3pc;
+                    border: 1px solid black;
+                    border-radius: 3px;
+                    box-shadow: 0.5vh 0.3vh 0.5vh #06c8d0;
+                    background-color: #06c8d0;
+                    
+                }
+
+                .tit_logo {
+                    position: relative;
+                    width: 100%;
+                    display: inline;
+                    text-align: center;
+                    font-size: 1.7pc;
+                    color: #06c8d0;
+                    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+                    
+                }
+
+                .txt_logo {
+                    font-size: 1pc;
+                    color:#06c8d0;
+                font-weight: bold;
+                } ----------
+                logo grande
+            .cont_logo {
+                position: relative;
+                width: 600px;
+                height: 600px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-content: center;
+                align-items: center;
+                border: 5px solid #06c8d0;
+                border-radius: 50%; 
+                background-color: black;
+                font-family: 'Courier New', Courier, monospace;
+              
+
+            }
+
+            .cont_icono {
+                position: relative;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+
+            }
+
+            .pantalla_icono {
+                position: relative;
+                width: 30%;
+
+                box-shadow: 0.5vh 0.5vh 0.5vh #06c8d0;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                border: 2px solid black;
+                border-radius: 10px;
+                background-color:
+                    #06c8d0;
+            }
+
+            .espaciblnc_icono {
+                position: relative;
+                width: 100%;
+                visibility: hidden;
+                height: 1.5pc;
+            }
+
+            .txt_icono {
+                font-size: x-large;
+            }
+
+            .espaciblnc_icono_btn {
+                position: relative;
+                width: 100%;
+                height: 0.5pc;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+
+            }
+
+            .ralla_pantalla_icono {
+                width: 100%;
+                border: 0.5px solid black;
+            }
+
+            .boton_pntll_icono {
+                position: relative;
+                width: 10%;
+                border: 2px solid black;
+                border-radius: 50%;
+            }
+
+            .cont_piepc_icono {
+                position: relative;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+            }
+
+            .piepc_icono {
+                position: relative;
+                width: 13%;
+                height: 0.6pc;
+                border: 2px solid black;
+                border-radius: 15px;
+                box-shadow: 0.5vh 0.3vh 0.5vh #06c8d0;
+                background-color: #06c8d0;
+
+            }
+
+            .tit_logo {
+                position: relative;
+                width: 100%;
+                display: inline;
+                text-align: center;
+                font-size: 5.7pc;
+                color: #06c8d0;
+                text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+                margin-left: 2%;
+            }
+
+            .txt_logo {
+                font-size: 3pc;
+                color: #06c8d0;
+                font-weight: bold;
+            }*/
+            /* 
+            outline: 2px solid #06c8d0;esto es para poner un doble borde
+            */
+            /*----------------------------LOGO PC CSS pequeño------------------
+            .cont_logo_pc {
+                position: relative;
+                width: 500px;
+                height: 500px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                font-family: 'Courier New', Courier, monospace;
+              
+            }
+
+            .pantalla_logo_pc {
+                position: relative;
+                width: 70%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                border: 4px solid black;
+                background-color:#06c8d0 ;
+                border-radius: 15px;
+
+            }
+
+            .tit_logo_pc {
+                position: relative;
+                width: 100%;
+                display: inline;
+                text-align: center;
+                font-size: 500%;
+                font-weight: bold;
+                margin-top: 2%;
+                margin-bottom: 2%;
+               
+
+            }
+
+            .subtxt_logopc {
+                position: relative;
+                width: 100%;
+                display: inline;
+                text-align: center;
+                font-size: xx-large;
+                font-weight: bold;
+               
+            }
+
+            .txt_logo_pc {
+                position: relative;
+                width: 100%;
+                display: inline;
+                text-align: center;
+                font-size: 180%;
+                font-weight: bold;
+                margin-top: 2%;
+                margin-bottom: 2%;
+                
+            }
+
+            .ralla_pantalla_logopc {
+                position: relative;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                border: 1.5px solid black;
+
+            }
+
+            .contbtn_div_logopc {
+                position: relative;
+                width: 100%;
+                height: 1.5pc;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                border: 2px solid black;
+                border-radius: 0px 0px 10px 10px;
+            }
+
+            .btn_logopc {
+                position: relative;
+                width: 10%;
+                border: 2px solid black;
+
+            }
+
+            .cont_union_logopc {
+                position: relative;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+
+            }
+
+            .union_logopc {
+                position: relative;
+                width: 30px;
+                height: 0;
+                border-bottom: 6px solid black;
+                border-left: 1px solid transparent;
+                border-right: 1px solid transparent;
+                margin-inline: 6%;
+                background-color: #06c8d0;
+            }
+
+            .pie_logo_pc {
+                position: relative;
+                width: 50%;
+                height: 1.1pc;
+                border: 3px solid black;
+                border-radius: 8px 8px 0px 0px;
+                background-color:#06c8d0;
+
+            }------*/
+
+            /*-----------------------LOGO PC GRANDE----------
+            .cont_logo_pc {
+                position: relative;
+                width: 600px;
+                height: 600px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                font-family: 'Courier New', Courier, monospace;
+                
+               
+
+            }
+
+            .pantalla_logo_pc {
+                position: relative;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                border: 6px solid black;
+                border-radius: 15px;
+                background-color:#06c8d0 ;
+              
+            }
+            .tit_logo_pc {
+                position: relative;
+                width: 100%;
+                display: inline;
+                text-align: center;
+                font-size: 800%;
+                font-weight: bold;
+                margin-top: 4%;
+                margin-bottom: 4%;
+
+            }
+
+            .subtxt_logopc {
+                position: relative;
+                width: 100%;
+                display: inline;
+                text-align: center;
+                font-size: 360%;
+                font-weight: bold;
+               
+            }
+
+            .txt_logo_pc {
+                position: relative;
+                width: 100%;
+                display: inline;
+                text-align: center;
+                font-size: 360%;
+                font-weight: bold;
+                margin-top: 4%;
+                margin-bottom: 4%;
+            }
+
+            .ralla_pantalla_logopc {
+                position: relative;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                border: 2.5px solid black;
+
+            }
+
+            .contbtn_div_logopc {
+                position: relative;
+                width: 100%;
+                height: 3pc;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                border: 2px solid black;
+                border-radius: 0px 0px 8px 8px;
+            }
+
+            .btn_logopc {
+                position: relative;
+                width: 10%;
+                border: 4px solid black;
+                border-radius: 3px;
+
+            }
+
+            .cont_union_logopc {
+                position: relative;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                
+            }
+
+            .union_logopc {
+                position: relative;
+                width: 30px;
+                height: 0;
+                border-bottom: 5px solid black;
+                border-left: 2.5px solid transparent;
+                border-right: 2.5px solid transparent;
+                margin-inline: 6%;
+            }
+
+            .pie_logo_pc {
+                position: relative;
+                width: 50%;
+                height: 2.2pc;
+                border: 6px solid black;
+                border-radius: 8px 8px 0px 0px;
+                background-color:#06c8d0 ;
+            }---------*/
+            /*----------------------LOGO PC CON FONDO PEQ--LETRAS AZULES FONDO NEGRO-------------------------------*/
+            :root {
+                --col_aro_ext1: #CBF514;
+                --col_aro_ext2:#06c8d0;
+                --col_letra_tit_logopc:#06c8d0;
+                --col_letra_subtxt:#06c8d0;
+                --col_simb_logo:#06c8d0;
+            }
+
+            .cont_logo_pc {
+                position: relative;
+                width: 500px;
+                height: 500px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                font-family: 'Courier New', Courier, monospace;
+                background-color: black;
+                border-style: solid;
+                border-width: 4px;
+                border-radius: 50%;
+
+                border-image: linear-gradient(left, #06c8d0, #06c8d0)1;
+
+                background: linear-gradient(black, black) padding-box,
+                    linear-gradient(to right, var(--col_aro_ext1), var(--col_aro_ext2), var(--col_aro_ext1),var(--col_aro_ext2), var(--col_aro_ext1),var(--col_aro_ext2), var(--col_aro_ext1)) border-box;
+
+                border: 6px solid transparent;
+
+            }
+
+            .pantalla_logo_pc {
+                position: relative;
+                width: 70%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                border: 3px solid transparent;
+                border-image: linear-gradient(left, #06c8d0, #06c8d0)1;
+
+                background: linear-gradient(black, black) padding-box,
+                    linear-gradient(to right, var(--col_aro_ext1), var(--col_aro_ext2), var(--col_aro_ext1),var(--col_aro_ext2), var(--col_aro_ext1),var(--col_aro_ext2), var(--col_aro_ext1)) border-box;
+                background-color: black;
+                border-radius: 15px;
+
+            }
+
+            .tit_logo_pc {
+                position: relative;
+                width: 100%;
+                display: inline;
+                text-align: center;
+                font-size: 600%;
+                font-weight: bold;
+                margin-top: 2%;
+                margin-bottom: 2%;
+                color: var(--col_letra_tit_logopc);
+
+            }
+
+            .subtxt_logopc {
+                position: relative;
+                width: 180%;
+                display: inline;
+                text-align: center;
+                font-size: xx-large;
+                font-weight: bold;
+                color: chocolate;
+            }
+
+            .txt_logo_pc {
+                position: relative;
+                width: 100%;
+                display: inline;
+                text-align: center;
+                font-size: 230%;
+                font-weight: bold;
+                margin-top: 2%;
+                margin-bottom: 2%;
+                color: var(--col_letra_tit_logopc);
+            }
+
+            .ralla_pantalla_logopc {
+                position: relative;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                border: 1.5px solid transparent;
+                background: linear-gradient(black, black) padding-box,
+                    linear-gradient(to left, var(--col_aro_ext1), var(--col_aro_ext2), var(--col_aro_ext1),var(--col_aro_ext2), var(--col_aro_ext1),var(--col_aro_ext2), var(--col_aro_ext1)) border-box;
+                background-color: var(--col_letra_tit_logopc);
+
+            }
+
+            .contbtn_div_logopc {
+                position: relative;
+                width: 100%;
+                height: 1.5pc;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                border: 2px solid transparent;
+                background: linear-gradient(black, black) padding-box,
+                    linear-gradient(to left,  var(--col_aro_ext1), var(--col_aro_ext2), var(--col_aro_ext1),var(--col_aro_ext2), var(--col_aro_ext1),var(--col_aro_ext2), var(--col_aro_ext1)) border-box;
+                border-radius: 0px 0px 10px 10px;
+            }
+
+            .btn_logopc {
+                position: relative;
+                width: 10%;
+                border: 2px solid var(--col_letra_tit_logopc);
+
+            }
+
+            .cont_union_logopc {
+                position: relative;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+
+            }
+
+            .union_logopc {
+                position: relative;
+                width: 30px;
+                height: 0;
+                border-bottom: 6px solid #06c8d0;
+                border-left: 1px solid transparent;
+                border-right: 1px solid transparent;
+                margin-inline: 6%;
+                background-color: black;
+            }
+
+            .pie_logo_pc {
+                position: relative;
+                width: 50%;
+                height: 1.1pc;
+                border: 3px solid transparent;
+                border-radius: 8px 8px 0px 0px;
+                background: linear-gradient(black, black) padding-box,
+                    linear-gradient(to left,  var(--col_aro_ext1), var(--col_aro_ext2), var(--col_aro_ext1),var(--col_aro_ext2), var(--col_aro_ext1),var(--col_aro_ext2), var(--col_aro_ext1)) border-box;
+                border-radius: 8px 8px 0px 0px;
+
+            }
+
+            /*----------------------LOGO PC CON FONDO-----LETRAS NEGRAS FONDO AZUL--------
+            .cont_logo_pc {
+                position: relative;
+                width: 500px;
+                height: 500px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                font-family: 'Courier New', Courier, monospace;
+                background-color: #06c8d0;
+                border-style: solid;
+                border-width: 4px;
+                border-radius: 50%;
+             
+                border-image: linear-gradient(left, black, black)1;
+
+                background: linear-gradient(#06c8d0,#06c8d0) padding-box,
+                    linear-gradient(to right, black,black) border-box;
+                
+                border: 6px solid transparent;
+
+            }
+
+            .pantalla_logo_pc {
+                position: relative;
+                width: 80%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                border: 4px solid black;
+                background-color:#06c8d0 ;
+                border-radius: 15px;
+
+            }
+
+            .tit_logo_pc {
+                position: relative;
+                width: 100%;
+                display: inline;
+                text-align: center;
+                font-size: 500%;
+                font-weight: bold;
+                margin-top: 2%;
+                margin-bottom: 2%;
+                
+
+            }
+
+            .subtxt_logopc {
+                position: relative;
+                width: 100%;
+                display: inline;
+                text-align: center;
+                font-size: xx-large;
+                font-weight: bold;
+              
+            }
+
+            .txt_logo_pc {
+                position: relative;
+                width: 100%;
+                display: inline;
+                text-align: center;
+                font-size: 250%;
+                font-weight: bold;
+                margin-top: 2%;
+                margin-bottom: 2%;
+                
+            }
+
+            .ralla_pantalla_logopc {
+                position: relative;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                border: 1.5px solid black;
+                background-color: #06c8d0;
+
+            }
+
+            .contbtn_div_logopc {
+                position: relative;
+                width: 100%;
+                height: 1.5pc;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                border: 2px solid black;
+                border-radius: 0px 0px 10px 10px;
+            }
+
+            .btn_logopc {
+                position: relative;
+                width: 10%;
+                border: 2px solid black;
+                border-radius: 2px;
+
+            }
+
+            .cont_union_logopc {
+                position: relative;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+
+            }
+
+            .union_logopc {
+                position: relative;
+                width: 30px;
+                height: 0;
+                border-bottom: 6px solid black;
+                border-left: 1px solid transparent;
+                border-right: 1px solid transparent;
+                margin-inline: 6%;
+                background-color: #06c8d0;
+            }
+
+            .pie_logo_pc {
+                position: relative;
+                width: 50%;
+                height: 1.1pc;
+                border: 4px solid black;
+                border-radius: 8px 8px 0px 0px;
+                background-color: #06c8d0;
+
+            }-------*/
+            /*------------------------LOGO PC REDONDO AZUL PEQ-----------
+            .cont_logo_pc {
+                position: relative;
+                width: 200px;
+                height: 200px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                font-family: 'Courier New', Courier, monospace;
+                background-color: #06c8d0;
+                border-style: solid;
+                
+                border-radius: 50%;
+                border-image: linear-gradient(left, black, black)1;
+
+                background: linear-gradient(#06c8d0,#06c8d0) padding-box,
+                    linear-gradient(to right, black,black) border-box;
+                
+                border: 3px solid transparent;
+
+            }
+
+            .pantalla_logo_pc {
+                position: relative;
+                width: 70%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                border: 2px solid black;
+                background-color:#06c8d0 ;
+                border-radius: 15px;
+
+            }
+
+            .tit_logo_pc {
+                position: relative;
+                width: 100%;
+                display: inline;
+                text-align: center;
+                font-size: 150%;
+                font-weight: bold;
+                margin-top: 0.5%;
+                margin-bottom: 0.5%;
+                
+
+            }
+
+            .subtxt_logopc {
+                position: relative;
+                width: 100%;
+                display: inline;
+                text-align: center;
+                font-size: 80%;
+                font-weight: bold;
+              
+            }
+
+            .txt_logo_pc {
+                position: relative;
+                width: 100%;
+                display: inline;
+                text-align: center;
+                font-size: smaller;
+                font-weight: bold;
+                margin-top: 0.5%;
+                margin-bottom: 0.5%;
+                
+            }
+
+            .ralla_pantalla_logopc {
+                position: relative;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                border: 0.25px solid black;
+                background-color: #06c8d0;
+
+            }
+
+            .contbtn_div_logopc {
+                position: relative;
+                width: 100%;
+                height: 0.7pc;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                border: 0.5px solid black;
+                border-radius: 0px 0px 10px 10px;
+            }
+
+            .btn_logopc {
+                position: relative;
+                width: 10%;
+                border: 1px solid black;
+                border-radius: 2px;
+
+            }
+
+            .cont_union_logopc {
+                position: relative;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+
+            }
+
+            .union_logopc {
+                position: relative;
+                width: 30px;
+                height: 0;
+                border-bottom: 3px solid black;
+                border-left: 0.2px solid transparent;
+                border-right: 0.2px solid transparent;
+                margin-inline: 6%;
+                background-color: #06c8d0;
+            }
+
+            .pie_logo_pc {
+                position: relative;
+                width: 50%;
+                height: 0.5pc;
+                border: 2px solid black;
+                border-radius: 4px 4px 0px 0px;
+                background-color: #06c8d0;
+
+            }--------*/
+        </style>
         </div>
     </main>
     <!--<nav class="barranav">
@@ -395,7 +1307,88 @@
     animation-name:animelogo;
     animation-duration: 1.5s;
 
+}
+        </style>
+        </div>
+    </main>
+  <nav class="barranav">
+             <a href="">Servicio 1</a>
+             <a href="">Servicio 2</a>
+             <a href="">Servicio 3</a>
+            </nav>
+        
+        .barranav {
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    z-index: 3;
+    background-color: rgba(245, 245, 245, 0.5);
+}
+.barranav>a {
+    background-color: rgb(36, 81, 92);
+    border: 1px solid gray;
+    border-radius: 1rem;
+  
+    font-size: 2rem;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 0.4rem;
+    animation-name:animelogo;
+    animation-duration: 1.5s;
+
 }-->
+
+    <!--
+    LOGO REDONDO HTML5
+<div class="cont_logo">
+        <div class="cont_icono">
+            <div class="pantalla_icono">
+                <div class="espaciblnc_icono">x</div>
+              
+                <div class="txt_icono">&lt;&#8725;&gt;</div>
+               
+                <div class="espaciblnc_icono">x</div>
+                <div class="ralla_pantalla_icono"></div>
+                <div class="espaciblnc_icono_btn">
+                    <div class="boton_pntll_icono"></div>
+                </div>
+            </div>
+            <div class="cont_piepc_icono">
+                <div class="piepc_icono"></div>
+            </div>
+        </div>
+        <div class="tit_logo">
+            <h1>A.M.P</h1>
+        </div>
+        <div class="txt_logo">Desarrollo Web</div>
+    </div>
+-->
+    <!--LOGO ORDENADOR-->
+    <div class="cont_logo_pc">
+        <div class="pantalla_logo_pc">
+            <div class="tit_logo_pc">
+                A.M.P
+            </div>
+            <div class="subtxt_logopc">&lt;&#x2215;&gt;</div>
+            <div class="txt_logo_pc">
+                Desarrollo Web
+            </div>
+            <div class="ralla_pantalla_logopc"></div>
+            <div class="contbtn_div_logopc">
+                <div class="btn_logopc"></div>
+            </div>
+        </div>
+        <div class="cont_union_logopc">
+            <div class="union_logopc"></div>
+            <div class="union_logopc"></div>
+        </div>
+        <div class="pie_logo_pc"></div>
+    </div>
 </body>
 
 </html>
