@@ -27,14 +27,16 @@ html {
     margin-top: 1rem;
     
 }
-.log h1{
+.logo h1{
+
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
+    text-align: center;
 }
 .logo img {
- width: 100%;
+ width: 40%;
     border-radius: 5rem;
     height: 100%;
     text-align: opacity;
@@ -223,7 +225,7 @@ align-items: center;
 
 @media screen and (max-width:780px) {
     .logo img {
-        width: 100%;
+        width: 40%;
            border-radius: 5rem;
            height: 100%;
            text-align: opacity;

@@ -21,30 +21,36 @@
 
 
 body {
-    background-image: radial-gradient(white, #a9a9a9, gray);
+    min-height: 900px;
+    /*background-image: radial-gradient(#a7e3e6, #06c8d0, black);*/
+    background-color: black;
 
 }
 .div_estilo{
-    background-color: gray;
+    background-color:#197373;
     border: 1px solid gray;
     
 }
 /*----------------RADIAL-----------*/
 .txt_radial_bis,
 .txt_radial {
-    background-color:#F5F5F5 ;
+    background-color:whitesmoke ;
     color: black;
-    box-shadow: 0.5px 0.5px 0.5px #F5F5F5;
+    box-shadow: 0.3vh 0.3vh 0.3vh #ffa500;
     border-radius: 5px;
     padding: 1%;
 }
 
 .cajacentral{
     border-radius:4rem 0.4rem 4rem;
-    border: 0.7px solid white;
-    background: #53585C;
-    box-shadow:  0.2vh 0.2vh 0.2vh #F5F5F5;
-    color: white;
+  
+    background: black;
+    background: linear-gradient(black, black) padding-box,
+                    linear-gradient(to right, #ffa500,#06c8d0 , #ffa500,#06c8d0 , #ffa500,#06c8d0 , #ffa500) border-box;
+
+    border: 1px solid transparent;
+    
+    color: #06c8d0;
 }
 
 .subcajaarriba,
@@ -52,9 +58,9 @@ body {
 .subcajaderecha,
 .subcajaabajo {
     border-radius:6rem 0.4rem 6rem;
-    border: 0.7px solid white;
-    background: #97A8A6;
-    box-shadow:  0.2vh 0.2vh 0.2vh #F5F5F5;
+    border: 0.7px solid #06c8d0;
+    background: #197373;
+    box-shadow:  0.2vh 0.2vh 0.2vh #06c8d0;
    
 }
 .subcajaarriba a,
@@ -65,17 +71,22 @@ body {
 }
 /*------------------------------------------------------------------------------------------------------RADIAL CON TEXTO---------------------*/
 .tit_exp{
-text-shadow: 0 0 3px #F5F5F5;
-color: #53585C;
+text-shadow: 0 0 3px #ffa500;
+color: #06c8d0;
 font-size: x-large;
 }
 .cajacentral_bis{
-    background:rgba(83, 88, 92,0.5);
+    background:black;
   border-radius:5rem 0.4rem 5rem;
      /* border: 0.7px solid  white;*/
     
-    box-shadow: 0.2vh 0.2vh 0.2vh/* #F5F5F5*/black;
-    color: black;
+     background: black;
+     background: linear-gradient(black, black) padding-box,
+                     linear-gradient(to right, #ffa500,#06c8d0 , #ffa500,#06c8d0 , #ffa500,#06c8d0 , #ffa500) border-box;
+ 
+     border: 1px solid transparent;
+     
+     color: #06c8d0;
     padding: var(--separacion_dentro_caja);
 }
 .subcajaarriba_bis,
@@ -84,8 +95,8 @@ font-size: x-large;
 .subcajaabajo_bis{
     border-radius:6rem 0.4rem 6rem;
  /*   border: 0.7px solid  white;*/
-    background: #97A8A6;
-    box-shadow: 0.2vh 0.2vh 0.2vh/* #F5F5F5*/black;
+ background: #197373;
+ box-shadow:  0.2vh 0.2vh 0.2vh #06c8d0;
     font-size: small;
     padding: var(--separacion_dentro_caja);
 }
@@ -99,16 +110,16 @@ font-size: x-large;
 /*---------------PRESENTACION--------------*/
 .txt_presentacion {
     border-radius:10px;
-    background: #F5F5F5;
-    box-shadow:0.2vh 0.2vh 0.2vh #F5F5F5;
-    border: 0.7px solid  #F5F5F5;
-    color: black;
+    background: #197373;
+    box-shadow:0.2vh 0.2vh 0.2vh #ffa500;
+    border: 0.7px solid  #ffa500;
+    color: whitesmoke;
 }
 
 /*----------------FORMACION----------------*/
 .div_form {
     border-radius:4rem 0.4rem 4rem;
-    background: #97A8A6;
+    background: #197373;
     /*box-shadow: var(--shadow_div_form);*/
     border: none;
   
@@ -117,7 +128,7 @@ font-size: x-large;
 
 .div_form_peq {
     border-radius:4rem 0.4rem 4rem;
-    background:#97A8A6;
+    background:#197373;
     /*box-shadow: var(--shadow_div_form_peq);*/
     border:none;
     color:black;
@@ -128,19 +139,19 @@ font-size: x-large;
     border-radius: 15px;
     /* background: var(--fondo_tit_form);*/
   /* box-shadow: var(--shadow_tit_form);*/
-    text-shadow:0 0 3px #F5F5F5;
+    text-shadow:0 0 3px #ffa500;
     /* border: 0.7px solid var(--borde_tit_form);*/
-    color: #53585C;
+    color: #06c8d0;
     font-size: x-large;
 }
 .div_subrayado_tit,
 .div_subrayado_tit_peq,
 .div_subdoble_tit_peq{
     border-radius: 4rem 0.4rem 4rem;
-    background: #53585C;
+    background: #ffa500;
   /* box-shadow: var(--shadow_tit_form);*/
-    text-shadow: 0 0 3px #F5F5F5;
-    /* border: 0.7px solid var(--borde_tit_form);*/
+    text-shadow: 0 0 2px #ffa500;
+    
 }
 
 .tit_mini_form {
@@ -148,13 +159,13 @@ font-size: x-large;
     /*background-color: var(--fondo_tit_miniform);
     box-shadow: var(--shadow_tit_miniform);*/
    /*border: 0.7px solid var(--borde_div_form); no queda bien*/
-    color:#53585C;
+    color:#06c8d0;
     font-size: x-large;
-   text-shadow: 0 0 3px #F5F5F5;
+   text-shadow: 0 0 2px #ffa500;
 
 }
 .txt_div_form {
-    background-color:#F5F5F5;
+    background-color:#06c8d0;
     border-radius: 5rem 0.4rem 5rem;
 }
 .txt_div_form  a{
@@ -166,16 +177,16 @@ font-size: x-large;
     /*background: var(--fondo_tit_apt);
     box-shadow: var(--shadow_tit_apt);*/
     border: none;
-    color:#53585C;
+    color:#06c8d0;
     font-size:x-large; 
-    text-shadow: 0 0 3px #F5F5F5;
+    text-shadow: 0 0 2px #ffa500;
 }
 
 .txt_apt {
     border-radius:15px;
-    background: #F5F5F5;
-    text-shadow: 0 0 3px #F5F5F5;
-    color:#53585C;
+    background: #06c8d0;
+    text-shadow: 0 0 2px #F5F5F5;
+    color:black;
     font-size:medium;
 }
 /*-------------------------PUBLICACION--------------------*/
@@ -183,9 +194,9 @@ font-size: x-large;
     border-radius: 15px;
     /* background: var(--fondo_tit_form);*/
   /* box-shadow: var(--shadow_tit_form);*/
-    text-shadow:0 0 3px #F5F5F5;
+    text-shadow:0 0 3px #ffa500;
     /* border: 0.7px solid var(--borde_tit_form);*/
-    color: #53585C;
+    color: #06c8d0;
     font-size: x-large;
 }
 .tit_port,
@@ -194,32 +205,38 @@ font-size: x-large;
     /*background-color: var(--fondo_tit_miniform);
     box-shadow: var(--shadow_tit_miniform);*/
    /*border: 0.7px solid var(--borde_div_form); no queda bien*/
-    color:#53585C;
+    color:#06c8d0;
     font-size: large;
-   text-shadow: 0 0 3px #F5F5F5;
+   text-shadow: 0 0 2px #ffa500;
 }
 .div_subdoble_tit_pract{
     border-radius: 4rem 0.4rem 4rem;
-    background: #53585C;
+    background: #ffa500;
   /* box-shadow: var(--shadow_tit_form);*/
-    text-shadow: 0 0 3px #F5F5F5;
+    text-shadow: 0 0 2px #ffa500;
     /* border: 0.7px solid var(--borde_tit_form);*/
 }
 .boton_ejmpl_prct{
-    background-color:white ;
+    background-color:#06c8d0 ;
     border-radius: 50%;
 }
 .boton_ejmpl_prct a{
+    background-color: #06c8d0;
     color: black;
 }
 /*--------------------------------------------------------------------------FOOTER---------------------------------------------------------------------------*/
 .tit_contct {
     border-radius: 5px;
-    background:#545454;
-    box-shadow: #F5F5F5;
-    color: white;
-    text-shadow:0 0 3px  #F5F5F5;
+    background:black;
+    box-shadow: #ffa500;
+    color:#06c8d0;
+    text-shadow:0 0 2px  #ffa500;
     font-size: x-large;
+    background: linear-gradient(black, black) padding-box,
+                    linear-gradient(to right, #ffa500,#06c8d0 , #ffa500,#06c8d0 , #ffa500,#06c8d0 , #ffa500) border-box;
+
+    border: 1px solid transparent;
+
 }
 
 .cuerpo_contct {
@@ -239,11 +256,14 @@ font-size: x-large;
 }
 .btn_vlv{
     border-radius: 5px;
-    background:#545454;
-    box-shadow: #F5F5F5;
-    text-shadow:0 0 3px  #F5F5F5;
+    background:black;
+    background: linear-gradient(black, black) padding-box,
+    linear-gradient(to right, #ffa500,#06c8d0 , #ffa500,#06c8d0 , #ffa500,#06c8d0 , #ffa500) border-box;
+
+border: 1px solid transparent;
+    text-shadow:0 0 2px  #ffa500;
     font-size: x-large;
 }
 .btn_vlv a{
-    color:white;
+    color:#06c8d0;
 }
