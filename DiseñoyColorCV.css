@@ -241,17 +241,17 @@ font-size: x-large;
 
 .cuerpo_contct {
     border-radius:5px;
-    background: #F5F5F5;
-    box-shadow: #F5F5F5;
+    background: #ffa500;
+    box-shadow: #ffa500;
     color: black;
     font-size:medium;
 }
 
 .correo_elec{
-    border-radius: 5px;
-    background:#A3A8A0;
-    box-shadow:0.5vh 0.5vh 0.5vh #F5F5F5;
-    color: black;
+    border-radius: 5px solid#ffa500;
+    background:BLACK;
+    box-shadow:0.5vh 0.5vh 0.5vh #ffa500;
+    color: #06c8d0;
     font-size: medium;
 }
 .btn_vlv{
