@@ -37,7 +37,7 @@ html {
 }
 .logo img {
  width: 40%;
-    border-radius: 5rem;
+  
     height: 100%;
     text-align: opacity;
    /* box-shadow: 3rem 3rem 6rem rgb(36, 81, 92);*/
@@ -152,7 +152,7 @@ align-items: center;
 }
 .imgpubli{
     width: 30%;
-    border-radius: 2rem;
+  
    
 }
 .contactopubli {
@@ -216,7 +216,7 @@ align-items: center;
 }
 .imgfooter img{
     width: 3rem;
-   border-radius: 5rem;
+
    margin: 10%;
    padding: 1%;
    
@@ -225,8 +225,8 @@ align-items: center;
 
 @media screen and (max-width:780px) {
     .logo img {
-        width: 40%;
-           border-radius: 5rem;
+        width: 50%;
+     
            height: 100%;
            text-align: opacity;
            box-shadow: 1rem 1rem 2rem rgb(36, 81, 92);
@@ -239,7 +239,7 @@ align-items: center;
     }
     .imgpubli{
         width: 50%;
-        border-radius: 2rem;
+       
        
     }
     .publicont{

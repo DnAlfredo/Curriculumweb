@@ -728,7 +728,15 @@ logo pequeño
 
             }------*/
 
-            /*-----------------------LOGO PC GRANDE----------
+            /*-----------------------LOGO PC GRANDE-------------------*/
+            :root {
+                --col_aro_ext1: #ffa500;
+                --col_aro_ext2: #06c8d0;
+                --col_letra_tit_logopc: #06c8d0;
+                --col_letra_subtxt: #06c8d0;
+                --col_simb_logo: #06c8d0;
+            }
+
             .cont_logo_pc {
                 position: relative;
                 width: 600px;
@@ -739,8 +747,8 @@ logo pequeño
                 align-items: center;
                 align-content: center;
                 font-family: 'Courier New', Courier, monospace;
-                
-               
+
+
 
             }
 
@@ -751,11 +759,16 @@ logo pequeño
                 flex-wrap: wrap;
                 justify-content: center;
                 align-items: center;
-                border: 6px solid black;
+                border-image: linear-gradient(left, #06c8d0, #06c8d0)1;
                 border-radius: 15px;
-                background-color:#06c8d0 ;
-              
+                background: linear-gradient(black, black) padding-box,
+                    linear-gradient(to right, var(--col_aro_ext1), var(--col_aro_ext2), var(--col_aro_ext1), var(--col_aro_ext2), var(--col_aro_ext1), var(--col_aro_ext2), var(--col_aro_ext1)) border-box;
+
+                border: 6px solid transparent;
+
+
             }
+
             .tit_logo_pc {
                 position: relative;
                 width: 100%;
@@ -763,9 +776,8 @@ logo pequeño
                 text-align: center;
                 font-size: 800%;
                 font-weight: bold;
-                margin-top: 4%;
-                margin-bottom: 4%;
-
+                color: #06c8d0;
+              
             }
 
             .subtxt_logopc {
@@ -775,7 +787,8 @@ logo pequeño
                 text-align: center;
                 font-size: 360%;
                 font-weight: bold;
-               
+                color: chocolate;
+
             }
 
             .txt_logo_pc {
@@ -785,8 +798,8 @@ logo pequeño
                 text-align: center;
                 font-size: 360%;
                 font-weight: bold;
-                margin-top: 4%;
-                margin-bottom: 4%;
+                color: #06c8d0;
+             
             }
 
             .ralla_pantalla_logopc {
@@ -796,7 +809,10 @@ logo pequeño
                 justify-content: center;
                 align-items: center;
                 align-content: center;
-                border: 2.5px solid black;
+                background: linear-gradient(black, black) padding-box,
+                    linear-gradient(to right, var(--col_aro_ext1), var(--col_aro_ext2), var(--col_aro_ext1), var(--col_aro_ext2), var(--col_aro_ext1), var(--col_aro_ext2), var(--col_aro_ext1)) border-box;
+
+                border: 2px solid transparent;
 
             }
 
@@ -808,14 +824,17 @@ logo pequeño
                 justify-content: center;
                 align-items: center;
                 align-content: center;
-                border: 2px solid black;
-                border-radius: 0px 0px 8px 8px;
+                background: linear-gradient(black, black) padding-box,
+                    linear-gradient(to right, var(--col_aro_ext1), var(--col_aro_ext2), var(--col_aro_ext1), var(--col_aro_ext2), var(--col_aro_ext1), var(--col_aro_ext2), var(--col_aro_ext1)) border-box;
+
+                border: 1.5px  solid transparent;
+                border-radius:0px 0px 8px 8px;
             }
 
             .btn_logopc {
                 position: relative;
-                width: 10%;
-                border: 4px solid black;
+                width: 8%;
+                border: 2px  solid var(--col_aro_ext1);
                 border-radius: 3px;
 
             }
@@ -828,28 +847,33 @@ logo pequeño
                 justify-content: center;
                 align-items: center;
                 align-content: center;
-                
+
             }
 
             .union_logopc {
                 position: relative;
                 width: 30px;
                 height: 0;
-                border-bottom: 5px solid black;
-                border-left: 2.5px solid transparent;
-                border-right: 2.5px solid transparent;
+                border-bottom: 10px solid transparent;
+                border-left: 1.5px solid transparent;
+                border-right: 1.5px solid transparent;
+                background: var(--col_aro_ext2);
+
                 margin-inline: 6%;
             }
 
             .pie_logo_pc {
                 position: relative;
                 width: 50%;
-                height: 2.2pc;
-                border: 6px solid black;
+                height: 2pc;
+                background: linear-gradient(black, black) padding-box,
+                    linear-gradient(to right, var(--col_aro_ext1), var(--col_aro_ext2), var(--col_aro_ext1), var(--col_aro_ext2), var(--col_aro_ext1), var(--col_aro_ext2), var(--col_aro_ext1)) border-box;
+
                 border-radius: 8px 8px 0px 0px;
-                background-color:#06c8d0 ;
-            }---------*/
-            /*----------------------LOGO PC CON FONDO PEQ--LETRAS AZULES FONDO NEGRO-------------------------------*/
+                border: 5px  solid transparent;
+            }
+
+            /*----------------------LOGO PC CON FONDO PEQ--LETRAS AZULES FONDO NEGRO-----------------------
             :root {
                 --col_aro_ext1: #ffa500;
                 --col_aro_ext2:#06c8d0;
@@ -1001,7 +1025,7 @@ logo pequeño
                     linear-gradient(to left,  var(--col_aro_ext1), var(--col_aro_ext2), var(--col_aro_ext1),var(--col_aro_ext2), var(--col_aro_ext1),var(--col_aro_ext2), var(--col_aro_ext1)) border-box;
                 border-radius: 8px 8px 0px 0px;
 
-            }
+            }--------*/
 
             /*----------------------LOGO PC CON FONDO-----LETRAS NEGRAS FONDO AZUL--------
             .cont_logo_pc {
