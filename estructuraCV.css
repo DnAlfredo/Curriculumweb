@@ -39,6 +39,7 @@ h4 {
     align-items: right;
     padding: var(--separacion_dentro_caja);
     margin-bottom: var(--separacion_estructura_general);
+margin-top: 2%;
     font-family: Arial, Helvetica, sans-serif;
 }
 .div_foto_header{
