@@ -1,0 +1,1600 @@
+/*--------------------------------------------GENERALES------------------------------------------------------------*/
+:root {
+    --primario: #8d950e;
+    --secundario: rgb(222, 219, 88);
+    --borde_oscuro: 1px solid #8d950e;
+    --margen_entre_fichas: 2vh;
+    --sombra: rgba(141, 149, 14, 0.6);
+    --terciario:
+
+        rgba(141, 149, 14, 0.3);
+    --complementario: white;
+    --hover: rgb(182, 186, 101);
+    --radius: 4px 4px 4px 4px;
+    --tamaño_tit: 7rem;
+    --tamaño_tit_peq: 4rem;
+    --interlineado: 155%;
+    --padding_tit: 0px;
+    --padding_txt: 2vh;
+    --color_esquema_1: green;
+    --color_esquema_2: lightblue;
+    --color_esquema_2_1: gray;
+    --color_animado: rgba(255, 165, 0, 0.7);
+    --color_tipos1: rgba(255, 165, 0, 0.7);
+    --color_tipos2: rgba(0, 0, 139, 0.7);
+    --color_radial: radial-gradient(circle, red, yellow, green);
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+
+}
+
+body {
+    background-color:
+        /*white*/
+        var(--terciario);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*--------------------------------------------------MENU-------------------------------------------------------------------------*/
+.menuprincipal {
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: right;
+    align-items: center;
+    animation-name: animelogo;
+    animation-duration: 1s;
+    position: sticky;
+    top: 0%;
+    z-index: 6;
+}
+
+.logo {
+    width: 135px;
+    height: 100%;
+    border-radius: var(--radius);
+}
+
+.conjuntobarra_oca {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+
+}
+
+.logoca {
+    width: 50px;
+    height: 50px;
+    border-radius: var(--radius);
+    z-index: 2;
+    float: right;
+}
+
+.imglogo {
+    width: 100%;
+    height: 100%;
+    border-radius: var(--radius);
+    box-shadow: 0.5vh 0.5vh 0.5vh var(--sombra);
+}
+
+.imglogoca {
+    width: 100%;
+    height: 100%;
+    border-radius: 10rem;
+    box-shadow: 0.5vh 0.5vh 0.5vh var(--sombra);
+}
+
+.menustiky {
+    width: 100%;
+    display: flex;
+    position: sticky;
+}
+
+.barranav {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--primario);
+    box-shadow: 0.5vh 0.5vh 0.5vh var(--sombra);
+    padding: 1vh;
+    border-radius: var(--radius);
+
+}
+
+.botonmenu {
+    width: 16%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.95pc;
+    border: var(--borde);
+    border-radius: var(--radius);
+    background-color: var(--secundario);
+}
+
+.botonmenu:hover {
+    background-color: var(--hover);
+}
+
+/*---------------------------------------------FOOTER----------------------------------------------------------------------*/
+.contfooter {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 7rem;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1vh 1vh 1vh var(--sombra);
+    background-color: var(--primario);
+    margin-top: 20px;
+    animation-name: animelogo;
+    animation-duration: 1s;
+}
+
+.condlegales {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: darkblue;
+    margin-bottom: 5px;
+}
+
+.menusociales a {
+    width: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+.condlegales a:hover {
+    background-color: var(--hover);
+}
+
+.menusociales {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.iconsocial {
+    width: 70px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 2.5vh;
+}
+
+.contactofooter {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkblue;
+    border: var(--borde);
+    border-radius: var(--radius);
+    text-align: center;
+    padding: 0.5rem;
+    font-size: small;
+    margin: 3px;
+}
+
+.txtlegales {
+    width: 17%;
+    color: darkblue;
+    border: var(--borde);
+    background-color: var(--secundario);
+    border-radius: var(--radius);
+    padding: 1.5vh;
+    margin: 3px;
+}
+
+.copyfooter {
+    width: 85px;
+
+}
+.imglogodesarrollo{
+    width: 5rem;
+}
+
+/*----------------------------------------------MAIN INDEX--------------------------------------------------------------*/
+.mainpresentacion {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    animation-name: animelogo;
+    animation-duration: 1s;
+}
+
+.divpresentacion {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.contpresentacion {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    border: var(--borde);
+    box-shadow: 1vh 1vh 1vh var(--sombra);
+    border-radius: var(--radius);
+    background-color: var(--complementario);
+    margin: 10px;
+    padding: var(--padding_tit);
+    line-height: 150%;
+    animation-name: animerigth;
+    animation-duration: 1s;
+}
+
+.contpresentacion p {
+    height: auto;
+    padding: var(--padding_txt);
+}
+
+.contindex {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    animation-name: animeleft;
+    animation-duration: 1s;
+
+}
+
+.contindex h2 {
+    width: 100%;
+    height: var(--tamaño_tit);
+    border: var(--borde);
+    border-radius: var(--radius);
+    background-color: var(--secundario);
+    box-shadow: 0.5vh 0.5vh 0.5vh var(--sombra);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: var(--padding_tit);
+}
+
+.contindex figcaption {
+    font-weight: bold;
+    width: 9vw;
+    text-align: center;
+}
+
+.contmiembros {
+    display: block;
+    width: 75%;
+    text-align: center;
+    border: var(--borde);
+    border-radius: var(--radius);
+    background-color: var(--complementario);
+    box-shadow: 1vh 1vh 1vh var(--sombra);
+    margin: 0px;
+}
+
+.contmiembros img {
+    width: 9rem;
+    margin: 10px;
+}
+
+.fichamiembro {
+    width: 12rem;
+}
+
+.fichascontindex {
+    display: flex;
+    flex: auto;
+}
+
+.divcolaboradores {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border: var(--borde);
+    box-shadow: 1vh 1vh 1vh var(--sombra);
+    border-radius: var(--radius);
+    background-color: var(--complementario);
+    margin: 10px;
+    padding-bottom: 2.1vh;
+
+
+}
+
+.divcolaboradores img {
+    width: 10rem;
+}
+
+.divcolaboradores div {
+    width: 10rem;
+    font-size: small;
+    text-align: center;
+
+}
+
+
+.calidadindex {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    box-shadow: 1vh 1vh 1vh var(--sombra);
+    border-radius: var(--radius);
+    background-color: var(--complementario);
+    margin: 10px;
+    padding: var(--padding_tit);
+    padding-bottom: 2vh;
+}
+
+.imgoca {
+    width: 4rem;
+    height: 4rem;
+    margin-top: 30px;
+    box-shadow: 1vh 1vh 1vh var(--sombra);
+    background-color: var(--primario);
+    border-radius: var(--radius);
+}
+
+.imgoca:hover {
+    opacity: 0.5;
+}
+
+.divpresentacion ul {
+    text-align: left;
+}
+
+.divpresentacion h2,
+.divpresentacion h3 {
+    width: 100%;
+    height: var(--tamaño_tit);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: var(--borde);
+    box-shadow: 1vh 1vh 1vh var(--sombra);
+    border-radius: var(--radius);
+    background-color: var(--secundario);
+    margin-bottom: 15px;
+}
+
+/*---------------------------------------CONDICIONES LEGALES--------------------------------------------*/
+.avisolegal {
+    width: 100%;
+    padding: 3.9rem;
+    line-height: var(--interlineado);
+    animation-name: animelogo;
+    animation-duration: 1s;
+}
+
+.cuerpo_txtlegal {
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: justify;
+    align-content: center;
+    border: var(--borde);
+    background: var(--complementario);
+    margin: auto;
+    border-radius: var(--radius);
+    padding: 3vh;
+    margin-bottom: 10px;
+    line-height: var(--interlineado);
+    animation-name: animelogo;
+    animation-duration: 1s;
+}
+
+.avisolegal h1 {
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+
+.avisolegal p {
+    line-height: var(--interlineado);
+}
+
+.avisolegal h2,
+.avisolegal p,
+.avisolegal h3 {
+    width: auto;
+    padding: 0.5rem;
+
+}
+
+/*------------------------------------------------COOKIES--------------------------------------------------------------------*/
+.maincookies {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 3.9rem;
+    line-height: var(--interlineado);
+    animation-name: animelogo;
+    animation-duration: 1s;
+}
+
+.main_bis {
+    width: 100%;
+    display: block;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: left;
+    align-items: center;
+}
+
+.cuerpo_txtcookies {
+    width: 98%;
+    text-align: justify;
+    border: var(--borde);
+    background: var(--complementario);
+    margin: auto;
+    border-radius: var(--radius);
+    padding: 3vh;
+    margin-bottom: 10px;
+    line-height: var(--interlineado);
+    animation-name: animelogo;
+    animation-duration: 1s;
+}
+
+.cuerpo_article {
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    align-content: center;
+    border: var(--borde);
+    background: var(--complementario);
+    margin: auto;
+    border-radius: var(--radius);
+    margin-bottom: 10px;
+    line-height: var(--interlineado);
+    animation-name: animelogo;
+    animation-duration: 1s;
+}
+
+.cuerpo_txtcookies h1,
+.cuerpo_txtcookies h2,
+.cuerpo_txtcookies h4 {
+    width: 100%;
+    text-align: center;
+    margin: 1.5vh;
+}
+
+.cuerpo_txtcookies h3 {
+    width: 100%;
+
+    margin: 1.5vh;
+}
+
+.tabla_cookies,
+td,
+th {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 1vh;
+
+
+}
+
+.tabla_cookies th {
+    background-color: lightgrey;
+    text-align: center;
+}
+
+.tabla_cookies {
+    width: 95%;
+    justify-content: center;
+}
+
+.tabla_cookies_big {
+    width: 95%;
+}
+
+.tabla_cookies_big,
+td,
+th {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    text-align: justify;
+    padding: 1vh;
+    margin: 2.5vh;
+}
+
+.tabla_cookies_big th {
+    background-color: lightgrey;
+
+}
+
+#tablacookies_bis,
+.x_cookies {
+    text-align: center;
+}
+
+/*-----------------------------------------POLITICA DE PRIVACIDAD-------------------------------------------------------------*/
+.mainprivacidad {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding: 3.9rem;
+    line-height: var(--interlineado);
+    animation-name: animelogo;
+    animation-duration: 1s;
+}
+
+.cuerpo_txtcalidad {
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: justify;
+    align-content: center;
+    border: var(--borde);
+    background: var(--complementario);
+    margin: auto;
+    border-radius: var(--radius);
+    padding: 3vh;
+    margin-bottom: 10px;
+    line-height: var(--interlineado);
+    animation-name: animelogo;
+    animation-duration: 1s;
+}
+
+.cuerpo_txtcalidad h1 {
+    margin: 3vh;
+}
+
+.cuerpo_txtcalidad h2,
+.cuerpo_txtcalidad h3 {
+    margin: 1.5vh;
+}
+
+.botondescarga {
+    width: 85px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: small;
+    border: var(--borde);
+    background-color: var(--secundario);
+    border-radius: var(--radius);
+    margin: 2vh;
+}
+
+.botondescarga:hover {
+    background-color: var(--hover);
+}
+
+/*-------------------------------------------LINKS DE INTERES------------------------------------------------------*/
+.mainenlaces {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fichaenlaces {
+    position: relative;
+    width: 20%;
+    height: 20%;
+    text-align: center;
+    border: var(--borde);
+    box-shadow: 1vh 1vh 1vh var(--sombra);
+    background-color: var(--complementario);
+    border-radius: var(--radius);
+    margin: 15px;
+    padding: 2vh;
+    animation-name: animetop;
+    animation-duration: 1s;
+}
+
+.fichaenlaces:hover {
+    opacity: 0.5;
+}
+
+figure img {
+    width: 125px;
+    margin: 5px;
+}
+
+/*--------------------------------------------------------POLITICA DE CALIDAD---------------------------------------------------------------------------*/
+.maincalidad {
+    animation-name: animelogo;
+    animation-duration: 1s;
+}
+
+.txtcalidad {
+    width: 95%;
+    text-align: justify;
+    border: var(--borde);
+    background: var(--complementario);
+    margin: auto;
+    border-radius: var(--radius);
+    padding: 3vh;
+    margin-bottom: 10px;
+    line-height: var(--interlineado);
+    animation-name: animelogo;
+    animation-duration: 1s;
+}
+
+.calidad {
+    width: 100%;
+    text-align: justify;
+    border: var(--borde);
+    background: var(--complementario);
+    margin: auto;
+    border-radius: var(--radius);
+    margin-bottom: 10px;
+    line-height: var(--interlineado);
+    padding-bottom: 2%;
+    animation-name: animelogo;
+    animation-duration: 1s;
+}
+
+.txtcalidad h1,
+.txtcalidad h5 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.txtcalidad ul,
+.txtcalidad ol {
+    margin: 0%;
+    padding-left: 4%;
+}
+
+.calidad h2 {
+    width: 100%;
+    height: 8rem;
+    border: var(--borde);
+    border-radius: var(--radius);
+    background-color: var(--secundario);
+    box-shadow: 0.5vh 0.5vh 0.5vh var(--sombra);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: var(--padding_tit);
+}
+
+.orgcalidad {
+    display: block;
+    width: auto;
+    margin-left: 25%;
+    margin-top: 3vh;
+    text-align: center;
+}
+
+.divorg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 90px;
+    border: 1px solid var(--terciario);
+    text-align: center;
+    border-radius: var(--radius);
+    background-color: var(--color_animado);
+}
+
+.trescalidad {
+    display: flex;
+    align-items: center;
+    margin-left: 0%;
+}
+
+.doscalidad {
+    display: flex;
+    align-items: center;
+    margin-left: 0%;
+}
+
+.divflecha {
+    width: 5px;
+    height: 60px;
+    border: var(--secundario);
+    background-color: var(--secundario);
+    margin-left: 4vw;
+}
+
+.divflechahor {
+    width: 90px;
+    height: 5px;
+    border: var(--secundario);
+    background-color: var(--secundario);
+}
+
+.botondescargacalidad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 95px;
+    height: 95px;
+    font-size: small;
+    border: var(--borde);
+    background-color: var(--secundario);
+    border-radius: var(--radius);
+    margin: auto;
+    font-size: small;
+}
+
+.botondescargacalidad:hover {
+    background-color: var(--hover);
+}
+
+.botondescargacalidad img {
+    width: 45px;
+    margin-top: 8px;
+    border-radius: var(--radius);
+}
+
+/*----------------------------------------------CONOCENOS---------------------------------------------------------------------*/
+.fichaconoce {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.adecfichaconoce,
+.misionconoce,
+.objconoce,
+.fichasocio,
+.fichaloteria {
+    width: 98%;
+    border: var(--borde);
+    border-radius: var(--radius);
+    background-color: var(--complementario);
+    box-shadow: 1vh 1vh 1vh var(--sombra);
+    margin-bottom: var(--margen_entre_fichas);
+
+}
+
+.adecfichaconoce {
+    position: relative;
+    animation-name: animerigth;
+    animation-duration: 1s;
+}
+
+.misionconoce {
+    position: relative;
+    animation-name: animeleft;
+    animation-duration: 1s;
+}
+
+.objconoce {
+    position: relative;
+    animation-name: animerigth;
+    animation-duration: 1s;
+}
+
+.fichacolabora {
+    position: relative;
+    width: 98%;
+    border: var(--borde);
+    border-radius: var(--radius);
+    background-color: var(--complementario);
+    box-shadow: 1vh 1vh 1vh var(--sombra);
+    margin-bottom: 10px;
+    padding: var(--padding_tit);
+    animation-name: animeleft;
+    animation-duration: 1s;
+}
+
+.fichasocio {
+    position: relative;
+    animation-name: animerigth;
+    animation-duration: 1s;
+}
+
+.fichaloteria {
+    position: relative;
+    animation-name: animeleft;
+    animation-duration: 1s;
+}
+
+.titfichaconoce,
+.titconoce,
+.titfichasocio,
+.titloteria {
+    width: 100%;
+    height: var(--tamaño_tit);
+    border: var(--borde);
+    border-radius: var(--radius);
+    background-color: var(--secundario);
+    box-shadow: 0.5vh 0.5vh 0.5vh var(--sombra);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.txtfichaconoce,
+.txtfichaconoce,
+.txtsociocolabora,
+.txtloteria {
+    line-height: var(--interlineado);
+    padding: var(--padding_txt);
+    text-align: justify;
+}
+
+.sociocolabora {
+    width: 100%;
+    display: block;
+
+    margin: 0% 0%;
+}
+
+.titsociocolabora {
+    width: 50%;
+    height: var(--tamaño_tit_peq);
+    border-radius: var(--radius);
+    background-color: var(--secundario);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: var(--padding_txt);
+    margin-top: var(--padding_txt);
+
+}
+
+.contbotonsocio {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 3.5vh;
+}
+
+.botonsocio {
+    width: 85px;
+    min-height: 40px;
+    border: var(--borde_oscuro);
+    background-color: var(--secundario);
+    border-radius: var(--radius);
+    box-shadow: 0.5vh 0.5vh 0.5vh var(--sombra);
+    text-align: center;
+    font-size: small;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonsocio:hover {
+    background-color: var(--hover);
+}
+
+/*-------------------------------------------------------PUBLICACIONES------------------------------------------------------*/
+/*-------REVISTA-----Y---------TRANPARENCIA ECONOMICA---------*/
+.mainpubli {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    animation-name: animelogo;
+    animation-duration: 1s;
+}
+
+.contmemo a,
+.conteco a,
+.contmemo a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contrevista,
+.conteco,
+.contmemo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    border-radius: var(--radius);
+    background-color: var(--complementario);
+    padding: var(--padding_tit);
+    margin-bottom: var(--margen_entre_fichas);
+}
+
+.contrevista {
+    position: relative;
+    animation-name: animerigth;
+    animation-duration: 1s;
+}
+
+.conteco {
+    position: relative;
+    animation-name: animeleft;
+    animation-duration: 1s;
+}
+
+.contmemo {
+    position: relative;
+    animation-name: animerigth;
+    animation-duration: 1s;
+}
+
+.contfichaspubli,
+.contfichaseco,
+.contfichamemo {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: var(--padding_txt);
+}
+
+.titrevista,
+.titeco,
+.titmemo {
+    width: 100%;
+    height: var(--tamaño_tit);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: var(--radius);
+    box-shadow: 0.05vh 0.5vh 0.5vh var(--sombra);
+    background-color: var(--secundario);
+    padding: var(--padding_tit);
+}
+
+.ficharevista,
+.fichaeco {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: var(--borde_oscuro);
+    border-radius: var(--radius);
+    box-shadow: 0.5vh 0.5vh 0.5vh var(--sombra);
+    background-color: var(--complementario);
+    margin: 5px;
+    padding: var(--padding_txt);
+}
+
+.fichamemo {
+    width: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: var(--borde_oscuro);
+    border-radius: var(--radius);
+    box-shadow: 0.5vh 0.5vh 0.5vh var(--sombra);
+    background-color: var(--complementario);
+    margin: 5px;
+    padding: var(--padding_txt);
+}
+
+.ficharevista:hover,
+.fichaeco:hover,
+.fichamemo:hover {
+    background-color: var(--terciario);
+}
+
+.imgrevista,
+.imgeco {
+    width: 100%;
+    min-width: 55px;
+    min-height: 30px;
+    border-radius: var(--radius);
+    box-shadow: 0.5vh 0.5vh 0.5vh var(--sombra);
+}
+
+.imgmemo {
+    width: 100%;
+    min-width: 38px;
+    min-height: 20px;
+    border-radius: var(--radius);
+    box-shadow: 0.5vh 0.5vh 0.5vh var(--sombra);
+}
+
+.nomficha,
+.txteco,
+.txtmemo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/*---------------------------------------------------CONTACTO------------------------------------------------------------------*/
+.maincontacto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    animation-name: animelogo;
+    animation-duration: 1s;
+}
+
+.divcontacto {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    border-radius: var(--radius);
+    background-color: var(--complementario);
+    padding: var(--padding_tit);
+    margin-bottom: var(--margen_entre_fichas);
+    animation-name: animeleft;
+    animation-duration: 1s;
+}
+
+.titcontacto {
+    width: 100%;
+    height: var(--tamaño_tit);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: var(--radius);
+    box-shadow: 0.05vh 0.5vh 0.5vh var(--sombra);
+    background-color: var(--secundario);
+    padding: var(--padding_tit);
+
+}
+
+.mapacontacto {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 10px;
+}
+
+.direccontacto {
+    width: 70%;
+    border: var(--borde);
+    border-radius: var(--radius);
+    background-color: var(--complementario);
+    box-shadow: 1vh 1vh 1vh var(--sombra);
+    margin-bottom: 10px;
+    padding: var(--padding_tit);
+}
+
+.fichascontacto {
+    display: flex;
+    justify-content: space-around;
+}
+
+.correscontacto,
+.telefcontacto {
+    position: relative;
+    width: 50%;
+    border: var(--borde);
+    border-radius: var(--radius);
+    background-color: var(--complementario);
+    box-shadow: 1vh 1vh 1vh var(--sombra);
+    margin: 4px;
+    padding: var(--padding_tit);
+    animation-name: animerigth;
+    animation-duration: 1s;
+}
+
+.tittelef,
+.titcorres {
+    width: 100%;
+    height: var(--tamaño_tit_peq);
+    border-radius: var(--radius);
+    background-color: var(--secundario);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 10px;
+    padding: var(--padding_txt);
+}
+
+.conttelef,
+.txtdirec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+
+}
+
+/*----------------------------------------------------QUE ES LA ESCLERODERMIA------------------------------------------------------------------------------------*/
+.mainesclero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.mainesclerotipos {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.cuerpoesclero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.titesclero {
+    width: 100%;
+    height: var(--tamaño_tit);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: var(--radius);
+    box-shadow: 0.05vh 0.5vh 0.5vh var(--sombra);
+    background-color: var(--secundario);
+    padding: var(--padding_tit);
+    margin-bottom: 1%;
+}
+
+.contfichaseco {
+    width: 100%;
+    display: flex;
+    background-color: var(--complementario);
+    padding: var(--padding_txt);
+    border-radius: var(--radius);
+}
+
+.tiposEsclerodermia {
+    position: relative;
+    width: 98%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    text-align: justify;
+    border: var(--borde);
+    background: var(--complementario);
+    border-radius: var(--radius);
+    margin-left: 0%;
+    margin-bottom: 10px;
+    line-height: var(--interlineado);
+    animation-name: animeleft;
+    animation-duration: 1s;
+}
+
+.tiposEsclerodermia_tipos {
+    position: relative;
+    width: 98%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    text-align: justify;
+    border: var(--borde);
+    background: var(--complementario);
+    border-radius: var(--radius);
+    margin-left: 0%;
+    margin-bottom: 10px;
+    line-height: var(--interlineado);
+    animation-name: animetop;
+    animation-duration: 1s;
+
+}
+
+.tiposEsclerodermiabis {
+    position: relative;
+    width: 98%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    text-align: justify;
+    border: var(--borde);
+    background: var(--complementario);
+    border-radius: var(--radius);
+    margin-left: 0%;
+    margin-bottom: 10px;
+    line-height: var(--interlineado);
+    animation-name: animerigth;
+    animation-duration: 1s;
+
+}
+
+.contfichasesclero {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    animation-name: animeleft;
+    animation-duration: 1s;
+
+}
+
+.cuerpotiposesclero {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding-left: 4vw;
+    padding-top: 2vh;
+    padding: 2vh;
+    text-align: center;
+
+}
+
+.cuerpoesquemados {
+    position: relative;
+    margin: 1%;
+    animation-name: animeleft;
+    animation-duration: 1s;
+}
+
+.cuerpoesquemauno {
+    position: relative;
+    margin: 1%;
+    animation-name: animerigth;
+    animation-duration: 1s;
+}
+
+
+.divtipos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6vw;
+    min-width: 110px;
+    height: 11vh;
+    min-height: 80px;
+    border: 1px solid var(--terciario);
+    text-align: center;
+    border-radius: var(--radius);
+    background-color: var(--color_tipos1);
+}
+
+.divtiposbis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6vw;
+    min-width: 110px;
+    height: 11vh;
+    min-height: 80px;
+    border: 1px solid var(--terciario);
+    text-align: center;
+    border-radius: var(--radius);
+    background-color: var(--color_tipos2);
+}
+
+.divtiposcab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 21.2vw;
+    min-width: 365px;
+    height: 11vh;
+    min-height: 85px;
+    border: 1px solid var(--terciario);
+    text-align: center;
+    border-radius: var(--radius);
+    background-color: var(--color_tipos1);
+    font-size: large;
+}
+
+.divtiposcabbis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 21.2vw;
+    min-width: 365px;
+    height: 11vh;
+    min-height: 85px;
+    border: 1px solid var(--terciario);
+    text-align: center;
+    border-radius: var(--radius);
+    background-color: var(--color_tipos2);
+    font-size: large;
+}
+
+.divtiposblanco {
+    display: flex;
+    width: 6vw;
+    min-width: 110px;
+    height: 11vh;
+    min-height: 80px;
+    background-color: lightgray;
+}
+
+.divtiposblancobis {
+    display: flex;
+    width: 21%;
+    height: 11vh;
+    min-height: 80px;
+    /*background-color: lightgray;*/
+}
+
+.divflechahortipos {
+    width: 1.7vw;
+    height: 0.6vh;
+    border: var(--secundario);
+    background-color: var(--secundario);
+}
+
+.divflechahortiposbis {
+    width: 1.7vw;
+    height: 0.6vh;
+    border: var(--secundario);
+    background-color: var(--secundario);
+}
+
+.divflechahortiposblc {
+    width: 1.7vw;
+    height: 0.6vh;
+}
+
+.divflechahortiposblcbis {
+    width: 35.5%;
+    height: 0.6vh;
+}
+
+.divflechahortiposblcdos {
+    width: 50%;
+    height: 0.6vh;
+    border: var(--secundario);
+}
+
+.divflechahortiposblctres {
+    width: 15%;
+    height: 0.6vh;
+    border: var(--secundario);
+}
+
+.divflechahortiposblccuatro {
+    width: 34%;
+    height: 0.6vh;
+    border: var(--secundario);
+}
+
+.divflechatipos {
+    width: 0.3vw;
+    height: 4vh;
+    border: var(--secundario);
+    background-color: var(--secundario);
+}
+
+.fichaesclero {
+    position: relative;
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    animation-name: animerigth;
+    animation-duration: 1s;
+}
+
+.fichaescleroestudios {
+    position: relative;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    animation-name: animerigth;
+    animation-duration: 1s;
+}
+
+.titfichaesclero {
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    background-color: var(--color_esquema_1);
+    border-radius: var(--radius);
+    color: wheat;
+    font-size: large;
+}
+
+.titfichaescleroestudios {
+    width: 100%;
+    height: var(--tamaño_tit);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--color_esquema_1);
+    border-radius: var(--radius);
+    color: wheat;
+    font-size: large;
+}
+
+.titescleromini {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titfichaescleroMorfeaprincipal {
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: var(--color_esquema_2);
+}
+
+.titfichaescleroMorfea {
+    width: 100%;
+    display: block;
+    text-align: center;
+
+}
+
+.botonescler {
+    width: 90%;
+    height: 87%;
+    background-color: var(--color_esquema_2);
+    box-shadow: 0.5vh 0.5vh 0.5vh var(--sombra);
+    border: var(--borde);
+    border-radius: var(--radius);
+    margin: 5px;
+    font-size: smaller;
+}
+
+.botonesclerpeq {
+    width: 75px;
+    height: 50px;
+    background-color: var(--secundario);
+    box-shadow: 0.5vh 0.5vh 0.5vh var(--sombra);
+    border: var(--borde);
+    border-radius: var(--radius);
+    margin: 5px;
+    font-size: smaller;
+    text-align: center;
+}
+
+.botonesclerpeqok {
+    width: 65px;
+    height: 50px;
+    background-color: var(--secundario);
+    box-shadow: 0.5vh 0.5vh 0.5vh var(--sombra);
+    border: var(--borde);
+    border-radius: var(--radius);
+    margin: 5px;
+    font-size: smaller;
+    text-align: center;
+}
+
+.botonescler:hover {
+    background-color: var(--hover);
+}
+
+.txtfichesclero {
+    width: 100%;
+    background-color: var(--complementario);
+    align-content: center;
+    line-height: var(--interlineado);
+    text-align: justify;
+    border-radius: var(--radius);
+    padding: 3.8vh;
+
+}
+
+.txtfichesclero ul,
+.txtfichesclero ol {
+    padding-left: 1%;
+}
+
+.mostrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+    visibility: visible;
+}
+
+.mostrartipos {
+    display: block;
+    text-align: center;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.esconder {
+    display: none;
+    width: 20%;
+}
+
+
+
+.imgtexto {
+    width: 80px;
+    float: left;
+}
+
+.divprueba {
+    display: block;
+}
