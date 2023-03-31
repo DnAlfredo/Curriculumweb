@@ -5,9 +5,7 @@
     --borde_oscuro: 1px solid #8d950e;
     --margen_entre_fichas: 2vh;
     --sombra: rgba(141, 149, 14, 0.6);
-    --terciario:
-
-        rgba(141, 149, 14, 0.3);
+    --terciario:rgba(141, 149, 14, 0.3);
     --complementario: white;
     --hover: rgb(182, 186, 101);
     --radius: 4px 4px 4px 4px;
@@ -25,7 +23,15 @@
     --color_radial: radial-gradient(circle, red, yellow, green);
 
 }
-
+.cuerp_adec {
+    background-color:
+        /*white*/
+        rgba(141, 149, 14, 0.3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#cuerpo_not_adec{
+    background-color:rgba(141, 149, 14, 0.3) ;
+}
 * {
     box-sizing: border-box;
     margin: 0%;
@@ -39,16 +45,10 @@ a {
 
 }
 
-body {
-    background-color:
-        /*white*/
-        var(--terciario);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
 
 /*--------------------------------------------------MENU-------------------------------------------------------------------------*/
 .menuprincipal {
-
     display: flex;
     flex-wrap: nowrap;
     justify-content: right;
@@ -71,7 +71,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
-
 }
 
 .logoca {
@@ -112,7 +111,6 @@ body {
     box-shadow: 0.5vh 0.5vh 0.5vh var(--sombra);
     padding: 1vh;
     border-radius: var(--radius);
-
 }
 
 .botonmenu {
@@ -158,9 +156,10 @@ body {
 }
 
 .menusociales a {
-    width: 65px;
+    width: 68px;
     display: flex;
     justify-content: center;
+    margin: 1vh;
 }
 
 .condlegales a:hover {
@@ -177,8 +176,8 @@ body {
 }
 
 .iconsocial {
-    width: 70px;
-    height: 50px;
+    width: 68px;
+    height: 100%;
     display: flex;
     justify-content: center;
     margin: 2.5vh;
@@ -197,7 +196,10 @@ body {
     font-size: small;
     margin: 3px;
 }
-
+.imglogodesarrollo{
+    width: 5rem;
+    margin-right: 10px;
+}
 .txtlegales {
     width: 17%;
     color: darkblue;
@@ -209,12 +211,12 @@ body {
 }
 
 .copyfooter {
-    width: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: x-small;
+}
 
-}
-.imglogodesarrollo{
-    width: 4.5rem;
-}
 
 /*----------------------------------------------MAIN INDEX--------------------------------------------------------------*/
 .mainpresentacion {
@@ -265,7 +267,6 @@ body {
     align-items: center;
     animation-name: animeleft;
     animation-duration: 1s;
-
 }
 
 .contindex h2 {
@@ -327,8 +328,6 @@ body {
     background-color: var(--complementario);
     margin: 10px;
     padding-bottom: 2.1vh;
-
-
 }
 
 .divcolaboradores img {
@@ -339,7 +338,6 @@ body {
     width: 10rem;
     font-size: small;
     text-align: center;
-
 }
 
 
@@ -511,8 +509,6 @@ th {
     border: 1px solid gray;
     border-collapse: collapse;
     padding: 1vh;
-
-
 }
 
 .tabla_cookies th {
@@ -541,7 +537,6 @@ th {
 
 .tabla_cookies_big th {
     background-color: lightgrey;
-
 }
 
 #tablacookies_bis,
@@ -731,7 +726,12 @@ figure img {
     align-items: center;
     margin-left: 0%;
 }
-
+.doscalidad_botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0%;
+}
 .divflecha {
     width: 5px;
     height: 60px;
@@ -752,14 +752,14 @@ figure img {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 95px;
+    width: 80px;
     height: 95px;
-    font-size: small;
+    font-size: smaller;
     border: var(--borde);
     background-color: var(--secundario);
     border-radius: var(--radius);
     margin: auto;
-    font-size: small;
+    margin: 2vh;
 }
 
 .botondescargacalidad:hover {
@@ -767,7 +767,7 @@ figure img {
 }
 
 .botondescargacalidad img {
-    width: 45px;
+    width: 55px;
     margin-top: 8px;
     border-radius: var(--radius);
 }
@@ -779,7 +779,6 @@ figure img {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
 }
 
 .adecfichaconoce,
@@ -793,7 +792,6 @@ figure img {
     background-color: var(--complementario);
     box-shadow: 1vh 1vh 1vh var(--sombra);
     margin-bottom: var(--margen_entre_fichas);
-
 }
 
 .adecfichaconoce {
@@ -829,8 +827,10 @@ figure img {
 
 .fichasocio {
     position: relative;
+    width:96%;
     animation-name: animerigth;
     animation-duration: 1s;
+    margin-top:var(--margen_entre_fichas) ;
 }
 
 .fichaloteria {
@@ -867,7 +867,6 @@ figure img {
 .sociocolabora {
     width: 100%;
     display: block;
-
     margin: 0% 0%;
 }
 
@@ -881,8 +880,7 @@ figure img {
     justify-content: center;
     margin-bottom: 10px;
     margin-left: var(--padding_txt);
-    margin-top: var(--padding_txt);
-
+    margin-top:4vh;
 }
 
 .contbotonsocio {
@@ -1097,7 +1095,6 @@ figure img {
     box-shadow: 0.05vh 0.5vh 0.5vh var(--sombra);
     background-color: var(--secundario);
     padding: var(--padding_tit);
-
 }
 
 .mapacontacto {
@@ -1157,9 +1154,9 @@ figure img {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    align-content: center;
     text-align: center;
     margin: 5px;
-
 }
 
 /*----------------------------------------------------QUE ES LA ESCLERODERMIA------------------------------------------------------------------------------------*/
@@ -1169,7 +1166,6 @@ figure img {
     justify-content: center;
     align-items: center;
     align-content: center;
-
 }
 
 .mainesclerotipos {
@@ -1179,7 +1175,6 @@ figure img {
     justify-content: center;
     align-items: center;
     align-content: center;
-
 }
 
 .cuerpoesclero {
@@ -1188,7 +1183,6 @@ figure img {
     justify-content: center;
     align-items: center;
     width: 100%;
-
 }
 
 .titesclero {
@@ -1251,7 +1245,6 @@ figure img {
     line-height: var(--interlineado);
     animation-name: animetop;
     animation-duration: 1s;
-
 }
 
 .tiposEsclerodermiabis {
@@ -1272,7 +1265,6 @@ figure img {
     line-height: var(--interlineado);
     animation-name: animerigth;
     animation-duration: 1s;
-
 }
 
 .contfichasesclero {
@@ -1285,7 +1277,6 @@ figure img {
     align-items: center;
     animation-name: animeleft;
     animation-duration: 1s;
-
 }
 
 .cuerpotiposesclero {
@@ -1299,7 +1290,6 @@ figure img {
     padding-top: 2vh;
     padding: 2vh;
     text-align: center;
-
 }
 
 .cuerpoesquemados {
@@ -1389,7 +1379,6 @@ figure img {
     width: 21%;
     height: 11vh;
     min-height: 80px;
-    /*background-color: lightgray;*/
 }
 
 .divflechahortipos {
@@ -1508,7 +1497,6 @@ figure img {
     width: 100%;
     display: block;
     text-align: center;
-
 }
 
 .botonescler {
@@ -1558,7 +1546,6 @@ figure img {
     text-align: justify;
     border-radius: var(--radius);
     padding: 3.8vh;
-
 }
 
 .txtfichesclero ul,
@@ -1570,7 +1557,6 @@ figure img {
     display: flex;
     justify-content: center;
     align-items: center;
-
     flex-wrap: wrap;
     visibility: visible;
 }
@@ -1579,7 +1565,6 @@ figure img {
     display: block;
     text-align: center;
     justify-content: center;
-
     align-items: center;
 }
 
@@ -1587,9 +1572,6 @@ figure img {
     display: none;
     width: 20%;
 }
-
-
-
 .imgtexto {
     width: 80px;
     float: left;
@@ -1598,3 +1580,5 @@ figure img {
 .divprueba {
     display: block;
 }
+/*-------------------------------------NOTICIAS----------------------------------------------*/
+

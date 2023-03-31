@@ -19,89 +19,149 @@
     85%{top: 7.5%;}90%{top: 5%;}95%{top: 2.5%;}100%{top: 0%;}
 }
 
-
-/*--------------------------------GALERIA FOTOS-------------------------------------------------*/
+/*--------------------------------GALERIA NOTICIAS-------------------------------------------------*/
 #marco_galeria {
     position: relative;
-    width: 70%;
-    height: 32rem;
+    width: 90%;
     border: 1px solid var(--borde);
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    justify-content: space-around;
+    
+    
+}
+
+#marco_galeria h2{
+    width: 100%;
+    height: var(--tamaño_tit);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+    border: var(--borde);
+    box-shadow: 1vh 1vh 1vh var(--sombra);
+    border-radius: var(--radius);
+    background-color: var(--secundario);
+    margin-bottom: 15px;
+}
+.ficha_noticia{
+    position: relative;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    align-content: center;
+    border-radius: var(--radius);
     background-color:var(--complementario);
     margin-bottom: 1rem;
-    padding: 1vh;
     animation-name: animeleft;
     animation-duration: 1s;
 }
-
-#divimg_galeria {
-    display: none;
+.ficha_noticia_b{
+    position: relative;
+    width: 90%;
+    display: block;
+    border-radius: var(--radius);
+    background-color:var(--complementario);
+    margin-bottom: 1rem;
+    animation-name: animeleft;
+    animation-duration: 1s;
+}
+.tit_noticia{
+    width: 100%;
+   
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: var(--borde);
+    box-shadow: 1vh 1vh 1vh var(--sombra);
+    border-radius: var(--radius);
+    background-color: var(--secundario);
+    margin-bottom: 15px;
+       
+}
+.tit_noticia h3{
+    font-size: large;
+}
+.texto_tit_noticia{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+   font-size: large
+}
+.fecha_noticia{
+    width: 100%;
+}
+.btn_amplia_noticia{
+    position:relative;
+    width: 100%;
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-size: x-small;
+ align-items: center;
+ align-content: center;
+}
+.img_amplianoticia{
+    width: 25px;
+    font-size: xx-small;
+}
+.txt_amplia_not{
+  width: 100%;
+}
+.cuerpo_noticia{
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+.cuerpo_noticia_b{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.texto_noticia {
+    text-align: justify;
+    width: 100%;
+    padding: 2%;
+}
+.img_txt_noticia{
+    position: relative;
+    width: 100%;
+    display: inline-block; 
+}
+.img_txt_noticia_b{
+    position: relative;
+    width: 22%;
+    display: inline-block;
+    margin: 1%; 
+}
+.img_txt_noticia_b img{
+    width: 100%;
+}
+.img_txt_noticia img{
+    width: 100%;
+}
+.btn_tods_noticias{
+    position: relative;
+    width: 85px;
+    border: var(--borde_oscuro);
+    background-color: var(--secundario);
+    border-radius: var(--radius);
+    box-shadow: 0.5vh 0.5vh 0.5vh var(--sombra);
+    text-align: center;
+    font-size: small;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
-}
-.div_botones_galeria{
-    width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items:center ;
-}
-#img_galeria {
-    width: /*28vw*/430px;
-    height: /*55vh*/360px;
-    float: center;
-   
-}
-
-.botongaleria {
-    width: 4rem;
-    height: 1rem;
-    border: 1px solid black;
-    border-radius: 10px;
-    background-color:var(--secundario);
-    font-size: large;
-    user-select: none;
-   justify-content: center;
-   align-items: center;
-  text-align: center;
-    display: flex;
-    padding: 0.5rem; 
-}
-
-#botones_mini {
-    position: absolute;
-    bottom: 0%;
-    width: 100%;
-    display: none;
-    justify-content: center;
-    user-select: none; 
-    margin-bottom: 2rem;
-}
-
-#boton_inicio {
-    width: 30rem;
-    height: 3rem;
-    user-select: none;
-    
-    /*con esta propiedad hacemos que el texto del div no sea seleccionable en la pantalla, ojo, aparece en el codigo fuente, 
-  solo es algo estético*/
-
-}
-
-#boton_inicio:hover {
-    background-color: var(--hover);
-    
-}
-
-#flecha_der:hover {
-    background-color: var(--hover);
-}
-
-#flecha_iz:hover {
-    background-color: var(--hover);
 }
