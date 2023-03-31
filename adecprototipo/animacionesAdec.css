@@ -73,7 +73,7 @@
 }
 .tit_noticia{
     width: 100%;
-   
+    min-height:var(--tamaño_tit_peq);
     display: flex;
     text-align: center;
     justify-content: center;

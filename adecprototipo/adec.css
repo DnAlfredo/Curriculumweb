@@ -32,6 +32,9 @@
 #cuerpo_not_adec{
     background-color:rgba(141, 149, 14, 0.3) ;
 }
+#cuerpo_cont_adec{
+    background-color:rgba(141, 149, 14, 0.3) ;
+}
 * {
     box-sizing: border-box;
     margin: 0%;
@@ -248,7 +251,7 @@ a {
     border-radius: var(--radius);
     background-color: var(--complementario);
     margin: 10px;
-    padding: var(--padding_tit);
+  
     line-height: 150%;
     animation-name: animerigth;
     animation-duration: 1s;
@@ -353,7 +356,7 @@ a {
     border-radius: var(--radius);
     background-color: var(--complementario);
     margin: 10px;
-    padding: var(--padding_tit);
+    
     padding-bottom: 2vh;
 }
 
@@ -387,6 +390,7 @@ a {
     border-radius: var(--radius);
     background-color: var(--secundario);
     margin-bottom: 15px;
+    padding: var(--padding_tit);
 }
 
 /*---------------------------------------CONDICIONES LEGALES--------------------------------------------*/
@@ -1078,7 +1082,7 @@ figure img {
     width: 98%;
     border-radius: var(--radius);
     background-color: var(--complementario);
-    padding: var(--padding_tit);
+  
     margin-bottom: var(--margen_entre_fichas);
     animation-name: animeleft;
     animation-duration: 1s;
@@ -1129,7 +1133,7 @@ figure img {
     background-color: var(--complementario);
     box-shadow: 1vh 1vh 1vh var(--sombra);
     margin: 4px;
-    padding: var(--padding_tit);
+    
     animation-name: animerigth;
     animation-duration: 1s;
 }

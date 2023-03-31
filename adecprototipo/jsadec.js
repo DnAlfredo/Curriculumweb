@@ -67,3 +67,9 @@ function muestraFichatipos(idloca) {
     document.body.scrollTop = 1000;
     document.documentElement.scrollTop = 187;
 }
+function abreFichacntct(idloca) {
+    let divgoster = document.getElementById(idloca);
+    divgoster.classList.toggle('mostrar_cntct')
+    divgoster.classList.toggle('esconder_cntct')
+    document.getElementById('cont_cntct').classList.toggle('mostrar_cntct')
+  }

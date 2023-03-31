@@ -926,6 +926,10 @@ que gacer que no
     text-align: center;
     margin: var(--separacion_dentro_caja);
     padding: var(--separacion_dentro_caja);
+    
+}
+.correo_elec a{
+    color: blue;
 }
 .cont_vuelve {
     position: relative;

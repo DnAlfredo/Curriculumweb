@@ -194,7 +194,7 @@
         background-color: var(--complementario);
         margin: 0px;
         padding-bottom: 10%;
-        padding: var(--padding_tit);
+        
         line-height: 150%;
         margin-bottom: 1rem;
     }
@@ -652,7 +652,6 @@
         width: 100%;
         border-radius: var(--radius);
         background-color: var(--complementario);
-        padding: var(--padding_tit);
         margin-bottom: var(--margen_entre_fichas);
     }
 
@@ -1042,7 +1041,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    background-color: var(--complementario);
+
     margin-bottom: 1rem;
 }
 .ficha_noticia{
