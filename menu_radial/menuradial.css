@@ -1,0 +1,27 @@
+.mainlocuradial{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont_locuradial{
+    width:140px;
+    height:120px;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+}
+.celda_visible_locuradial{
+    width:20px;
+    height:20px;
+    background-color: red;
+    border-radius: 50%;
+}
+.celda_transp_locuradial{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 50%;
+}
