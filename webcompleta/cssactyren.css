@@ -1,0 +1,77 @@
+:root{
+    /*----------header-------------------------*/
+    --color_fondo_web:rgb(32, 30, 53);
+    --img_fondo_web:url("./multimedia/FOTO_MIA_ART.jpg");
+    --tamaño_logo:20%;
+    --tamaño_nav_web:40%;
+    --color_letras_nav_header_web:black;
+}
+
+
+/*-----------------------------------------BODY-----------------------------------------*/
+.body_web{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    background-image: var(--img_fondo_web);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+   top: 10;
+    z-index: -1;
+  }
+/*------------------------------------------HEADER---------------------------------------*/
+.header_web{
+    position: sticky;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: center;
+    
+}
+.cont_logo_menu_header{
+    position: relative;
+    width: var(--tamaño_logo);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.logo_header_web{
+position: relative;
+width: 100%;
+
+}
+.ancla_header{
+    position: relative;
+ 
+}
+.cont_nav_header{
+position: relative;
+width: var(--tamaño_nav_web);
+display: inline-flex;
+justify-content: space-around;
+align-content: center;
+align-items: center;
+font-size: larger;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+color: var(--color_letras_nav_header_web);
+
+}
+.ancla_nav_webcompl{
+   
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    border-radius: 5px;
+}
