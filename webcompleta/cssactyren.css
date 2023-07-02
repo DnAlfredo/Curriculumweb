@@ -1,15 +1,18 @@
-:root{
+:root {
     /*----------header-------------------------*/
-    --color_fondo_web:rgb(32, 30, 53);
-    --img_fondo_web:url("./multimedia/FOTO_MIA_ART.jpg");
-    --tamaño_logo:20%;
-    --tamaño_nav_web:40%;
-    --color_letras_nav_header_web:black;
+    --color_fondo_web: rgb(32, 30, 53);
+    --img_fondo_web: url("./multimedia/FOTO_MIA_ART.jpg");
+    --tamaño_logo: 20%;
+    --tamaño_nav_web: 40%;
+    --tamaño_letra_nav_web:x-large;
+    --ancho_nav_web: fit-content;
+    --color_letras_nav_header_web: white;
+    --colorfondo_nav_header_web:rgba(187, 181, 181, 0.801);
 }
 
 
 /*-----------------------------------------BODY-----------------------------------------*/
-.body_web{
+.body_web {
     position: relative;
     width: 100%;
     height: 1000px;
@@ -18,6 +21,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 #background-video {
     width: 100%;
     height: 100%;
@@ -25,11 +29,12 @@
     position: absolute;
     left: 0;
     right: 0;
-   top: 10;
+    top: 10;
     z-index: -1;
-  }
+}
+
 /*------------------------------------------HEADER---------------------------------------*/
-.header_web{
+.header_web {
     position: sticky;
     width: 100%;
     height: fit-content;
@@ -37,41 +42,44 @@
     flex-wrap: nowrap;
     justify-content: space-around;
     align-content: center;
-    
+    align-items: center;
+
 }
-.cont_logo_menu_header{
+
+.cont_logo_menu_header {
     position: relative;
     width: var(--tamaño_logo);
     display: flex;
     justify-content: center;
     align-content: center;
-}
-.logo_header_web{
-position: relative;
-width: 100%;
 
 }
-.ancla_header{
+
+.logo_header_web {
     position: relative;
- 
-}
-.cont_nav_header{
-position: relative;
-width: var(--tamaño_nav_web);
-display: inline-flex;
-justify-content: space-around;
-align-content: center;
-align-items: center;
-font-size: larger;
-font-family:Verdana, Geneva, Tahoma, sans-serif;
-font-weight: bold;
-color: var(--color_letras_nav_header_web);
+    width: 100%;
 
 }
-.ancla_nav_webcompl{
-   
+
+.ancla_header {
+    position: relative;
+
+}
+.cont_nav_header {
+    position: relative;
+    width: var(--tamaño_nav_web);
+    height: var(--ancho_nav_web);
+    display: inline-flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    background-color: var(--colorfondo_nav_header_web);
+
+}
+.cont_nav_header a{
     text-decoration: none;
-    color: white;
-    font-size: x-large;
-    border-radius: 5px;
+    font-size: var(--tamaño_letra_nav_web);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: var(--color_letras_nav_header_web);
 }
