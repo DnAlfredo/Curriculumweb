@@ -94,7 +94,8 @@ margin-top: 2%;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 6%;
+    margin-top: 6%;
+    margin-bottom: 6%;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -328,7 +329,7 @@ margin-top: 2%;
 }
 
 .cajaprincipal {
-    width: 23.5rem;
+    width: 22.5rem;
     /* 810px*/
     /*46% para responsive*/
     height: 8.65rem;
@@ -377,6 +378,7 @@ margin-top: 2%;
     justify-content: center;
     align-items: center;
     font-size: medium;
+    margin-left: 2%;
 }
 
 .unionizquierda {
@@ -400,6 +402,7 @@ margin-top: 2%;
     align-items: center;
     right: 0%;
     font-size: medium;
+    margin-right: -2%;
 }
 
 .unionderecha {
