@@ -153,7 +153,7 @@
 
 .txt_radial {
     position: relative;
-    width: 50%;
+    width: 44%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -161,14 +161,14 @@
     text-align: justify;
     top: 42px;
     float: left;
-    font-size: small;
-    margin-left: 5%;
+    font-size: smaller;
+    margin-left: 1%;
 
 }
 
 .txt_radial_bis {
     position: relative;
-    width: 55%;
+    width: 44%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -176,7 +176,7 @@
     text-align: justify;
     top: 42px;
     float: right;
-    font-size: small;
+    font-size: smaller;
     margin: 1%;
     
 }
@@ -223,9 +223,9 @@
     display: block;
     flex-wrap: wrap;
     justify-content: center;
-    width: 24.5rem;
+    width: 22.5rem;
     height: 20.98rem;
-    margin: 0%;
+    margin: 5%;
     
 
    
