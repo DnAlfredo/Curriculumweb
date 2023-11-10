@@ -137,7 +137,8 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        margin:10%;
+        align-content: center;
+        
     }
     .subcajaarriba_bis h4,
     .subcajaarriba_bis h4,
@@ -161,7 +162,7 @@
     top: 42px;
     float: left;
     font-size: small;
-    margin: 3%;
+    margin: 4%;
 
 }
 
@@ -215,14 +216,18 @@
 }
 .cajacentral_bis h2{
     font-size:small;
+   
 }
 .disparador_bis{
     position: relative;
     display: block;
     flex-wrap: wrap;
     justify-content: center;
-    width: 25.25rem;
+    width: 24.5rem;
     height: 20.98rem;
+    margin: 0%;
+    
+
    
 }
 .desplegable_bis {
