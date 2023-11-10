@@ -1,5 +1,6 @@
-@media screen and (max-width: 780px) {
-    :root {
+  
+    @media screen and (max-width: 780px) {
+  :root {
         /*----------header-------------------------*/
       
         --media_tamño_letra_nav_web:small;
@@ -21,23 +22,24 @@
         position: relative;
         width: 100%;
     
+    } 
+    .cont_nav_header a{
+        text-decoration: none;
+       
+         font-size: var(--media_tamño_letra_nav_web);
+        color: var(--color_letras_nav_header_web);
     }
+}
     .cont_nav_header {
         position: relative;
         width: var(--tamaño_nav_web);
         height: var(--ancho_nav_web);
         display: inline-flex;
+        flex-wrap: wrap;
         justify-content: space-around;
         align-content: center;
         align-items: center;
         background-color: var(--colorfondo_nav_header_web);
     
     }
-    .cont_nav_header a{
-        text-decoration: none;
-        font-size: var(--media_tamaño_letra_nav_web);
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: bold;
-        color: var(--color_letras_nav_header_web);
-    }
-}
+   

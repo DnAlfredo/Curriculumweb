@@ -152,7 +152,7 @@
 
 .txt_radial {
     position: relative;
-    width: 55%;
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -161,7 +161,7 @@
     top: 42px;
     float: left;
     font-size: small;
-    margin: 1%;
+    margin: 3%;
 
 }
 
